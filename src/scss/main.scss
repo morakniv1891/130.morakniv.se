@@ -6,6 +6,6 @@ body {
   section.top-hero {
     width: 100%;
     height: 100vh;
-    background-image: url("/assets/images/background01.jpg");
+    background: $background-color url("/assets/images/background01.jpg") no-repeat fixed top center;
   }
 }
