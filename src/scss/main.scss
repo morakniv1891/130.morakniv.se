@@ -6,8 +6,9 @@ body {
 
   section.top-hero {
     width: 100%;
-    height: 100vh;
-    background: $background-color url("/assets/images/background01.jpg") no-repeat top center fixed;
+    height: 200vh;
+    background-image: linear-gradient(to top, rgba($background-color, 1), rgba($background-color, 0.1)),
+      url("/assets/images/background01.jpg") no-repeat top center fixed;
     background-size: cover;
   }
 }
