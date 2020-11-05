@@ -3,7 +3,9 @@
 body {
   background: $background-color;
 
-  .top-hero {
+  section.top-hero {
+    width: 100%;
+    height: 100vh;
     background-image: url("assets/images/background01.jpg");
   }
 }
