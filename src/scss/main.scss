@@ -58,5 +58,10 @@ body {
     .middle {
       flex: 0 0 20rem;
     }
+
+    &__text {
+      font-size: 18px;
+      text-align: center;
+    }
   }
 }
