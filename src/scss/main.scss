@@ -56,10 +56,14 @@ body {
     }
 
     .middle {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      position: relative;
       flex: 0 0 20rem;
+
+      &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
 
     &__text {
