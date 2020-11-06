@@ -22,6 +22,7 @@ body {
       animation-name: animatedHeroImage;
       animation-delay: 1.5s;
       animation-duration: 3s;
+      animation-fill-mode: forwards;
     }
 
     .scroll-to-explore {
