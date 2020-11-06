@@ -14,7 +14,7 @@ $(document).ready(function () {
       },
       3000,
       function () {
-        console.log($("section.top-hero").height());
+        $("section.top-hero").height("100vh");
       }
     );
   }, 1500);
