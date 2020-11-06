@@ -61,11 +61,12 @@ body {
       z-index: 10;
 
       &__container {
-        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         width: 600px;
-        top: calc(50% - 1.5rem);
-        left: calc(50% - 210px);
+        height: 100px;
 
         .logo {
           margin-right: 2rem;
