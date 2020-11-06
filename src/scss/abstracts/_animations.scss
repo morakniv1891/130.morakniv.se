@@ -8,17 +8,8 @@
 }
 
 @keyframes animatedSlideUp {
-  0% {
-    top: 100vh;
-    opacity: 0;
-  }
-  25% {
-    top: 100vh;
-    opacity: 1;
-  }
   100% {
-    top: 0;
-    opacity: 1;
+    margin-top: 0;
   }
 }
 

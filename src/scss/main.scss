@@ -33,6 +33,10 @@ body {
       height: 100vh;
       margin-top: 100vh;
       padding: 9rem 0;
+      animation-name: animatedSlideUp;
+      animation-delay: 1.5s;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
 
       .top-line,
       .bottom-line,
