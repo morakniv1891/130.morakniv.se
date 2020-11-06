@@ -31,23 +31,21 @@ body {
     animation-fill-mode: forwards;
 
     .top-line,
-    .bottom-line {
+    .bottom-line,
+    .middle {
       display: flex;
+      width: 100%;
+      height: 20rem;
 
       .left,
       .right {
         width: 50%;
-        height: 20rem;
+        height: 100%;
       }
 
       .left {
         border-right: 1px solid #232323;
       }
-    }
-
-    .middle {
-      width: 100%;
-      height: 10rem;
     }
   }
 }
