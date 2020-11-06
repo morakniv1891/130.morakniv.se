@@ -14,7 +14,7 @@ $(document).ready(function () {
       },
       3000,
       function () {
-        $$("section.top-hero").css("background-image", "none");
+        $("section.top-hero").css("background-image", "none");
         $("section.top-hero").height("100vh");
       }
     );
