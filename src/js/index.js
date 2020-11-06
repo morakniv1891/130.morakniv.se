@@ -1,10 +1,11 @@
 import $ from "jquery";
 
+//Main code
 $(document).ready(function () {
   var viewportHeight = $(window).height();
 
-  $("html, body")
-    .animate(
+  setTimeout(function () {
+    $("html, body").animate(
       {
         scrollTop: viewportHeight * 2,
         complete: function () {
@@ -12,6 +13,6 @@ $(document).ready(function () {
         },
       },
       2000
-    )
-    .delay(1000);
+    );
+  }, 1500);
 });
