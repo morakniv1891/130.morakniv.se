@@ -58,9 +58,13 @@ body {
     .middle {
       position: relative;
       flex: 0 0 20rem;
+      z-index: 10;
 
       &__container {
         margin: auto;
+        position: absolute;
+        top: calc(50% - 1.5rem);
+        left: calc(50% - 210px);
 
         .logo {
           margin-right: 2rem;
