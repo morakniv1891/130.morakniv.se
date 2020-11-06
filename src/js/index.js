@@ -2,6 +2,7 @@ import $ from "jquery";
 
 //Main code
 $(document).ready(function () {
+  $(this).scrollTop(0);
   var viewportHeight = $(window).height();
 
   setTimeout(function () {
