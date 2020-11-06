@@ -11,11 +11,11 @@ $(document).ready(function () {
     $("html, body").animate(
       {
         scrollTop: viewportHeight * 2,
-        complete: function () {
-          console.log($("section.top-hero").height());
-        },
       },
-      3000
+      3000,
+      function () {
+        console.log($("section.top-hero").height());
+      }
     );
   }, 1500);
 });
