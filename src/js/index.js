@@ -12,7 +12,7 @@ $(document).ready(function () {
       {
         scrollTop: viewportHeight * 2,
         complete: function () {
-          $("section.top-hero").height(window.height());
+          console.log($("section.top-hero").height());
         },
       },
       3000
