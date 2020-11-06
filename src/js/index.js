@@ -6,8 +6,8 @@ $(document).ready(function () {
     $(window).scrollTop(0);
   });
 
-  $("section.top-hero").on("animationend webkitNaimationEnd oAnimationEnd", function () {
-    $("section.top-hero").fadeOut(300, function () {
+  $("section.top-hero").on("animationstart webkitAnimationStart oAnimationStart", function () {
+    $("section.top-hero").fadeOut(3000, function () {
       $(this).remove();
     });
   });
