@@ -30,5 +30,17 @@ body {
     animation-delay: 1.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+
+    .top-line {
+      .left,
+      .right {
+        width: 50%;
+        height: 30rem;
+      }
+
+      .left {
+        border-right: 1px solid #232323;
+      }
+    }
   }
 }
