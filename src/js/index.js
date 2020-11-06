@@ -12,7 +12,7 @@ $(document).ready(function () {
       {
         scrollTop: viewportHeight * 2,
         complete: function () {
-          //Hide top image
+          $("section.top-hero").height("100vh");
         },
       },
       3000
