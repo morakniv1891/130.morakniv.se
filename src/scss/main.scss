@@ -3,10 +3,10 @@
 @import "abstracts/colors";
 
 body {
-  position: relative;
   background: $background-color;
 
   section.top-hero {
+    position: fixed;
     width: 100%;
     height: 100vh;
     background: url("/assets/images/background01.jpg") no-repeat top center;
@@ -18,8 +18,6 @@ body {
   }
 
   section.scroll-to-explore {
-    position: absolute;
-    top: -200vh;
     width: 100%;
     height: 100vh;
     padding: 10rem 0;
