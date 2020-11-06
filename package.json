@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "jquery": "^3.5.1",
     "node-sass": "^5.0.0"
   }
 }
