@@ -35,7 +35,7 @@ body {
     animation-duration: 3s;
     animation-delay: 1.5s;
     animation-timing-function: ease-in-out;
-    animation-fill-mode: backwards;
+    animation-fill-mode: both;
 
     .top-line,
     .bottom-line,
@@ -73,7 +73,7 @@ body {
         animation-duration: 3s;
         animation-delay: 1.5s;
         animation-timing-function: linear;
-        animation-fill-mode: backwards;
+        animation-fill-mode: both;
 
         img {
           height: 100%;
