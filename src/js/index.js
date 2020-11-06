@@ -5,19 +5,10 @@ $(document).ready(function () {
   $(window).on("beforeunload", function () {
     $(window).scrollTop(0);
   });
-  var viewportHeight = $(window).height();
 
-  setTimeout(function () {
-    $("html, body").animate(
-      {
-        scrollTop: viewportHeight,
-      },
-      3000,
-      function () {
-        $("section.top-hero").fadeOut(300, function () {
-          $(this).remove();
-        });
-      }
-    );
-  }, 1500);
+  $("section.top-hero").on("animationend webkitNaimationEnd oAnimationEnd", function () {
+    $("section.top-hero").fadeOut(300, function () {
+      $(this).remove();
+    });
+  });
 });
