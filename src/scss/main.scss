@@ -11,7 +11,10 @@ body {
     height: 100vh;
     background: url("/assets/images/background01.jpg") no-repeat top center;
     background-size: cover;
-    animation: animatedHeroImage 3s ease-in-out;
+    animation-name: animatedHeroImage;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-timing-function: ease-in-out;
   }
 
   section.scroll-to-explore {
