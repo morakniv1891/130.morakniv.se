@@ -1,4 +1,5 @@
 @import "node_modules/css-reset-and-normalize/scss/reset-and-normalize";
+@import "abstracts/animations";
 @import "abstracts/colors";
 
 body {
@@ -7,9 +8,10 @@ body {
 
   section.top-hero {
     width: 100%;
-    height: 300vh;
+    height: 100vh;
     background: url("/assets/images/background01.jpg") no-repeat top center;
     background-size: cover;
+    animation: animatedHeroImage 3s ease-in-out;
   }
 
   section.scroll-to-explore {
