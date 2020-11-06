@@ -9,91 +9,94 @@ body {
   font-style: normal;
   color: $text-color;
 
-  .top-hero {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: url("/assets/images/background01.jpg") no-repeat top center;
-    background-size: cover;
-    animation-name: animatedHeroImage;
-    animation-duration: 3s;
-    animation-delay: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    z-index: -1;
-  }
-
-  .scroll-to-explore {
-    display: flex;
-    flex-flow: column nowrap;
-    position: relative;
-    top: 100vh;
-    width: 100%;
-    height: 100vh;
-    padding: 9rem 0;
+  main {
     animation-name: animatedSlideUp;
     animation-duration: 3s;
     animation-delay: 1.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 
-    .top-line,
-    .bottom-line,
-    .middle {
-      display: flex;
+    .top-hero {
+      position: fixed;
       width: 100%;
-      height: 100%;
-      flex: 1 1 20rem;
-
-      .left,
-      .right {
-        width: 50%;
-        height: 100%;
-      }
-
-      .left {
-        border-right: 1px solid #232323;
-      }
+      height: 100vh;
+      background: url("/assets/images/background01.jpg") no-repeat top center;
+      background-size: cover;
+      animation-name: animatedHeroImage;
+      animation-duration: 3s;
+      animation-delay: 1.5s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+      z-index: -1;
     }
 
-    .middle {
-      flex: 0 0 20rem;
-      z-index: 10;
+    .scroll-to-explore {
+      display: flex;
+      flex-flow: column nowrap;
+      position: relative;
+      top: 100vh;
+      width: 100%;
+      height: 100vh;
+      padding: 9rem 0;
 
-      &__container {
+      .top-line,
+      .bottom-line,
+      .middle {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        width: 600px;
-        height: 100px;
-        top: calc(50% - 50px);
-        left: calc(50% - 300px);
-        animation-name: animatedSlideInLogo;
-        animation-duration: 3s;
-        animation-delay: 1.5s;
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
+        width: 100%;
+        height: 100%;
+        flex: 1 1 20rem;
 
-        img {
+        .left,
+        .right {
+          width: 50%;
           height: 100%;
         }
 
-        .logo {
-          margin-right: 2rem;
-        }
-
-        .emblem {
-          height: 70%;
+        .left {
+          border-right: 1px solid #232323;
         }
       }
-    }
 
-    &__text {
-      padding: 3rem 0;
-      font-size: 18px;
-      text-align: center;
-      letter-spacing: 4px;
+      .middle {
+        flex: 0 0 20rem;
+        z-index: 10;
+
+        &__container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          width: 600px;
+          height: 100px;
+          top: calc(50% - 50px);
+          left: calc(50% - 300px);
+          animation-name: animatedSlideInLogo;
+          animation-duration: 3s;
+          animation-delay: 1.5s;
+          animation-timing-function: linear;
+          animation-fill-mode: forwards;
+
+          img {
+            height: 100%;
+          }
+
+          .logo {
+            margin-right: 2rem;
+          }
+
+          .emblem {
+            height: 70%;
+          }
+        }
+      }
+
+      &__text {
+        padding: 3rem 0;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 4px;
+      }
     }
   }
 }
