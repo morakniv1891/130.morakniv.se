@@ -10,6 +10,7 @@ body {
   color: $text-color;
 
   main {
+    padding-top: 100vh;
     animation-name: animatedSlideUp;
     animation-duration: 3s;
     animation-delay: 1.5s;
