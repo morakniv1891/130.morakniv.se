@@ -10,8 +10,10 @@
 @keyframes animatedSlideUp {
   0% {
     top: 100vh;
+    opacity: 0;
   }
   25% {
+    top: 100vh;
     opacity: 1;
   }
   100% {
