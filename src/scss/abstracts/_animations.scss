@@ -18,9 +18,13 @@
 
 @keyframes animatedSlideInLogo {
   0% {
-    top: 100vh;
+    height: 100px;
+    top: 0;
+    left: calc(50% - 300px);
   }
   100% {
-    top: 0;
+    height: 80px;
+    top: calc(50% - 50px);
+    left: calc(50% - 300px);
   }
 }
