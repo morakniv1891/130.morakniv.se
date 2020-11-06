@@ -14,7 +14,9 @@ $(document).ready(function () {
       },
       3000,
       function () {
-        $("section.top-hero").remove();
+        $("section.top-hero").fadeOut(300, function () {
+          $(this).remove();
+        });
       }
     );
   }, 1500);
