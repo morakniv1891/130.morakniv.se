@@ -6,3 +6,12 @@
     background-position: 0 100%;
   }
 }
+
+@keyframes animatedSlideUp {
+  0% {
+    top: 100vh;
+  }
+  100% {
+    top: 0;
+  }
+}
