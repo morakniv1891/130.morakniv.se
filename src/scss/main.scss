@@ -18,11 +18,6 @@ body {
       left: 0;
       background: url("/assets/images/background01.jpg") no-repeat top center;
       background-size: cover;
-      animation-name: animatedHeroImage;
-      animation-duration: 3s;
-      animation-delay: 1.5s;
-      animation-timing-function: ease-in-out;
-      animation-fill-mode: forwards;
     }
 
     .scroll-to-explore {
@@ -32,11 +27,6 @@ body {
       height: 100vh;
       top: 100vh;
       padding: 9rem 0;
-      animation-name: animatedSlideUp;
-      animation-duration: 3s;
-      animation-delay: 1.5s;
-      animation-timing-function: ease-in-out;
-      animation-fill-mode: forwards;
 
       .top-line,
       .bottom-line,
@@ -69,11 +59,6 @@ body {
           align-items: center;
           width: 600px;
           height: 100px;
-          animation-name: animatedSlideInLogo;
-          animation-duration: 3s;
-          animation-delay: 1.5s;
-          animation-timing-function: linear;
-          animation-fill-mode: forwards;
 
           img {
             height: 100%;
