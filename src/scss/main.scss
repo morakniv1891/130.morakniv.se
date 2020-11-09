@@ -68,11 +68,11 @@ body {
         .middle {
           justify-content: center;
           align-items: center;
-          flex: 0 0 20rem;
+          flex: 0 0 12rem;
           z-index: 10;
 
           @media (min-width: 768px) and (orientation: landscape) {
-            flex: 0 0 12rem;
+            flex: 0 0 20rem;
           }
         }
 
