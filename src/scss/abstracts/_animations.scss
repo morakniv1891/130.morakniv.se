@@ -13,12 +13,26 @@
   }
 }
 
-@keyframes animatedLogoUp {
-  0% {
-    top: 100vh;
+@media (max-width: 767px) {
+  @keyframes animatedLogoUp {
+    0% {
+      top: 100vh;
+    }
+    100% {
+      top: 42%;
+      transform: translate(-50%, -50%);
+    }
   }
-  100% {
-    top: 42%;
-    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+  @keyframes animatedLogoUp {
+    0% {
+      top: 100vh;
+    }
+    100% {
+      top: 45%;
+      transform: translate(-50%, -50%);
+    }
   }
 }
