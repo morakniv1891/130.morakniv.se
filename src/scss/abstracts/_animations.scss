@@ -1,9 +1,6 @@
 @keyframes animatedHeroImage {
-  0% {
-    background-position: 0 0;
-  }
   100% {
-    background-position: 0 -200vh;
+    background-position: center -200vh;
   }
 }
 
