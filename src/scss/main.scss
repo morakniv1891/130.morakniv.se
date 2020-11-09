@@ -103,6 +103,11 @@ body {
           font-size: 18px;
           text-align: center;
           letter-spacing: 4px;
+          animation-name: animatedHeroImage;
+          animation-timing-function: ease-in-out;
+          animation-duration: 3s;
+          animation-delay: 1.5s;
+          animation-fill-mode: forwards;
         }
       }
 
