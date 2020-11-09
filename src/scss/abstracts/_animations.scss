@@ -22,5 +22,6 @@
   }
   100% {
     top: calc(50% - 85px);
+    transform: translateY(-50%);
   }
 }
