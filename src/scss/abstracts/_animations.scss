@@ -29,9 +29,11 @@
   @keyframes animatedLogoUp {
     0% {
       top: 100vh;
+      height: 80px;
     }
     100% {
       top: 47%;
+      height: 50px;
       transform: translate(-50%, -50%);
     }
   }
