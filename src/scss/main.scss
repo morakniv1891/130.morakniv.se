@@ -18,7 +18,7 @@ body {
       top: 0;
       left: 0;
       background: $background-color;
-      background-image: url("/assets/images/background01.png");
+      background-image: url("/assets/images/background01m.png");
       background-position: top center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -27,6 +27,10 @@ body {
       animation-duration: 3s;
       animation-delay: 1.5s;
       animation-fill-mode: forwards;
+
+      @media (min-width: 768px) and (orientation: landscape) {
+        background-image: url("/assets/images/background01.png");
+      }
 
       .scroll-to-explore {
         position: absolute;
