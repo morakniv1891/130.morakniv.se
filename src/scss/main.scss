@@ -17,7 +17,7 @@ body {
       height: 100vh;
       top: 0;
       left: 0;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(3, 3, 3, 1) 100%), url("/assets/images/background01.jpg") no-repeat top center;
+      background: url("/assets/images/background01.jpg") no-repeat top center;
       background-size: cover;
       animation-name: animatedHeroImage;
       animation-timing-function: ease-in-out;
