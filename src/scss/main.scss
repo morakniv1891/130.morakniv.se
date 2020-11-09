@@ -79,6 +79,11 @@ body {
       .anniversary-logo {
         position: absolute;
         top: 100vh;
+        animation-name: animatedLogoUp;
+        animation-timing-function: ease-in-out;
+        animation-duration: 3s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
       }
     }
   }
