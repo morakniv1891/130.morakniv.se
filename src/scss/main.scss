@@ -86,7 +86,7 @@ body {
 
       .anniversary-logo {
         position: absolute;
-        height: 80px;
+        height: 40px;
         top: 100vh;
         left: calc(50% - 200px);
         animation-name: animatedLogoUp;
@@ -94,6 +94,10 @@ body {
         animation-duration: 3s;
         animation-delay: 1.5s;
         animation-fill-mode: forwards;
+
+        @media (min-width: 768px) and (orientation: landscape) {
+          height: 80px;
+        }
       }
     }
   }
