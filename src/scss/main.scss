@@ -71,6 +71,10 @@ body {
         .top-line,
         .bottom-line {
           flex: 0 0 35%;
+
+          @media (min-width: 768px) and (orientation: landscape) {
+            flex: 0 0 30%;
+          }
         }
 
         .middle {
