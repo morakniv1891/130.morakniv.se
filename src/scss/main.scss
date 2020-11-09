@@ -78,7 +78,9 @@ body {
 
       .anniversary-logo {
         position: absolute;
+        height: 80px;
         top: 100vh;
+        left: calc(50% - 200px);
         animation-name: animatedLogoUp;
         animation-timing-function: ease-in-out;
         animation-duration: 3s;
