@@ -89,24 +89,17 @@ body {
         height: auto;
         width: 90%;
         top: 100vh;
-        left: calc(50% - 200px);
+        left: calc(50% - 90px);
+        animation-name: animatedLogoUp;
+        animation-timing-function: ease-in-out;
+        animation-duration: 3s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
 
         @media (min-width: 768px) and (orientation: landscape) {
           height: 80px;
           width: auto;
-          animation-name: animatedLogoUpDesktop;
-          animation-timing-function: ease-in-out;
-          animation-duration: 3s;
-          animation-delay: 1.5s;
-          animation-fill-mode: forwards;
-        }
-
-        @media (max-width: 767px) {
-          animation-name: animatedLogoUpMobile;
-          animation-timing-function: ease-in-out;
-          animation-duration: 3s;
-          animation-delay: 1.5s;
-          animation-fill-mode: forwards;
+          left: calc(50% - 200px);
         }
       }
     }

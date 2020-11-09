@@ -16,16 +16,7 @@
   }
 }
 
-@keyframes animatedLogoUpMobile {
-  0% {
-    top: 100vh;
-  }
-  100% {
-    top: calc(50% - 90px);
-  }
-}
-
-@keyframes animatedLogoUpDesktop {
+@keyframes animatedLogoUp {
   0% {
     top: 100vh;
   }
