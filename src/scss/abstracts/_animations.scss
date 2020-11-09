@@ -13,7 +13,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (orientation: portrait) {
   @keyframes animatedLogoUp {
     0% {
       top: 0;
@@ -27,7 +27,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (orientation: landscape) {
   @keyframes animatedLogoUp {
     0% {
       top: 0;

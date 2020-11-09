@@ -115,7 +115,7 @@ body {
         animation-delay: 1.5s;
         animation-fill-mode: forwards;
 
-        @media (min-width: 768px) and (orientation: landscape) {
+        @media (orientation: landscape) {
           height: 50px;
           width: auto;
         }
