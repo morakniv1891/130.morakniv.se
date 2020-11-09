@@ -74,10 +74,6 @@ body {
         .top-line,
         .bottom-line {
           flex: 0 0 35%;
-
-          // @media (min-width: 768px) and (orientation: landscape) {
-          //   flex: 0 0 30%;
-          // }
         }
 
         .middle {
@@ -92,12 +88,6 @@ body {
         }
 
         &__text {
-          // display: flex;
-          // height: 100%;
-          // margin-top: auto;
-          // align-items: center;
-          // justify-content: center;
-          // flex: 1;
           position: relative;
           top: 100vh;
           padding-bottom: 50px;
