@@ -16,7 +16,7 @@
 @media (max-width: 767px) {
   @keyframes animatedLogoUp {
     0% {
-      top: 100vh;
+      top: 0;
       width: 100%;
     }
     100% {
@@ -30,7 +30,7 @@
 @media (min-width: 768px) and (orientation: landscape) {
   @keyframes animatedLogoUp {
     0% {
-      top: 100vh;
+      top: 0;
       height: 80px;
     }
     100% {
