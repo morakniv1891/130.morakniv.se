@@ -11,6 +11,9 @@ body {
 
   main {
     .top-hero {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-end;
       position: relative;
       overflow: hidden;
       width: 100%;
