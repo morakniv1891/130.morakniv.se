@@ -89,9 +89,8 @@ body {
         }
 
         &__text {
-          position: absolute;
-          bottom: 10%;
           display: flex;
+          margin-top: auto;
           align-items: center;
           justify-content: center;
           flex: 1;
