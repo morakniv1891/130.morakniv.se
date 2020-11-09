@@ -15,3 +15,12 @@
     top: 0;
   }
 }
+
+@keyframes animatedLogoUp {
+  0% {
+    top: 100vh;
+  }
+  100% {
+    top: 50%;
+  }
+}
