@@ -64,14 +64,15 @@ body {
           }
         }
 
-        .top-line {
-          flex: 0 0 30%;
+        .top-line,
+        .bottom-line {
+          flex: 0 0 35%;
         }
 
         .middle {
           justify-content: center;
           align-items: center;
-          flex: 0 0 12rem;
+          flex: 0 0 5rem;
           z-index: 10;
 
           @media (min-width: 768px) and (orientation: landscape) {
@@ -79,12 +80,11 @@ body {
           }
         }
 
-        .bottom-line {
-          flex: 0 0 20%;
-        }
-
         &__text {
-          padding: 3rem 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex: 1;
           font-size: 18px;
           text-align: center;
           letter-spacing: 4px;
