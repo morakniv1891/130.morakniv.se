@@ -6,6 +6,9 @@ $(document).ready(function () {
     $("main").remove();
     // $(window).scrollTop(0);
   });
+  $(window).on("scroll", function (e) {
+    console.log(e);
+  });
   // $(window).scrollTop(0);
 
   // $("section.top-hero").on("animationstart webkitAnimationStart oAnimationStart", function () {
