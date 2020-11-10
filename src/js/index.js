@@ -11,9 +11,6 @@ $(document).ready(function () {
     $("main").remove();
     // $(window).scrollTop(0);
   });
-  $(window).on("scroll", function (e) {
-    console.log(window.pageYOffset);
-  });
 
   // $(window).scrollTop(0);
 
