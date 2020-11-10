@@ -14,7 +14,7 @@ $(document).ready(function () {
     e.preventDefault();
 
     scrollStart = window.pageYOffset;
-    console.log(scrollStart);
+    console.log(window.scrollTop);
   });
   // $(window).scrollTop(0);
 
