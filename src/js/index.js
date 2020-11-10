@@ -2,12 +2,19 @@ import $ from "jquery";
 
 //Main code
 $(document).ready(function () {
+  let scrollStart = 0,
+    scrollEnd = 0,
+    scrollDistance = 100;
+
   $(window).on("beforeunload", function () {
     $("main").remove();
     // $(window).scrollTop(0);
   });
   $(window).on("scroll", function (e) {
-    console.log(e);
+    e.preventDefault();
+
+    scrollStart = window.pageYOffset;
+    console.log(scrollStart);
   });
   // $(window).scrollTop(0);
 
