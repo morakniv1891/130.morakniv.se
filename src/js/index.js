@@ -1,7 +1,10 @@
 import $ from "jquery";
 import LocomotiveScroll from "locomotive-scroll";
 
-const scroll = new LocomotiveScroll();
+const scroll = new LocomotiveScroll({
+  el: this.el,
+  smooth: true,
+});
 
 //Main code
 $(document).ready(function () {
