@@ -7,7 +7,7 @@ $(document).ready(function () {
     // $(window).scrollTop(0);
   });
   $(window).on("scroll", function (e) {
-    console.log(document.body.scrollTop);
+    console.log(window.pageYOffset);
   });
 
   // $(window).scrollTop(0);
