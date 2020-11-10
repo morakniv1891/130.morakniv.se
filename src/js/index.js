@@ -7,8 +7,6 @@ $(document).ready(function () {
     // $(window).scrollTop(0);
   });
   $(window).on("scroll", function (e) {
-    e.preventDefault();
-
     console.log($("main").scrollTop());
   });
   // $(window).scrollTop(0);
