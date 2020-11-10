@@ -1,4 +1,7 @@
 import $ from "jquery";
+import LocomotiveScroll from "locomotive-scroll";
+
+const scroll = new LocomotiveScroll();
 
 //Main code
 $(document).ready(function () {
