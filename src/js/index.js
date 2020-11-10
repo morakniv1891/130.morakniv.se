@@ -7,7 +7,7 @@ $(document).ready(function () {
     // $(window).scrollTop(0);
   });
   $(window).on("scroll", function (e) {
-    console.log($("main").scrollTop());
+    console.log(e);
   });
   // $(window).scrollTop(0);
 
