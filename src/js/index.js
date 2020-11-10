@@ -2,10 +2,6 @@ import $ from "jquery";
 
 //Main code
 $(document).ready(function () {
-  let scrollStart = 0,
-    scrollEnd = 0,
-    scrollDistance = 100;
-
   $(window).on("beforeunload", function () {
     $("main").remove();
     // $(window).scrollTop(0);
@@ -13,8 +9,7 @@ $(document).ready(function () {
   $(window).on("scroll", function (e) {
     e.preventDefault();
 
-    scrollStart = window.pageYOffset;
-    console.log(document.body.scrollTop);
+    console.log($("main").scrollTop());
   });
   // $(window).scrollTop(0);
 
