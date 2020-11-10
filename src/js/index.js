@@ -7,13 +7,9 @@ $(document).ready(function () {
     // $(window).scrollTop(0);
   });
   $(window).on("scroll", function (e) {
-    e.preventDefault();
-    console.log(e);
+    console.log(document.body.scrollTop);
   });
-  $(window).on("touchmove", function (e) {
-    e.preventDefault();
-    console.log(e);
-  });
+
   // $(window).scrollTop(0);
 
   // $("section.top-hero").on("animationstart webkitAnimationStart oAnimationStart", function () {
