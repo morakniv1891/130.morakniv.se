@@ -4,7 +4,7 @@ import LocomotiveScroll from "locomotive-scroll";
 //Main code
 $(document).ready(function () {
   const scroll = new LocomotiveScroll({
-    el: this.el,
+    el: document.querySelector("[data-scroll-container]"),
     smooth: true,
   });
   $(window).on("beforeunload", function () {
