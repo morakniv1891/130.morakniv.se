@@ -3,7 +3,7 @@ import $ from "jquery";
 //Main code
 $(document).ready(function () {
   $(window).on("beforeunload", function () {
-    $("main").remove();
+    // $("main").remove();
     // $(window).scrollTop(0);
   });
   // $(window).scrollTop(0);
