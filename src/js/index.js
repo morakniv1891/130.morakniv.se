@@ -23,7 +23,7 @@ $(document).ready(function () {
     } else {
       setTimeout(function () {
         document.getElementById("menu-bar").style.top = "-80px";
-      }, 5000);
+      }, 1500);
     }
   });
 
