@@ -21,7 +21,9 @@ $(document).ready(function () {
     } else {
       document.getElementById("menu-bar").style.top = "-80px";
     }
+  });
 
+  scroll.on("call", function (o) {
     console.log(o);
   });
 });
