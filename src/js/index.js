@@ -10,6 +10,7 @@ $(document).ready(function () {
     lerp: 0.1,
     getDirection: true,
     getSpeed: true,
+    repeat: true,
   });
 
   $(window).on("beforeunload", function () {
