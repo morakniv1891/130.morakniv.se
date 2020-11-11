@@ -32,7 +32,6 @@ $(document).ready(function () {
     }
 
     if (t === "menudisappear") {
-      $("#menu-bar").fadeIn(1500);
       menuSticky = false;
     }
     console.log(t);
