@@ -8,6 +8,7 @@ $(document).ready(function () {
     smooth: true,
     smoothMobile: true,
     lerp: 0.1,
+    scrollbarContainer: document.querySelector("[data-scroll-container]"),
   });
   $(window).on("beforeunload", function () {
     $("main").remove();
