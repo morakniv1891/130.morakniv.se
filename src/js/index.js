@@ -27,13 +27,12 @@ $(document).ready(function () {
   });
 
   scroll.on("call", function (t, e, i) {
-    if (t === "menuappear") {
+    if (t === "menuappear" && e === "enter") {
       $("#menu-bar").fadeIn(1500);
-    }
-
-    if (t === "menudisappear") {
+    } else if (e === "exit") {
       menuSticky = false;
     }
+
     console.log(t);
     console.log(e);
     console.log(i);
