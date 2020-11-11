@@ -9,6 +9,7 @@ $(document).ready(function () {
     smoothMobile: true,
     lerp: 0.1,
     getDirection: true,
+    getSpeed: true,
   });
 
   $(window).on("beforeunload", function () {
