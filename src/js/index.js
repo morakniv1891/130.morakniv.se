@@ -9,7 +9,12 @@ $(document).ready(function () {
     smoothMobile: true,
     lerp: 0.1,
   });
+
   $(window).on("beforeunload", function () {
     $("main").remove();
+  });
+
+  scroll.on("scroll", function (o) {
+    console.log(o);
   });
 });
