@@ -40,15 +40,18 @@ body {
   }
 
   main {
+    .boxed {
+      width: 900px;
+    }
+
     .top-hero {
       display: flex;
       flex-flow: column nowrap;
       justify-content: flex-end;
       position: relative;
       overflow: hidden;
-      width: 900px;
+      width: 100%;
       height: 100vh;
-      margin: 0 auto;
       background: $background-color;
       background-image: url("/assets/images/background01m.png");
       background-position: top center;
