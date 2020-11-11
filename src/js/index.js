@@ -19,7 +19,7 @@ $(document).ready(function () {
   });
 
   scroll.on("scroll", function (o) {
-    if (o.direction === "up" && menuSticky) {
+    if (o.direction === "up") {
       document.getElementById("menu-bar").style.top = "0";
     } else if (o.direction === "down" && !menuSticky) {
       document.getElementById("menu-bar").style.top = "-80px";
