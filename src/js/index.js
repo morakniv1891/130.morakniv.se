@@ -29,6 +29,7 @@ $(document).ready(function () {
   scroll.on("call", function (t, e, i) {
     if (t === "menuappear" && e === "enter") {
       $("#menu-bar").css("display", "flex");
+      $("#menu-bar").css("top", "0");
       $("#menu-bar").hide();
       $("#menu-bar").fadeIn(1500);
     } else if (t === "menuappear" && e === "exit") {
