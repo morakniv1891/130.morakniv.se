@@ -21,6 +21,12 @@ body {
     transition: top 0.3s;
     z-index: 999;
     display: none;
+
+    .left-link,
+    .middle-link,
+    .right-link {
+      flex: 1;
+    }
   }
 
   main {
