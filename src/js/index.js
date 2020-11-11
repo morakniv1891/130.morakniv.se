@@ -23,7 +23,7 @@ $(document).ready(function () {
     }
   });
 
-  scroll.on("call", function (o) {
+  scroll.on("usps", function (o) {
     console.log(o);
   });
 });
