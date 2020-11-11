@@ -24,6 +24,9 @@ $(document).ready(function () {
   });
 
   scroll.on("call", function (t, e, i) {
+    if (t === "usps") {
+      $("#menu-bar").fadeIn(1500);
+    }
     console.log(t);
     console.log(e);
     console.log(i);
