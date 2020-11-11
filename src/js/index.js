@@ -32,6 +32,7 @@ $(document).ready(function () {
       $("#menu-bar").css("top", "0");
       $("#menu-bar").hide();
       $("#menu-bar").fadeIn(3000);
+      scroll.scrollTo("page-1", 0, 3000);
     } else if (t === "hero" && e === "exit") {
       menuSticky = false;
     }
