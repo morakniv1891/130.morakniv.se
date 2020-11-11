@@ -32,7 +32,7 @@ $(document).ready(function () {
       $("#menu-bar").css("top", "0");
       $("#menu-bar").hide();
       $("#menu-bar").fadeIn(1500);
-    } else if (t === "menuappear" && e === "exit") {
+    } else if (t === "hero" && e === "exit") {
       menuSticky = false;
     }
     console.log(t);
