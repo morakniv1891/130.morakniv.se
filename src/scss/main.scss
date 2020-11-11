@@ -13,8 +13,12 @@ body {
   color: $text-color;
 
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 80px;
     background: $menu-background-color;
+    opacity: 1;
   }
 
   main {
