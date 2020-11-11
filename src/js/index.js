@@ -34,9 +34,5 @@ $(document).ready(function () {
     } else if (e === "exit") {
       menuSticky = false;
     }
-
-    console.log(t);
-    console.log(e);
-    console.log(i);
   });
 });
