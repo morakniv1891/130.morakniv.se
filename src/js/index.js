@@ -31,7 +31,7 @@ $(document).ready(function () {
       $("#menu-bar").css("display", "flex");
       $("#menu-bar").hide();
       $("#menu-bar").fadeIn(1500);
-    } else if (e === "exit") {
+    } else if (t === "menuappear" && e === "exit") {
       menuSticky = false;
     }
   });
