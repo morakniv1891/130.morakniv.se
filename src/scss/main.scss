@@ -3,6 +3,8 @@
 @import "abstracts/animations";
 @import "abstracts/colors";
 
+@import "vendors/locomotive-scroll/locomotive-scroll";
+
 body {
   background: $background-color;
   font-family: neue-haas-grotesk-display, sans-serif;
