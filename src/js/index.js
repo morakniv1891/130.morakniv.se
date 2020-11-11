@@ -19,7 +19,9 @@ $(document).ready(function () {
     if (o.direction === "up") {
       document.getElementById("menu-bar").style.top = "0";
     } else {
-      document.getElementById("menu-bar").style.top = "-80px";
+      setTimeout(function () {
+        document.getElementById("menu-bar").style.top = "-80px";
+      }, 1500);
     }
   });
 
