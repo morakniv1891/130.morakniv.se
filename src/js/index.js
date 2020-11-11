@@ -3,7 +3,7 @@ import LocomotiveScroll from "locomotive-scroll";
 
 //Main code
 $(document).ready(function () {
-  let menuSticky = false;
+  let menuSticky = true;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -29,7 +29,6 @@ $(document).ready(function () {
   scroll.on("call", function (t, e, i) {
     if (t === "menuappear") {
       $("#menu-bar").fadeIn(1500);
-      menuSticky = true;
     }
 
     if (t === "menudisappear") {
