@@ -12,6 +12,10 @@ body {
   font-style: normal;
   color: $text-color;
 
+  header {
+    height: 80px;
+  }
+
   main {
     .top-hero {
       display: flex;
