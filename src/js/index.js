@@ -35,5 +35,8 @@ $(document).ready(function () {
     } else if (t === "menuappear" && e === "exit") {
       menuSticky = false;
     }
+    console.log(t);
+    console.log(e);
+    console.log(i);
   });
 });
