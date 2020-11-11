@@ -3,7 +3,6 @@ import LocomotiveScroll from "locomotive-scroll";
 
 //Main code
 $(document).ready(function () {
-  let menuTimeout;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -20,12 +19,9 @@ $(document).ready(function () {
 
   scroll.on("scroll", function (o) {
     if (o.direction === "up") {
-      clearTimeout(menuTimeout);
       document.getElementById("menu-bar").style.top = "0";
     } else {
-      menuTimeout = setTimeout(function () {
-        document.getElementById("menu-bar").style.top = "-80px";
-      }, 1500);
+      document.getElementById("menu-bar").style.top = "-80px";
     }
   });
 
