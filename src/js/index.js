@@ -23,7 +23,9 @@ $(document).ready(function () {
     }
   });
 
-  scroll.on("usps", function (o) {
-    console.log(o);
+  scroll.on("call", function (t, e, i) {
+    console.log(t);
+    console.log(e);
+    console.log(i);
   });
 });
