@@ -21,7 +21,7 @@ $(document).ready(function () {
     } else {
       setTimeout(function () {
         document.getElementById("menu-bar").style.top = "-80px";
-      }, 1500);
+      }, 5000);
     }
   });
 
