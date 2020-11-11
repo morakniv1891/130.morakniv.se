@@ -16,6 +16,12 @@ $(document).ready(function () {
   });
 
   scroll.on("scroll", function (o) {
+    if (o.direction === "up") {
+      document.getElementById("menu-bar").style.top = "0";
+    } else {
+      document.getElementById("menu-bar").style.top = "-80px";
+    }
+
     console.log(o);
   });
 });
