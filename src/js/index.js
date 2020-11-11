@@ -3,6 +3,7 @@ import LocomotiveScroll from "locomotive-scroll";
 
 //Main code
 $(document).ready(function () {
+  let menuSticky = false;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -18,16 +19,22 @@ $(document).ready(function () {
   });
 
   scroll.on("scroll", function (o) {
-    if (o.direction === "up") {
+    if (o.direction === "up" && menuSticky) {
       document.getElementById("menu-bar").style.top = "0";
-    } else {
+    } else if (o.direction === "down" && !menuSticky) {
       document.getElementById("menu-bar").style.top = "-80px";
     }
   });
 
   scroll.on("call", function (t, e, i) {
-    if (t === "usps") {
+    if (t === "menuappear") {
       $("#menu-bar").fadeIn(1500);
+      menuSticky = true;
+    }
+
+    if (t === "menudisappear") {
+      $("#menu-bar").fadeIn(1500);
+      menuSticky = false;
     }
     console.log(t);
     console.log(e);
