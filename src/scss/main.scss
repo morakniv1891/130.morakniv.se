@@ -51,7 +51,11 @@ body {
 
     .top-hero {
       height: 100vh;
-      background: url(/assets/images/background01m.png) no-repeat center top;
+      background: url(/assets/images/background01m.png) no-repeat center top cover;
+
+      @media (min-width: 768px) {
+        background: url(/assets/images/background01.png) no-repeat center top cover;
+      }
     }
   }
 }
