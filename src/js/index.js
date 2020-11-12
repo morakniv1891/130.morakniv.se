@@ -32,7 +32,7 @@ $(document).ready(function () {
       $("#menu-bar").css("top", "0");
       $("#menu-bar").hide();
       $("#menu-bar").fadeIn(3000);
-      scrolltoexplore = $("#scroll-to-explore-text")[0].getBoundingClientRect();
+      let scrolltoexplore = $("#scroll-to-explore-text")[0].getBoundingClientRect();
       console.log(scrolltoexplore.top);
       console.log(scrolltoexplore.left);
       let target = document.getElementById("page-1");
