@@ -58,6 +58,17 @@ body {
         background: url(/assets/images/background01.png) no-repeat center top;
         background-size: cover;
       }
+
+      &__container {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        .top-line,
+        .bottom-line {
+          flex: 0 1 35vh;
+        }
+      }
     }
   }
 }
