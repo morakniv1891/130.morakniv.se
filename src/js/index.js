@@ -14,7 +14,7 @@ $(document).ready(function () {
   });
 
   let target = document.getElementById("anniversary-logo");
-  scroll.scrollTo(target);
+  scroll.scrollTo(target, 0, 4000);
 
   $(window).on("beforeunload", function () {
     $("main").remove();
