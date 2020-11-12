@@ -25,13 +25,13 @@ $(document).ready(function () {
       if (!menuSticky) {
         document.getElementById("menu-bar").style.top = "-80px";
       }
-      let lefts = $(".top-hero__container .left");
-      lefts.css({
-        "-webkit-transform": "translateY(" + lefts.scrollTop() + ")",
-        "-moz-transform": "translateY(" + lefts.scrollTop() + ")",
-        "-ms-transform": "translateY(" + lefts.scrollTop() + ")",
-        "-o-transform": "translateY(" + lefts.scrollTop() + ")",
-        transform: "translateY(" + lefts.scrollTop() + ")",
+      let heroContainer = $(".top-hero__container");
+      $(".top-hero__container .left").css({
+        "-webkit-transform": "translateY(" + heroContainer.scrollTop() + ")",
+        "-moz-transform": "translateY(" + heroContainer.scrollTop() + ")",
+        "-ms-transform": "translateY(" + heroContainer.scrollTop() + ")",
+        "-o-transform": "translateY(" + heroContainer.scrollTop() + ")",
+        transform: "translateY(" + heroContainer.scrollTop() + ")",
       });
     }
   });
