@@ -43,6 +43,6 @@ $(document).ready(function () {
   });
 
   function removeHero() {
-    $(".top-hero").remove();
+    $(".top-hero").css("height", "80px");
   }
 });
