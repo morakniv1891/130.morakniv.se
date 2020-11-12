@@ -28,7 +28,7 @@ $(document).ready(function () {
 
   scroll.on("call", function (t, e, i) {
     if (t === "menuappear" && e === "enter") {
-      $(".scroll-to-explore-text").fadeOut(1500);
+      $(".scroll-to-explore-text").fadeOut(2000);
       // $("#menu-bar").css("display", "flex");
       // $("#menu-bar").css("top", "0");
       // $("#menu-bar").hide();
