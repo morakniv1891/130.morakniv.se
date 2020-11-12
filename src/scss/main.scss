@@ -51,10 +51,12 @@ body {
 
     .top-hero {
       height: 100vh;
-      background: url(/assets/images/background01m.png) no-repeat center top cover;
+      background: url(/assets/images/background01m.png) no-repeat center top;
+      background-size: cover;
 
       @media (min-width: 768px) {
-        background: url(/assets/images/background01.png) no-repeat center top cover;
+        background: url(/assets/images/background01.png) no-repeat center top;
+        background-size: cover;
       }
     }
   }
