@@ -35,7 +35,6 @@ $(document).ready(function () {
       let scrolltoexplore = $("#scroll-to-explore-text");
       console.log(scrolltoexplore[0].getBoundingClientRect().top);
       console.log(scrolltoexplore[0].getBoundingClientRect().left);
-      scrolltoexplore.appendTo("main");
 
       let target = document.getElementById("page-1");
       scroll.scrollTo(target, -80, 3000);
