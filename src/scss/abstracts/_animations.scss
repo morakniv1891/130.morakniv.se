@@ -4,7 +4,10 @@
   }
 }
 @keyframes animatedAnniversaryLogoEntry {
+  0% {
+    transform: scale(2.5);
+  }
   100% {
-    transform: translateY(0);
+    transform: scale(1), translateY(0);
   }
 }

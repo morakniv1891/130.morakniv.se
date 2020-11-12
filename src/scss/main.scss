@@ -91,6 +91,7 @@ body {
           flex: 0 0 15vh;
 
           img {
+            width: 300px;
             transform: translateY(60vh);
             animation: 1.5s 3s forwards animatedAnniversaryLogoEntry ease-in-out;
           }
