@@ -21,8 +21,17 @@ $(document).ready(function () {
   scroll.on("scroll", function (o) {
     if (o.direction === "up") {
       document.getElementById("menu-bar").style.top = "0";
-    } else if (o.direction === "down" && !menuSticky) {
-      document.getElementById("menu-bar").style.top = "-80px";
+    } else if (o.direction === "down") {
+      if (!menuSticky) {
+        document.getElementById("menu-bar").style.top = "-80px";
+      }
+      $(".top-hero__container .left").css({
+        "-webkit-transform": "translateY(" + $(document).scrollTop() + ")",
+        "-moz-transform": "translateY(" + $(document).scrollTop() + ")",
+        "-ms-transform": "translateY(" + $(document).scrollTop() + ")",
+        "-o-transform": "translateY(" + $(document).scrollTop() + ")",
+        transform: "translateY(" + $(document).scrollTop() + ")",
+      });
     }
   });
 
