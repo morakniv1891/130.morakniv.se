@@ -3,7 +3,6 @@ import LocomotiveScroll from "locomotive-scroll";
 
 //Main code
 $(document).ready(function () {
-  let menuSticky = true;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -13,6 +12,9 @@ $(document).ready(function () {
     getSpeed: true,
     repeat: true,
   });
+
+  let target = document.getElementById("anniversary-logo");
+  scroll.scrollTo(target);
 
   $(window).on("beforeunload", function () {
     $("main").remove();
