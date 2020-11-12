@@ -25,6 +25,7 @@ $(document).ready(function () {
       if (!menuSticky) {
         document.getElementById("menu-bar").style.top = "-80px";
       }
+      console.log($(window).height());
       console.log(o);
       // let heroContainer = $(".top-hero__container");
       // $(".top-hero__container .left").css({
