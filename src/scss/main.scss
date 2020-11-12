@@ -50,6 +50,9 @@ body {
     }
 
     .top-hero {
+      position: fixed;
+      top: 0;
+      left: 0;
       height: 100vh;
       background: url(/assets/images/background01m.png) no-repeat center top;
       background-size: cover;
