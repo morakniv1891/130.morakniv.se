@@ -28,11 +28,10 @@ $(document).ready(function () {
 
   scroll.on("call", function (t, e, i) {
     if (t === "menuappear" && e === "enter") {
-      $("#menu-bar").css("display", "flex");
-      $("#menu-bar").css("top", "0");
-      $("#menu-bar").hide();
+      // $("#menu-bar").css("display", "flex");
+      // $("#menu-bar").css("top", "0");
+      // $("#menu-bar").hide();
       // $("#menu-bar").fadeIn(3000);
-
       // let target = document.getElementById("page-1");
       // scroll.scrollTo(target, -80, 3000);
     } else if (t === "hero" && e === "exit") {
