@@ -33,7 +33,7 @@ $(document).ready(function () {
       $("#menu-bar").hide();
       $("#menu-bar").fadeIn(3000);
       let target = document.getElementById("page-1");
-      scroll.scrollTo(target, -80, 3000, [], true, "removeHero");
+      scroll.scrollTo(target, -80, 3000, [0.25, 0.0, 0.35, 1.0], true, "removeHero");
     } else if (t === "hero" && e === "exit") {
       menuSticky = false;
     }
