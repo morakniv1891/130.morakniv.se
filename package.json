@@ -48,13 +48,13 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "0.0.2",
-    "locomotive-scroll": "^3.6.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "jquery": "^3.5.1",
+    "locomotive-scroll": "^3.6.1",
     "node-sass": "^5.0.0"
   }
 }
