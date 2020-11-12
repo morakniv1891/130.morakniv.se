@@ -26,11 +26,11 @@ $(document).ready(function () {
         document.getElementById("menu-bar").style.top = "-80px";
       }
       $(".top-hero__container .left").css({
-        "-webkit-transform": "translateY(" + $(document).scrollTop() + ")",
-        "-moz-transform": "translateY(" + $(document).scrollTop() + ")",
-        "-ms-transform": "translateY(" + $(document).scrollTop() + ")",
-        "-o-transform": "translateY(" + $(document).scrollTop() + ")",
-        transform: "translateY(" + $(document).scrollTop() + ")",
+        "-webkit-transform": "translateY(" + $("body").scrollTop() + ")",
+        "-moz-transform": "translateY(" + $("body").scrollTop() + ")",
+        "-ms-transform": "translateY(" + $("body").scrollTop() + ")",
+        "-o-transform": "translateY(" + $("body").scrollTop() + ")",
+        transform: "translateY(" + $("body").scrollTop() + ")",
       });
     }
   });
