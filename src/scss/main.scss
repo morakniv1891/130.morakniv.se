@@ -95,10 +95,14 @@ body {
           flex: 0 0 15vh;
 
           img {
-            width: 500px;
+            width: 90%;
             transform: translateY(100vh);
             animation: 4s 1.5s forwards animatedAnniversaryLogoEntry ease-in-out;
             z-index: 99;
+
+            @media (min-width: 768px) {
+              width: 500px;
+            }
           }
         }
       }
