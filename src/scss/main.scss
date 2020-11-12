@@ -41,6 +41,8 @@ body {
 
   main {
     position: relative;
+    display: flex;
+    flex-flow: column nowrap;
 
     .boxed {
       max-width: 900px;
