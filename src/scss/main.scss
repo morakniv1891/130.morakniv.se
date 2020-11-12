@@ -98,6 +98,7 @@ body {
             width: 500px;
             transform: translateY(100vh);
             animation: 4s 1.5s forwards animatedAnniversaryLogoEntry ease-in-out;
+            z-index: 99;
           }
         }
       }
