@@ -32,13 +32,16 @@ $(document).ready(function () {
       $("#menu-bar").css("top", "0");
       $("#menu-bar").hide();
       $("#menu-bar").fadeIn(3000);
+      scrolltoexplore = $("#scroll-to-explore-text")[0].getBoundingClientRect();
+      console.log(scrolltoexplore.top);
+      console.log(scrolltoexplore.left);
       let target = document.getElementById("page-1");
       scroll.scrollTo(target, -80, 3000);
     } else if (t === "hero" && e === "exit") {
       menuSticky = false;
     }
-    console.log(t);
-    console.log(e);
-    console.log(i);
+    // console.log(t);
+    // console.log(e);
+    // console.log(i);
   });
 });
