@@ -108,6 +108,9 @@ body {
       left: 0;
       h3 {
         font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 18px;
+        letter-spacing: 1.6;
+        color: $text-color;
         transform: translateY(80px);
       }
     }
