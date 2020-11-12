@@ -91,7 +91,8 @@ body {
           flex: 0 0 15vh;
 
           img {
-            transform: translateY(30vh);
+            transform: translateY(60vh);
+            animation: 1.5s 3s forwards animatedAnniversaryLogoEntry ease-in-out;
           }
         }
       }

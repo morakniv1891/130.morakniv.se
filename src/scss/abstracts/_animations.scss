@@ -3,49 +3,8 @@
     background-position: center -200vh;
   }
 }
-
-@keyframes animatedPageUp {
-  0% {
-    top: 100vh;
-  }
+@keyframes animatedAnniversaryLogoEntry {
   100% {
-    top: 0;
-  }
-}
-
-@media (orientation: portrait) {
-  @keyframes animatedLogoUp {
-    0% {
-      top: 0;
-      width: 90%;
-    }
-    100% {
-      top: calc(50% - 2.5rem);
-      width: 300px;
-      transform: translate(-50%, -50%);
-    }
-  }
-}
-
-@media (orientation: landscape) {
-  @keyframes animatedLogoUp {
-    0% {
-      top: 0;
-      height: 80px;
-    }
-    100% {
-      top: 50%;
-      height: 50px;
-      transform: translate(-50%, -50%);
-    }
-  }
-}
-
-@keyframes animatedScrollToExplore {
-  0% {
-    top: 100vh;
-  }
-  100% {
-    top: 0;
+    transform: translateY(0);
   }
 }
