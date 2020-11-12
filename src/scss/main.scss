@@ -53,6 +53,7 @@ body {
       height: 100vh;
       background: url(/assets/images/background01m.png) no-repeat center top;
       background-size: cover;
+      overflow: hidden;
 
       @media (min-width: 768px) {
         background: url(/assets/images/background01.png) no-repeat center top;
@@ -83,6 +84,9 @@ body {
         }
 
         .middle {
+          display: flex;
+          align-items: center;
+          justify-content: center;
           flex: 0 0 30vh;
         }
       }
