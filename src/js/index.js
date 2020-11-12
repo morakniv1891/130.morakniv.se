@@ -19,39 +19,12 @@ $(document).ready(function () {
   });
 
   scroll.on("scroll", function (o) {
-    if (o.direction === "up") {
-      document.getElementById("menu-bar").style.top = "0";
-    } else if (o.direction === "down") {
-      if (!menuSticky) {
-        document.getElementById("menu-bar").style.top = "-80px";
-      }
-      console.log($(window).height());
-      console.log(o);
-      // let heroContainer = $(".top-hero__container");
-      // $(".top-hero__container .left").css({
-      //   "-webkit-transform": "translateY(" + heroContainer.scrollTop() + ")",
-      //   "-moz-transform": "translateY(" + heroContainer.scrollTop() + ")",
-      //   "-ms-transform": "translateY(" + heroContainer.scrollTop() + ")",
-      //   "-o-transform": "translateY(" + heroContainer.scrollTop() + ")",
-      //   transform: "translateY(" + heroContainer.scrollTop() + ")",
-      // });
-    }
+    console.log(o);
   });
 
   scroll.on("call", function (t, e, i) {
-    if (t === "menuappear" && e === "enter") {
-      $(".scroll-to-explore-text").fadeOut(2000);
-      // $("#menu-bar").css("display", "flex");
-      // $("#menu-bar").css("top", "0");
-      // $("#menu-bar").hide();
-      // $("#menu-bar").fadeIn(3000);
-      // let target = document.getElementById("page-1");
-      // scroll.scrollTo(target, -80, 3000);
-    } else if (t === "hero" && e === "exit") {
-      menuSticky = false;
-    }
-    // console.log(t);
-    // console.log(e);
-    // console.log(i);
+    console.log(t);
+    console.log(e);
+    console.log(i);
   });
 });
