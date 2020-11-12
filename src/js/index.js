@@ -31,7 +31,7 @@ $(document).ready(function () {
       $("#menu-bar").css("display", "flex");
       $("#menu-bar").css("top", "0");
       $("#menu-bar").hide();
-      $("#menu-bar").fadeIn(3000);
+      // $("#menu-bar").fadeIn(3000);
 
       // let target = document.getElementById("page-1");
       // scroll.scrollTo(target, -80, 3000);
