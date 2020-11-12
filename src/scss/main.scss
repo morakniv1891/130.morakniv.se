@@ -89,6 +89,10 @@ body {
           align-items: center;
           justify-content: center;
           flex: 0 0 15vh;
+
+          img {
+            transform: translateY(30vh);
+          }
         }
       }
     }
