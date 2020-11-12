@@ -101,5 +101,15 @@ body {
         }
       }
     }
+
+    .scroll-to-explore-text {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      h3 {
+        font-family: neue-haas-grotesk-display, sans-serif;
+        transform: translateY(80px);
+      }
+    }
   }
 }
