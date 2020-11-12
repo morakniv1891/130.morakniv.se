@@ -25,7 +25,7 @@ $(document).ready(function () {
       if (!menuSticky) {
         document.getElementById("menu-bar").style.top = "-80px";
       }
-      console.log($("main").scrollTop());
+      console.log($(".middle img").scrollTop());
       // let heroContainer = $(".top-hero__container");
       // $(".top-hero__container .left").css({
       //   "-webkit-transform": "translateY(" + heroContainer.scrollTop() + ")",
