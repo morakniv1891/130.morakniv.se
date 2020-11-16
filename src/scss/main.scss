@@ -73,7 +73,7 @@ body {
           height: 100%;
           border-right: 1px solid $border-color;
           transform: translateY(100vh);
-          animation: 3.5s forwards animatedReset ease-in-out;
+          animation: 2.5s 1.5s forwards animatedReset ease-in-out;
         }
       }
 
@@ -83,7 +83,7 @@ body {
         img {
           width: 85vw;
           transform: scale(2) translateY(50vh);
-          animation: 3s 1.5s forwards animatedReset ease-in-out;
+          animation: 3.5s 1.5s forwards animatedReset ease-in-out;
 
           @media (min-width: 768px) {
             width: 500px;
