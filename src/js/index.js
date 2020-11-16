@@ -13,10 +13,11 @@ $(document).ready(function () {
     repeat: true,
   });
 
-  let target = document.getElementById("anniversary-logo");
+  scroll.stop();
+
   setTimeout(function () {
-    scroll.scrollTo(target, 0, 4000);
-  }, 1500);
+    scroll.start();
+  }, 6500);
 
   $(window).on("beforeunload", function () {
     $("main").remove();
