@@ -67,6 +67,11 @@ body {
       .top-line,
       .bottom-line {
         height: 35vh;
+
+        .left {
+          height: 100%;
+          border-right: 1px solid $border-color;
+        }
       }
 
       .middle {
