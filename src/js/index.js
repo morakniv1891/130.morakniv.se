@@ -17,7 +17,7 @@ $(document).ready(function () {
 
   setTimeout(function () {
     scroll.start();
-  }, 6500);
+  }, 5500);
 
   $(window).on("beforeunload", function () {
     $("main").remove();
