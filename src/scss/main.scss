@@ -97,6 +97,7 @@ body {
         h5 {
           font-size: 18px;
           letter-spacing: 6px;
+          transform: translateY(15vh);
           animation: 4s 1.5s forwards animatedScrollToExplore ease-in-out;
         }
       }
