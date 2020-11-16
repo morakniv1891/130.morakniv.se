@@ -66,6 +66,14 @@ body {
       .padding {
         height: 15vh;
       }
+
+      .scroll-to-explore {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 15vh;
+      }
     }
 
     .page-2 {
