@@ -72,6 +72,8 @@ body {
         .left {
           height: 100%;
           border-right: 1px solid $border-color;
+          transform: translateY(100vh);
+          animation: 3.5s 2s forwards animatedReset ease-in-out;
         }
       }
 
@@ -81,7 +83,7 @@ body {
         img {
           width: 85vw;
           transform: scale(2) translateY(50vh);
-          animation: 3s 1.5s forwards animatedLogoEntry ease-in-out;
+          animation: 3s 1.5s forwards animatedReset ease-in-out;
 
           @media (min-width: 768px) {
             width: 500px;
@@ -104,7 +106,7 @@ body {
           font-size: 18px;
           letter-spacing: 6px;
           transform: translateY(15vh);
-          animation: 1.5s 4s forwards animatedScrollToExplore ease-in-out;
+          animation: 1.5s 4s forwards animatedReset ease-in-out;
         }
       }
     }

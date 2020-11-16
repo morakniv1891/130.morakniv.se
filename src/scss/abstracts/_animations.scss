@@ -7,13 +7,7 @@
   }
 }
 
-@keyframes animatedScrollToExplore {
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes animatedLogoEntry {
+@keyframes animatedReset {
   100% {
     transform: scale(1) translateY(0);
   }
