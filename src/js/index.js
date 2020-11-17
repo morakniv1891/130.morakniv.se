@@ -34,6 +34,7 @@ $(document).ready(function () {
     $(".page-1[data-scroll-section-inview] .bottom-line .left").css("opacity", 1 - scrollY / (vh / 2));
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
     $("header").css("top", "0");
+    console.log(menuActive);
     if (menuActive) {
       $("header").css("top", "0");
     }
