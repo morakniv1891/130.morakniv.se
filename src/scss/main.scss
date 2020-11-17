@@ -118,6 +118,7 @@ body {
     .page-2,
     .page-3 {
       height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
     }
   }
 }
