@@ -53,7 +53,9 @@ $(document).ready(function () {
   scroll.on("call", function (t, e, i) {
     switch (t) {
       case "menu-entry":
-        menuActive = true;
+        if (e === "exit") {
+          menuActive = true;
+        }
         break;
       case "menu-hide":
         menuHide = true;
