@@ -25,7 +25,9 @@ $(document).ready(function () {
 
   scroll.on("scroll", function (o) {
     let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+    let scrollY = o.scroll.y;
     console.log(vh);
+    console.log(scrollY);
     console.log(o);
   });
 
