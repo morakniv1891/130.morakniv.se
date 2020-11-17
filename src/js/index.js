@@ -40,10 +40,12 @@ $(document).ready(function () {
     }
 
     if (o.direction === "down" && menuHide === true) {
+      console.log("test");
       $("header").css("top", "-80px");
     }
 
     if (o.direction === "up") {
+      console.log("test");
       $("header").css("top", "0");
     }
     // console.log(vh);
