@@ -13,12 +13,6 @@ body {
   color: $text-color;
   min-height: 100vh;
 
-  @supports (-webkit-touch-callout: none) {
-    body {
-      min-height: -webkit-fill-available;
-    }
-  }
-
   header {
     display: flex;
     align-items: center;
@@ -132,5 +126,11 @@ body {
       height: 100vh;
       // height: calc(var(--vh, 1vh) * 100);
     }
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    min-height: -webkit-fill-available;
   }
 }
