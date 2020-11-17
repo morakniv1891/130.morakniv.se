@@ -24,7 +24,7 @@ $(document).ready(function () {
   });
 
   scroll.on("scroll", function (o) {
-    console.log(o.scroll.y);
+    console.log(o.scroll.y / o.limit);
   });
 
   scroll.on("call", function (t, e, i) {
