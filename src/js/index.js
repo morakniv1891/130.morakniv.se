@@ -37,11 +37,11 @@ $(document).ready(function () {
       $("header").css("top", "0");
     }
 
-    if (o.direction === "down" && menuHide === true) {
+    if (o.direction === "down" && menuHide) {
       $("header").css("top", "-80px");
     }
 
-    if (o.direction === "up") {
+    if (o.direction === "up" && menuActive) {
       $("header").css("top", "0");
     }
     // console.log(vh);
