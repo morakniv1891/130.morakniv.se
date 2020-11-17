@@ -23,10 +23,6 @@ body {
     transition: top 0.3s;
     z-index: 999;
 
-    &.visible {
-      top: 0;
-    }
-
     .left-link,
     .middle-link,
     .right-link {
