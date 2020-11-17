@@ -26,7 +26,7 @@ $(document).ready(function () {
   scroll.on("scroll", function (o) {
     let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
     let scrollY = o.scroll.y;
-    $(".page-1[data-scroll-section-inview] .middle img").css("opacity", "0");
+    $(".page-1[data-scroll-section-inview] .middle img").css("opacity", scrollY / vh);
     console.log(vh);
     console.log(scrollY);
     // console.log(o);
