@@ -36,7 +36,7 @@ $(document).ready(function () {
     // console.log(o);
   });
 
-  scroll.on("menu-entry", function (t, e, i) {
+  scroll.on("call", function (t, e, i) {
     console.log(t);
     console.log(e);
     console.log(i);
