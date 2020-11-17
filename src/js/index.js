@@ -4,7 +4,7 @@ import LocomotiveScroll from "locomotive-scroll";
 //Main code
 $(document).ready(function () {
   let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-  document.documentElement.style.setProperty("--vh", `${vh * 0.01}px`);
+  // document.documentElement.style.setProperty("--vh", `${vh * 0.01}px`);
   let menuActive = false;
   let menuHide = false;
   const scroll = new LocomotiveScroll({
