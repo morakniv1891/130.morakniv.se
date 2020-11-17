@@ -35,6 +35,7 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
     $("header").css("top", "0");
     if (menuActive) {
+      console.log("test");
       $("header").css("top", "0");
     }
 
