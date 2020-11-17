@@ -31,8 +31,8 @@ $(document).ready(function () {
     $(".page-1[data-scroll-section-inview] .top-line .left").css("opacity", 1 - scrollY / (vh / 3));
     $(".page-1[data-scroll-section-inview] .bottom-line .left").css("opacity", 1 - scrollY / (vh / 2));
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
-    console.log(vh);
-    console.log(scrollY);
+    // console.log(vh);
+    // console.log(scrollY);
     // console.log(o);
   });
 
