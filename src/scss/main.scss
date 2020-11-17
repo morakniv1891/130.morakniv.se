@@ -20,7 +20,7 @@ body {
     background: $menu-background-color;
     transition: top 0.3s;
     z-index: 999;
-    display: none;
+    // display: none;
 
     &.visible {
       top: 0;
