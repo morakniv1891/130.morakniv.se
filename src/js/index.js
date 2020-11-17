@@ -28,7 +28,7 @@ $(document).ready(function () {
     let scrollY = o.scroll.y;
     $(".page-1[data-scroll-section-inview] .middle img").css("opacity", scrollY / (vh / 2) - 1);
     console.log(vh);
-    console.log(scrollY / vh);
+    console.log(scrollY / (vh / 2));
     // console.log(o);
   });
 
