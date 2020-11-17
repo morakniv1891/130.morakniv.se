@@ -73,6 +73,10 @@ body {
         height: 30vh;
         // height: calc(var(--vh, 1vh) * 35);
 
+        @media (min-width: 768px) {
+          height: 35vh;
+        }
+
         .left {
           height: 100%;
           border-right: 1px solid $border-color;
@@ -113,11 +117,19 @@ body {
       height: 15vh;
       // height: calc(var(--vh, 1vh) * 15);
 
+      @media (min-width: 768px) {
+        top: 85vh;
+      }
+
       h5 {
         font-size: 18px;
         letter-spacing: 6px;
         transform: translateY(25vh);
         animation: 1.5s 4s forwards animatedReset ease-in-out;
+
+        @media (min-width: 768px) {
+          transform: translateY(15vh);
+        }
       }
     }
 
