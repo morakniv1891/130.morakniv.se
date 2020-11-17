@@ -35,10 +35,12 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     if (o.direction === "down" && menuHide === true) {
+      console.log("down");
       $("header").css("top", "-80px");
     }
 
     if (o.direction === "up") {
+      console.log("up");
       $("header").css("top", "0");
     }
     // console.log(vh);
