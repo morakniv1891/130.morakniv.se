@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     //Second page movements
     $(".page-2__knife-image").css("top", (scrollY / (vh / 2)) * 100) + "%";
-    console.log((scrollY / (vh / 2)) * 100 + "%");
+    console.log(((scrollY / (vh / 2)) * 100).toFixed(2) + "%");
 
     if (menuActive) {
       $("header").css("top", "0");
