@@ -38,7 +38,7 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
-    $(".page-2__knife-image").css("top", (scrollY / (vh / 2)) * 100) + "px";
+    $(".page-2__knife-image").css("top", (scrollY / (vh / 2)) * 100) + "%";
 
     if (menuActive) {
       $("header").css("top", "0");
