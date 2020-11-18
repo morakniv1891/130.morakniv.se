@@ -41,7 +41,7 @@ $(document).ready(function () {
 
     //Second page movements
     if ($(".page-2[data-scroll-section-inview]")) {
-      if (scrollY > vh) {
+      if (scrollY > vh * 2) {
         $(".page-2__knife-image").css("top", "50%");
       } else {
         $(".page-2__knife-image").css("top", (1 - scrollY / (vh / (1 + (1 - scrollY / vh)))) * 100 + 50 + "%");
@@ -59,9 +59,9 @@ $(document).ready(function () {
     if (o.direction === "up" && menuActive) {
       $("header").css("top", "0");
     }
-    // console.log(vh);
-    // console.log(scrollY);
-    // console.log(o);
+    console.log(vh);
+    console.log(scrollY);
+    console.log(o);
   });
 
   scroll.on("call", function (t, e, i) {
