@@ -47,7 +47,7 @@ $(document).ready(function () {
         let moveFactor = scrollY / vh !== 0 ? 1 - 1 / (1 / (scrollY / vh)) : 1;
         let move = (scrollY / vh) * 100;
         $(".page-2__knife-image").css("top", 150 - move * moveFactor + "%");
-        console.log(150 - move);
+        console.log(move * moveFactor);
         console.log(moveFactor);
         // console.log((1 / movement) * 50);
         // console.log((1 / movement) * 100 + (1 / movement) * 50);
