@@ -45,6 +45,7 @@ $(document).ready(function () {
         $(".page-2__knife-image").css("top", "50%");
       } else {
         $(".page-2__knife-image").css("top", 150 - (scrollY / vh) * 2 * 100 + "%");
+        console.log(scrollY / vh);
         console.log((scrollY / vh) * 2 * (scrollY / vh) * 100);
       }
     }
@@ -60,9 +61,9 @@ $(document).ready(function () {
     if (o.direction === "up" && menuActive) {
       $("header").css("top", "0");
     }
-    console.log(vh);
-    console.log(scrollY);
-    console.log(o);
+    // console.log(vh);
+    // console.log(scrollY);
+    // console.log(o);
   });
 
   scroll.on("call", function (t, e, i) {
