@@ -126,6 +126,22 @@ body {
       }
     }
 
+    .page-2 {
+      &__content {
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+      }
+
+      &__knife-image {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
     .page-2,
     .page-3 {
       height: 100vh;
