@@ -45,7 +45,7 @@ $(document).ready(function () {
         $(".page-2__knife-image").css("top", "50%");
       } else {
         let moveFactor = scrollY / vh !== 0 ? 1 / (scrollY / vh) : 0;
-        let move = (1 - scrollY / vh) * 100;
+        let move = (scrollY / vh) * 100;
         $(".page-2__knife-image").css("top", 150 - move + "%");
         console.log(150 - move);
         // console.log((1 / movement) * 50);
