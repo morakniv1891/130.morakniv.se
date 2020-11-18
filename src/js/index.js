@@ -44,11 +44,11 @@ $(document).ready(function () {
       if (scrollY >= vh) {
         $(".page-2__knife-image").css("top", "50%");
       } else {
-        let movement = scrollY / vh !== 0 ? 1 / (scrollY / vh) : 5000;
+        let moveFactor = scrollY / vh !== 0 ? 1 / (1 / (scrollY / vh)) : 0;
         $(".page-2__knife-image").css("top", 100 - (1 / movement) * 100 + (1 / movement) * 50 + "%");
-        console.log((1 / movement) * 100);
-        console.log((1 / movement) * 50);
-        console.log((1 / movement) * 100 + (1 / movement) * 50);
+        console.log(movement);
+        // console.log((1 / movement) * 50);
+        // console.log((1 / movement) * 100 + (1 / movement) * 50);
         // console.log(150 - (scrollY / (vh * 2)) * 100);
       }
     }
