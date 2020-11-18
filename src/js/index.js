@@ -46,7 +46,7 @@ $(document).ready(function () {
       } else {
         $(".page-2__knife-image").css("top", 150 - (scrollY / vh) * 2 * 100 + "%");
         console.log(scrollY / vh);
-        console.log((scrollY / vh) * 2 * (scrollY / vh) * 100);
+        console.log((scrollY / (vh * 2)) * ((scrollY / (vh * 2)) * 2) * 100);
       }
     }
 
