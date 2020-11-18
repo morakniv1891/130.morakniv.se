@@ -31,16 +31,21 @@ $(document).ready(function () {
     let scrollY = o.scroll.y;
 
     //First page movements
-    $(".page-1[data-scroll-section-inview] .middle img").css("opacity", 1 - scrollY / (vh / 2.5));
-    $(".page-1[data-scroll-section-inview] .middle img").css("transform", "scale(0.5)");
-    $(".page-1[data-scroll-section-inview] .top-line .left").css("opacity", 1 - scrollY / (vh / 3));
-    $(".page-1[data-scroll-section-inview] .bottom-line .left").css("opacity", 1 - scrollY / (vh / 2));
+    if ($(".page-1[data-scroll-section-inview]")) {
+      $(".page-1[data-scroll-section-inview] .middle img").css("opacity", 1 - scrollY / (vh / 2.5));
+      $(".page-1[data-scroll-section-inview] .middle img").css("transform", "scale(0.5)");
+      $(".page-1[data-scroll-section-inview] .top-line .left").css("opacity", 1 - scrollY / (vh / 3));
+      $(".page-1[data-scroll-section-inview] .bottom-line .left").css("opacity", 1 - scrollY / (vh / 2));
+    }
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
     if ($(".page-2[data-scroll-section-inview]")) {
-      $(".page-2__knife-image").css("top", (1 - scrollY / (vh / 2)) * 100 + 50 + "%");
-      console.log((1 - scrollY / (vh / 2)) * 100);
+      if (scrollY > vh / 2) {
+        $(".page-2__knife-image").css("top", "50%");
+      } else {
+        $(".page-2__knife-image").css("top", (1 - scrollY / (vh / 2)) * 100 + 50 + "%");
+      }
     }
 
     if (menuActive) {
