@@ -3,8 +3,6 @@ import LocomotiveScroll from "locomotive-scroll";
 
 //Main code
 $(document).ready(function () {
-  let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-  // document.documentElement.style.setProperty("--vh", `${vh * 0.01}px`);
   let menuActive = false;
   let menuHide = false;
   const scroll = new LocomotiveScroll({
@@ -29,6 +27,7 @@ $(document).ready(function () {
   });
 
   scroll.on("scroll", function (o) {
+    let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
     let scrollY = o.scroll.y;
     $(".page-1[data-scroll-section-inview] .middle img").css("opacity", 1 - scrollY / (vh / 2.5));
     $(".page-1[data-scroll-section-inview] .middle img").css("transform", "scale(0.5)");
