@@ -38,8 +38,10 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
-    $(".page-2__knife-image").css("top", (1 - scrollY / (vh / 2)) * 100 + 50 + "%");
-    console.log((1 - scrollY / (vh / 2)) * 100);
+    if ($(".page-2[data-scroll-section-inview]")) {
+      $(".page-2__knife-image").css("top", (1 - scrollY / (vh / 2)) * 100 + 50 + "%");
+      console.log((1 - scrollY / (vh / 2)) * 100);
+    }
 
     if (menuActive) {
       $("header").css("top", "0");
