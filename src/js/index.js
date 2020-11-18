@@ -41,7 +41,7 @@ $(document).ready(function () {
 
     //Second page movements
     if ($(".page-2[data-scroll-section-inview]")) {
-      if (scrollY > vh * 2) {
+      if (scrollY >= vh * 2) {
         $(".page-2__knife-image").css("top", "50%");
       } else {
         $(".page-2__knife-image").css("top", 150 - (scrollY / vh) * 2 * 100 + "%");
