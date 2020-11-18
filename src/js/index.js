@@ -60,9 +60,9 @@ $(document).ready(function () {
     if (o.direction === "up" && menuActive) {
       $("header").css("top", "0");
     }
-    console.log(vh);
-    console.log(scrollY);
-    console.log(o);
+    // console.log(vh);
+    // console.log(scrollY);
+    // console.log(o);
   });
 
   scroll.on("call", function (t, e, i) {
