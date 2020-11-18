@@ -44,8 +44,8 @@ $(document).ready(function () {
       if (scrollY > vh) {
         $(".page-2__knife-image").css("top", "50%");
       } else {
-        $(".page-2__knife-image").css("top", (1 - scrollY / (vh / (2 * (1 - scrollY / vh)))) * 100 + 50 + "%");
-        console.log(2 * (1 - scrollY / vh));
+        $(".page-2__knife-image").css("top", (1 - scrollY / (vh / (1 + (1 - scrollY / vh)))) * 100 + 50 + "%");
+        console.log(2(1 - scrollY / vh));
       }
     }
 
