@@ -50,6 +50,7 @@ $(document).ready(function () {
       $(".page-2__knife-image").css("top", "57.5%");
     }
 
+    //Hiding and showing menu
     if (menuActive && !menuHide) {
       $("header").css("top", "0");
     }
