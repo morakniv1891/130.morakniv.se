@@ -48,6 +48,7 @@ $(document).ready(function () {
       $(".page-2__knife-image").css("top", 115 - knifeOffset + "%");
     } else {
       $(".page-2__knife-image").css("top", "57.5%");
+      knifeOffset = 57.5;
     }
 
     //Hiding and showing menu
