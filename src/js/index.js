@@ -65,13 +65,12 @@ $(document).ready(function () {
         }
         break;
       case "menu-hide":
+        console.log("menu-hide");
         menuHide = true;
         break;
       case "knife-trigger":
         if (e === "enter") {
-          console.log("Entering");
         } else if (e === "exit") {
-          console.log("exiting");
         }
         break;
 
