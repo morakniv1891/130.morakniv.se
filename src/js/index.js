@@ -40,6 +40,8 @@ $(document).ready(function () {
     }
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
+    //Second page movements
+
     if (menuActive) {
       $("header").css("top", "0");
     }
@@ -52,16 +54,9 @@ $(document).ready(function () {
       $("header").css("top", "0");
     }
 
-    if ($(".knife-in-view.is-inview").length) {
-      $(".page-2__knife-image").addClass("knife-up");
-      $(".page-2__knife-image").removeClass("knife-down");
-    } else {
-      $(".page-2__knife-image.knife-up").addClass("knife-down");
-      $(".page-2__knife-image").removeClass("knife-up");
-    }
-    // console.log(vh);
-    // console.log(scrollY);
-    // console.log(o);
+    console.log(vh, "\n");
+    console.log(scrollY, "\n");
+    console.log(o, "\n");
   });
 
   scroll.on("call", function (t, e, i) {
