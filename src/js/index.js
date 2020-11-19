@@ -42,7 +42,7 @@ $(document).ready(function () {
 
     //Second page movements
 
-    if (menuActive) {
+    if (menuActive && !menuHide) {
       $("header").css("top", "0");
     }
 
