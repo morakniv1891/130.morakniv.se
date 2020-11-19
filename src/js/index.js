@@ -4,8 +4,7 @@ import LocomotiveScroll from "locomotive-scroll";
 //Main code
 $(document).ready(function () {
   let menuActive = false,
-    menuHide = false,
-    knifeInView = false;
+    menuHide = false;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -41,6 +40,8 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
+    if (scrollY > vh / 3) {
+    }
 
     if (menuActive && !menuHide) {
       $("header").css("top", "0");
