@@ -32,7 +32,7 @@ $(document).ready(function () {
     let scrollY = o.scroll.y;
 
     //First page movements
-    if ($(".page-1[data-scroll-section-inview]")) {
+    if ($(".page-1[data-scroll-section-inview]").length) {
       $(".page-1[data-scroll-section-inview] .middle img").css("opacity", 1 - scrollY / (vh / 2.5));
       $(".page-1[data-scroll-section-inview] .middle img").css("transform", "scale(0.5)");
       $(".page-1[data-scroll-section-inview] .top-line .left").css("opacity", 1 - scrollY / (vh / 3));
@@ -52,7 +52,7 @@ $(document).ready(function () {
       $("header").css("top", "0");
     }
 
-    if ($(".knife-in-view.is-inview")) {
+    if ($(".knife-in-view.is-inview").length) {
       $(".page-2__knife-image").animate({ top: "50%" }, 2000);
     } else if (o.direction === "up") {
       $(".page-2__knife-image").animate({ top: "115%" }, 2000);
