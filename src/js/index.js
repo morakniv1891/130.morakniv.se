@@ -40,10 +40,10 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
-    if (scrollY > vh / 3 && $(".page-2__knife-image").css("top") < "50%") {
-      // $(".page-2__knife-image").css("top", "-=2%");
-      console.log($(".page-2__knife-image").css("top") / o.limit);
-    }
+    // if (scrollY > vh / 3 && $(".page-2__knife-image").css("top") < "50%") {
+    // $(".page-2__knife-image").css("top", "-=2%");
+    console.log($(".page-2__knife-image").css("top"));
+    // }
 
     if (menuActive && !menuHide) {
       $("header").css("top", "0");
