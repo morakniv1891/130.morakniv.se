@@ -40,7 +40,7 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
-    if ($(".page-1[data-scroll-section-inview]").length) {
+    if ($(".page-1[data-scroll-section-inview]").length && scrollY <= vh) {
       $(".page-2__knife-image").css("top", 115 - (1 - 1 / (scrollY / vh)) * 50 + "%");
       console.log(scrollY / vh);
     }
