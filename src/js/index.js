@@ -67,7 +67,7 @@ $(document).ready(function () {
         break;
       case "knife-trigger":
         if (e === "enter") {
-          $(".page-2__content img").animate({ top: 0 }, 3000);
+          $(".page-2__content img").animate({ top: "50%" }, 3000);
           console.log("Entering");
         } else if (e === "exit") {
           console.log("exiting");
