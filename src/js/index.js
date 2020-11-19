@@ -5,6 +5,7 @@ import LocomotiveScroll from "locomotive-scroll";
 $(document).ready(function () {
   let menuActive = false,
     menuHide = false;
+  y = 0;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -41,7 +42,8 @@ $(document).ready(function () {
 
     //Second page movements
     // if (scrollY > vh / 3 && $(".page-2__knife-image").css("top") < "50%") {
-    // $(".page-2__knife-image").css("top", "-=2%");
+    y += 1;
+    $(".page-2__knife-image").css("transform", `translateY(${y})`);
     console.log($(".page-2__knife-image").css("top"));
     // }
 
