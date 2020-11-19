@@ -51,6 +51,12 @@ $(document).ready(function () {
     if (o.direction === "up" && menuActive) {
       $("header").css("top", "0");
     }
+
+    if ($(".knife-in-view.is-inview")) {
+      $(".page-2__knife-image").animate({ top: "50%" }, 2000);
+    } else if (o.direction === "up") {
+      $(".page-2__knife-image").animate({ top: "115%" }, 2000);
+    }
     // console.log(vh);
     // console.log(scrollY);
     // console.log(o);
