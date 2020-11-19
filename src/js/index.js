@@ -53,7 +53,11 @@ $(document).ready(function () {
     }
 
     if ($(".knife-in-view.is-inview").length) {
-      $(".page-2__knife-image").animate({ top: "50%" }, 2000);
+      $(".page-2__knife-image").addClass("knife-up");
+      $(".page-2__knife-image").removeClass("knife-down");
+    } else {
+      $(".page-2__knife-image").addClass("knife-down");
+      $(".page-2__knife-image").removeClass("knife-up");
     }
     // console.log(vh);
     // console.log(scrollY);
