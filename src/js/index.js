@@ -44,6 +44,7 @@ $(document).ready(function () {
       $(".page-2__knife-image").css("top", 115 - 65 * (scrollY / vh) + "%");
       console.log(scrollY / vh);
       console.log(vh / scrollY);
+      console.log((vh / scrollY) * (scrollY / vh));
     }
 
     //Hiding and showing menu
