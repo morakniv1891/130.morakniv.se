@@ -127,6 +127,10 @@ body {
     }
 
     .page-2 {
+      .knife-in-view {
+        margin-top: 30vh;
+      }
+
       &__content {
         position: fixed;
         top: 0;

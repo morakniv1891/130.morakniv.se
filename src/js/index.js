@@ -3,8 +3,9 @@ import LocomotiveScroll from "locomotive-scroll";
 
 //Main code
 $(document).ready(function () {
-  let menuActive = false;
-  let menuHide = false;
+  let menuActive = false,
+    menuHide = false,
+    knifeInView = false;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -61,17 +62,11 @@ $(document).ready(function () {
         if (e === "exit") {
           menuActive = true;
           $("header").css("top", "0");
-          $(".page-2__content img").animate({ top: "50%" }, 3000);
         }
         break;
       case "menu-hide":
         console.log("menu-hide");
         menuHide = true;
-        break;
-      case "knife-trigger":
-        if (e === "enter") {
-        } else if (e === "exit") {
-        }
         break;
 
       default:
