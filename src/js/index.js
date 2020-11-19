@@ -54,9 +54,9 @@ $(document).ready(function () {
       $("header").css("top", "0");
     }
 
-    console.log(vh, "\n");
-    console.log(scrollY, "\n");
-    console.log(o, "\n");
+    console.log(vh);
+    console.log(scrollY);
+    console.log(o);
   });
 
   scroll.on("call", function (t, e, i) {
