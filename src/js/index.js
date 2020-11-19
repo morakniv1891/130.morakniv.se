@@ -59,8 +59,8 @@ $(document).ready(function () {
     switch (t) {
       case "menu-entry":
         if (e === "exit") {
-          $("header").css("top", "0");
           menuActive = true;
+          $("header").css("top", "0");
           $(".page-2__content img").animate({ top: "50%" }, 3000);
         }
         break;
@@ -80,6 +80,6 @@ $(document).ready(function () {
     }
     // console.log(t);
     // console.log(e);
-    // console.log(i);
+    console.log(i);
   });
 });
