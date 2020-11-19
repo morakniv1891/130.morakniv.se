@@ -57,7 +57,7 @@ $(document).ready(function () {
       $(".page-2__knife-image").animate({ top: "50%" }, 2000);
     } else if (o.direction === "up") {
       console.log("not inview and up");
-      $(".page-2__knife-image").animate({ top: "115%" }, 2000);
+      $(".page-2__knife-image").animate({ top: "0" }, 2000);
     }
     // console.log(vh);
     // console.log(scrollY);
