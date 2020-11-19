@@ -41,8 +41,8 @@ $(document).ready(function () {
 
     //Second page movements
     if ($(".page-1[data-scroll-section-inview]").length && scrollY <= vh) {
-      let f = (scrollY * (scrollY / vh)) / vh;
-      $(".page-2__knife-image").css("top", 115 - 65 * f + "%");
+      let f = scrollY / vh;
+      $(".page-2__knife-image").css("top", 115 - 65 * (1 / f) + "%");
       console.log((scrollY * (scrollY / vh)) / vh);
     }
 
