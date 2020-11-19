@@ -42,7 +42,7 @@ $(document).ready(function () {
     //Second page movements
     if ($(".page-1[data-scroll-section-inview]").length && scrollY <= vh) {
       let f = scrollY / vh;
-      $(".page-2__knife-image").css("top", 115 - 65 * (1 / f) + "%");
+      $(".page-2__knife-image").css("top", 115 - 65 * (1 / (f * f)) + "%");
       console.log((scrollY * (scrollY / vh)) / vh);
     }
 
