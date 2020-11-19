@@ -41,10 +41,11 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
+    console.log(knifeOffset);
+
     if ($(".page-1[data-scroll-section-inview]").length && knifeOffset <= 57.5) {
       knifeOffset += o.speed / 10;
       $(".page-2__knife-image").css("top", 115 - knifeOffset + "%");
-      console.log(knifeOffset);
     } else {
       $(".page-2__knife-image").css("top", "57.5%");
     }
