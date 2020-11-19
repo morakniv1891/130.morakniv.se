@@ -42,6 +42,7 @@ $(document).ready(function () {
     //Second page movements
     if ($(".page-1[data-scroll-section-inview]").length) {
       $(".page-2__knife-image").css("top", 115 - (1 / (scrollY / vh)) * 50 + "%");
+      console.log((1 / (scrollY / vh)) * 50);
     }
 
     //Hiding and showing menu
