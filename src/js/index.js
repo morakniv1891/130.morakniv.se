@@ -60,6 +60,7 @@ $(document).ready(function () {
       case "menu-entry":
         if (e === "exit") {
           menuActive = true;
+          $("header").css("top", "0");
           $(".page-2__content img").animate({ top: "50%" }, 3000);
         }
         break;
