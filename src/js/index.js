@@ -56,7 +56,7 @@ $(document).ready(function () {
       $(".page-2__knife-image").addClass("knife-up");
       $(".page-2__knife-image").removeClass("knife-down");
     } else {
-      $(".page-2__knife-image").addClass("knife-down");
+      $(".page-2__knife-image.knife-up").addClass("knife-down");
       $(".page-2__knife-image").removeClass("knife-up");
     }
     // console.log(vh);
