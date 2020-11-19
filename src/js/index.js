@@ -44,7 +44,7 @@ $(document).ready(function () {
     if ($(".page-1[data-scroll-section-inview]").length) {
       knifeOffset += o.speed / 15;
       $(".page-2__knife-image").css("top", 115 - knifeOffset + "%");
-      console.log($(".page-2__knife-image").css("top"));
+      console.log(knifeOffset);
     }
 
     if (menuActive && !menuHide) {
