@@ -13,7 +13,7 @@ $(document).ready(function () {
     getDirection: true,
     getSpeed: true,
     repeat: true,
-    touchMultiplier: 1,
+    touchMultiplier: 1.5,
   });
 
   scroll.stop();
