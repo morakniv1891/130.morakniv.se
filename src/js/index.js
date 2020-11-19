@@ -4,8 +4,7 @@ import LocomotiveScroll from "locomotive-scroll";
 //Main code
 $(document).ready(function () {
   let menuActive = false,
-    menuHide = false,
-    y = 0;
+    menuHide = false;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -41,11 +40,10 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
-    // if (scrollY > vh / 3 && $(".page-2__knife-image").css("top") < "50%") {
-    y += 1;
-    $(".page-2__knife-image").css("transform", `translateY(${y})`);
-    console.log($(".page-2__knife-image").css("top"));
-    // }
+    if ($(".page-1[data-scroll-section-inview]").length) {
+      $(".page-2__knife-image").css("top", 115 - o.speed + "%");
+      console.log($(".page-2__knife-image").css("top"));
+    }
 
     if (menuActive && !menuHide) {
       $("header").css("top", "0");
