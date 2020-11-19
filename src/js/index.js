@@ -42,7 +42,7 @@ $(document).ready(function () {
     //Second page movements
     if (scrollY > vh / 3 && $(".page-2__knife-image").css("top") < "50%") {
       // $(".page-2__knife-image").css("top", "-=2%");
-      console.log($(".page-2__knife-image").css("top"));
+      console.log($(".page-2__knife-image").css("top") / o.limit);
     }
 
     if (menuActive && !menuHide) {
