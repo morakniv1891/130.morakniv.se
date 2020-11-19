@@ -53,8 +53,10 @@ $(document).ready(function () {
     }
 
     if ($(".knife-in-view.is-inview").length) {
+      console.log("inview");
       $(".page-2__knife-image").animate({ top: "50%" }, 2000);
     } else if (o.direction === "up") {
+      console.log("not inview and up");
       $(".page-2__knife-image").animate({ top: "115%" }, 2000);
     }
     // console.log(vh);
@@ -71,7 +73,6 @@ $(document).ready(function () {
         }
         break;
       case "menu-hide":
-        console.log("menu-hide");
         menuHide = true;
         break;
 
@@ -80,6 +81,6 @@ $(document).ready(function () {
     }
     // console.log(t);
     // console.log(e);
-    console.log(i);
+    // console.log(i);
   });
 });
