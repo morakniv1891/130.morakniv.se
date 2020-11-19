@@ -42,7 +42,7 @@ $(document).ready(function () {
 
     //Second page movements
     if ($(".page-1[data-scroll-section-inview]").length) {
-      knifeOffset += o.speed / 15;
+      knifeOffset += o.speed / 16;
       $(".page-2__knife-image").css("top", 115 - knifeOffset + "%");
       console.log(knifeOffset);
     }
