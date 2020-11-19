@@ -60,6 +60,7 @@ $(document).ready(function () {
       case "menu-entry":
         if (e === "exit") {
           menuActive = true;
+          $(".page-2__content img").animate({ top: "50%" }, 3000);
         }
         break;
       case "menu-hide":
@@ -67,7 +68,6 @@ $(document).ready(function () {
         break;
       case "knife-trigger":
         if (e === "enter") {
-          $(".page-2__content img").animate({ top: "50%" }, 3000);
           console.log("Entering");
         } else if (e === "exit") {
           console.log("exiting");
