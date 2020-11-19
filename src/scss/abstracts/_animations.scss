@@ -12,23 +12,3 @@
     transform: scale(1) translateY(0);
   }
 }
-
-@keyframes animatedKnifeUp {
-  0% {
-    top: 115%;
-  }
-
-  100% {
-    top: 50%;
-  }
-}
-
-@keyframes animatedKnifeDown {
-  0% {
-    top: 50%;
-  }
-
-  100% {
-    top: 115%;
-  }
-}
