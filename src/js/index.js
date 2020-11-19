@@ -64,7 +64,6 @@ $(document).ready(function () {
       case "menu-entry":
         if (e === "exit") {
           menuActive = true;
-          $("header").css("top", "0");
         }
         break;
       case "menu-hide":
