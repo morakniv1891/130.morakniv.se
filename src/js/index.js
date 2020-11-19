@@ -59,8 +59,8 @@ $(document).ready(function () {
     switch (t) {
       case "menu-entry":
         if (e === "exit") {
-          menuActive = true;
           $("header").css("top", "0");
+          menuActive = true;
           $(".page-2__content img").animate({ top: "50%" }, 3000);
         }
         break;
