@@ -4,8 +4,7 @@ import LocomotiveScroll from "locomotive-scroll";
 //Main code
 $(document).ready(function () {
   let menuActive = false,
-    menuHide = false,
-    knifeOffset = 0;
+    menuHide = false;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
@@ -41,14 +40,8 @@ $(document).ready(function () {
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
     //Second page movements
-    console.log(knifeOffset);
-
-    if ($(".page-1[data-scroll-section-inview]").length && knifeOffset <= 57.5) {
-      knifeOffset += o.speed / 10;
-      $(".page-2__knife-image").css("top", 115 - knifeOffset + "%");
-    } else {
-      $(".page-2__knife-image").css("top", "57.5%");
-      knifeOffset = 57.5;
+    if ($(".page-1[data-scroll-section-inview]").length) {
+      $(".page-2__knife-image").css("top", 115 - (1 / (scrollY / vh)) * 50 + "%");
     }
 
     //Hiding and showing menu
