@@ -4,8 +4,8 @@ import LocomotiveScroll from "locomotive-scroll";
 //Main code
 $(document).ready(function () {
   let menuActive = false,
-    menuHide = false;
-  y = 0;
+    menuHide = false,
+    y = 0;
   const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
