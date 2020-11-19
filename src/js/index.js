@@ -39,22 +39,6 @@ $(document).ready(function () {
     }
     $(".scroll-to-explore").css("opacity", 1 - scrollY / (vh / 3));
 
-    //Second page movements
-    if ($(".page-2[data-scroll-section-inview]")) {
-      if (scrollY >= vh) {
-        $(".page-2__knife-image").css("top", "50%");
-      } else {
-        let moveFactor = scrollY / vh !== 0 ? 1 - 1 / (1 / (scrollY / vh)) : 1;
-        let move = (scrollY / vh) * 100;
-        $(".page-2__knife-image").css("top", 150 - move * moveFactor + "%");
-        console.log(move * moveFactor);
-        console.log(moveFactor);
-        // console.log((1 / movement) * 50);
-        // console.log((1 / movement) * 100 + (1 / movement) * 50);
-        // console.log(150 - (scrollY / (vh * 2)) * 100);
-      }
-    }
-
     if (menuActive) {
       $("header").css("top", "0");
     }
