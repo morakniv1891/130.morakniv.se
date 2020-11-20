@@ -119,14 +119,9 @@ body {
       }
 
       h5 {
-        position: absolute;
-        top: 150%;
-        left: 0;
-        width: 100%;
         font-size: 18px;
         letter-spacing: 6px;
         text-align: center;
-        transform: translateY(-50%);
         animation: 1.5s 4s forwards animatedScrollToExploreIn ease-in-out;
 
         @media (min-width: 768px) {
