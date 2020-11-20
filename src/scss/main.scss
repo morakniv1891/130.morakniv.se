@@ -103,9 +103,8 @@ body {
       }
 
       .scroll-to-explore {
-        position: relative;
-        top: 20vh;
         height: 15vh;
+        overflow: hidden;
         // animation: 1.5s 4s forwards animatedScrollToExploreIn ease-in-out;
 
         h5 {
