@@ -67,6 +67,10 @@ body {
       background-size: cover;
       animation: 4s 1.5s forwards animatedHeroBackground ease-in-out;
 
+      @media (min-width: 768px) {
+        background: url(/assets/images/background01.png) no-repeat center top;
+      }
+
       .top-line,
       .bottom-line {
         height: 30vh;
