@@ -40,7 +40,7 @@ $(document).ready(function () {
   /*
   /**/
 
-  gsap.from(".scroll-to-explore h5", { x: 200, duration: 1.5, delay: 4 });
+  gsap.from(".scroll-to-explore h5", { y: 200, duration: 1.5, delay: 4 });
 
   ScrollTrigger.create({
     scroller: "#main",
