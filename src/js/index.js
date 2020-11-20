@@ -36,58 +36,76 @@ $(document).ready(function () {
   /*
   /**/
 
-  //"Scroll to explore" text coming in from the bottom
-  gsap.from(".scroll-to-explore h5", {
-    y: 200,
-    duration: 1.5,
-    delay: 4,
-    onComplete: () => {
-      scroll.start();
+  ScrollTrigger.matchMedia({
+    "(max-width: 767px)": function () {
+      //Fade out page-1 when starting to scroll down
+      gsap.to(".page-1", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-2",
+          start: "top bottom",
+          end: "center bottom",
+          scrub: true,
+        },
+      });
     },
-  });
-
-  //Pin "Scroll to explore" text until faded out
-  ScrollTrigger.create({
-    scroller: "#main",
-    trigger: "#page-1",
-    start: "bottom bottom",
-    end: "bottom top",
-    pin: ".scroll-to-explore",
-  });
-
-  //Fade out page-1 when starting to scroll down
-  gsap.to(".page-1", {
-    opacity: 0,
-    scrollTrigger: {
-      scroller: "#main",
-      trigger: "#page-2",
-      start: "top bottom",
-      end: "bottom bottom",
-      scrub: true,
+    "(min-width: 768px)": function () {
+      //Fade out page-1 when starting to scroll down
+      gsap.to(".page-1", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-2",
+          start: "top bottom",
+          end: "bottom bottom",
+          scrub: true,
+        },
+      });
     },
-  });
+    all: function () {
+      //"Scroll to explore" text coming in from the bottom
+      gsap.from(".scroll-to-explore h5", {
+        y: 200,
+        duration: 1.5,
+        delay: 4,
+        onComplete: () => {
+          scroll.start();
+        },
+      });
 
-  //Pin knife when reaching center of screen until ready to move out
-  ScrollTrigger.create({
-    scroller: "#main",
-    trigger: "#page-2",
-    endTrigger: "#page-4",
-    start: "center center",
-    end: "bottom bottom",
-    pin: "#knife-intro",
-  });
+      //Pin "Scroll to explore" text until faded out
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: "#page-1",
+        start: "bottom bottom",
+        end: "bottom top",
+        pin: ".scroll-to-explore",
+      });
 
-  //Fade in knife intro text
-  gsap.to(".knife-intro__text", {
-    opacity: 1,
-    scrollTrigger: {
-      scroller: "#main",
-      trigger: "#knife-intro",
-      endTrigger: "#page-3",
-      start: "center center",
-      end: "top top",
-      scrub: true,
-      // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
+      //Pin knife when reaching center of screen until ready to move out
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: "#page-2",
+        endTrigger: "#page-4",
+        start: "center center",
+        end: "bottom bottom",
+        pin: "#knife-intro",
+      });
+
+      //Fade in knife intro text
+      gsap.to(".knife-intro__text", {
+        opacity: 1,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#knife-intro",
+          endTrigger: "#page-3",
+          start: "center center",
+          end: "top top",
+          scrub: true,
+          // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
+        },
+      });
     },
   });
 
