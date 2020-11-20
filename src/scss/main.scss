@@ -137,17 +137,25 @@ body {
         }
 
         .title {
-          font-size: 55px;
+          font-size: 35px;
           text-align: center;
           letter-spacing: 5px;
           text-transform: uppercase;
+
+          @media (min-width: 768px) {
+            font-size: 55px;
+          }
         }
 
         .ingress {
-          font-size: 18px;
+          font-size: 14px;
           letter-spacing: 2px;
           max-width: 900px;
           margin: 0 auto;
+
+          @media (min-width: 768px) {
+            font-size: 18px;
+          }
         }
 
         .knife-image {
