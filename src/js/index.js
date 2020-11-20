@@ -85,8 +85,9 @@ $(document).ready(function () {
       trigger: "#knife-intro",
       endTrigger: "#page-3",
       start: "center center",
-      end: "top center",
+      end: "top top",
       scrub: true,
+      markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
     },
   });
 
