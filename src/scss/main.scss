@@ -122,10 +122,11 @@ body {
         font-size: 18px;
         letter-spacing: 6px;
         text-align: center;
-        // animation: 1.5s 4s forwards animatedScrollToExploreIn ease-in-out;
+        transform: translateY(25vh);
+        animation: 1.5s 4s forwards animatedScrollToExploreIn ease-in-out;
 
         @media (min-width: 768px) {
-          // transform: translateY(15vh);
+          transform: translateY(15vh);
         }
       }
     }
