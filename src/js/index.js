@@ -40,7 +40,7 @@ $(document).ready(function () {
   /*
   /**/
 
-  gsap.to(".page-1", { backgroundPositionX: "200vh", duration: 4, delay: 1.5 });
+  gsap.to(".page-1", { backgroundPositionY: "200vh", duration: 4, delay: 1.5 });
 
   //Scroll to explore text coming in from the bottom
   gsap.from(".scroll-to-explore h5", { y: 200, duration: 1.5, delay: 4, onComplete: startScroll });
