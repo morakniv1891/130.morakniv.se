@@ -73,7 +73,7 @@ $(document).ready(function () {
     trigger: "#page-2",
     endTrigger: "#page-4",
     start: "center center",
-    end: "top bottom",
+    end: "bottom bottom",
     pin: "#knife-image",
   });
 
