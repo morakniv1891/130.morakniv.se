@@ -43,8 +43,8 @@ $(document).ready(function () {
 
   ScrollTrigger.create({
     trigger: "#page-1",
-    start: "bottom top",
-    end: "bottom 150px",
+    start: "75% 50%",
+    end: "+=500",
     pin: ".scroll-to-explore",
     onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
     onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
