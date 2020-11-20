@@ -15,7 +15,7 @@ function scriptsDev(done) {
   glob("./src/js/*.js", function (err, files) {
     if (err) done(err);
     const tasks = files.map(function (entry) {
-      return browserify({ entries: [entry] })
+      return browserify({ transform: ["babelify"], entries: [entry] })
         .bundle()
         .pipe(source(entry))
         .pipe(
@@ -36,7 +36,7 @@ function scriptsBuild(done) {
   glob("./src/js/*.js", function (err, files) {
     if (err) done(err);
     const tasks = files.map(function (entry) {
-      return browserify({ entries: [entry] })
+      return browserify({ transform: ["babelify"], entries: [entry] })
         .bundle()
         .pipe(source(entry))
         .pipe(

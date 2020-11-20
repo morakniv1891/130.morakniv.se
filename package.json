@@ -40,6 +40,7 @@
     "eslint-config-google": "^0.14.0",
     "event-stream": "^4.0.1",
     "glob": "^7.1.6",
+    "gsap": "^3.5.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
