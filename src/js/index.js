@@ -107,6 +107,7 @@ $(document).ready(function () {
       });
 
       tl.to(".knife-intro__text", { opacity: 1, duration: 1 });
+      tl.to(".knife-intro__text", { opacity: 1, duration: 2 });
       tl.to(".knife-intro__text", { opacity: 0, duration: 1 });
 
       //Fade in knife intro text
