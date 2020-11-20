@@ -109,15 +109,54 @@ $(document).ready(function () {
       tl.to(".knife-intro__text", { opacity: 1, duration: 2 });
       tl.to(".knife-intro__text", { opacity: 0, duration: 1 });
 
-      //Fade in USPS
-      gsap.to(".usp", {
+      //Fade in USP1
+      gsap.to(".usp1", {
         opacity: 1,
         scrollTrigger: {
           scroller: "#main",
           trigger: "#page-4",
-          endTrigger: "#page-6",
+          // endTrigger: "#page-6",
           start: "center center",
-          end: "bottom bottom",
+          end: "center top",
+          scrub: true,
+        },
+      });
+
+      //Fade in USP2
+      gsap.to(".usp2", {
+        opacity: 1,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-4",
+          // endTrigger: "#page-6",
+          start: "center top",
+          end: "bottom top",
+          scrub: true,
+        },
+      });
+
+      //Fade in USP3
+      gsap.to(".usp3", {
+        opacity: 1,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-5",
+          // endTrigger: "#page-6",
+          start: "center center",
+          end: "center top",
+          scrub: true,
+        },
+      });
+
+      //Fade in USP4
+      gsap.to(".usp4", {
+        opacity: 1,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-5",
+          // endTrigger: "#page-6",
+          start: "center top",
+          end: "bottom top",
           scrub: true,
         },
       });
