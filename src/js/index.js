@@ -41,7 +41,14 @@ $(document).ready(function () {
   /**/
 
   //Scroll to explore text coming in from the bottom
-  gsap.from(".scroll-to-explore h5", { y: 200, duration: 1.5, delay: 4, onComplete: startScroll });
+  gsap.from(".scroll-to-explore h5", {
+    y: 200,
+    duration: 1.5,
+    delay: 4,
+    onComplete: () => {
+      scroll.start();
+    },
+  });
 
   ScrollTrigger.create({
     scroller: "#main",
