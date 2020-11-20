@@ -31,6 +31,17 @@ $(document).ready(function () {
 
   setTimeout(function () {
     scroll.start();
+    ScrollTrigger.create({
+      scroller: "#main",
+      trigger: "#page-2",
+      endTrigger: "#page-3",
+      start: "top bottom",
+      end: "top bottom",
+      pin: ".scroll-to-explore",
+      onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
+      onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
+      markers: { startColor: "green", endColor: "red", fontSize: "12px" },
+    });
   }, 4500);
 
   /*
@@ -39,18 +50,6 @@ $(document).ready(function () {
   /*
   /*
   /**/
-
-  ScrollTrigger.create({
-    scroller: "#main",
-    trigger: "#page-2",
-    endTrigger: "#page-3",
-    start: "top bottom",
-    end: "top bottom",
-    pin: ".scroll-to-explore",
-    onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
-    onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
-    markers: { startColor: "green", endColor: "red", fontSize: "12px" },
-  });
 
   /*
   /*
