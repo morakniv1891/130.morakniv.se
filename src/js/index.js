@@ -77,6 +77,19 @@ $(document).ready(function () {
     pin: "#knife-intro",
   });
 
+  //Fade in knife intro text
+  gsap.to(".knife-intro__text", {
+    opacity: 1,
+    scrollTrigger: {
+      scroller: "#main",
+      trigger: "#knife-intro",
+      endTrigger: "#page-3",
+      start: "center center",
+      end: "top 80%",
+      scrub: true,
+    },
+  });
+
   /*
   /*
   /*
