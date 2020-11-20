@@ -29,9 +29,9 @@ $(document).ready(function () {
 
   scroll.stop();
 
-  setTimeout(function () {
-    scroll.start();
-  }, 4500);
+  // setTimeout(function () {
+  //   scroll.start();
+  // }, 4500);
 
   /*
   /*
@@ -40,7 +40,7 @@ $(document).ready(function () {
   /*
   /**/
 
-  gsap.from(".scroll-to-explore h5", { y: 200, duration: 1.5, delay: 4 });
+  gsap.from(".scroll-to-explore h5", { y: 200, duration: 1.5, delay: 4, onComplete: scroll.start });
 
   ScrollTrigger.create({
     scroller: "#main",
