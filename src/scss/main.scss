@@ -119,13 +119,16 @@ body {
       }
 
       h5 {
+        position: absolute;
+        top: 150%;
+        left: 50%;
         font-size: 18px;
         letter-spacing: 6px;
-        transform: translateY(25vh);
+        transform: translate(-50%, -50%);
         animation: 1.5s 4s forwards animatedScrollToExploreIn ease-in-out;
 
         @media (min-width: 768px) {
-          transform: translateY(15vh);
+          // transform: translateY(15vh);
         }
       }
     }
