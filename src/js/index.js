@@ -113,9 +113,8 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: "#page-4",
-        endTrigger: "#page-5",
         start: "center center",
-        end: "bottom bottom",
+        end: "+=100%",
         pin: "#usps",
         markers: true,
       });
