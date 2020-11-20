@@ -121,7 +121,7 @@ body {
       h5 {
         font-size: 18px;
         letter-spacing: 6px;
-        transform: translateY(25vh);
+        transform: scale(1) translateY(25vh);
         animation: 1.5s 4s forwards animatedReset ease-in-out;
 
         @media (min-width: 768px) {
