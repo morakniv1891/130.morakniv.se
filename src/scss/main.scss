@@ -102,40 +102,22 @@ body {
         }
       }
 
-      .padding {
+      .scroll-to-explore {
         height: 15vh;
-      }
-    }
 
-    .scroll-to-explore {
-      position: fixed;
-      left: 0;
-      top: 75vh;
-      width: 100%;
-      height: 15vh;
+        h5 {
+          font-size: 18px;
+          letter-spacing: 6px;
+          text-align: center;
+          // animation: 1.5s 4s forwards animatedScrollToExploreIn ease-in-out;
 
-      @media (min-width: 768px) {
-        top: 85vh;
-      }
-
-      h5 {
-        font-size: 18px;
-        letter-spacing: 6px;
-        text-align: center;
-        transform: translateY(25vh);
-        animation: 1.5s 4s forwards animatedScrollToExploreIn ease-in-out;
-
-        @media (min-width: 768px) {
-          transform: translateY(15vh);
+          @media (min-width: 768px) {
+          }
         }
       }
     }
 
     .page-2 {
-      .knife-in-view {
-        height: 70%;
-      }
-
       &__content {
         position: fixed;
         top: 0;
