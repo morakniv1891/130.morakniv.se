@@ -85,7 +85,7 @@ $(document).ready(function () {
       trigger: "#knife-intro",
       endTrigger: "#page-3",
       start: "center center",
-      end: "top 80%",
+      end: "top center",
       scrub: true,
     },
   });
