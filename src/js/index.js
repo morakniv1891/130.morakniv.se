@@ -115,7 +115,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: "#page-4",
           start: "center bottom",
-          end: "+=1000",
+          end: "bottom bottom",
           scrub: true,
           markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
         },
