@@ -6,6 +6,7 @@ $(document).ready(function () {
   let menuActive = false,
     menuHide = false;
   const scroll = new LocomotiveScroll({
+    el: document.querySelector("#main"),
     smooth: true,
     scrollFromAnywhere: true,
   });
