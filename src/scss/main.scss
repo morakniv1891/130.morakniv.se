@@ -5,6 +5,11 @@
 
 @import "vendors/locomotive-scroll/locomotive-scroll";
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   background: $background-color;
   font-family: neue-haas-grotesk-display, sans-serif;
