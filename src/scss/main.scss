@@ -164,12 +164,30 @@ body {
           }
         }
 
-        .knife-image {
-          margin: 0 auto;
-          height: 60vh;
+        .image-wrapper {
+          position: relative;
 
-          @media (min-width: 768px) {
-            height: auto;
+          .knife-image {
+            margin: 0 auto;
+            height: 60vh;
+
+            @media (min-width: 768px) {
+              height: auto;
+            }
+          }
+
+          div[class^="usp"] {
+            position: absolute;
+            background: white;
+            width: 250px;
+            height: 250px;
+          }
+
+          .usp1 {
+            top: 0;
+            left: 0;
+            width: 50%;
+            transform: translateY(-100%);
           }
         }
       }
