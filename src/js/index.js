@@ -89,7 +89,7 @@ $(document).ready(function () {
         trigger: "#page-2",
         endTrigger: "#page-4",
         start: "center center",
-        end: "bottom bottom",
+        end: "bottom center",
         pin: "#knife-intro",
       });
 
