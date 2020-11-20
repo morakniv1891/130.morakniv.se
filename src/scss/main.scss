@@ -65,7 +65,7 @@ body {
       padding-top: 5vh;
       background: url(/assets/images/background01m.png) no-repeat center top;
       background-size: cover;
-      // animation: 4s 1.5s forwards animatedHeroBackground ease-in-out;
+      animation: 4s 1.5s forwards animatedHeroBackground ease-in-out;
 
       @media (min-width: 768px) {
         background: url(/assets/images/background01.png) no-repeat center top;

@@ -40,8 +40,6 @@ $(document).ready(function () {
   /*
   /**/
 
-  gsap.fromTo(".page-1", { backgroundPositionY: "0" }, { backgroundPositionY: "-200vh", duration: 4, delay: 1.5, ease: "power2.inOut" });
-
   //Scroll to explore text coming in from the bottom
   gsap.from(".scroll-to-explore h5", { y: 200, duration: 1.5, delay: 4, onComplete: startScroll });
 
