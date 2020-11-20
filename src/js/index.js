@@ -56,6 +56,18 @@ $(document).ready(function () {
     markers: { startColor: "green", endColor: "red", fontSize: "12px" },
   });
 
+  ScrollTrigger.create({
+    scroller: "#main",
+    trigger: "#page-2",
+    endTrigger: "#page-4",
+    start: "center center",
+    end: "top bottom",
+    pin: ".page-2 knife-image",
+    onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
+    onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
+    markers: { startColor: "green", endColor: "red", fontSize: "12px" },
+  });
+
   /*
   /*
   /*
