@@ -112,10 +112,9 @@ $(document).ready(function () {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
-          trigger: "#page-3",
-          endTrigger: "#page-4",
-          start: "top top",
-          end: "center center",
+          trigger: "#page-4",
+          start: "top bottom",
+          end: "bottom bottom",
           scrub: true,
           markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
         },
