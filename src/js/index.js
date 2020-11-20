@@ -117,7 +117,7 @@ $(document).ready(function () {
           start: "top top",
           end: "bottom bottom",
           scrub: true,
-          // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
+          markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
         },
       });
     },
