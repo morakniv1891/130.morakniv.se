@@ -5,10 +5,6 @@
 
 @import "vendors/locomotive-scroll/locomotive-scroll";
 
-html {
-  scroll-snap-type: y mandatory;
-}
-
 body {
   background: $background-color;
   font-family: neue-haas-grotesk-display, sans-serif;
