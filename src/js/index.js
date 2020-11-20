@@ -42,7 +42,7 @@ $(document).ready(function () {
   /**/
 
   ScrollTrigger.create({
-    trigger: ".page-2",
+    trigger: "#page-2",
     start: "bottom center",
     end: "bottom top",
     pin: ".scroll-to-explore",
