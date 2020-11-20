@@ -6,6 +6,7 @@
 @import "vendors/locomotive-scroll/locomotive-scroll";
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -164,6 +165,7 @@ body {
         }
 
         .knife-image {
+          margin: 0 auto;
           height: 60vh;
 
           @media (min-width: 768px) {
