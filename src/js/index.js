@@ -117,6 +117,7 @@ $(document).ready(function () {
         start: "center center",
         end: "bottom bottom",
         pin: "#usps",
+        markers: true,
       });
     },
   });
