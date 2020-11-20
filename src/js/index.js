@@ -106,6 +106,19 @@ $(document).ready(function () {
           // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
         },
       });
+
+      //Fade out knife intro text
+      gsap.to(".knife-intro__text", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-3",
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+          // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
+        },
+      });
     },
   });
 
