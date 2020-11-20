@@ -96,14 +96,13 @@ $(document).ready(function () {
       //Fade in knife intro text
       gsap.to(".knife-intro__text", {
         opacity: 1,
-        duration: 1,
         scrollTrigger: {
           scroller: "#main",
           trigger: "#knife-intro",
           endTrigger: "#page-3",
           start: "center center",
           end: "top top",
-          // scrub: true,
+          scrub: true,
           // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
         },
       });
@@ -113,9 +112,9 @@ $(document).ready(function () {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
-          trigger: "#page-4",
-          start: "center bottom",
-          end: "bottom bottom",
+          trigger: "#page-5",
+          start: "top bottom",
+          end: "center bottom",
           scrub: true,
           markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
         },
