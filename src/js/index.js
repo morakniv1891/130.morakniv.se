@@ -93,32 +93,48 @@ $(document).ready(function () {
         pin: "#knife-intro",
       });
 
-      //Fade in knife intro text
-      gsap.to(".knife-intro__text", {
-        opacity: 1,
+      //Fade in and out knife intro text
+      let tl = gsap.timeline({
         scrollTrigger: {
           scroller: "#main",
           trigger: "#knife-intro",
-          endTrigger: "#page-3",
+          endTrigger: "#page-4",
           start: "center center",
-          end: "top top",
+          end: "bottom bottom",
           scrub: true,
-          // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
+          markers: true,
         },
       });
 
+      tl.to(".knife-intro__text", { opacity: 1, duration: 1 });
+      tl.to(".knife-intro__text", { opacity: 0, duration: 1 });
+
+      //Fade in knife intro text
+      // gsap.to(".knife-intro__text", {
+      //   opacity: 1,
+      //   scrollTrigger: {
+      //     scroller: "#main",
+      //     trigger: "#knife-intro",
+      //     endTrigger: "#page-3",
+      //     start: "center center",
+      //     end: "top top",
+      //     scrub: true,
+      //     // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
+      //   },
+      // });
+
       //Fade out knife intro text
-      gsap.to(".knife-intro__text", {
-        opacity: 0,
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: "#page-5",
-          start: "top bottom",
-          end: "center bottom",
-          scrub: true,
-          markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
-        },
-      });
+      // gsap.to(".knife-intro__text", {
+      //   opacity: 0,
+      //   scrollTrigger: {
+      //     scroller: "#main",
+      //     trigger: "#page-5",
+      //     start: "top bottom",
+      //     end: "center bottom",
+      //     scrub: true,
+      //     markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
+      //   },
+      // });
     },
   });
 
