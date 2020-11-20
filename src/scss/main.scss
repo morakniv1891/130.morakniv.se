@@ -179,7 +179,9 @@ body {
 
           .usp {
             position: absolute;
-            border: 1px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 50%;
             height: 250px;
             opacity: 0;
