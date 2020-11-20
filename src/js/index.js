@@ -87,9 +87,9 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: "#page-2",
-        endTrigger: "#page-3",
+        endTrigger: "#page-4",
         start: "center center",
-        end: "center center",
+        end: "bottom bottom",
         pin: "#knife-intro",
       });
 
