@@ -29,10 +29,6 @@ $(document).ready(function () {
 
   scroll.stop();
 
-  function startScroll() {
-    scroll.start();
-  }
-
   /*
   /*
   /*
@@ -40,7 +36,7 @@ $(document).ready(function () {
   /*
   /**/
 
-  //Scroll to explore text coming in from the bottom
+  //"Scroll to explore" text coming in from the bottom
   gsap.from(".scroll-to-explore h5", {
     y: 200,
     duration: 1.5,
@@ -50,6 +46,7 @@ $(document).ready(function () {
     },
   });
 
+  //Pin "Scroll to explore" text until faded out
   ScrollTrigger.create({
     scroller: "#main",
     trigger: "#page-1",
@@ -58,6 +55,19 @@ $(document).ready(function () {
     pin: ".scroll-to-explore",
   });
 
+  //Fade out page-1 when starting to scroll down
+  gsap.to(".page-1", {
+    opacity: 0,
+    scrollTrigger: {
+      scroller: "#main",
+      trigger: "#page-2",
+      start: "top bottom",
+      end: "bottom bottom",
+      scrub: true,
+    },
+  });
+
+  //Pin knife when reaching center of screen until ready to move out
   ScrollTrigger.create({
     scroller: "#main",
     trigger: "#page-2",
