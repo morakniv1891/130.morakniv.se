@@ -46,7 +46,8 @@ $(document).ready(function () {
     start: "top top",
     end: "bottom top",
     pin: ".scroll-to-explore",
-    onEnter: ({ progress, direction, isActive }) => console.log(progress, direction, isActive),
+    onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
+    onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
   });
 
   /*
