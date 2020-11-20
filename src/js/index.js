@@ -49,6 +49,7 @@ $(document).ready(function () {
     pin: ".scroll-to-explore",
     onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
     onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
+    markers: { startColor: "green", endColor: "red", fontSize: "12px" },
   });
 
   /*
