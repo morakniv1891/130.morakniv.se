@@ -4,7 +4,7 @@ import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 //Main code
-$(document).ready(function () {
+$(window).load(function () {
   gsap.registerPlugin(ScrollTrigger);
 
   const scroll = new LocomotiveScroll({
