@@ -114,7 +114,7 @@ $(document).ready(function () {
         opacity: 1,
         scrollTrigger: {
           scroller: "#main",
-          trigger: "#page-5",
+          trigger: "#page-4",
           endTrigger: "#page-6",
           start: "center center",
           end: "bottom bottom",
