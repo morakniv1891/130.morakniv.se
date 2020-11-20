@@ -42,8 +42,8 @@ $(document).ready(function () {
   /**/
 
   ScrollTrigger.create({
-    trigger: "#page-2",
-    start: "bottom center",
+    trigger: "#page-1",
+    start: "top top",
     end: "bottom top",
     pin: ".scroll-to-explore",
     onEnter: ({ progress, direction, isActive }) => console.log(progress, direction, isActive),
