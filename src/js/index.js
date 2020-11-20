@@ -32,9 +32,6 @@ $(document).ready(function () {
   function startScroll() {
     scroll.start();
   }
-  // setTimeout(function () {
-  //   scroll.start();
-  // }, 4500);
 
   /*
   /*
@@ -43,6 +40,9 @@ $(document).ready(function () {
   /*
   /**/
 
+  gsap.to(".page-1", { backgroundPositionX: "200vh", duration: 4, delay: 1.5 });
+
+  //Scroll to explore text coming in from the bottom
   gsap.from(".scroll-to-explore h5", { y: 200, duration: 1.5, delay: 4, onComplete: startScroll });
 
   ScrollTrigger.create({
@@ -51,9 +51,6 @@ $(document).ready(function () {
     start: "bottom bottom",
     end: "bottom top",
     pin: ".scroll-to-explore",
-    onEnter: ({ progress, direction, isActive }) => console.log("Enter scroll-to-explore", progress, direction, isActive),
-    onLeave: ({ progress, direction, isActive }) => console.log("Leave scroll-to-explore", progress, direction, isActive),
-    markers: { startColor: "green", endColor: "red", fontSize: "12px" },
   });
 
   ScrollTrigger.create({
@@ -63,9 +60,6 @@ $(document).ready(function () {
     start: "center center",
     end: "top bottom",
     pin: "#knife-image",
-    onEnter: ({ progress, direction, isActive }) => console.log("Enter knife-image", progress, direction, isActive),
-    onLeave: ({ progress, direction, isActive }) => console.log("Leave knife-image", progress, direction, isActive),
-    markers: { startColor: "green", endColor: "red", fontSize: "12px" },
   });
 
   /*
