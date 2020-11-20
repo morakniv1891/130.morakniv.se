@@ -149,6 +149,14 @@ body {
           max-width: 900px;
           margin: 0 auto;
         }
+
+        .knife-image {
+          height: 60vh;
+
+          @media (min-width: 768px) {
+            height: auto;
+          }
+        }
       }
     }
 
