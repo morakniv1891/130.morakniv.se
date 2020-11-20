@@ -51,8 +51,8 @@ $(document).ready(function () {
     start: "top bottom",
     end: "bottom bottom",
     pin: ".scroll-to-explore",
-    onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
-    onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
+    onEnter: ({ progress, direction, isActive }) => console.log("Enter scroll-to-explore", progress, direction, isActive),
+    onLeave: ({ progress, direction, isActive }) => console.log("Leave scroll-to-explore", progress, direction, isActive),
     markers: { startColor: "green", endColor: "red", fontSize: "12px" },
   });
 
@@ -62,9 +62,9 @@ $(document).ready(function () {
     endTrigger: "#page-4",
     start: "center center",
     end: "top bottom",
-    pin: ".page-2 knife-image",
-    onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
-    onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
+    pin: "#knife-image",
+    onEnter: ({ progress, direction, isActive }) => console.log("Enter knife-image", progress, direction, isActive),
+    onLeave: ({ progress, direction, isActive }) => console.log("Leave knife-image", progress, direction, isActive),
     markers: { startColor: "green", endColor: "red", fontSize: "12px" },
   });
 
