@@ -34,6 +34,27 @@ $(document).ready(function () {
     scroll.start();
   }, 4500);
 
+  /*
+  /*
+  /*
+  /*
+  /*
+  /**/
+
+  ScrollTrigger.create({
+    trigger: ".page-2",
+    start: "top top",
+    end: "bottom 150px",
+    pin: ".scroll-to-explore",
+  });
+
+  /*
+  /*
+  /*
+  /*
+  /*
+  /**/
+
   $(window).on("beforeunload", function () {
     $("main").remove();
   });
