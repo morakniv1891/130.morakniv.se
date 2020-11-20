@@ -42,17 +42,17 @@ $(document).ready(function () {
 
   gsap.to(".scroll-to-explore", { top: 0, duration: 1.5, delay: 4 });
 
-  // ScrollTrigger.create({
-  //   scroller: "#main",
-  //   trigger: "#page-2",
-  //   endTrigger: "#page-3",
-  //   start: "top bottom",
-  //   end: "top bottom",
-  //   pin: ".scroll-to-explore",
-  //   onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
-  //   onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
-  //   markers: { startColor: "green", endColor: "red", fontSize: "12px" },
-  // });
+  ScrollTrigger.create({
+    scroller: "#main",
+    trigger: "#page-2",
+    endTrigger: "#page-3",
+    start: "bottom center",
+    end: "top bottom",
+    pin: ".scroll-to-explore",
+    onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
+    onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
+    markers: { startColor: "green", endColor: "red", fontSize: "12px" },
+  });
 
   /*
   /*
