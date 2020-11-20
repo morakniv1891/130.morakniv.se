@@ -108,6 +108,19 @@ $(document).ready(function () {
       tl.to(".knife-intro__text", { opacity: 1, duration: 1 });
       tl.to(".knife-intro__text", { opacity: 1, duration: 2 });
       tl.to(".knife-intro__text", { opacity: 0, duration: 1 });
+
+      //Fade in USPS
+      gsap.to(".usp", {
+        opacity: 1,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-5",
+          endTrigger: "#page-6",
+          start: "center center",
+          end: "bottom bottom",
+          scrub: true,
+        },
+      });
     },
   });
 
