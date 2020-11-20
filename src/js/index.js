@@ -7,6 +7,7 @@ $(document).ready(function () {
     menuHide = false;
   const scroll = new LocomotiveScroll({
     smooth: true,
+    scrollFromAnywhere: true,
   });
 
   scroll.stop();
