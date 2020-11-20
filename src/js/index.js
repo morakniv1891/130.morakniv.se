@@ -74,7 +74,7 @@ $(document).ready(function () {
     endTrigger: "#page-4",
     start: "center center",
     end: "bottom bottom",
-    pin: "#knife-image",
+    pin: "#knife-intro",
   });
 
   /*

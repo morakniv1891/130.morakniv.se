@@ -124,7 +124,11 @@ body {
       align-items: center;
       margin: 100px 0;
 
-      &__knife-image {
+      .content-wrapper {
+        .title {
+          font-size: 36px;
+          text-transform: uppercase;
+        }
       }
     }
 
