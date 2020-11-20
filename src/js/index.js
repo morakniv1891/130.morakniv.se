@@ -42,9 +42,9 @@ $(document).ready(function () {
 
   ScrollTrigger.create({
     scroller: "#main",
-    trigger: "#page-1",
-    start: "75% 50%",
-    end: "+=500",
+    trigger: "#page-2",
+    start: "top bottom",
+    end: "top top",
     pin: ".scroll-to-explore",
     onEnter: ({ progress, direction, isActive }) => console.log("Enter", progress, direction, isActive),
     onLeave: ({ progress, direction, isActive }) => console.log("Leave", progress, direction, isActive),
