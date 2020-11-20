@@ -46,6 +46,7 @@ $(document).ready(function () {
     start: "bottom center",
     end: "bottom top",
     pin: ".scroll-to-explore",
+    onEnter: ({ progress, direction, isActive }) => console.log(progress, direction, isActive),
   });
 
   /*
