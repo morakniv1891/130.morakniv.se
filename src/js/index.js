@@ -113,8 +113,9 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: "#page-3",
+          endTrigger: "#page-4",
           start: "top top",
-          end: "bottom top",
+          end: "bottom bottom",
           scrub: true,
           // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
         },
