@@ -113,7 +113,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: "#page-4",
-          start: "top bottom",
+          start: "center bottom",
           end: "+=1000",
           scrub: true,
           markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
