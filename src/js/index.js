@@ -87,7 +87,7 @@ $(document).ready(function () {
       start: "center center",
       end: "top top",
       scrub: true,
-      markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
+      // markers: { startColor: "white", endColor: "white", fontSize: "18px", fontWeight: "bold", indent: 20 },
     },
   });
 
