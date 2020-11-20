@@ -179,14 +179,19 @@ body {
           div[class^="usp"] {
             position: absolute;
             background: white;
-            width: 250px;
+            width: 50%;
             height: 250px;
           }
 
           .usp1 {
             top: 0;
             left: 0;
-            width: 50%;
+            transform: translateY(-100%);
+          }
+
+          .usp2 {
+            top: 0;
+            right: 0;
             transform: translateY(-100%);
           }
         }
