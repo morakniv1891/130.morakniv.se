@@ -96,6 +96,7 @@ $(document).ready(function () {
       //Fade in knife intro text
       gsap.to(".knife-intro__text", {
         opacity: 1,
+        duration: 1,
         scrollTrigger: {
           scroller: "#main",
           trigger: "#knife-intro",
@@ -108,17 +109,17 @@ $(document).ready(function () {
       });
 
       //Fade out knife intro text
-      gsap.to(".knife-intro__text", {
-        opacity: 0,
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: "#page-4",
-          start: "center bottom",
-          end: "+=1000",
-          scrub: true,
-          markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
-        },
-      });
+      // gsap.to(".knife-intro__text", {
+      //   opacity: 0,
+      //   scrollTrigger: {
+      //     scroller: "#main",
+      //     trigger: "#page-4",
+      //     start: "center bottom",
+      //     end: "+=1000",
+      //     scrub: true,
+      //     markers: { startColor: "green", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20 },
+      //   },
+      // });
     },
   });
 
