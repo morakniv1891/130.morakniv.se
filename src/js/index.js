@@ -8,7 +8,7 @@ $(document).ready(function () {
   gsap.registerPlugin(ScrollTrigger);
 
   const scroll = new LocomotiveScroll({
-    el: document.querySelector("#main"),
+    el: document.querySelector("body"),
     smooth: true,
   });
 
@@ -16,7 +16,7 @@ $(document).ready(function () {
   scroll.on("scroll", ScrollTrigger.update);
 
   // tell ScrollTrigger to use these proxy methods for the ".smooth-scroll" element since Locomotive Scroll is hijacking things
-  ScrollTrigger.scrollerProxy("#main", {
+  ScrollTrigger.scrollerProxy("body", {
     scrollTop(value) {
       return arguments.length ? scroll.scrollTo(value, 0, 0) : scroll.scroll.instance.scroll.y;
     }, // we don't have to define a scrollLeft because we're only scrolling vertically.
@@ -24,7 +24,7 @@ $(document).ready(function () {
       return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
     },
     // LocomotiveScroll handles things completely differently on mobile devices - it doesn't even transform the container at all! So to get the correct behavior and avoid jitters, we should pin things with position: fixed on mobile. We sense it by checking to see if there's a transform applied to the container (the LocomotiveScroll-controlled element).
-    pinType: document.querySelector("#main").style.transform ? "transform" : "fixed",
+    pinType: document.querySelector("body").style.transform ? "transform" : "fixed",
   });
 
   scroll.stop();
@@ -42,7 +42,7 @@ $(document).ready(function () {
       gsap.to(".page-1", {
         opacity: 0,
         scrollTrigger: {
-          scroller: "#main",
+          scroller: "body",
           trigger: "#page-2",
           start: "top bottom",
           end: "center bottom",
@@ -55,7 +55,7 @@ $(document).ready(function () {
       gsap.to(".page-1", {
         opacity: 0,
         scrollTrigger: {
-          scroller: "#main",
+          scroller: "body",
           trigger: "#page-2",
           start: "top bottom",
           end: "bottom bottom",
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
       //Pin "Scroll to explore" text until faded out
       ScrollTrigger.create({
-        scroller: "#main",
+        scroller: "body",
         trigger: "#page-1",
         start: "bottom bottom",
         end: "bottom top",
@@ -85,7 +85,7 @@ $(document).ready(function () {
 
       //Pin knife when reaching center of screen until ready to move out
       ScrollTrigger.create({
-        scroller: "#main",
+        scroller: "body",
         trigger: "#page-2",
         endTrigger: "#page-6",
         start: "center center",
@@ -96,7 +96,7 @@ $(document).ready(function () {
       //Fade in and out knife intro text
       let tl = gsap.timeline({
         scrollTrigger: {
-          scroller: "#main",
+          scroller: "body",
           trigger: "#knife-intro",
           endTrigger: "#page-4",
           start: "center center",
@@ -113,7 +113,7 @@ $(document).ready(function () {
       gsap.to(".usp1", {
         opacity: 1,
         scrollTrigger: {
-          scroller: "#main",
+          scroller: "body",
           trigger: "#page-4",
           // endTrigger: "#page-6",
           start: "center center",
@@ -126,7 +126,7 @@ $(document).ready(function () {
       gsap.to(".usp2", {
         opacity: 1,
         scrollTrigger: {
-          scroller: "#main",
+          scroller: "body",
           trigger: "#page-4",
           // endTrigger: "#page-6",
           start: "center top",
@@ -139,7 +139,7 @@ $(document).ready(function () {
       gsap.to(".usp3", {
         opacity: 1,
         scrollTrigger: {
-          scroller: "#main",
+          scroller: "body",
           trigger: "#page-5",
           // endTrigger: "#page-6",
           start: "center center",
@@ -152,7 +152,7 @@ $(document).ready(function () {
       gsap.to(".usp4", {
         opacity: 1,
         scrollTrigger: {
-          scroller: "#main",
+          scroller: "body",
           trigger: "#page-5",
           // endTrigger: "#page-6",
           start: "center top",
