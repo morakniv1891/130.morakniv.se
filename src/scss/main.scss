@@ -12,7 +12,7 @@ img {
 }
 
 html {
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   font-style: normal;
   color: $text-color;
   min-height: 100vh;
-  // overflow: hidden;
+  overflow: hidden;
 
   header {
     display: flex;
