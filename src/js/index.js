@@ -180,7 +180,6 @@ $(document).ready(function () {
           start: "top top",
           end: "top top",
           scrub: true,
-          markers: true,
         },
       });
 
@@ -192,7 +191,6 @@ $(document).ready(function () {
           start: "top bottom",
           end: "center center",
           scrub: true,
-          markers: true,
         },
       });
     },
