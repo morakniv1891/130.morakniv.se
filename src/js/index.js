@@ -217,7 +217,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: "#forest-square-image",
           endTrigger: "#page-9",
-          start: "center top",
+          start: "center center",
           end: "top top",
           scrub: true,
         },
