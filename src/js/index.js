@@ -189,7 +189,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: "#page-7",
           endTrigger: "#page-8",
-          start: "center top",
+          start: "10% top",
           end: "top top",
           scrub: true,
         },
