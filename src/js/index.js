@@ -28,7 +28,7 @@ $(document).ready(function () {
   //   pinType: document.querySelector("#main").style.transform ? "transform" : "fixed",
   // });
 
-  locoScroll.stop();
+  // locoScroll.stop();
 
   /*
   /*
