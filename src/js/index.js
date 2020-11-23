@@ -165,9 +165,9 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: "#page-7",
-        endTrigger: "#page-9",
+        // endTrigger: "#page-9",
         start: "top top",
-        end: "bottom bottom",
+        end: "+=250%",
         pin: "#page-7",
         pinSpacing: false,
       });
