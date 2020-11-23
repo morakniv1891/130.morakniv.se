@@ -171,6 +171,7 @@ $(document).ready(function () {
         pin: "#page-7",
       });
 
+      //Bring in square image from below
       gsap.from("#forest-square-image", {
         transform: "translateY(100vh)",
         scrollTrigger: {
@@ -183,6 +184,7 @@ $(document).ready(function () {
         },
       });
 
+      //Bring in text slightly delayd from the square image
       gsap.from("#forest-text", {
         transform: "translateY(100vh)",
         scrollTrigger: {
@@ -190,6 +192,18 @@ $(document).ready(function () {
           trigger: "#forest-square-image",
           start: "top bottom",
           end: "center center",
+          scrub: true,
+        },
+      });
+
+      gsap.to("#forest-square-image", {
+        transform: "scale(10)",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#forest-square-image",
+          endTrigger: "#page-8",
+          start: "center center",
+          end: "bottom bottom",
           scrub: true,
         },
       });
