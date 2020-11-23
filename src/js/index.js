@@ -199,7 +199,7 @@ $(document).ready(function () {
       gsap.to("#forest-square-image", {
         width: 6000,
         height: 6000,
-        transformOrigin: "50% 50%",
+        transformOrigin: "center",
         scrollTrigger: {
           scroller: "#main",
           trigger: "#forest-square-image",
