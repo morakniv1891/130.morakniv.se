@@ -238,9 +238,18 @@ body {
         background-size: cover;
       }
 
-      .text {
+      .text-wrapper {
         width: 600px;
         height: 600px;
+
+        .title {
+          font-size: 35px;
+          text-transform: uppercase;
+        }
+
+        .text {
+          font-size: 18px;
+        }
       }
     }
 
