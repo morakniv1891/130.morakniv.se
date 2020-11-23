@@ -241,15 +241,18 @@ body {
       .text-wrapper {
         width: 600px;
         height: 600px;
+        padding: 60px;
         color: white;
 
         .title {
           font-size: 35px;
           text-transform: uppercase;
+          letter-spacing: 5px;
         }
 
         .text {
           font-size: 18px;
+          letter-spacing: 2px;
         }
       }
     }
