@@ -167,7 +167,7 @@ $(document).ready(function () {
         trigger: "#page-7",
         // endTrigger: "#page-9",
         start: "top top",
-        end: "+=250%",
+        end: "+=300%",
         pin: "#page-7",
         pinSpacing: false,
       });
