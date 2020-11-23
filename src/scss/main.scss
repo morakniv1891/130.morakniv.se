@@ -12,7 +12,7 @@ img {
 }
 
 html {
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   font-style: normal;
   color: $text-color;
   min-height: 100vh;
-  // overflow: hidden;
+  overflow: hidden;
 
   header {
     display: flex;
@@ -53,13 +53,193 @@ body {
   }
 
   main {
-    // overflow: hidden !important;
+    overflow: hidden !important;
+    .boxed {
+      max-width: 1100px;
+    }
+
+    .flex-row {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .flex-column {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+    }
+
     .page-1 {
+      width: 100%;
       height: 100vh;
+      padding-top: 5vh;
+      background: url(/assets/images/background01_m.png) no-repeat center top;
+      background-size: cover;
+      animation: 4s 1.5s forwards animatedHeroBackground ease-in-out;
+
+      @media (min-width: 768px) {
+        background: url(/assets/images/background01.png) no-repeat center top;
+      }
+
+      .top-line,
+      .bottom-line {
+        height: 30vh;
+
+        @media (min-width: 768px) {
+          height: 35vh;
+        }
+
+        .left {
+          height: 100%;
+          border-right: 1px solid $border-color;
+          transform: translateY(100vh);
+          animation: 3s 1.5s forwards animatedReset ease-in-out;
+        }
+      }
+
+      .middle {
+        height: 10vh;
+
+        img {
+          width: 85vw;
+          z-index: 9;
+          transform: scale(2) translateY(50vh);
+          animation: 3.5s 1.5s forwards animatedReset ease-in-out;
+
+          @media (min-width: 768px) {
+            width: 500px;
+          }
+        }
+      }
+
+      .scroll-to-explore {
+        width: 100%;
+        height: 15vh;
+        overflow: visible;
+
+        h5 {
+          font-size: 18px;
+          letter-spacing: 6px;
+          text-align: center;
+
+          @media (min-width: 768px) {
+          }
+        }
+      }
+    }
+
+    .page-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 100px 0;
+
+      .content-wrapper {
+        max-width: 1100px;
+
+        .knife-intro__text {
+          opacity: 0;
+        }
+
+        .title {
+          padding: 0 10px;
+          font-size: 35px;
+          text-align: center;
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          margin-bottom: 50px;
+
+          @media (min-width: 768px) {
+            font-size: 50px;
+          }
+        }
+
+        .ingress {
+          max-width: 90vw;
+          font-size: 14px;
+          letter-spacing: 2px;
+          margin: 50px auto 0;
+
+          @media (min-width: 768px) {
+            font-size: 18px;
+          }
+
+          @media (min-width: 940px) {
+            max-width: 900px;
+          }
+        }
+
+        .image-wrapper {
+          position: relative;
+
+          .knife-image {
+            margin: 0 auto;
+            height: 60vh;
+
+            @media (min-width: 768px) {
+              height: auto;
+            }
+          }
+
+          .usp {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 250px;
+            opacity: 0;
+
+            h3 {
+              font-size: 72px;
+            }
+          }
+
+          .usp1 {
+            top: 0;
+            left: 0;
+            transform: translateY(-100%);
+          }
+
+          .usp2 {
+            top: 0;
+            right: 0;
+            transform: translateY(-100%);
+          }
+
+          .usp3 {
+            bottom: 0;
+            left: 0;
+            transform: translateY(100%);
+          }
+
+          .usp4 {
+            bottom: 0;
+            right: 0;
+            transform: translateY(100%);
+          }
+        }
+      }
+    }
+
+    .page-7 {
+      height: calc(100vw * 0.66);
+      background: url(/assets/images/forest.jpg) no-repeat center center;
+      background-size: cover;
+    }
+
+    .page-3,
+    .page-4,
+    .page-5,
+    .page-6 {
+      height: 100vh;
+      overflow: hidden;
     }
   }
 }
 
-// .c-scrollbar {
-//   opacity: 1;
-// }
+.c-scrollbar {
+  opacity: 1;
+}
