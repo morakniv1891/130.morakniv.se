@@ -225,8 +225,23 @@ body {
     }
 
     .page-7 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background: url(/assets/images/forest.jpg) no-repeat center center;
       background-size: cover;
+
+      .image {
+        width: 600px;
+        height: 600px;
+        background: url(/assets/images/background01.png) no-repeat center top;
+        background-size: cover;
+      }
+
+      .text {
+        width: 600px;
+        height: 600px;
+      }
     }
 
     .page-3,
