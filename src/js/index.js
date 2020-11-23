@@ -180,6 +180,7 @@ $(document).ready(function () {
           start: "top top",
           end: "top top",
           scrub: true,
+          markers: true,
         },
       });
 
