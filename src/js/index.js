@@ -188,10 +188,9 @@ $(document).ready(function () {
         transform: "translateY(100vh)",
         scrollTrigger: {
           scroller: "#main",
-          trigger: "#page-7",
-          endTrigger: "#page-8",
-          start: "10% top",
-          end: "top top",
+          trigger: "#forest-square-image",
+          start: "top bottom",
+          end: "center center",
           scrub: true,
           markers: true,
         },
