@@ -167,7 +167,7 @@ $(document).ready(function () {
         trigger: "#page-7",
         endTrigger: "#page-9",
         start: "top top",
-        end: "top bottom",
+        end: "bottom bottom",
         pin: "#page-7",
       });
     },
