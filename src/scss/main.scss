@@ -225,12 +225,13 @@ body {
     }
 
     .page-7 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      width: 100%;
       background: white;
 
       .forest-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
         background: url(/assets/images/forest.jpg) no-repeat center center;
