@@ -202,9 +202,9 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: "#forest-square-image",
-          endTrigger: "#page-8",
+          endTrigger: "#page-9",
           start: "center center",
-          end: "bottom bottom",
+          end: "top center",
           scrub: true,
         },
       });
