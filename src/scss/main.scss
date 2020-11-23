@@ -250,6 +250,7 @@ body {
             background-size: cover;
             opacity: 0.8;
             z-index: 99;
+            backface-visibility: hidden;
           }
         }
 
