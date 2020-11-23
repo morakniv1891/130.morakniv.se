@@ -218,7 +218,7 @@ $(document).ready(function () {
           trigger: "#forest-square-image",
           endTrigger: "#page-9",
           start: "center center",
-          end: "top top",
+          end: "bottom bottom",
           scrub: true,
         },
       });
