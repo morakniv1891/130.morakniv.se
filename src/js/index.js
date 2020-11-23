@@ -169,6 +169,7 @@ $(document).ready(function () {
         start: "top top",
         end: "bottom bottom",
         pin: "#page-7",
+        pinSpacing: false,
       });
 
       //Bring in square image from below
