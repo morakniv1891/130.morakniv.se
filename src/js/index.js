@@ -170,6 +170,18 @@ $(document).ready(function () {
         end: "bottom bottom",
         pin: "#page-7",
       });
+
+      gsap.from("#forest-square-image", {
+        y: "60vh",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-7",
+          endTrigger: "#page-8",
+          start: "center top",
+          end: "center top",
+          scrub: true,
+        },
+      });
     },
   });
 
