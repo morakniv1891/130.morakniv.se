@@ -211,7 +211,7 @@ $(document).ready(function () {
       });
 
       //Fade page to white
-      gsap.to("#page-7", {
+      gsap.to("#forest-image", {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
