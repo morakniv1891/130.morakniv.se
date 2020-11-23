@@ -201,6 +201,7 @@ $(document).ready(function () {
       gsap.to("#forest-square-image", {
         scale: 10,
         transformOrigin: "center",
+        translateZ: 1,
         ease: "power1.in",
         scrollTrigger: {
           scroller: "#main",
