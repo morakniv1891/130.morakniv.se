@@ -197,7 +197,7 @@ $(document).ready(function () {
       });
 
       gsap.to("#forest-square-image", {
-        transform: "scale(10)",
+        transform: "scale(10) translateY(0)",
         scrollTrigger: {
           scroller: "#main",
           trigger: "#forest-square-image",
