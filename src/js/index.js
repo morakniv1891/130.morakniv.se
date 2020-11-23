@@ -177,8 +177,8 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: "#page-7",
           endTrigger: "#page-8",
-          start: "center top",
-          end: "center top",
+          start: "top top",
+          end: "top top",
           scrub: true,
         },
       });
