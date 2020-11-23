@@ -196,6 +196,7 @@ $(document).ready(function () {
         },
       });
 
+      //Scale up square image
       gsap.to("#forest-square-image", {
         scale: 10,
         transformOrigin: "center",
@@ -205,6 +206,19 @@ $(document).ready(function () {
           endTrigger: "#page-9",
           start: "center center",
           end: "top center",
+          scrub: true,
+        },
+      });
+
+      //Fade page to white
+      gsap.to("#page-7", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#forest-square-image",
+          endTrigger: "#page-9",
+          start: "center top",
+          end: "top top",
           scrub: true,
         },
       });
