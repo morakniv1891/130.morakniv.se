@@ -192,6 +192,7 @@ $(document).ready(function () {
           start: "10% top",
           end: "top top",
           scrub: true,
+          markers: true,
         },
       });
     },
