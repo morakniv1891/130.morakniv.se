@@ -160,16 +160,6 @@ $(document).ready(function () {
           scrub: true,
         },
       });
-
-      //Pin forest when reaching center of screen until ready to move out
-      // ScrollTrigger.create({
-      //   scroller: "body",
-      //   trigger: "#page-6",
-      //   endTrigger: "#page-8",
-      //   start: "bottom top",
-      //   end: "bottom bottom",
-      //   pin: "#page-7",
-      // });
     },
   });
 
