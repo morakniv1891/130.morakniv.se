@@ -219,7 +219,7 @@ $(document).ready(function () {
           trigger: "#forest-square-image",
           // endTrigger: "#page-9",
           start: "center center",
-          end: "+=100%",
+          end: "+=80%",
           scrub: true,
         },
       });
