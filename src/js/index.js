@@ -182,6 +182,18 @@ $(document).ready(function () {
           scrub: true,
         },
       });
+
+      gsap.from("#forest-text", {
+        transform: "translateY(100vh)",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: "#page-7",
+          endTrigger: "#page-8",
+          start: "center top",
+          end: "top top",
+          scrub: true,
+        },
+      });
     },
   });
 
