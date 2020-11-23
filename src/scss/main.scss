@@ -225,7 +225,6 @@ body {
     }
 
     .page-7 {
-      height: 100vh;
       background: url(/assets/images/forest.jpg) no-repeat center center;
       background-size: cover;
     }
@@ -233,7 +232,9 @@ body {
     .page-3,
     .page-4,
     .page-5,
-    .page-6 {
+    .page-6,
+    .page-7,
+    .page-8 {
       height: 100vh;
       overflow: hidden;
     }
