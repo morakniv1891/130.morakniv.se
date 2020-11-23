@@ -225,7 +225,7 @@ body {
     }
 
     .page-7 {
-      height: 100vh;
+      height: calc(100vw * 0.66);
       background: url(/assets/images/forest.jpg) no-repeat center center;
       background-size: cover;
     }
