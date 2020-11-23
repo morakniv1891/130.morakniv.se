@@ -172,7 +172,7 @@ $(document).ready(function () {
       });
 
       gsap.from("#forest-square-image", {
-        y: "60vh",
+        transform: "translateY(60vh)",
         scrollTrigger: {
           scroller: "#main",
           trigger: "#page-7",
