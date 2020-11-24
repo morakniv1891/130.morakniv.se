@@ -290,5 +290,7 @@ body {
 }
 
 .c-scrollbar {
-  opacity: 1;
+  @media (min-width: 768px) {
+    opacity: 1;
+  }
 }
