@@ -20,7 +20,7 @@ body {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: $text-color;
+  color: $text-light-color;
   min-height: 100vh;
   overflow: hidden;
 
@@ -123,6 +123,7 @@ body {
           font-size: 18px;
           letter-spacing: 6px;
           text-align: center;
+          color: $text-faded-color;
 
           @media (min-width: 768px) {
           }
@@ -259,7 +260,7 @@ body {
           width: 600px;
           height: 600px;
           padding: 60px;
-          color: white;
+          color: $text-light-color;
           line-height: 45px;
 
           .title {
@@ -287,11 +288,5 @@ body {
       height: 100vh;
       overflow: hidden;
     }
-  }
-}
-
-.c-scrollbar {
-  @media (min-width: 768px) {
-    opacity: 1;
   }
 }

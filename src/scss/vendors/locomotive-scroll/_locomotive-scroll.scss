@@ -2,4 +2,8 @@
   background: $scroll-background-color;
   color: $scroll-color;
   z-index: 9999;
+
+  @media (min-width: 768px) {
+    opacity: 1;
+  }
 }
