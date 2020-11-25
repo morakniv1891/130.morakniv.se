@@ -58,6 +58,19 @@ body {
       max-width: 1100px;
     }
 
+    .title {
+      padding: 0 10px;
+      font-size: 35px;
+      text-align: center;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      margin-bottom: 70px;
+
+      @media (min-width: 768px) {
+        font-size: 45px;
+      }
+    }
+
     .flex-row {
       display: flex;
       flex-flow: row wrap;
@@ -142,19 +155,6 @@ body {
 
         .knife-intro__text {
           opacity: 0;
-        }
-
-        .title {
-          padding: 0 10px;
-          font-size: 35px;
-          text-align: center;
-          letter-spacing: 5px;
-          text-transform: uppercase;
-          margin-bottom: 70px;
-
-          @media (min-width: 768px) {
-            font-size: 45px;
-          }
         }
 
         .ingress {
@@ -264,12 +264,6 @@ body {
           padding: 60px;
           color: $text-light-color;
           line-height: 45px;
-
-          .title {
-            font-size: 35px;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-          }
 
           .text {
             font-size: 20px;
