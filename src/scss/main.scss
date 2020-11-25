@@ -61,7 +61,6 @@ body {
     .title {
       padding: 0 10px;
       font-size: 35px;
-      text-align: center;
       letter-spacing: 5px;
       text-transform: uppercase;
       margin-bottom: 70px;
@@ -155,6 +154,10 @@ body {
 
         .knife-intro__text {
           opacity: 0;
+        }
+
+        .title {
+          text-align: center;
         }
 
         .ingress {
