@@ -1,9 +1,12 @@
 .c-scrollbar {
   background: transparent;
-  color: $scroll-color;
   z-index: 9999;
 
   @media (min-width: 768px) {
     opacity: 1;
+  }
+
+  &__thumb {
+    color: $scroll-color;
   }
 }
