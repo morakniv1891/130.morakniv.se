@@ -58,6 +58,13 @@ $(document).ready(function () {
         ease: "power1.inOut",
       });
 
+      //Top line moving in from below
+      gsap.from(".left", {
+        y: "50vh",
+        duration: 3,
+        delay: 1.5,
+      });
+
       //"Scroll to explore" text coming in from the bottom
       gsap.from(".scroll-to-explore", {
         y: 200,
