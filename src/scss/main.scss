@@ -84,6 +84,14 @@ body {
         }
       }
 
+      .top-line {
+        padding-top: 40px;
+      }
+
+      .bottom-line {
+        padding-bottom: 40px;
+      }
+
       .middle {
         display: flex;
         justify-content: center;
@@ -96,6 +104,8 @@ body {
       }
 
       .padding {
+        display: flex;
+        justify-content: center;
         flex: 0 0 20vh;
       }
     }
