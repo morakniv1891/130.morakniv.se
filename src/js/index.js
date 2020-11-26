@@ -116,7 +116,20 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-2",
         start: "top top",
+        end: "+=200%",
         pin: ".page-2",
+      });
+
+      //Fade in knife intro text
+      gsap.from(".intro-text", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "top top",
+          end: "center top",
+          scrub: true,
+        },
       });
     },
   });
