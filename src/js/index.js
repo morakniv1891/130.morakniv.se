@@ -219,7 +219,7 @@ $(document).ready(function () {
         y: "-100vh",
         ease: "none",
         scrollTrigger: {
-          trigger: ".page-4",
+          trigger: ".page-4 .outer-wrapper",
           start: "top bottom",
           end: "bottom bottom",
           scrub: true,
