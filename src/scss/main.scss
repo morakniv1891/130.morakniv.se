@@ -173,8 +173,41 @@ body {
         }
       }
 
-      .knife-image {
-        max-height: 30vh;
+      .image-wrapper {
+        position: relative;
+
+        .knife-image {
+          max-height: 30vh;
+        }
+
+        .usp {
+          position: absolute;
+          width: 50%;
+        }
+
+        .usp1 {
+          top: 0;
+          left: 0;
+          transform: translateY(-100%);
+        }
+
+        .usp2 {
+          top: 0;
+          right: 0;
+          transform: translateY(-100%);
+        }
+
+        .usp3 {
+          bottom: 0;
+          left: 0;
+          transform: translateY(100%);
+        }
+
+        .usp4 {
+          bottom: 0;
+          right: 0;
+          transform: translateY(100%);
+        }
       }
     }
   }
