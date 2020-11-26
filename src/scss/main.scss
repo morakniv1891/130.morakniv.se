@@ -76,6 +76,10 @@ body {
       .middle {
         height: 15vh;
         flex: 0;
+
+        .anniversary-logo {
+          max-width: 90vw;
+        }
       }
 
       .padding {
