@@ -45,6 +45,7 @@ $(document).ready(function () {
         backgroundPositionY: 200,
         duration: 5,
         delay: 1.5,
+        ease: "power2.inOut",
       });
     },
   });
