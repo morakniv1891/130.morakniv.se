@@ -149,6 +149,18 @@ $(document).ready(function () {
         pinSpacing: false,
       });
 
+      //Bring in content from below
+      gsap.from(".page-3 .text-wrapper .title", {
+        y: "100vh",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-3",
+          start: "top top",
+          end: "+=100%",
+          scrub: true,
+        },
+      });
+
       //Fade to white
       gsap.to(".page-3 .content-wrapper", {
         opacity: 0,
