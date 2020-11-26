@@ -126,7 +126,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: ".page-2",
           start: "top top",
-          end: "+=100%",
+          end: "+=200%",
           scrub: true,
         },
       });
@@ -134,19 +134,10 @@ $(document).ready(function () {
       tl.from(".intro-text", { opacity: 0, duration: 1 });
       tl.to(".intro-text", { opacity: 1, duration: 2 });
       tl.to(".intro-text", { opacity: 0, duration: 1 });
-
-      //Fade in USP 1
-      gsap.from(".usp1", {
-        opacity: 0,
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-2",
-          start: "top+=1% top",
-          end: "+=100%",
-          scrub: true,
-          markers: true,
-        },
-      });
+      tl.from(".usp1", { opacity: 0, duration: 1 });
+      tl.from(".usp2", { opacity: 0, duration: 1 });
+      tl.from(".usp3", { opacity: 0, duration: 1 });
+      tl.from(".usp4", { opacity: 0, duration: 1 });
     },
   });
 
