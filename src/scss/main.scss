@@ -71,8 +71,7 @@ body {
       .bottom-line {
         display: flex;
         flex-flow: row nowrap;
-        height: 30vh;
-        flex: 0;
+        flex: 0 0 30vh;
 
         .left,
         .right {
@@ -86,8 +85,7 @@ body {
       }
 
       .middle {
-        height: 20vh;
-        flex: 0;
+        flex: 0 0 20vh;
 
         .anniversary-logo {
           max-width: 90vw;
@@ -95,8 +93,7 @@ body {
       }
 
       .padding {
-        height: 20vh;
-        flex: 0;
+        flex: 0 0 20vh;
       }
     }
   }
