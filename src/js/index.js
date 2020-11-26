@@ -180,8 +180,8 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-4",
-          start: "top bottom+=200%",
-          end: "top bottom+=100%",
+          start: "top bottom+=300%",
+          end: "top bottom+=200%",
           scrub: true,
         },
       });
