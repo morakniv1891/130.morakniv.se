@@ -215,9 +215,12 @@ body {
 
     .page-3 {
       height: 100vh;
+      z-index: -1;
       background: url(/assets/images/forest.jpg) no-repeat center center;
       background-size: cover;
-      z-index: -1;
+
+      .content-wrapper {
+      }
     }
 
     .page-4 {

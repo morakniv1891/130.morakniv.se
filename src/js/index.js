@@ -149,6 +149,18 @@ $(document).ready(function () {
         pinSpacing: false,
       });
 
+      //Fade to white
+      gsap.to(".page-3", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "top top",
+          end: "bottom-=50%",
+          scrub: true,
+        },
+      });
+
       //Pin fourth page when reaching top
       ScrollTrigger.create({
         scroller: "#main",
