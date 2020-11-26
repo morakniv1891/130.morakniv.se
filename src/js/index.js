@@ -162,7 +162,7 @@ $(document).ready(function () {
       });
 
       gsap.from(".page-3 .text-wrapper", {
-        y: "110vh",
+        y: "150vh",
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
