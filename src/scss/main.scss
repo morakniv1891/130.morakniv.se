@@ -92,41 +92,48 @@ body {
         background: url(/assets/images/background01.png) no-repeat center top;
       }
 
-      .top-line,
-      .bottom-line {
+      .content-wrapper {
         display: flex;
-        flex-flow: row nowrap;
-        flex: 0 0 40vh;
-
-        .left,
-        .right {
-          flex: 1;
-          height: 100%;
-        }
-
-        .left {
-          border-right: 1px solid $border-color;
-        }
-      }
-
-      .top-line {
-        padding-top: 40px;
-      }
-
-      .bottom-line {
-        padding-bottom: 40px;
-      }
-
-      .middle {
-        display: flex;
-        justify-content: center;
         align-items: center;
-        flex: 0 0 10vh;
+        flex-flow: column nowrap;
+        height: 90vh;
 
-        .anniversary-logo {
-          width: 90vw;
-          max-width: 500px;
-          z-index: 9;
+        .top-line,
+        .bottom-line {
+          display: flex;
+          flex-flow: row nowrap;
+          flex: 0 0 40vh;
+
+          .left,
+          .right {
+            flex: 1;
+            height: 100%;
+          }
+
+          .left {
+            border-right: 1px solid $border-color;
+          }
+        }
+
+        .top-line {
+          padding-top: 40px;
+        }
+
+        .bottom-line {
+          padding-bottom: 40px;
+        }
+
+        .middle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex: 0 0 10vh;
+
+          .anniversary-logo {
+            width: 90vw;
+            max-width: 500px;
+            z-index: 9;
+          }
         }
       }
 

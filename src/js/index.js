@@ -86,6 +86,17 @@ $(document).ready(function () {
         pinSpacing: false,
       });
 
+      //Start "scrolling" away everything but scroll to explore and fade it out
+      gsap.to("content-wrapper", {
+        y: 500,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "5% bottom",
+          scrub: true,
+        },
+      });
+
       //Pin second page when reaching top
       ScrollTrigger.create({
         scroller: "#main",
