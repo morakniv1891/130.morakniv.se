@@ -139,7 +139,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: ".page-2",
           start: "center top",
-          end: "+=25%",
+          end: "bottom top",
           scrub: true,
         },
       });
