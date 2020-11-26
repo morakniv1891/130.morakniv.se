@@ -150,7 +150,7 @@ $(document).ready(function () {
       });
 
       //Fade to white
-      gsap.to(".page-3", {
+      gsap.to(".page-3 .content-wrapper", {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
