@@ -41,6 +41,7 @@ $(document).ready(function () {
     "(max-width: 1023px)": function () {},
     "(min-width: 1024px)": function () {},
     all: function () {
+      //Background "scrolling" away upwards
       gsap.to(".page-1", {
         backgroundPositionY: "-150vh",
         duration: 4,
@@ -48,12 +49,23 @@ $(document).ready(function () {
         ease: "power2.inOut",
       });
 
+      //Anniversary logo coming in from below and shrinking into position
       gsap.from(".anniversary-logo", {
         scale: 2,
         y: "75vh",
         duration: 3.5,
         delay: 1.5,
         ease: "power1.inOut",
+      });
+
+      //"Scroll to explore" text coming in from the bottom
+      gsap.from(".scroll-to-explore", {
+        y: 200,
+        duration: 1.5,
+        delay: 4,
+        onComplete: () => {
+          scroll.start();
+        },
       });
     },
   });
