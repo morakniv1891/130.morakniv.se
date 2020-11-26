@@ -150,16 +150,16 @@ $(document).ready(function () {
       });
 
       //Fade to white
-      // gsap.to(".page-3 .content-wrapper", {
-      //   opacity: 0,
-      //   scrollTrigger: {
-      //     scroller: "#main",
-      //     trigger: ".page-4",
-      //     start: "top bottom+=75%",
-      //     end: "top bottom",
-      //     scrub: true,
-      //   },
-      // });
+      gsap.to(".page-3 .content-wrapper", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-4",
+          start: "top bottom+=75%",
+          end: "top bottom",
+          scrub: true,
+        },
+      });
 
       //Pin fourth page when reaching top
       ScrollTrigger.create({
