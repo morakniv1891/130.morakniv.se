@@ -181,8 +181,8 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-4",
-          start: "top bottom+=275%",
-          end: "top bottom+=75%",
+          start: "top bottom+=325%",
+          end: "top bottom+=125%",
           scrub: true,
         },
       });
@@ -193,8 +193,8 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-4",
-          start: "top bottom+=300%",
-          end: "top bottom+=200%",
+          start: "top bottom+=275%",
+          end: "top bottom+=175%",
           scrub: true,
         },
       });
