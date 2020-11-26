@@ -67,7 +67,7 @@ $(document).ready(function () {
 
       //"Scroll to explore" text coming in from the bottom
       gsap.from(".scroll-to-explore", {
-        y: 200,
+        y: "30vh",
         duration: 1.5,
         delay: 4,
         onComplete: () => {
