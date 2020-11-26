@@ -120,29 +120,20 @@ $(document).ready(function () {
         pin: ".page-2",
       });
 
-      //Fade in knife intro text
-      gsap.from(".intro-text", {
-        opacity: 0,
+      //Fade in and out knife intro text
+      let tl = gsap.timeline({
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-2",
           start: "top top",
-          end: "center top",
+          end: "+=50%",
           scrub: true,
         },
       });
 
-      //Fade out knife intro text
-      gsap.to(".intro-text", {
-        opacity: 0,
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-2",
-          start: "center top",
-          end: "bottom top",
-          scrub: true,
-        },
-      });
+      tl.from(".intro-text", { opacity: 0, duration: 1 });
+      tl.to(".intro-text", { opacity: 1, duration: 2 });
+      tl.to(".intro-text", { opacity: 0, duration: 1 });
     },
   });
 
