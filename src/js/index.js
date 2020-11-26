@@ -219,8 +219,9 @@ $(document).ready(function () {
         y: "-100vh",
         ease: "none",
         scrollTrigger: {
-          trigger: ".page-4",
-          start: "top top",
+          trigger: ".dummy",
+          endTrigger: ".page-4",
+          start: "bottom bottom",
           end: "bottom bottom",
           scrub: true,
           markers: true,
