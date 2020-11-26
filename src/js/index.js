@@ -42,7 +42,7 @@ $(document).ready(function () {
     "(min-width: 1024px)": function () {},
     all: function () {
       gsap.to(".page-1", {
-        backgroundPositionY: 100,
+        backgroundPositionY: 150,
         duration: 4,
         delay: 1.5,
         ease: "power2.inOut",
