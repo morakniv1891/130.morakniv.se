@@ -49,7 +49,7 @@ $(document).ready(function () {
       });
 
       gsap.from(".anniverary-logo", {
-        scale: 2,
+        scale: "2",
         duration: 3.5,
         delay: 1.5,
       });
