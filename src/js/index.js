@@ -215,7 +215,7 @@ $(document).ready(function () {
       t2.from(".page-3 .second-content-wrapper .text-wrapper", { opacity: 0, duration: 1 });
 
       //Minus offset on page 4 to fake pre-pinning
-      gsap.from(".page-4 .outer-wrapper", {
+      gsap.to(".page-4 .outer-wrapper", {
         y: "-100vh",
         ease: "none",
         scrollTrigger: {
