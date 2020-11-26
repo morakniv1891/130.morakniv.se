@@ -268,8 +268,8 @@ body {
           flex-flow: column;
           justify-content: flex-end;
           position: relative;
-          width: 80%;
           height: 60vh;
+          width: 100%;
           padding-bottom: 100px;
 
           &::after {
@@ -278,6 +278,11 @@ body {
             bottom: 0;
             right: 0;
             font-size: 150px;
+          }
+
+          .title,
+          .text {
+            width: 80%;
           }
         }
       }
