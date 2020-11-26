@@ -227,6 +227,17 @@ body {
         height: 100%;
         background: url(/assets/images/forest.jpg) no-repeat center center;
         background-size: cover;
+
+        .knife-in-hand {
+          width: 512px;
+          height: 512px;
+          object-fit: cover;
+        }
+
+        .text-wrapper {
+          width: 512px;
+          height: 512px;
+        }
       }
     }
 
