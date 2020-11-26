@@ -212,5 +212,11 @@ body {
         }
       }
     }
+
+    .page-3 {
+      height: 100vh;
+      background: url(/assets/images/forest.jpg) no-repeat center center;
+      background-size: cover;
+    }
   }
 }
