@@ -69,8 +69,20 @@ body {
 
       .top-line,
       .bottom-line {
+        display: flex;
+        flex-flow: row nowrap;
         height: 35vh;
         flex: 1;
+
+        .left,
+        .right {
+          flex: 1;
+          height: 100%;
+        }
+
+        .left {
+          border-right: 1px solid $border-color;
+        }
       }
 
       .middle {
