@@ -63,6 +63,7 @@ $(document).ready(function () {
         y: "100vh",
         duration: 3,
         delay: 1.5,
+        ease: "power1.inOut",
       });
 
       //"Scroll to explore" text coming in from the bottom
@@ -70,6 +71,7 @@ $(document).ready(function () {
         y: "30vh",
         duration: 1.5,
         delay: 4,
+        ease: "power1.in",
         onComplete: () => {
           scroll.start();
         },
