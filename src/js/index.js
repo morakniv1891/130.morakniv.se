@@ -42,8 +42,8 @@ $(document).ready(function () {
     "(min-width: 1024px)": function () {},
     all: function () {
       gsap.to(".page-1", {
-        backgroundPositionY: 200,
-        duration: 5,
+        backgroundPositionY: 100,
+        duration: 4,
         delay: 1.5,
         ease: "power2.inOut",
       });
