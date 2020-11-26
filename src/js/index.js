@@ -175,7 +175,7 @@ $(document).ready(function () {
       });
 
       //Grow square image
-      gsap.from(".page-3 .knife-in-hand", {
+      gsap.to(".page-3 .knife-in-hand", {
         scale: 10,
         ease: "power1.in",
         scrollTrigger: {
