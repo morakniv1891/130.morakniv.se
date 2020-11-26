@@ -154,8 +154,8 @@ $(document).ready(function () {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
-          trigger: ".page-2",
-          start: "top top",
+          trigger: ".page-3",
+          start: "bottom-=100% top",
           end: "bottom-=50%",
           scrub: true,
         },
