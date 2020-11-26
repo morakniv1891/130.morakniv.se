@@ -214,6 +214,18 @@ $(document).ready(function () {
       t2.from(".page-3 .second-content-wrapper .knife-image", { opacity: 0, duration: 1 });
       t2.from(".page-3 .second-content-wrapper .text-wrapper", { opacity: 0, duration: 1 });
 
+      //Minus offset on page 4 to fake pre-pinning
+      gsap.to(".page-4 .content-wrapper", {
+        translateY: "0",
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".page-4",
+          start: "top bottom",
+          end: "bottom bottom",
+          scrub: true,
+        },
+      });
+
       //Pin fourth page when reaching top
       ScrollTrigger.create({
         scroller: "#main",
