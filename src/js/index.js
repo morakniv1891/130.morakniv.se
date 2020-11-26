@@ -136,7 +136,7 @@ $(document).ready(function () {
       tl.to(".intro-text", { opacity: 0, duration: 1 });
 
       //Fade in USP 1
-      gsap.from(".usp-1", {
+      gsap.from(".usp1", {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
