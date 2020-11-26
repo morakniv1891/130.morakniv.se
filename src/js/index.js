@@ -156,6 +156,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: ".page-4",
           start: "top bottom+=50%",
+          end: "top bottom",
           scrub: true,
         },
       });
