@@ -126,7 +126,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: ".page-2",
           start: "top top",
-          end: "+=200%",
+          end: "+=300%",
           scrub: true,
         },
       });
