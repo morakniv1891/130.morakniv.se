@@ -174,6 +174,19 @@ $(document).ready(function () {
         },
       });
 
+      //Grow square image
+      gsap.from(".page-3 .knife-in-hand", {
+        scale: 10,
+        ease: "power1.in",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-4",
+          start: "top bottom+=275%",
+          end: "top bottom+=75%",
+          scrub: true,
+        },
+      });
+
       //Fade to white
       gsap.to(".page-3 .content-wrapper", {
         opacity: 0,
