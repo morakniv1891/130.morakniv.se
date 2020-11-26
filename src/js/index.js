@@ -38,11 +38,11 @@ $(document).ready(function () {
   /**/
 
   ScrollTrigger.matchMedia({
-    "(max-width: 767px)": function () {},
-    "(min-width: 768px)": function () {},
+    "(max-width: 1023px)": function () {},
+    "(min-width: 1024px)": function () {},
     all: function () {
       gsap.to(".page-1", {
-        backgroundPositionY: -200,
+        backgroundPositionY: 200,
         duration: 4,
         delay: 1.5,
       });
