@@ -56,12 +56,31 @@ body {
     overflow: hidden !important;
 
     .page-1 {
+      display: flex;
+      align-items: center;
+      flex-flow: column nowrap;
       height: 100vh;
       background: url(/assets/images/background01_m.png) no-repeat center top;
       background-size: cover;
 
       @media (min-width: 1024px) {
         background: url(/assets/images/background01.png) no-repeat center top;
+      }
+
+      .top-line,
+      .bottom-line {
+        height: 35vh;
+        flex: 1;
+      }
+
+      .middle {
+        height: 15vh;
+        flex: 0;
+      }
+
+      .padding {
+        height: 15vh;
+        flex: 0;
       }
     }
   }
