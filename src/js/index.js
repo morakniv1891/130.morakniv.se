@@ -138,6 +138,16 @@ $(document).ready(function () {
       tl.from(".usp2", { opacity: 0, duration: 1 });
       tl.from(".usp3", { opacity: 0, duration: 1 });
       tl.from(".usp4", { opacity: 0, duration: 1 });
+
+      //Pin third page when reaching top
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-3",
+        start: "top top",
+        end: "+=500%",
+        pin: ".page-3",
+        pinSpacing: false,
+      });
     },
   });
 
