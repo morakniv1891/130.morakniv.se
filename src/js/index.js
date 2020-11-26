@@ -155,8 +155,8 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-4",
-          start: "top bottom+=75%",
-          end: "top bottom",
+          start: "top bottom+=200%",
+          end: "top bottom+=100%",
           scrub: true,
         },
       });
