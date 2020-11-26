@@ -11,6 +11,16 @@ img {
   height: auto;
 }
 
+h1 {
+  font-size: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  @media (min-width: 1024px) {
+    font-size: 45px;
+  }
+}
+
 html {
   overflow: hidden;
 }
