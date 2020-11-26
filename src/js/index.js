@@ -155,14 +155,14 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
-          start: "top top+=5%",
+          start: "top top",
           end: "+=100%",
           scrub: true,
         },
       });
 
       gsap.from(".page-3 .text-wrapper", {
-        y: "100vh",
+        y: "110vh",
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
