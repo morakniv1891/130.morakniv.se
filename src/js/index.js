@@ -43,7 +43,7 @@ $(document).ready(function () {
     all: function () {
       gsap.to(".page-1", {
         backgroundPositionY: 200,
-        duration: 4,
+        duration: 5,
         delay: 1.5,
       });
     },
