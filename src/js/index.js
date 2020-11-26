@@ -76,6 +76,16 @@ $(document).ready(function () {
           scroll.start();
         },
       });
+
+      //Pin first page directly
+      //Pin "Scroll to explore" text until faded out
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-1",
+        start: "top top",
+        pin: ".page-1",
+        pinSpacing: false,
+      });
     },
   });
 
