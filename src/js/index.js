@@ -48,8 +48,8 @@ $(document).ready(function () {
         ease: "power2.inOut",
       });
 
-      gsap.from(".anniverary-logo", {
-        scale: "2",
+      gsap.from(".anniversary-logo", {
+        scale: 2,
         duration: 3.5,
         delay: 1.5,
       });
