@@ -134,6 +134,18 @@ $(document).ready(function () {
       tl.from(".intro-text", { opacity: 0, duration: 1 });
       tl.to(".intro-text", { opacity: 1, duration: 2 });
       tl.to(".intro-text", { opacity: 0, duration: 1 });
+
+      //Fade in USP 1
+      gsap.from(".usp-1", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "100% bottom",
+          end: "+=100%",
+          scrub: true,
+        },
+      });
     },
   });
 
