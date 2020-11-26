@@ -42,9 +42,9 @@ $(document).ready(function () {
     "(min-width: 768px)": function () {},
     all: function () {
       gsap.to(".page-1", {
-        backgroundPositionY: "-200vh",
-        duration: 4000,
-        delay: 1500,
+        backgroundPositionY: -200,
+        duration: 4,
+        delay: 1.5,
       });
     },
   });
