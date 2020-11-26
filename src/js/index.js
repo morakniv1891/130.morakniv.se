@@ -47,6 +47,12 @@ $(document).ready(function () {
         delay: 1.5,
         ease: "power2.inOut",
       });
+
+      gsap.from(".anniverary-logo", {
+        scale: 2,
+        duration: 3.5,
+        delay: 1.5,
+      });
     },
   });
 
