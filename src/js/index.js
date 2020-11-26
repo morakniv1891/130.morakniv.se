@@ -154,9 +154,8 @@ $(document).ready(function () {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
-          trigger: ".page-3",
-          start: "75% center",
-          end: "bottom bottom",
+          trigger: ".page-4",
+          start: "top bottom+=50%",
           scrub: true,
         },
       });
