@@ -307,7 +307,7 @@ body {
         left: 50%;
         width: 1024px;
         height: 100%;
-        transform: translate(-50%, -100vh);
+        transform: translateX(-50%);
         color: $text-light-color;
 
         .text-wrapper {
