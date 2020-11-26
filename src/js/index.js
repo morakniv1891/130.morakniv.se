@@ -144,7 +144,7 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-3",
         start: "top top",
-        end: "+=400%",
+        end: "+=600%",
         pin: ".page-3",
         pinSpacing: false,
       });
