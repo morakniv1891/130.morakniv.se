@@ -104,7 +104,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-2",
-          endTrigger: ".page-2 .title",
+          endTrigger: ".page-2 .knife-image",
           start: "top bottom",
           end: "bottom bottom",
           scrub: true,
