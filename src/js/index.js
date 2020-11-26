@@ -200,6 +200,20 @@ $(document).ready(function () {
         },
       });
 
+      //Fade in and out knife intro text
+      let t2 = gsap.timeline({
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-4",
+          start: "top bottom+=175%",
+          end: "top bottom+=50%",
+          scrub: true,
+        },
+      });
+
+      t2.from(".page-3 .second-content-wrapper .knife-image", { opacity: 0, duration: 1 });
+      t2.from(".page-3 .second-content-wrapper .text-wrapper", { opacity: 0, duration: 1 });
+
       //Pin fourth page when reaching top
       ScrollTrigger.create({
         scroller: "#main",
