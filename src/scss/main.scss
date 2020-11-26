@@ -300,12 +300,12 @@ body {
     .page-4 {
       height: 100vh;
       background: $background-color;
+      overflow: hidden;
 
       .outer-wrapper {
         position: relative;
         width: 100%;
         height: 100%;
-        overflow: hidden;
 
         .content-wrapper {
           position: absolute;
