@@ -87,7 +87,7 @@ $(document).ready(function () {
       });
 
       //Start "scrolling" away everything but scroll to explore and fade it out
-      gsap.to("content-wrapper", {
+      gsap.to(".content-wrapper", {
         y: 500,
         scrollTrigger: {
           scroller: "#main",
