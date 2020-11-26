@@ -162,7 +162,7 @@ $(document).ready(function () {
         },
       });
 
-      gsap.from(".page-3 .text-wrapper", {
+      gsap.from(".page-3 .first-content-wrapper .text-wrapper", {
         y: "150vh",
         ease: "power1.inOut",
         scrollTrigger: {
