@@ -65,6 +65,11 @@ body {
   main {
     overflow: hidden !important;
 
+    .boxed {
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+
     .page-1 {
       display: flex;
       align-items: center;
