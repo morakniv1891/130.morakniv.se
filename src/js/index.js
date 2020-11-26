@@ -190,6 +190,7 @@ $(document).ready(function () {
       //Fade to white
       gsap.to(".page-3 .content-wrapper", {
         opacity: 0,
+        ease: "power1.in",
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-4",
