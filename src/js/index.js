@@ -220,7 +220,7 @@ $(document).ready(function () {
         ease: "none",
         scrollTrigger: {
           trigger: ".page-4",
-          start: "top bottom",
+          start: "top top",
           end: "bottom bottom",
           scrub: true,
           markers: true,
