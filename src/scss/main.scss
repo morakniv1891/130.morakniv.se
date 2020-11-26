@@ -71,7 +71,7 @@ body {
       .bottom-line {
         display: flex;
         flex-flow: row nowrap;
-        flex: 0 0 35vh;
+        flex: 0 0 40vh;
 
         .left,
         .right {
@@ -108,7 +108,7 @@ body {
       .padding {
         display: flex;
         justify-content: center;
-        flex: 0 0 20vh;
+        flex: 0 0 10vh;
 
         .scroll-to-explore {
           font-size: 18px;
