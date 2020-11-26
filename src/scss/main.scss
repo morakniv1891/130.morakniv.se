@@ -280,7 +280,8 @@ body {
             font-weight: 600;
             letter-spacing: 30px;
             z-index: -1;
-            color: lightgray;
+            color: $text-dark-color;
+            opacity: 0.15;
           }
 
           .title,
