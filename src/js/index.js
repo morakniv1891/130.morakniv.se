@@ -150,8 +150,20 @@ $(document).ready(function () {
       });
 
       //Bring in content from below
-      gsap.from(".page-3 .text-wrapper .title", {
+      gsap.from(".page-3 .knife-in-hand", {
         y: "100vh",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-3",
+          start: "top top",
+          end: "+=100%",
+          scrub: true,
+        },
+      });
+
+      gsap.from(".page-3 .text-wrapper", {
+        y: "100vh",
+        delay: 0.5,
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
