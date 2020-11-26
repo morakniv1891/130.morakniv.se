@@ -253,11 +253,7 @@ body {
           padding: 50px;
         }
       }
-    }
 
-    .page-3,
-    .page-4 {
-      .content-wrapper,
       .second-content-wrapper {
         position: absolute;
         top: 0;
@@ -304,6 +300,48 @@ body {
     .page-4 {
       height: 100vh;
       background: $background-color;
+
+      .content-wrapper {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 1024px;
+        height: 100%;
+        transform: translateX(-50%);
+        color: $text-light-color;
+
+        .text-wrapper {
+          display: flex;
+          flex-flow: column;
+          justify-content: flex-end;
+          position: relative;
+          height: 50vh;
+          width: 100%;
+
+          &::after {
+            content: "2021";
+            position: absolute;
+            bottom: -50px;
+            right: -50px;
+            font-size: 300px;
+            font-weight: 600;
+            letter-spacing: 30px;
+            z-index: -1;
+            color: $text-light-color;
+            opacity: 0.15;
+          }
+
+          .title,
+          .text {
+            width: 80%;
+          }
+        }
+
+        .knife-image {
+          display: block;
+          margin-top: 100px;
+        }
+      }
     }
   }
 }
