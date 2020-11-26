@@ -219,10 +219,8 @@ $(document).ready(function () {
         y: "-100vh",
         ease: "none",
         scrollTrigger: {
-          trigger: ".dummy",
-          endTrigger: ".page-4",
-          start: "bottom bottom",
-          end: "bottom bottom",
+          trigger: ".page-4 .content-wrapper",
+          start: "center center",
           scrub: true,
           markers: true,
         },
