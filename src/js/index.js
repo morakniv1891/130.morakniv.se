@@ -141,7 +141,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-2",
-          start: "50% top",
+          start: "top+=25% top",
           end: "+=100%",
           scrub: true,
           markers: true,
