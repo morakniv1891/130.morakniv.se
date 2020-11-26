@@ -188,7 +188,7 @@ $(document).ready(function () {
       });
 
       //Fade to white
-      gsap.to(".page-3 .content-wrapper", {
+      gsap.to(".page-3 .first-content-wrapper", {
         opacity: 0,
         ease: "power1.in",
         scrollTrigger: {
