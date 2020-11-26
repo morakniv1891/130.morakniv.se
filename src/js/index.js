@@ -71,7 +71,7 @@ $(document).ready(function () {
         y: "30vh",
         duration: 1.5,
         delay: 4,
-        ease: "power1.in",
+        ease: "power1.inOut",
         onComplete: () => {
           scroll.start();
         },
