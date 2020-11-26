@@ -205,7 +205,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-4",
-          start: "top bottom+=175%",
+          start: "top bottom+=150%",
           end: "top bottom+=50%",
           scrub: true,
         },
