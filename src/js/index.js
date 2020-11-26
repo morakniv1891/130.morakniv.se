@@ -216,7 +216,7 @@ $(document).ready(function () {
 
       //Minus offset on page 4 to fake pre-pinning
       gsap.from(".page-4 .content-wrapper", {
-        Y: "-100vh",
+        y: "-100vh",
         ease: "none",
         scrollTrigger: {
           trigger: ".page-4",
