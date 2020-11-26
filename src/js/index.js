@@ -40,7 +40,13 @@ $(document).ready(function () {
   ScrollTrigger.matchMedia({
     "(max-width: 767px)": function () {},
     "(min-width: 768px)": function () {},
-    all: function () {},
+    all: function () {
+      gsap.to(".page-1", {
+        backgroundPositionY: -200,
+        duration: 4000,
+        delay: 1500,
+      });
+    },
   });
 
   /*
