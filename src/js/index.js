@@ -134,10 +134,10 @@ $(document).ready(function () {
       tl.from(".intro-text", { opacity: 0, duration: 1 });
       tl.to(".intro-text", { opacity: 1, duration: 2 });
       tl.to(".intro-text", { opacity: 0, duration: 1 });
-      tl.from(".usp1", { opacity: 0, duration: 1 });
-      tl.from(".usp2", { opacity: 0, duration: 1 });
-      tl.from(".usp3", { opacity: 0, duration: 1 });
-      tl.from(".usp4", { opacity: 0, duration: 1 });
+      tl.from(".usp1", { opacity: 0, duration: 2 });
+      tl.from(".usp2", { opacity: 0, duration: 2 });
+      tl.from(".usp3", { opacity: 0, duration: 2 });
+      tl.from(".usp4", { opacity: 0, duration: 2 });
     },
   });
 
