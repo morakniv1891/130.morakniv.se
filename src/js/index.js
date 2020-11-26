@@ -50,7 +50,7 @@ $(document).ready(function () {
 
       gsap.from(".anniversary-logo", {
         scale: 2,
-        y: "60vh",
+        y: "75vh",
         duration: 3.5,
         delay: 1.5,
         ease: "power1.inOut",
