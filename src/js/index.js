@@ -155,7 +155,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
-          start: "top top",
+          start: "top top+=5%",
           end: "+=100%",
           scrub: true,
         },
@@ -163,7 +163,6 @@ $(document).ready(function () {
 
       gsap.from(".page-3 .text-wrapper", {
         y: "100vh",
-        delay: 0.5,
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
