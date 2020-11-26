@@ -60,7 +60,7 @@ $(document).ready(function () {
 
       //Top line moving in from below
       gsap.from(".left", {
-        y: "50vh",
+        y: "100vh",
         duration: 3,
         delay: 1.5,
       });
