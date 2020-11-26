@@ -21,6 +21,16 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  @media (min-width: 1024px) {
+    font-size: 40px;
+  }
+}
+
 p {
   font-size: 14px;
   letter-spacing: 2px;
@@ -232,6 +242,7 @@ body {
           width: 512px;
           height: 512px;
           object-fit: cover;
+          z-index: 9;
         }
 
         .text-wrapper {
