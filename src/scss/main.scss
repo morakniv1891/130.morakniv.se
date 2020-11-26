@@ -21,6 +21,16 @@ h1 {
   }
 }
 
+p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
 html {
   overflow: hidden;
 }
