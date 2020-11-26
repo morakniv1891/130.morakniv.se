@@ -53,6 +53,7 @@ $(document).ready(function () {
         y: "60vh",
         duration: 3.5,
         delay: 1.5,
+        ease: "power1.inOut",
       });
     },
   });
