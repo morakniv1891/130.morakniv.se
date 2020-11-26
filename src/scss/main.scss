@@ -107,6 +107,12 @@ body {
         display: flex;
         justify-content: center;
         flex: 0 0 20vh;
+
+        .scroll-to-explore {
+          font-size: 18px;
+          letter-spacing: 6px;
+          color: $text-faded-color;
+        }
       }
     }
   }
