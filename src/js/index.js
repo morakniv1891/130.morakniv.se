@@ -103,7 +103,8 @@ $(document).ready(function () {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
-          trigger: ".page-2 .title",
+          trigger: ".page-2",
+          endTrigger: ".page-2 .title",
           start: "top bottom",
           end: "bottom bottom",
           scrub: true,
