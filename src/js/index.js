@@ -147,6 +147,14 @@ $(document).ready(function () {
         pin: ".page-3",
         pinSpacing: false,
       });
+
+      //Pin fourth page when reaching top
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-4",
+        start: "top top",
+        pin: ".page-4",
+      });
     },
   });
 
