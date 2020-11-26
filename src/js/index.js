@@ -116,7 +116,7 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-2",
         start: "top top",
-        end: "+=200%",
+        end: "+=300%",
         pin: ".page-2",
       });
 
@@ -128,6 +128,18 @@ $(document).ready(function () {
           trigger: ".page-2",
           start: "top top",
           end: "center top",
+          scrub: true,
+        },
+      });
+
+      //Fade out knife intro text
+      gsap.to(".intro-text", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "center top",
+          end: "+=25%",
           scrub: true,
         },
       });
