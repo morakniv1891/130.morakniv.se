@@ -144,6 +144,7 @@ $(document).ready(function () {
           start: "100% bottom",
           end: "+=100%",
           scrub: true,
+          markers: true,
         },
       });
     },
