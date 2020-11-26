@@ -89,11 +89,11 @@ $(document).ready(function () {
       //Start "scrolling" away everything but scroll to explore and fade it out
       gsap.to(".content-wrapper", {
         y: "-100vh",
-        opacity: 0,
+        opacity: -1,
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-2",
-          start: "5% bottom",
+          start: "1% bottom",
           scrub: true,
         },
       });
