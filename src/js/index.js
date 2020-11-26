@@ -200,7 +200,7 @@ $(document).ready(function () {
         },
       });
 
-      //Fade in and out knife intro text
+      //Fade in knife image and then text
       let t2 = gsap.timeline({
         scrollTrigger: {
           scroller: "#main",
