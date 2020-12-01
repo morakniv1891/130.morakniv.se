@@ -238,7 +238,7 @@ $(document).ready(function () {
       //Move and scale down title into position
       gsap.from(".page-6 .title", {
         y: "-200px",
-        scale: 1.5,
+        scale: 2,
         ease: "power1.inOut",
         scrollTrigger: {
           scroller: "#main",
