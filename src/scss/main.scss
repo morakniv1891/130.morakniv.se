@@ -363,12 +363,24 @@ body {
     }
 
     .page-6 {
+      display: flex;
+      flex-flow: row wrap;
+
       .title {
+        width: 100%;
         font-size: 150px;
         font-weight: 600;
         text-transform: uppercase;
         text-align: center;
         letter-spacing: 20px;
+      }
+
+      .text {
+        width: 50%;
+      }
+
+      .anniversary-patch {
+        width: 50%;
       }
     }
   }
