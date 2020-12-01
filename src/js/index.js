@@ -234,6 +234,20 @@ $(document).ready(function () {
         start: "top top",
         pin: ".page-4",
       });
+
+      //Move and scale down title into position
+      gsap.from(".page-6 .title", {
+        y: "-200px",
+        scale: 1.5,
+        ease: "power1.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-6",
+          start: "top bottom",
+          end: "top center",
+          scrub: true,
+        },
+      });
     },
   });
 
