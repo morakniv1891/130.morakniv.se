@@ -152,7 +152,7 @@ $(document).ready(function () {
       //Bring in content from below
       gsap.from(".page-3 .knife-in-hand", {
         y: "100vh",
-        ease: "power3.inOut",
+        ease: "power1.inOut",
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
