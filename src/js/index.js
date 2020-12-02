@@ -248,6 +248,19 @@ $(document).ready(function () {
           scrub: true,
         },
       });
+
+      //Move image-1 faster than scroll
+      gsap.to(".page-7 .image-1", {
+        top: "-20%",
+        ease: "none",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom",
+          end: "bottom bottom",
+          scrub: true,
+        },
+      });
     },
   });
 
