@@ -264,7 +264,7 @@ $(document).ready(function () {
 
       //Move image-2 faster than scroll
       gsap.to(".page-7 .image-1", {
-        top: "0",
+        top: "-10%",
         ease: "none",
         scrollTrigger: {
           scroller: "#main",
