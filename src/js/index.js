@@ -249,10 +249,8 @@ $(document).ready(function () {
         },
       });
 
-      //Move image-1 faster than scroll
-      gsap.to(".page-7 .image-1", {
-        top: "-20%",
-        ease: "none",
+      //Move images faster than scroll
+      let t3 = gsap.timeline({
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-7",
@@ -262,18 +260,8 @@ $(document).ready(function () {
         },
       });
 
-      //Move image-2 faster than scroll
-      gsap.to(".page-7 .image-1", {
-        top: "-10%",
-        ease: "none",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top bottom",
-          end: "bottom bottom",
-          scrub: true,
-        },
-      });
+      t3.to(".page-7 .image-1", { top: "-20%", duration: 1 }, 0);
+      t3.to(".page-7 .image-2", { top: "-10%", duration: 1 }, 0);
     },
   });
 
