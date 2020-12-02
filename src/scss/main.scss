@@ -390,11 +390,21 @@ body {
     }
 
     .page-7 {
+      position: relative;
+
       .text {
         max-width: 1024px;
         margin: 0 auto;
         padding: 40vh 25px;
         font-size: 45px;
+      }
+
+      .image-1 {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 25vw;
+        height: auto;
       }
     }
   }
