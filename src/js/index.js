@@ -152,7 +152,7 @@ $(document).ready(function () {
       //Bring in content from below
       gsap.from(".page-3 .knife-in-hand", {
         y: "100vh",
-        ease: CustomEase.create("custom", "M0,0,C0.272,0,0.472,0.44,0.496,0.496,0.653,0.862,0.744,1,1,1"),
+        ease: "power1.inOut",
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
@@ -164,7 +164,7 @@ $(document).ready(function () {
 
       gsap.from(".page-3 .first-content-wrapper .text-wrapper", {
         y: "150vh",
-        ease: CustomEase.create("custom", "M0,0,C0.272,0,0.472,0.44,0.496,0.496,0.653,0.862,0.744,1,1,1"),
+        ease: "power1.inOut",
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
