@@ -156,7 +156,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-3",
-          start: "top top+=5%",
+          start: "top top+=10%",
           end: "+=100%",
           scrub: true,
         },
