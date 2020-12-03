@@ -260,8 +260,8 @@ $(document).ready(function () {
         },
       });
 
-      t3.to(".page-7 .image-1", { y: "-100%" }, 0);
-      t3.to(".page-7 .image-2", { y: "-100%" }, 0);
+      t3.to(".page-7 .image-1", { y: "-300%" }, 0);
+      t3.to(".page-7 .image-2", { y: "-200%" }, 0);
     },
   });
 
