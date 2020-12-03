@@ -263,8 +263,8 @@ $(document).ready(function () {
 
       t3.to(".page-7 .image-1", { y: "-200%" }, 0);
       t3.to(".page-7 .image-2", { y: "-150%" }, 0);
-      t3.to(".page-7 .image-3", { y: "-150%" }, 0);
-      t3.to(".page-7 .image-4", { y: "-200%" }, 0);
+      t3.to(".page-7 .image-3", { y: "-300%" }, 0);
+      t3.to(".page-7 .image-4", { y: "-400%" }, 0);
     },
   });
 
