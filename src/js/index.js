@@ -261,7 +261,7 @@ $(document).ready(function () {
         },
       });
 
-      t3.fromTo(".page-7 .image-1", { y: "200%" }, { y: "-200%" }, 0);
+      t3.fromTo(".page-7 .image-1", { y: "100%" }, { y: "-100%" }, 0);
       t3.fromTo(".page-7 .image-2", { y: "50%" }, { y: "-50%" }, 0);
       t3.fromTo(".page-7 .image-3", { y: "100%" }, { y: "-100%" }, 0);
       t3.fromTo(".page-7 .image-4", { y: "100%" }, { y: "-100%" }, 0);
