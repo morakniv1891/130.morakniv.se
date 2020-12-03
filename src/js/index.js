@@ -255,7 +255,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: ".page-7",
           start: "top bottom",
-          end: "bottom bottom",
+          end: "bottom top",
           scrub: true,
           markers: true,
         },
