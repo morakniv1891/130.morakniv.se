@@ -261,9 +261,9 @@ $(document).ready(function () {
         },
       });
 
-      t3.to(".page-7 .image-1", { y: "-200%", duration: 1 }, 0);
-      t3.to(".page-7 .image-2", { y: "-200%", duration: 1 }, 1);
-      t3.to(".page-7 .image-3", { y: "-200%", duration: 1 }, 2);
+      t3.to(".page-7 .image-1", { y: "-200%", duration: 4 }, 0);
+      t3.to(".page-7 .image-2", { y: "-200%", duration: 3 }, 1);
+      t3.to(".page-7 .image-3", { y: "-200%", duration: 2 }, 2);
       t3.to(".page-7 .image-4", { y: "-200%", duration: 1 }, 3);
     },
   });
