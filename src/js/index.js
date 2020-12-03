@@ -264,13 +264,6 @@ $(document).ready(function () {
       t3.fromTo(".page-7 .image-2", { y: 150, ease: "power3.in" }, { y: -150 }, 0);
       t3.fromTo(".page-7 .image-3", { y: 250, ease: "power3.in" }, { y: -250 }, 0);
       t3.fromTo(".page-7 .image-4", { y: 400, ease: "power3.in" }, { y: -400 }, 0);
-
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-8",
-        start: "bottom bottom+=1",
-        onEnter: () => scroll.scrollTo(".page-2"),
-      });
     },
   });
 
