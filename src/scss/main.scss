@@ -401,7 +401,7 @@ body {
 
       .image-1 {
         position: absolute;
-        top: 25%;
+        top: 0;
         left: 10%;
         width: 33vw;
         height: auto;
@@ -410,7 +410,7 @@ body {
 
       .image-2 {
         position: absolute;
-        top: 33%;
+        top: 25%;
         right: 10%;
         width: 50vw;
         height: auto;
@@ -419,7 +419,7 @@ body {
 
       .image-3 {
         position: absolute;
-        top: 75%;
+        top: 50%;
         right: 10%;
         width: 33vw;
         z-index: -1;
@@ -427,7 +427,7 @@ body {
 
       .image-4 {
         position: absolute;
-        top: 100%;
+        top: 75%;
         left: 10%;
         width: 50vw;
         z-index: -1;
