@@ -261,10 +261,10 @@ $(document).ready(function () {
         },
       });
 
-      t3.fromTo(".page-7 .image-1", { y: 200 }, { y: -200 }, 0);
-      t3.fromTo(".page-7 .image-2", { y: 50 }, { y: -50 }, 0);
-      t3.fromTo(".page-7 .image-3", { y: 75 }, { y: -75 }, 0);
-      t3.fromTo(".page-7 .image-4", { y: 150 }, { y: -150 }, 0);
+      t3.fromTo(".page-7 .image-1", { y: 300 }, { y: -300 }, 0);
+      t3.fromTo(".page-7 .image-2", { y: 200 }, { y: -200 }, 0);
+      t3.fromTo(".page-7 .image-3", { y: 150 }, { y: -150 }, 0);
+      t3.fromTo(".page-7 .image-4", { y: 250 }, { y: -250 }, 0);
     },
   });
 
