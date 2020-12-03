@@ -268,7 +268,7 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: ".page-8",
-        start: "bottom bottom",
+        start: "bottom bottom+=1",
         onEnter: () => console.log("bottom"),
       });
     },
