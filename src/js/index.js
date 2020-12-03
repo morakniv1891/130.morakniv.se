@@ -269,7 +269,7 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-8",
         start: "bottom bottom+=1",
-        onEnter: () => scroll.scrollTo(".page-2", { duration: 1 }),
+        onEnter: () => scroll.scrollTo(".page-2"),
       });
     },
   });
