@@ -10,7 +10,8 @@ $(document).ready(function () {
   const scroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
-    // smoothMobile: true,
+    smoothMobile: true,
+    touchMultiplier: 3,
   });
 
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
