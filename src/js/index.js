@@ -21,6 +21,12 @@ $(document).ready(function () {
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
   scroll.on("scroll", (args) => {
     console.log(args);
+    if (args.direction === "down") {
+      $("header.hideable").css("top", "-80px");
+    } else if (args.direction === "up") {
+      $("header.hideable").css("top", "0");
+    }
+
     ScrollTrigger.update;
   });
 
