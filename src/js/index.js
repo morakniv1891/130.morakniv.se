@@ -78,7 +78,6 @@ $(document).ready(function () {
         ease: "power1.inOut",
         onComplete: () => {
           scroll.start();
-          $("header").fadeIn();
         },
       });
 
@@ -101,6 +100,14 @@ $(document).ready(function () {
           start: "1% bottom",
           scrub: true,
         },
+      });
+
+      //Show menu when logo hits top
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".anniversary-logo",
+        start: "top top",
+        onEnter: () => $("header").fadeIn(),
       });
 
       //Fade out scroll to explore
