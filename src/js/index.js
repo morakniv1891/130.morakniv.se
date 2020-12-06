@@ -75,6 +75,7 @@ $(document).ready(function () {
         ease: "power1.inOut",
         onComplete: () => {
           scroll.start();
+          $("header").fadeIn();
         },
       });
 
