@@ -18,7 +18,10 @@ $(document).ready(function () {
   });
 
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
-  scroll.on("scroll", ScrollTrigger.update);
+  scroll.on("scroll", (args) => {
+    console.log(args);
+    ScrollTrigger.update;
+  });
 
   // tell ScrollTrigger to use these proxy methods for the ".smooth-scroll" element since Locomotive Scroll is hijacking things
   ScrollTrigger.scrollerProxy("#main", {
