@@ -108,7 +108,7 @@ $(document).ready(function () {
         trigger: ".page-1 .content-wrapper",
         endTrigger: ".page-2",
         start: "bottom center",
-        end: "top bottom-=1",
+        end: "bottom bottom-=1",
         onEnter: () => $("header").fadeIn(),
         onLeave: () => $("header").addClass("hideable"),
         markers: true,
