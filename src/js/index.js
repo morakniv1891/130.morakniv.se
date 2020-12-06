@@ -106,12 +106,9 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: ".page-1 .content-wrapper",
-        endTrigger: ".page-3 div",
         start: "bottom center",
         end: "top bottom",
         onEnter: () => $("header").fadeIn(),
-        onLeave: () => $("header").addClass("hideable"),
-        markers: true,
       });
 
       //Fade out scroll to explore
@@ -134,6 +131,7 @@ $(document).ready(function () {
         start: "top top",
         end: "+=300%",
         pin: ".page-2",
+        onLeave: () => $("header").addClass("hideable"),
       });
 
       //Fade in and out knife intro text
