@@ -106,9 +106,9 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: ".page-1 .content-wrapper",
-        endTrigger: ".page-2",
+        endTrigger: ".page-3",
         start: "bottom center",
-        end: "bottom bottom-=1",
+        end: "top bottom",
         onEnter: () => $("header").fadeIn(),
         onLeave: () => $("header").addClass("hideable"),
         markers: true,
