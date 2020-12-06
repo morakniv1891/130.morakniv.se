@@ -106,7 +106,7 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: ".page-1 .content-wrapper",
-        endTrigger: ".page-3",
+        endTrigger: ".page-3 div",
         start: "bottom center",
         end: "top bottom",
         onEnter: () => $("header").fadeIn(),
