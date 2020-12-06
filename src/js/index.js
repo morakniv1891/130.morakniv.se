@@ -5,6 +5,9 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 //Main code
 $(document).ready(function () {
+  $("header").css("display", "flex");
+  $("header").hide();
+
   gsap.registerPlugin(ScrollTrigger);
 
   const scroll = new LocomotiveScroll({
