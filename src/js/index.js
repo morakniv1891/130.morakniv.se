@@ -108,6 +108,7 @@ $(document).ready(function () {
         trigger: ".anniversary-logo",
         start: "top top",
         onEnter: () => $("header").fadeIn(),
+        markers: true,
       });
 
       //Fade out scroll to explore
