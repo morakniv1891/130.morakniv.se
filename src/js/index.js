@@ -105,7 +105,7 @@ $(document).ready(function () {
       //Show menu when logo hits top
       ScrollTrigger.create({
         scroller: "#main",
-        trigger: ".page-1",
+        trigger: ".page-1 .content-wrapper",
         start: "bottom center",
         onEnter: () => $("header").fadeIn(),
         markers: true,
