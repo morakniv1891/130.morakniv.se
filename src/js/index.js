@@ -15,11 +15,19 @@ $(document).ready(function () {
     smooth: true,
     smoothMobile: true,
     touchMultiplier: 3,
-    // getDirection: true,
+    getDirection: true,
   });
 
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
-  scroll.on("scroll", ScrollTrigger.update);
+  scroll.on("scroll", (args) => {
+    if (args.direction === "down") {
+      $("header.hideable").css("top", "-80px");
+    } else if (args.direction === "up") {
+      $("header.hideable").css("top", "0");
+    }
+
+    ScrollTrigger.update();
+  });
 
   // tell ScrollTrigger to use these proxy methods for the ".smooth-scroll" element since Locomotive Scroll is hijacking things
   ScrollTrigger.scrollerProxy("#main", {
