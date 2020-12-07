@@ -1,9 +1,9 @@
 @import "node_modules/css-reset-and-normalize/scss/reset-and-normalize";
-// @import "node_modules/locomotive-scroll/dist/locomotive-scroll";
+@import "node_modules/locomotive-scroll/dist/locomotive-scroll";
 @import "abstracts/animations";
 @import "abstracts/colors";
 
-// @import "vendors/locomotive-scroll/locomotive-scroll";
+@import "vendors/locomotive-scroll/locomotive-scroll";
 
 img {
   display: block;
@@ -42,7 +42,7 @@ p {
 }
 
 html {
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -52,7 +52,7 @@ body {
   font-style: normal;
   color: $text-light-color;
   min-height: 100vh;
-  // overflow: hidden;
+  overflow: hidden;
 
   header {
     display: none;
