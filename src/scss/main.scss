@@ -119,6 +119,7 @@ body {
           .hours-title,
           .minutes-title,
           .seconds-title {
+            text-align: center;
             text-transform: uppercase;
           }
 
@@ -126,7 +127,7 @@ body {
           .hours-number,
           .minutes-number,
           .seconds-number {
-            text-align: right;
+            text-align: center;
           }
         }
 
