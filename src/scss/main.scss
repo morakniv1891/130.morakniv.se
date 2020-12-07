@@ -113,7 +113,6 @@ body {
         .seconds {
           display: flex;
           flex-flow: column nowrap;
-          margin-right: 20px;
 
           .days-title,
           .hours-title,
@@ -127,12 +126,14 @@ body {
           .hours-number,
           .minutes-number,
           .seconds-number {
+            font-size: 30px;
             text-align: center;
           }
         }
 
-        .seconds {
-          margin-right: 0;
+        .colon {
+          margin: 0 10px;
+          font-size: 30px;
         }
       }
     }

@@ -229,15 +229,17 @@
             <h6 class="days-number"></h6>
             <h5 class="days-title">Days</h5>
           </div>
-          :
+          <span class="colon">:</span>
           <div class="hours">
             <h6 class="hours-number"></h6>
             <h5 class="hours-title">Hours</h5>
           </div>
+          <span class="colon">:</span>
           <div class="minutes">
             <h6 class="minutes-number"></h6>
             <h5 class="minutes-title">Minutes</h5>
           </div>
+          <span class="colon">:</span>
           <div class="seconds">
             <h6 class="seconds-number"></h6>
             <h5 class="seconds-title">Seconds</h5>
