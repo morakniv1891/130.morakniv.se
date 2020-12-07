@@ -1,9 +1,9 @@
 @import "node_modules/css-reset-and-normalize/scss/reset-and-normalize";
-@import "node_modules/locomotive-scroll/dist/locomotive-scroll";
+// @import "node_modules/locomotive-scroll/dist/locomotive-scroll";
 @import "abstracts/animations";
 @import "abstracts/colors";
 
-@import "vendors/locomotive-scroll/locomotive-scroll";
+// @import "vendors/locomotive-scroll/locomotive-scroll";
 
 img {
   display: block;
