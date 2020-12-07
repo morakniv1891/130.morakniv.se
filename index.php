@@ -221,7 +221,7 @@
           <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
-        <div class="countdown-wrapper">
+        <!-- <div class="countdown-wrapper">
           <h3 class="available-in">Available In</h3>
           <div class="countdown">
             <div class="days">
@@ -241,7 +241,7 @@
               <h6 class="seconds-number"></h6>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
    
