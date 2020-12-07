@@ -81,10 +81,12 @@
       }
       setTimeout("countdown()",1000);
     }
+
+    document.addEventListener('DOMContentLoaded', () => countdown());
   </script>
 </head>
 
-<body onload="countdown()">
+<body>
   <header id="menu-bar">
     <div class="left-link"></div>
     <div class="middle-link"><img src="/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
