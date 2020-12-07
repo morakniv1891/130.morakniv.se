@@ -236,7 +236,7 @@
             <h6 class="minutes-number"></h6>
           </div>
           <div class="seconds">
-            <h5 class="seconds-title">Secondss</h5>
+            <h5 class="seconds-title">Seconds</h5>
             <h6 class="seconds-number"></h6>
           </div>
         </div>
