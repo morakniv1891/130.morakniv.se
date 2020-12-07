@@ -38,7 +38,7 @@
     var hours = <?php echo $rHour; ?>;
     var minutes = <?php echo $rMin; ?>;
     var seconds = <?php echo $rSec; ?>;
-    var elements;
+    var daysElements,hoursElements,minutesElements,secondsElements;
 
     function countdown(){
       seconds--;
@@ -63,9 +63,21 @@
         }
       }
 
-      elements = document.querySelectorAll(".countdown");
+      elements = document.querySelectorAll(".days-number");
       for (i = 0; i < elements.length; i++) {
-        elements[i].innerHTML = pad(days)+":"+pad(hours)+":"+pad(minutes)+":"+pad(seconds);
+        elements[i].innerHTML = pad(days);
+      }
+      elements = document.querySelectorAll(".hours-number");
+      for (i = 0; i < elements.length; i++) {
+        elements[i].innerHTML = pad(hours);
+      }
+      elements = document.querySelectorAll(".minutes-number");
+      for (i = 0; i < elements.length; i++) {
+        elements[i].innerHTML = pad(minutes);
+      }
+      elements = document.querySelectorAll(".seconds-number");
+      for (i = 0; i < elements.length; i++) {
+        elements[i].innerHTML = pad(seconds);
       }
       setTimeout("countdown()",1000);
     }
@@ -209,7 +221,25 @@
           <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
-        <span class="countdown"></span>
+        <h3 class="available-in">Available In</h3>
+        <div class="countdown">
+          <div class="days">
+            <h5 class="days-title">Days</h5>
+            <h6 class="days-number"></h6>
+          </div>
+          <div class="hours">
+            <h5 class="hours-title">Days</h5>
+            <h6 class="hours-number"></h6>
+          </div>
+          <div class="minutes">
+            <h5 class="minutes-title">Days</h5>
+            <h6 class="minutes-number"></h6>
+          </div>
+          <div class="seconds">
+            <h5 class="seconds-title">Days</h5>
+            <h6 class="seconds-number"></h6>
+          </div>
+        </div>
       </div>
     </section>
    
