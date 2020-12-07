@@ -113,6 +113,7 @@ body {
         .seconds {
           display: flex;
           flex-flow: column nowrap;
+          padding-top: 3px;
 
           .days-title,
           .hours-title,
