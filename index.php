@@ -82,7 +82,7 @@
       setTimeout("countdown()",1000);
     }
 
-    document.addEventListener('DOMContentLoaded', () => countdown());
+    document.addEventListener('DOMContentLoaded', countdown);
   </script>
 </head>
 
