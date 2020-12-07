@@ -221,23 +221,25 @@
           <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
-        <h3 class="available-in">Available In</h3>
-        <div class="countdown">
-          <div class="days">
-            <h5 class="days-title">Days</h5>
-            <h6 class="days-number"></h6>
-          </div>
-          <div class="hours">
-            <h5 class="hours-title">Hours</h5>
-            <h6 class="hours-number"></h6>
-          </div>
-          <div class="minutes">
-            <h5 class="minutes-title">Minutes</h5>
-            <h6 class="minutes-number"></h6>
-          </div>
-          <div class="seconds">
-            <h5 class="seconds-title">Seconds</h5>
-            <h6 class="seconds-number"></h6>
+        <div class="countdown-wrapper">
+          <h3 class="available-in">Available In</h3>
+          <div class="countdown">
+            <div class="days">
+              <h5 class="days-title">Days</h5>
+              <h6 class="days-number"></h6>
+            </div>
+            <div class="hours">
+              <h5 class="hours-title">Hours</h5>
+              <h6 class="hours-number"></h6>
+            </div>
+            <div class="minutes">
+              <h5 class="minutes-title">Minutes</h5>
+              <h6 class="minutes-number"></h6>
+            </div>
+            <div class="seconds">
+              <h5 class="seconds-title">Seconds</h5>
+              <h6 class="seconds-number"></h6>
+            </div>
           </div>
         </div>
       </div>
