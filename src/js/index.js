@@ -19,15 +19,15 @@ $(document).ready(function () {
   // });
 
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
-  scroll.on("scroll", (args) => {
-    if (args.direction === "down") {
-      $("header.hideable").css("top", "-80px");
-    } else if (args.direction === "up") {
-      $("header.hideable").css("top", "0");
-    }
+  // scroll.on("scroll", (args) => {
+  //   if (args.direction === "down") {
+  //     $("header.hideable").css("top", "-80px");
+  //   } else if (args.direction === "up") {
+  //     $("header.hideable").css("top", "0");
+  //   }
 
-    // ScrollTrigger.update();
-  });
+  //   ScrollTrigger.update();
+  // });
 
   // tell ScrollTrigger to use these proxy methods for the ".smooth-scroll" element since Locomotive Scroll is hijacking things
   // ScrollTrigger.scrollerProxy("#main", {
@@ -41,7 +41,7 @@ $(document).ready(function () {
   //   pinType: document.querySelector("#main").style.transform ? "transform" : "fixed",
   // });
 
-  scroll.stop();
+  // scroll.stop();
 
   /*
   /*
