@@ -90,22 +90,33 @@ body {
       margin: 0 auto;
     }
 
-    .countdown {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .countdown-wrapper {
+      margin: 40px 0;
 
-      .days,
-      .hours,
-      .minutes,
-      .seconds {
-        display: flex;
-        flex-flow: column nowrap;
-        margin-right: 20px;
+      .available-in {
+        font-size: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $scroll-color;
       }
 
-      .seconds {
-        margin-right: 0;
+      .countdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .days,
+        .hours,
+        .minutes,
+        .seconds {
+          display: flex;
+          flex-flow: column nowrap;
+          margin-right: 20px;
+        }
+
+        .seconds {
+          margin-right: 0;
+        }
       }
     }
 
