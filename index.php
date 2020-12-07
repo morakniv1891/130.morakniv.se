@@ -115,7 +115,7 @@
       </div>
     </section>
     <section class="page-5">
-      <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+      <video playsinline autoplay muted loop poster="assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20Poster.jpg" id="bgvid">
         <!-- <source src="polina.webm" type="video/webm"> -->
         <source src="assets/video/webfilm_130_bw_color.mp4" type="video/mp4">
       </video>
