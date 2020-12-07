@@ -135,6 +135,30 @@
         tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat.</p>
+      <div class="countdown-wrapper intro-text">
+        <h3 class="available-in">Available In</h3>
+        <div class="countdown">
+          <div class="days">
+            <h6 class="days-number"></h6>
+            <h5 class="days-title">Days</h5>
+          </div>
+          <span class="colon">:</span>
+          <div class="hours">
+            <h6 class="hours-number"></h6>
+            <h5 class="hours-title">Hours</h5>
+          </div>
+          <span class="colon">:</span>
+          <div class="minutes">
+            <h6 class="minutes-number"></h6>
+            <h5 class="minutes-title">Minutes</h5>
+          </div>
+          <span class="colon">:</span>
+          <div class="seconds">
+            <h6 class="seconds-number"></h6>
+            <h5 class="seconds-title">Seconds</h5>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="page-3">
       <div class="first-content-wrapper">
