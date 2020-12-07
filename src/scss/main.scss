@@ -90,6 +90,20 @@ body {
       margin: 0 auto;
     }
 
+    .countdown {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .days,
+      .hours,
+      .minutes,
+      .seconds {
+        display: flex;
+        flex-flow: column nowrap;
+      }
+    }
+
     .page-1 {
       display: flex;
       align-items: center;
