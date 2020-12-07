@@ -102,7 +102,7 @@ $(document).ready(function () {
       //Start "scrolling" away everything but scroll to explore and fade it out
       gsap.to(".page-1 .content-wrapper", {
         y: "-100vh",
-        scale: 0.5,
+        scale: 0.25,
         opacity: -1,
         scrollTrigger: {
           scroller: "#main",
