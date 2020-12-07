@@ -86,7 +86,7 @@ $(document).ready(function () {
         delay: 4,
         ease: "power1.inOut",
         onComplete: () => {
-          scroll.start();
+          // scroll.start();
         },
       });
 
