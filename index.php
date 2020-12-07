@@ -34,10 +34,10 @@
   <meta name="theme-color" content="#ffffff">
   <script src="assets/js/index.js"></script>
   <script>
-    var days = <?php echo $rDay; ?>
-    var hours = <?php echo $rHour; ?>
-    var minutes = <?php echo $rMin; ?>
-    var seconds = <?php echo $rSec; ?>
+    var days = <?php echo $rDay; ?>;
+    var hours = <?php echo $rHour; ?>;
+    var minutes = <?php echo $rMin; ?>;
+    var seconds = <?php echo $rSec; ?>;
     var elements;
 
     function countdown(){
