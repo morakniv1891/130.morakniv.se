@@ -1,3 +1,21 @@
+<?php
+  $year = 2021;
+  $month = 1;
+  $day = 15;
+  $hour = 0;
+  $min = 0;
+  $sec = 0;
+
+  $target = mktime($hour,$min,$sec,$month,$day,$year);
+  $current = time();
+  $difference = $target - $current;
+
+  $rDay = floor($difference/60/60/24);
+  $rHour = floor(($difference-($rDay*60*60*24))/60/60);
+  $rMin = floor(($difference-($rDay*60*60*24)-$rHour*60*60)/60);
+  $rSec = floor(($difference-($rDay*60*60*24)-($rHour*60*60))-($rMin*60));
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,9 +33,46 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <script src="assets/js/index.js"></script>
+  <script>
+    var days = <?php echo $rDay; ?>
+    var hours = <?php echo $rHour; ?>
+    var minutes = <?php echo $rMin; ?>
+    var seconds = <?php echo $rSec; ?>
+    var elements;
+
+    function countdown(){
+      seconds--;
+      if(seconds < 0){
+        minutes--;
+        seconds = 59;
+      }
+      if(minutes < 0){
+        hours--;
+        minutes = 59;
+      }
+      if(hours < 0){
+        days--;
+        hours = 23;
+      }
+
+      function pad(n){
+        if (n < 10 && n >= 0){
+          return "0" + n;
+        } else {
+          return n;
+        }
+      }
+
+      elements = document.querySelectorAll(".countdown");
+      for (i = 0; i < elements.length; i++) {
+        elements[i].innerHTML = pad(days)+":"+pad(hours)+":"+pad(minutes)+":"+pad(seconds);
+      }
+      setTimeout("countdown()",1000);
+    }
+  </script>
 </head>
 
-<body>
+<body onload="countdown()">
   <header id="menu-bar">
     <div class="left-link"></div>
     <div class="middle-link"><img src="/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
@@ -154,6 +209,7 @@
           <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
+        <span class="countdown"></span>
       </div>
     </section>
    
