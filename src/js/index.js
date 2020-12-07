@@ -16,6 +16,7 @@ $(document).ready(function () {
     smoothMobile: true,
     touchMultiplier: 3,
     getDirection: true,
+    lerp: 0.05,
   });
 
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
