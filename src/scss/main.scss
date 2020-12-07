@@ -121,6 +121,8 @@ body {
           .seconds-title {
             font-size: 10px;
             text-align: center;
+            margin-bottom: 10px;
+            color: $scroll-color;
           }
 
           .days-number,
@@ -135,6 +137,7 @@ body {
         .colon {
           margin: 0 10px;
           font-size: 30px;
+          align-self: flex-start;
         }
       }
     }
