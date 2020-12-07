@@ -42,7 +42,7 @@ p {
 }
 
 html {
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 body {
@@ -52,7 +52,7 @@ body {
   font-style: normal;
   color: $text-light-color;
   min-height: 100vh;
-  overflow: hidden;
+  // overflow: hidden;
 
   header {
     display: none;
