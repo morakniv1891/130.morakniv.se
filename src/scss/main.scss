@@ -118,6 +118,7 @@ body {
           .seconds-title {
             font-size: 15px;
             text-align: center;
+            letter-spacing: 1.4px;
             color: $scroll-color;
           }
 
@@ -228,6 +229,7 @@ body {
         padding: 0 20px;
         max-width: 800px;
         font-size: 16px;
+        font-weight: 100;
         text-align: center;
 
         @media (min-width: 1024px) {
@@ -272,12 +274,6 @@ body {
           right: 0;
           transform: translateY(100%);
         }
-      }
-    }
-
-    .page-2 {
-      .intro-text {
-        font-weight: 100;
       }
     }
 
