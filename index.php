@@ -112,7 +112,7 @@
       </div>
     </section>
     <section class="page-2 boxed">
-      <h1 class="title intro-text">Mora 2000 Anniversary Edition (S)</h1>
+      <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <div class="image-wrapper">
         <picture>
           <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1023px)">
@@ -239,7 +239,7 @@
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
     </section>
     <section class="page-8 boxed">
-      <h1 class="title intro-text">Mora 2000 Anniversary Edition (S)</h1>
+      <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <div class="image-wrapper">
         <picture>
           <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1023px)">
