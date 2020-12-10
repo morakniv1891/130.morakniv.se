@@ -133,10 +133,7 @@
           <h3>USP 4</h3>
         </div>
       </div>
-      <p class="text intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.</p>
+      <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000 (S). Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first factory run, marked with a number between 1-130/130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.</p>
       <div class="countdown-wrapper intro-text">
         <h3 class="available-in">Available In</h3>
         <div class="countdown">
