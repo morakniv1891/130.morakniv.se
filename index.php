@@ -101,6 +101,7 @@
         </div>
         <div class="middle">
           <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
+          <p class="anniversary-text"></p>
         </div>
         <div class="bottom-line">
           <div class="left"></div>
@@ -121,16 +122,16 @@
             alt="Mora 2000 Anniversary Edition">
         </picture>
         <div class="usp usp1">
-          <h3>USP 1</h3>
+          <h3>Friction Grip Handle</h3>
         </div>
         <div class="usp usp2">
-          <h3>USP 2</h3>
+          <h3>Exclusive Black Colour</h3>
         </div>
         <div class="usp usp3">
-          <h3>USP 3</h3>
+          <h3>Profile Grind with a Scandi Grind Edge</h3>
         </div>
         <div class="usp usp4">
-          <h3>USP 4</h3>
+          <h3>2.5 mm Thick Swedish Stainless Steel</h3>
         </div>
       </div>
       <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000 (S). Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first factory run, marked with a number between 1-130/130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.</p>
