@@ -72,6 +72,15 @@ $(document).ready(function () {
         ease: "power1.inOut",
       });
 
+      //Anniversary text coming in from below and shrinking into position
+      gsap.from(".anniversary-text", {
+        scale: 2,
+        y: "80vh",
+        duration: 3.5,
+        delay: 1.5,
+        ease: "power1.inOut",
+      });
+
       //Top line moving in from below
       gsap.from(".left", {
         y: "100vh",
