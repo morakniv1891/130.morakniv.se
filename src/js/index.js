@@ -74,8 +74,8 @@ $(document).ready(function () {
 
       //Anniversary text coming in from below and shrinking into position
       gsap.from(".anniversary-text", {
-        scale: 2,
-        y: "80vh",
+        scale: 3,
+        y: "120vh",
         duration: 3.5,
         delay: 1.5,
         ease: "power1.inOut",
