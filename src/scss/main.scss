@@ -185,6 +185,7 @@ body {
 
         .middle {
           display: flex;
+          flex-flow: column nowrap;
           justify-content: center;
           align-items: center;
           flex: 0 0 10vh;
@@ -193,6 +194,10 @@ body {
             width: 90vw;
             max-width: 500px;
             z-index: 9;
+          }
+
+          .anniversary-text {
+            width: 1024px;
           }
         }
       }
