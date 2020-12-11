@@ -101,7 +101,9 @@
         </div>
         <div class="middle">
           <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
-          <p class="anniversary-text"></p>
+          <p class="anniversary-text">The year 2021 marks the 130-year Anniversary of Morakniv. 
+
+Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to providing long-lasting products for generations to come.</p>
         </div>
         <div class="bottom-line">
           <div class="left"></div>
