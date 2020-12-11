@@ -125,10 +125,10 @@
           <h3>Friction Grip Handle</h3>
         </div>
         <div class="usp usp2">
-          <h3>Exclusive Black Colour</h3>
+          <h3>Profile Grind with a Scandi Grind Edge</h3>
         </div>
         <div class="usp usp3">
-          <h3>Profile Grind with a Scandi Grind Edge</h3>
+          <h3>Exclusive Black Colour</h3>
         </div>
         <div class="usp usp4">
           <h3>2.5 mm Thick Swedish Stainless Steel</h3>
