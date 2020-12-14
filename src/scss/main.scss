@@ -21,10 +21,6 @@ h2 {
   font-size: 30px;
   letter-spacing: 5px;
   text-transform: uppercase;
-
-  @media (min-width: 1024px) {
-    font-size: 40px;
-  }
 }
 
 p {
@@ -255,7 +251,7 @@ body {
           position: absolute;
           width: 50%;
           height: 50%;
-          font-size: 22px;
+          font-size: 18px;
           text-transform: uppercase;
           letter-spacing: 4px;
         }
