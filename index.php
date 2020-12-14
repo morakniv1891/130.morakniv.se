@@ -166,7 +166,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
       <div class="first-content-wrapper">
         <img class="knife-in-hand" src="/assets/images/Mora%202000%20Anniversary%20Edition%20Hand%20Bokeh.jpg" alt="Mora 2000 Held in Hand">
         <div class="text-wrapper">
-          <h2 class="title">A NEW ERA OF MORA 2000 (S)</h2>
+          <h2 class="title">A NEW ERA OF<br>MORA 2000 (S)</h2>
           <p class="text">This characteristic knife, engraved with the years of  Morakniv 1891 – 2021 is a true collector’s item. The new Mora 2000 (S) Anniversary Edition is a must for the outdoor enthusiast on the next adventure. Made in Sweden, refined from our iconic past. </p>
         </div>
       </div>
