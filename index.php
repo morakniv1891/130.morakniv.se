@@ -229,7 +229,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
     </section>
-    <section class="page-8 boxed">
+    <section class="page-14 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <div class="image-wrapper">
         <picture>
