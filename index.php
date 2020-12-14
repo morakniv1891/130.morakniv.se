@@ -116,6 +116,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
     </section>
     <section class="page-2 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
+      <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000 (S). Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first factory run, marked with a number between 1-130/130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.</p>
       <div class="image-wrapper">
         <picture>
           <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1023px)">
@@ -136,7 +137,6 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
           <h3>2.5 mm Thick<br>Swedish Stainless Steel</h3>
         </div>
       </div>
-      <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000 (S). Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first factory run, marked with a number between 1-130/130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.</p>
       <div class="countdown-wrapper intro-text">
         <h3 class="available-in">Available In</h3>
         <div class="countdown">
