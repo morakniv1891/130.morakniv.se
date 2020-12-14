@@ -451,48 +451,6 @@ body {
     }
 
     .page-7 {
-      position: relative;
-
-      .text {
-        max-width: 1024px;
-        margin: 0 auto;
-        padding: 40vh 25px;
-        font-size: 45px;
-      }
-
-      .image-1 {
-        position: absolute;
-        top: 15%;
-        left: 10%;
-        width: 500px;
-        height: auto;
-        z-index: -1;
-      }
-
-      .image-2 {
-        position: absolute;
-        top: 33%;
-        right: 10%;
-        width: 750px;
-        height: auto;
-        z-index: -1;
-      }
-
-      .image-3 {
-        position: absolute;
-        top: 50%;
-        right: 10%;
-        width: 500px;
-        z-index: -1;
-      }
-
-      .image-4 {
-        position: absolute;
-        top: 75%;
-        left: 10%;
-        width: 750px;
-        z-index: -1;
-      }
     }
 
     .page-14 {
