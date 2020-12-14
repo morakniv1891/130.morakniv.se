@@ -282,22 +282,6 @@ $(document).ready(function () {
           scrub: true,
         },
       });
-
-      //Move images faster than scroll
-      let t3 = gsap.timeline({
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top bottom",
-          end: "bottom top",
-          scrub: true,
-        },
-      });
-
-      t3.fromTo(".page-7 .image-1", { y: 300, ease: "power3.in" }, { y: -300 }, 0);
-      t3.fromTo(".page-7 .image-2", { y: 150, ease: "power3.in" }, { y: -150 }, 0);
-      t3.fromTo(".page-7 .image-3", { y: 250, ease: "power3.in" }, { y: -250 }, 0);
-      t3.fromTo(".page-7 .image-4", { y: 400, ease: "power3.in" }, { y: -400 }, 0);
     },
   });
 
