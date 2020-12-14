@@ -21,6 +21,7 @@ h2 {
   font-size: 30px;
   letter-spacing: 5px;
   text-transform: uppercase;
+  margin-bottom: 14px;
 }
 
 p {
@@ -29,7 +30,7 @@ p {
   line-height: 1.4;
 
   @media (min-width: 1024px) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -354,10 +355,6 @@ body {
           display: block;
           margin-top: 100px;
         }
-      }
-
-      .text {
-        font-size: 18px;
       }
     }
 
