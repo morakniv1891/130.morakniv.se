@@ -256,6 +256,10 @@ body {
           font-size: 18px;
           text-transform: uppercase;
           letter-spacing: 4px;
+
+          .line {
+            border-bottom: 2px solid $text-light-color;
+          }
         }
 
         .usp1 {
