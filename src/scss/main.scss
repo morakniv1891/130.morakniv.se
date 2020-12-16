@@ -186,7 +186,7 @@ body {
           flex-flow: column nowrap;
           justify-content: center;
           align-items: center;
-          flex: 0 0 20vh;
+          flex: 0 0 calc(20vh - 80px);
 
           .anniversary-logo {
             width: 90vw;
