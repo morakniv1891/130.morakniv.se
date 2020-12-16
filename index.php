@@ -126,15 +126,19 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         </picture>
         <div class="usp usp1">
           <h3>Friction Grip Handle</h3>
+          <div class="line"></div>
         </div>
         <div class="usp usp2">
           <h3>Profile Grind<br>with a Scandi Grind Edge</h3>
+          <div class="line"></div>
         </div>
         <div class="usp usp3">
           <h3>Exclusive Black Colour</h3>
+          <div class="line"></div>
         </div>
         <div class="usp usp4">
           <h3>2.5 mm Thick<br>Swedish Stainless Steel</h3>
+          <div class="line"></div>
         </div>
       </div>
       <div class="countdown-wrapper intro-text">
