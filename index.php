@@ -129,7 +129,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
           <div class="line"></div>
         </div>
         <div class="usp usp2">
-          <h3>Profile Grind<br>with a Scandi Grind Edge</h3>
+          <h3>2.5 mm Thick<br>Swedish Stainless Steel</h3>
           <div class="line"></div>
         </div>
         <div class="usp usp3">
@@ -137,7 +137,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
           <div class="line"></div>
         </div>
         <div class="usp usp4">
-          <h3>2.5 mm Thick<br>Swedish Stainless Steel</h3>
+          <h3>Profile Grind<br>with a Scandi Grind Edge</h3>
           <div class="line"></div>
         </div>
       </div>
