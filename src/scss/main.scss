@@ -251,6 +251,7 @@ body {
 
         .usp {
           display: flex;
+          flex-flow: column nowrap;
           position: absolute;
           height: 50%;
           font-size: 18px;
@@ -258,6 +259,7 @@ body {
           letter-spacing: 4px;
 
           .line {
+            width: 100%;
             border-bottom: 2px solid $text-light-color;
           }
         }
