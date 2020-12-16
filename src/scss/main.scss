@@ -268,12 +268,20 @@ body {
           top: 0;
           left: 0;
           transform: translateY(-100%);
+
+          .h3 {
+            padding-right: 20px;
+          }
         }
 
         .usp2 {
           top: 0;
           right: 0;
           transform: translateY(-100%);
+
+          .h3 {
+            padding-left: 20px;
+          }
         }
 
         .usp3 {
@@ -281,6 +289,10 @@ body {
           bottom: 0;
           left: 0;
           transform: translateY(100%);
+
+          .h3 {
+            padding-right: 20px;
+          }
         }
 
         .usp4 {
@@ -288,6 +300,10 @@ body {
           bottom: 0;
           right: 0;
           transform: translateY(100%);
+
+          .h3 {
+            padding-left: 20px;
+          }
         }
       }
     }
