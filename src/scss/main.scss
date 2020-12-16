@@ -160,7 +160,7 @@ body {
         .bottom-line {
           display: flex;
           flex-flow: row nowrap;
-          flex: 0 0 30%;
+          flex: 0 0 35%;
 
           .left,
           .right {
@@ -186,7 +186,7 @@ body {
           flex-flow: column nowrap;
           justify-content: center;
           align-items: center;
-          flex: 0 0 40%;
+          flex: 0 0 30%;
 
           .anniversary-logo {
             width: 90vw;
