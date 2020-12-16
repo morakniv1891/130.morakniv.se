@@ -275,6 +275,8 @@ body {
           }
 
           .line {
+            margin-top: 10px;
+
             &::after {
               content: " ";
               position: absolute;
