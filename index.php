@@ -216,22 +216,22 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <img class="anniversary-patch" src="assets/images/Anniversary%20Patch.png" alt="130 Year Anniversary Patch"> -->
     </section>
-    <section class="page-7">
+    <section class="page-7 boxed">
       <img class="image" src="/assets/images/FROST%20slipbock.jpg" alt="Frosts Grinding Trestle">
       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
-    <section class="page-8">
+    <section class="page-8 boxed">
       <img class="image" src="/assets/images/Gubbhyllan%201919.jpg" alt="Gubbhyllan 1919">
       <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
     </section>
-    <section class="page-9">
+    <section class="page-9 boxed">
       <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01.jpg" alt="KJ Eriksson 1954">
       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat um.</p>
     </section>
-    <section class="page-10">
+    <section class="page-10 boxed">
       <img class="image" src="/assets/images/kj_verkstan_1925.jpg" alt="KJ Eriksson Factory 1925">
       <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
