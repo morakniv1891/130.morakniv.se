@@ -284,7 +284,7 @@ body {
               width: 50%;
               height: 100%;
               border-top: 1px solid $text-light-color;
-              transform: rotate(45deg);
+              transform: rotate(50deg);
               transform-origin: top left;
             }
           }
@@ -333,7 +333,7 @@ body {
               width: 50%;
               height: 100%;
               border-top: 1px solid $text-light-color;
-              transform: rotate(-45deg);
+              transform: rotate(-50deg);
               transform-origin: bottom left;
             }
           }
@@ -347,6 +347,20 @@ body {
 
           h3 {
             padding-left: 20px;
+          }
+
+          .line {
+            &::after {
+              content: " ";
+              position: absolute;
+              bottom: -1px;
+              right: 100%;
+              width: 50%;
+              height: 100%;
+              border-top: 1px solid $text-light-color;
+              transform: rotate(50deg);
+              transform-origin: bottom right;
+            }
           }
         }
       }
