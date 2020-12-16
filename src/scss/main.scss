@@ -153,7 +153,8 @@ body {
         display: flex;
         align-items: center;
         flex-flow: column nowrap;
-        height: 80vh;
+        height: calc(80vh - 80px);
+        margin-top: 80px;
 
         .top-line,
         .bottom-line {
