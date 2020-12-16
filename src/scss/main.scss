@@ -250,6 +250,7 @@ body {
         }
 
         .usp {
+          display: flex;
           position: absolute;
           height: 50%;
           font-size: 18px;
@@ -274,12 +275,14 @@ body {
         }
 
         .usp3 {
+          align-items: flex-end;
           bottom: 0;
           left: 0;
           transform: translateY(100%);
         }
 
         .usp4 {
+          align-items: flex-end;
           bottom: 0;
           right: 0;
           transform: translateY(100%);
