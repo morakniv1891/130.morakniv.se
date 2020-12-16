@@ -208,7 +208,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         <source src="assets/video/webfilm_130_bw_color.mp4" type="video/mp4">
       </video>
     </section>
-    <section class="page-6 boxed">
+    <section class="page-6">
       <h2 class="title">OUR HISTORY. THROUGH TIME.</h2>
       <!-- <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
