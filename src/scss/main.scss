@@ -261,7 +261,7 @@ body {
           .line {
             position: relative;
             width: 100%;
-            border-bottom: 2px solid $text-light-color;
+            border-bottom: 1px solid $text-light-color;
           }
         }
 
@@ -278,11 +278,13 @@ body {
             &::after {
               content: " ";
               position: absolute;
-              bottom: -2px;
+              bottom: -1px;
               left: 100%;
               width: 50%;
               height: 100%;
-              border-top: 2px solid $text-light-color;
+              border-top: 1px solid $text-light-color;
+              transform: rotate(45deg);
+              transform-origin: top left;
             }
           }
         }
