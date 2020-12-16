@@ -137,7 +137,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
           <div class="line"></div>
         </div>
         <div class="usp usp4">
-          <h3>Profile Grind<br>with a Scandi Grind Edge</h3>
+          <h3>Scandi Grind<br>with a Profile Grind Edge</h3>
           <div class="line"></div>
         </div>
       </div>
