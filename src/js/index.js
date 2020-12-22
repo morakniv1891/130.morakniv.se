@@ -312,7 +312,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-7",
-          start: "top bottom",
+          start: "top bottom-=25%",
           end: "center center",
           scrub: true,
         },
