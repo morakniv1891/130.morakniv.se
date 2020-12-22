@@ -216,8 +216,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         <img class="image" src="/assets/images/FROST%20slipbock_WEB.jpg" alt="Frosts Grinding Trestle">
       </div>
       <div class="text-container">
-        <p class="text">The traditional design brand Morakniv was established in Östnor, outside of Mora, in 1891. The seed of what would become one of the world's most popular knife manufacturers was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.</p>
-        <p class="text">He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
+        <p class="text">The traditional design brand Morakniv was established in Östnor, outside of Mora, in 1891. The seed of what would become one of the world's most popular knife manufacturers was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.<br><br>He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
       </div>
     </section>
     <section class="page-8 boxed">
