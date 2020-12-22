@@ -297,14 +297,14 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-7",
-          start: "top bottom",
+          start: "top bottom-=25%",
           end: "center+=33% center",
           scrub: true,
         },
       });
 
       t3.from(".page-7 .image", { scale: 0.5 }, 0);
-      t3.from(".page-7 .text", { opacity: 0 }, 1);
+      t3.from(".page-7 .text", { opacity: 0 }, 0);
     },
   });
 
