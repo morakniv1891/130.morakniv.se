@@ -292,19 +292,18 @@ $(document).ready(function () {
         pin: ".page-7",
       });
 
-      //Image and text entry animations
-      let t3 = gsap.timeline({
+      //Image entry animation
+      gsap.from(".page-7 .image", {
+        scale: 0.8,
+        ease: "power2.inOut",
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-7",
-          start: "top bottom-=25%",
+          start: "top bottom",
           end: "center+=33% center",
           scrub: true,
         },
       });
-
-      t3.from(".page-7 .image", { scale: 0.5 }, 0);
-      t3.from(".page-7 .text", { opacity: 0 }, 0);
     },
   });
 
