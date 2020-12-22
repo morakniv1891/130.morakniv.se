@@ -230,14 +230,20 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         </div>
       </div>
       <div class="text-container">
-        <p class="text">Ever since, our knowledge has grown and with infinite passion for craftsmanship we have continued to manufacture knives for knife users all over the world. Through the years Morakniv has made several iconic knives – one of which is the Mora 2000.<br><br>The story of Mora 2000 begins back in 1991 when a Norwegian hunter wished for an all-round knife that could work as a multi-functional tool for the upcoming moose hunt. A knife that could perform in a hunter's environment as well as cutting loaf, spreading butter and slicing sausages during the lunch break.
-</p>
+        <p class="text">Ever since, our knowledge has grown and with infinite passion for craftsmanship we have continued to manufacture knives for knife users all over the world. Through the years Morakniv has made several iconic knives – one of which is the Mora 2000.<br><br>The story of Mora 2000 begins back in 1991 when a Norwegian hunter wished for an all-round knife that could work as a multi-functional tool for the upcoming moose hunt. A knife that could perform in a hunter's environment as well as cutting loaf, spreading butter and slicing sausages during the lunch break.</p>
       </div>
     </section>
     <section class="page-9 boxed">
-      <img class="image" src="/assets/images/Hunting_WEB.jpg" alt="Jakttorn">
-      <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat um.</p>
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img class="image" src="/assets/images/Hunting_WEB.jpg" alt="Jakttorn">
+          <div class="gradient"></div>
+        </div>
+      </div>
+      <div class="text-container">
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat um.</p>
+      </div>
     </section>
     <section class="page-10 boxed">
       <img class="image" src="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg" alt="KJ Eriksson Factory 1925">
