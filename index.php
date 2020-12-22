@@ -252,7 +252,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         </div>
       </div>
       <div class="text-container">
-        <p class="text">There have been small changes in the design and material of the knife over the years, most of them probably not noticeable, apart from the coloured handles and the blade stamps. The original Mora 2000 is green and since then we ha ve expanded with highly-visible orange, and now a limited black anniversary edition.<br><br>What the future holds will be defined by you through time.</p>
+        <p class="text">There have been small changes in the design and material of the knife over the years, most of them probably not noticeable, apart from the coloured handles and the blade stamps. The original Mora 2000 is green and since then we ha ve expanded with highly-visible orange, and now a limited black anniversary edition.<br><br>What the future holds will be defined by you, through time.</p>
       </div>
     </section>
     <section class="page-14 boxed">
