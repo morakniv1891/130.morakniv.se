@@ -541,14 +541,15 @@ body {
       display: flex;
 
       .image-container {
-        width: 40%;
+        width: 50%;
       }
 
       .text-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 50%;
+        padding: 30px;
       }
     }
 
