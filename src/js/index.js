@@ -282,6 +282,15 @@ $(document).ready(function () {
           scrub: true,
         },
       });
+
+      //Pin first history page
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-7",
+        start: "top top",
+        end: "25%",
+        pin: ".page-7",
+      });
     },
   });
 
