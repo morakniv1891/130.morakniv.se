@@ -307,7 +307,7 @@ $(document).ready(function () {
 
       //Image entry gradient
       gsap.to(".page-7 .gradient", {
-        y: "-100%",
+        y: "-200%",
         ease: "power2.inOut",
         scrollTrigger: {
           scroller: "#main",
