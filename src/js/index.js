@@ -284,12 +284,18 @@ $(document).ready(function () {
       });
 
       //Pin first history page
-      ScrollTrigger.create({
+      let firstHistoryTrigger = ScrollTrigger.create({
         scroller: "#main",
         trigger: ".page-7",
         start: "top top",
         end: "33%",
         pin: ".page-7",
+      });
+
+      gsap.from(".page-7 .image", {
+        scale: 0.8,
+        ease: "power1.inOut",
+        scrollTrigger: firstHistoryTrigger,
       });
     },
   });
