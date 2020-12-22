@@ -288,7 +288,7 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-7",
         start: "top top",
-        end: "25%",
+        end: "33%",
         pin: ".page-7",
       });
     },
