@@ -294,7 +294,7 @@ $(document).ready(function () {
 
       //Image entry animation
       gsap.from(".page-7 .image", {
-        scale: 0.8,
+        scale: 0.9,
         ease: "power2.inOut",
         scrollTrigger: {
           scroller: "#main",
