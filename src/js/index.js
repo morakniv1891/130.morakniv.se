@@ -288,7 +288,7 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-7",
         start: "top top",
-        end: "33%",
+        end: "20%",
         pin: ".page-7",
       });
 
