@@ -378,6 +378,54 @@ $(document).ready(function () {
           scrub: true,
         },
       });
+
+      //Pin first history page
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-9",
+        start: "top top",
+        end: "20%",
+        pin: ".page-8",
+      });
+
+      //Image entry grow
+      gsap.from(".page-9 .image", {
+        scale: 0.95,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-9",
+          start: "top bottom",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry gradient
+      gsap.to(".page-9 .gradient", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-9",
+          start: "top bottom-=33%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Text entry opacity
+      gsap.from(".page-9 .text", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-9",
+          start: "top center-=25%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
     },
   });
 
