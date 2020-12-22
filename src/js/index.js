@@ -294,7 +294,7 @@ $(document).ready(function () {
 
       //Image entry grow
       gsap.from(".page-7 .image", {
-        scale: 0.8,
+        scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
           scroller: "#main",
@@ -342,7 +342,7 @@ $(document).ready(function () {
 
       //Image entry grow
       gsap.from(".page-8 .image", {
-        scale: 0.8,
+        scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
           scroller: "#main",
@@ -390,7 +390,7 @@ $(document).ready(function () {
 
       //Image entry grow
       gsap.from(".page-9 .image", {
-        scale: 0.8,
+        scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
           scroller: "#main",
@@ -438,7 +438,7 @@ $(document).ready(function () {
 
       //Image entry grow
       gsap.from(".page-10 .image", {
-        scale: 0.8,
+        scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
           scroller: "#main",
