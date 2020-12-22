@@ -540,12 +540,15 @@ body {
     .page-7 {
       display: flex;
 
-      .image-container,
+      .image-container {
+        width: 40%;
+      }
+
       .text-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 60%;
       }
     }
 
