@@ -317,6 +317,19 @@ $(document).ready(function () {
           scrub: true,
         },
       });
+
+      //Text entry opacity
+      gsap.from(".page-7 .text", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom-=33%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
     },
   });
 
