@@ -385,7 +385,7 @@ $(document).ready(function () {
         trigger: ".page-9",
         start: "top top",
         end: "20%",
-        pin: ".page-8",
+        pin: ".page-9",
       });
 
       //Image entry grow
