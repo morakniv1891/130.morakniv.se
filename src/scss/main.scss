@@ -541,14 +541,18 @@ body {
       display: flex;
       height: 100vh;
 
+      .text-container,
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
       .image-container {
         width: 47%;
       }
 
       .text-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 53%;
         padding-left: 70px;
       }
