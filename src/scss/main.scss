@@ -539,6 +539,11 @@ body {
 
     .page-7 {
       display: flex;
+
+      .image,
+      .text {
+        flex: 0 0 50%;
+      }
     }
 
     .page-14 {
