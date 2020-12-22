@@ -241,8 +241,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         </div>
       </div>
       <div class="text-container">
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat um.</p>
+        <p class="text">In the early developing stages, the prototype went by the name of Trapper, as it would later be officially named Mora 2000. Not long after the release, it became a popular product in the United States whose knife users unsurprisingly renamed it to Moose Master.<br><br>The Swedish Armed Forces has been, and still is, one of our most loyal customers to the original green coloured Mora 2000. Not only because it is a highly-functional and reliable tool, it also matches the Swedish soldiers camouflage and is Swedish made.</p>
       </div>
     </section>
     <section class="page-10 boxed">
