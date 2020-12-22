@@ -292,19 +292,7 @@ $(document).ready(function () {
         pin: ".page-7",
       });
 
-      gsap.from(".page-7 .image", {
-        scale: 0.9,
-        ease: "power1.inOut",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top bottom",
-          end: "center+=33% center",
-          scrub: true,
-        },
-      });
-
-      //Fade in knife image and then text
+      //Image and text entry animations
       let t3 = gsap.timeline({
         scrollTrigger: {
           scroller: "#main",
