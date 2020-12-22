@@ -299,7 +299,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: ".page-7",
           start: "top bottom",
-          end: "center center",
+          end: "center+=33% center",
           scrub: true,
         },
       });
