@@ -611,6 +611,14 @@ body {
       }
     }
 
+    .page-10 {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
     .page-14 {
       .title {
         margin-bottom: 80px;
