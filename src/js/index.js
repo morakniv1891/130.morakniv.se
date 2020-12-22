@@ -292,7 +292,7 @@ $(document).ready(function () {
         pin: ".page-7",
       });
 
-      //Image entry animation
+      //Image entry grow
       gsap.from(".page-7 .image", {
         scale: 0.95,
         ease: "power2.inOut",
@@ -301,6 +301,19 @@ $(document).ready(function () {
           trigger: ".page-7",
           start: "top bottom",
           end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry gradient
+      gsap.from(".page-7 .gradient", {
+        y: "-100%",
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom",
+          end: "center center",
           scrub: true,
         },
       });
