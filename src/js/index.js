@@ -284,7 +284,7 @@ $(document).ready(function () {
       });
 
       //Pin first history page
-      let firstHistoryTrigger = ScrollTrigger.create({
+      ScrollTrigger.create({
         scroller: "#main",
         trigger: ".page-7",
         start: "top top",
@@ -303,6 +303,20 @@ $(document).ready(function () {
           scrub: true,
         },
       });
+
+      //Fade in knife image and then text
+      let t3 = gsap.timeline({
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      t3.from(".page-7 .image", { scale: 0.9, duration: 1 }, 0);
+      t3.from(".page-7 .text", { opacity: 0, duration: 1 }, 0);
     },
   });
 
