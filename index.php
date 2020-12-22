@@ -246,8 +246,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
     </section>
     <section class="page-10 boxed">
       <img class="image" src="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg" alt="KJ Eriksson Factory 1925">
-      <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+      <p class="text">There have been small changes in the design and material of the knife over the years, most of them probably not noticeable, apart from the coloured handles and the blade stamps. The original Mora 2000 is green and since then we ha ve expanded with highly-visible orange, and now a limited black anniversary edition.<br><br>What the future holds will be defined by you through time.</p>
     </section>
     <section class="page-14 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
