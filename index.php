@@ -230,8 +230,8 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         </div>
       </div>
       <div class="text-container">
-        <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+        <p class="text">Ever since, our knowledge has grown and with infinite passion for craftsmanship we have continued to manufacture knives for knife users all over the world. Through the years Morakniv has made several iconic knives – one of which is the Mora 2000.<br><br>The story of Mora 2000 begins back in 1991 when a Norwegian hunter wished for an all-round knife that could work as a multi-functional tool for the upcoming moose hunt. A knife that could perform in a hunter's environment as well as cutting loaf, spreading butter and slicing sausages during the lunch break.
+</p>
       </div>
     </section>
     <section class="page-9 boxed">
