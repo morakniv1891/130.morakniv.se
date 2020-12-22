@@ -224,7 +224,10 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
     </section>
     <section class="page-8 boxed">
       <div class="image-container">
-        <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
+        <div class="image-wrapper">
+          <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
+          <div class="gradient"></div>
+        </div>
       </div>
       <div class="text-container">
         <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
