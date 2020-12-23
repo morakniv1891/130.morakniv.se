@@ -335,6 +335,10 @@ body {
 
           h3 {
             padding: 0 20px 10px 0;
+
+            @media (min-width: 1025px) {
+              padding: 0 20px 0 0;
+            }
           }
 
           .line {
