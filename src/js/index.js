@@ -165,14 +165,25 @@ $(document).ready(function () {
         },
       });
 
-      t1.to(".page-2 .knife-image", { opacity: 1, duration: 1 });
-      // tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      // tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
-      // tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      // tl.to(".usp1", { opacity: 1, duration: 1 });
-      // tl.to(".usp2", { opacity: 1, duration: 1 });
-      // tl.to(".usp3", { opacity: 1, duration: 1 });
-      // tl.to(".usp4", { opacity: 1, duration: 1 });
+      tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      tl.to(".usp1", { opacity: 1, duration: 1 });
+      tl.to(".usp2", { opacity: 1, duration: 1 });
+      tl.to(".usp3", { opacity: 1, duration: 1 });
+      tl.to(".usp4", { opacity: 1, duration: 1 });
+
+      gsap.to(".page-2 .knife-image", {
+        opacity: 1,
+        duration: 1,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "top top",
+          end: "+=100%",
+          scrub: true,
+        },
+      });
 
       //Pin third page when reaching top
       ScrollTrigger.create({
