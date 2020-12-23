@@ -434,13 +434,21 @@ body {
             &::after {
               content: " ";
               position: absolute;
-              bottom: -1px;
+              top: -1px;
               left: 100%;
               width: 67%;
-              height: 100%;
+              height: auto;
               border-top: 1px solid $text-light-color;
-              transform: rotate(-55deg);
+              transform: rotate(-135deg);
               transform-origin: bottom left;
+
+              @media (min-width: 1025px) {
+                bottom: -1px;
+                left: 100%;
+                width: 67%;
+                height: 100%;
+                transform: rotate(-55deg);
+              }
             }
           }
         }
