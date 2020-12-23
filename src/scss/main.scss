@@ -299,6 +299,10 @@ body {
           text-transform: uppercase;
           letter-spacing: 4px;
 
+          @media (min-width: 1025px) {
+            height: 75%;
+          }
+
           .line {
             position: relative;
             border-bottom: 1px solid $text-light-color;
