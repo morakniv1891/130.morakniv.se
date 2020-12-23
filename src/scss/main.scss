@@ -310,10 +310,14 @@ body {
 
           h3 {
             width: max-content;
-            font-size: 18px;
+            font-size: 14px;
             letter-spacing: 4px;
             line-height: 25px;
             text-transform: uppercase;
+
+            @media (min-width: 1025px) {
+              font-size: 18px;
+            }
           }
         }
 
