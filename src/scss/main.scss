@@ -296,7 +296,6 @@ body {
           display: flex;
           flex-flow: column nowrap;
           position: absolute;
-          height: auto;
           font-size: 18px;
           text-transform: uppercase;
           letter-spacing: 4px;
@@ -323,8 +322,9 @@ body {
         }
 
         .usp1 {
-          top: 0;
+          top: 80px;
           left: 50%;
+          height: 20%;
           transform: translate(-50%, -100%);
 
           @media (min-width: 1025px) {
