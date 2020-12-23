@@ -53,7 +53,127 @@ $(document).ready(function () {
 
   ScrollTrigger.matchMedia({
     "(max-width: 1023px)": function () {},
-    "(min-width: 1024px)": function () {
+    "(min-width: 1024px)": function () {},
+    all: function () {
+      //Background "scrolling" away upwards
+      gsap.to(".page-1", {
+        backgroundPositionY: "-150vh",
+        duration: 4,
+        delay: 1.5,
+        ease: "power2.inOut",
+      });
+
+      //Anniversary logo coming in from below and shrinking into position
+      gsap.to(".anniversary-logo", {
+        scale: 1,
+        y: "0",
+        duration: 3.5,
+        delay: 1.5,
+        ease: "power1.inOut",
+      });
+
+      //Anniversary text coming in from below and shrinking into position
+      gsap.from(".anniversary-text", {
+        scale: 3,
+        y: "120vh",
+        duration: 3.5,
+        delay: 1.5,
+        ease: "power1.inOut",
+      });
+
+      //Top line moving in from below
+      gsap.from(".left", {
+        y: "100vh",
+        duration: 3,
+        delay: 1.5,
+        ease: "power1.inOut",
+      });
+
+      //"Scroll to explore" text coming in from the bottom
+      gsap.from(".scroll-to-explore", {
+        y: "30vh",
+        duration: 1.5,
+        delay: 4,
+        ease: "power1.inOut",
+        onComplete: () => {
+          scroll.start();
+        },
+      });
+
+      //Pin first page directly
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-1",
+        start: "top top",
+        pin: ".page-1",
+        pinSpacing: false,
+      });
+
+      //Start "scrolling" away everything but scroll to explore and fade it out
+      gsap.to(".page-1 .content-wrapper", {
+        y: "-100vh",
+        scale: 0.25,
+        opacity: -1,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "1% bottom",
+          scrub: true,
+        },
+      });
+
+      //Show menu when logo hits top
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-1 .content-wrapper",
+        start: "bottom center",
+        end: "top bottom",
+        onEnter: () => $("header").fadeIn(),
+      });
+
+      //Fade out scroll to explore
+      gsap.to(".scroll-to-explore", {
+        opacity: 0,
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          endTrigger: ".page-2 .knife-image",
+          start: "top bottom",
+          end: "bottom bottom",
+          scrub: true,
+        },
+      });
+
+      //Pin second page when reaching top
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-2",
+        start: "top top",
+        end: "+=300%",
+        pin: ".page-2",
+        onLeave: () => $("header").addClass("hideable"),
+      });
+
+      //Fade in and out knife intro text
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "top top",
+          end: "+=300%",
+          scrub: true,
+        },
+      });
+
+      tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      t1.to(".page-2 .knife-image", { opacity: 1, duration: 1 });
+      tl.to(".usp1", { opacity: 1, duration: 1 });
+      tl.to(".usp2", { opacity: 1, duration: 1 });
+      tl.to(".usp3", { opacity: 1, duration: 1 });
+      tl.to(".usp4", { opacity: 1, duration: 1 });
+
       //Pin third page when reaching top
       ScrollTrigger.create({
         scroller: "#main",
@@ -355,126 +475,6 @@ $(document).ready(function () {
           scrub: true,
         },
       });
-    },
-    all: function () {
-      //Background "scrolling" away upwards
-      gsap.to(".page-1", {
-        backgroundPositionY: "-150vh",
-        duration: 4,
-        delay: 1.5,
-        ease: "power2.inOut",
-      });
-
-      //Anniversary logo coming in from below and shrinking into position
-      gsap.to(".anniversary-logo", {
-        scale: 1,
-        y: "0",
-        duration: 3.5,
-        delay: 1.5,
-        ease: "power1.inOut",
-      });
-
-      //Anniversary text coming in from below and shrinking into position
-      gsap.from(".anniversary-text", {
-        scale: 3,
-        y: "120vh",
-        duration: 3.5,
-        delay: 1.5,
-        ease: "power1.inOut",
-      });
-
-      //Top line moving in from below
-      gsap.from(".left", {
-        y: "100vh",
-        duration: 3,
-        delay: 1.5,
-        ease: "power1.inOut",
-      });
-
-      //"Scroll to explore" text coming in from the bottom
-      gsap.from(".scroll-to-explore", {
-        y: "30vh",
-        duration: 1.5,
-        delay: 4,
-        ease: "power1.inOut",
-        onComplete: () => {
-          scroll.start();
-        },
-      });
-
-      //Pin first page directly
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-1",
-        start: "top top",
-        pin: ".page-1",
-        pinSpacing: false,
-      });
-
-      //Start "scrolling" away everything but scroll to explore and fade it out
-      gsap.to(".page-1 .content-wrapper", {
-        y: "-100vh",
-        scale: 0.25,
-        opacity: -1,
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-2",
-          start: "1% bottom",
-          scrub: true,
-        },
-      });
-
-      //Show menu when logo hits top
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-1 .content-wrapper",
-        start: "bottom center",
-        end: "top bottom",
-        onEnter: () => $("header").fadeIn(),
-      });
-
-      //Fade out scroll to explore
-      gsap.to(".scroll-to-explore", {
-        opacity: 0,
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-2",
-          endTrigger: ".page-2 .knife-image",
-          start: "top bottom",
-          end: "bottom bottom",
-          scrub: true,
-        },
-      });
-
-      //Pin second page when reaching top
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-2",
-        start: "top top",
-        end: "+=300%",
-        pin: ".page-2",
-        onLeave: () => $("header").addClass("hideable"),
-      });
-
-      //Fade in and out knife intro text
-      let tl = gsap.timeline({
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-2",
-          start: "top top",
-          end: "+=300%",
-          scrub: true,
-        },
-      });
-
-      tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
-      tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      t1.to(".page-2 .knife-image", { opacity: 1, duration: 1 });
-      tl.to(".usp1", { opacity: 1, duration: 1 });
-      tl.to(".usp2", { opacity: 1, duration: 1 });
-      tl.to(".usp3", { opacity: 1, duration: 1 });
-      tl.to(".usp4", { opacity: 1, duration: 1 });
     },
   });
 
