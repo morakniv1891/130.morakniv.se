@@ -274,9 +274,11 @@ body {
 
         .knife-image {
           max-height: 70vh;
+          opacity: 0.5;
 
           @media (min-width: 1025px) {
             max-height: 30vh;
+            opacity: 1;
           }
         }
 
