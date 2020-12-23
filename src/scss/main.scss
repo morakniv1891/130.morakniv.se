@@ -345,6 +345,10 @@ body {
             height: 70%;
             border-left: 1px solid $text-light-color;
 
+            @media (min-width: 1025px) {
+              height: auto;
+            }
+
             &::after {
               content: " ";
               position: absolute;
