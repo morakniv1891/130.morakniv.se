@@ -506,13 +506,20 @@ body {
             &::after {
               content: " ";
               position: absolute;
-              bottom: -1px;
+              top: -1px;
               right: 100%;
-              width: 64%;
-              height: 100%;
+              width: 50%;
               border-top: 1px solid $text-light-color;
-              transform: rotate(55deg);
+              transform: rotate(135deg);
               transform-origin: bottom right;
+
+              @media (min-width: 1025px) {
+                bottom: -1px;
+                right: 100%;
+                width: 64%;
+                height: 100%;
+                transform: rotate(55deg);
+              }
             }
           }
         }
