@@ -527,7 +527,7 @@ body {
 
               @media (min-width: 1025px) {
                 bottom: -1px;
-                right: 100%;
+                right: calc(100% + 1px);
                 top: unset;
                 width: 64%;
                 height: 100%;
