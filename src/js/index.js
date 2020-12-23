@@ -53,8 +53,7 @@ $(document).ready(function () {
 
   ScrollTrigger.matchMedia({
     "(max-width: 1023px)": function () {},
-    "(min-width: 1024px)": function () {},
-    all: function () {
+    "(min-width: 1024px)": function () {
       //Background "scrolling" away upwards
       gsap.to(".page-1", {
         backgroundPositionY: "-150vh",
@@ -475,6 +474,7 @@ $(document).ready(function () {
         },
       });
     },
+    all: function () {},
   });
 
   /*
