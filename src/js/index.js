@@ -474,6 +474,7 @@ $(document).ready(function () {
       tl.to(".usp2", { opacity: 1, duration: 1 });
       tl.to(".usp3", { opacity: 1, duration: 1 });
       tl.to(".usp4", { opacity: 1, duration: 1 });
+      t1.to(".page-2 .knife-image", { opacity: 1 }, 2);
     },
   });
 
