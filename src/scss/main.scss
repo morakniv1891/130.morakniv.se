@@ -237,6 +237,7 @@ body {
         margin-bottom: 14px;
         font-weight: 100;
         text-align: center;
+        order: 1;
       }
 
       .text {
@@ -246,6 +247,7 @@ body {
         font-size: 16px;
         font-weight: 300;
         text-align: center;
+        order: 3;
 
         @media (min-width: 1025px) {
           padding: 0;
@@ -254,6 +256,7 @@ body {
 
       .image-wrapper {
         position: relative;
+        order: 2;
 
         .knife-image {
           max-height: 30vh;
