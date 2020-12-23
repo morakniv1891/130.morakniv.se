@@ -321,13 +321,13 @@ body {
           top: 23%;
           left: 50%;
           height: 20%;
-          transform: translate(-50%, -100%);
+          transform: translate(-50%, 0);
 
           @media (min-width: 1025px) {
             top: 0;
             left: 0;
             height: 100%;
-            transform: translateY(-100%);
+            transform: translateY(0, -100%);
           }
 
           h3 {
@@ -421,16 +421,16 @@ body {
         .usp3 {
           justify-content: flex-end;
           bottom: 0;
-          left: 50;
+          left: 50%;
           height: 20%;
-          transform: translate(-50%, 100%);
+          transform: translate(-50%, 0);
 
           @media (min-width: 1025px) {
             flex-flow: column nowrap;
             bottom: 0;
             left: 0;
             height: 100%;
-            transform: translateY(100%);
+            transform: translate(0, 100%);
           }
 
           h3 {
