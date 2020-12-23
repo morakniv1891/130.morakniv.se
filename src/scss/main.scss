@@ -393,7 +393,12 @@ body {
       }
 
       .countdown-wrapper {
+        margin: 0;
         order: 4;
+
+        @media (min-width: 1025px) {
+          margin: 40px 0 0;
+        }
       }
     }
 
