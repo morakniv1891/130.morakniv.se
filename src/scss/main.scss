@@ -304,11 +304,11 @@ body {
 
           .line {
             position: relative;
-            border-bottom: 1px solid $text-light-color;
 
             @media (min-width: 1025px) {
               width: 100%;
               margin-top: 10px;
+              border-bottom: 1px solid $text-light-color;
             }
           }
 
@@ -328,6 +328,8 @@ body {
           }
 
           .line {
+            border-left: 1px solid $text-light-color;
+
             &::after {
               content: " ";
               position: absolute;
