@@ -322,7 +322,7 @@ body {
         }
 
         .usp1 {
-          top: 25%;
+          top: 23%;
           left: 50%;
           height: 20%;
           transform: translate(-50%, -100%);
@@ -350,15 +350,17 @@ body {
               position: absolute;
               top: 100%;
               left: 0;
-              width: 60%;
-              height: 100%;
+              width: 45%;
               border-top: 1px solid $text-light-color;
-              transform: rotate(55deg);
+              transform: rotate(45deg);
               transform-origin: top left;
 
               @media (min-width: 1025px) {
                 bottom: -1px;
                 left: 100%;
+                width: 60%;
+                height: 100%;
+                transform: rotate(55deg);
               }
             }
           }
