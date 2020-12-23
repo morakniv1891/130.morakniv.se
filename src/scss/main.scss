@@ -368,10 +368,16 @@ body {
         }
 
         .usp2 {
-          top: 0;
+          bottom: 0;
           right: 0;
           height: calc(100% + 25px);
-          transform: translateY(-100%);
+
+          @media (min-width: 1025px) {
+            top: 0;
+            right: 0;
+            height: calc(100% + 25px);
+            transform: translateY(-100%);
+          }
 
           h3 {
             padding-left: 20px;
