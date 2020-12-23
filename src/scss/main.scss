@@ -452,12 +452,12 @@ body {
             &::after {
               content: " ";
               position: absolute;
-              top: -1px;
+              bottom: -1px;
               left: 100%;
               width: 50%;
               height: auto;
               border-top: 1px solid $text-light-color;
-              transform: rotate(-135deg);
+              transform: rotate(135deg);
               transform-origin: bottom left;
 
               @media (min-width: 1025px) {
