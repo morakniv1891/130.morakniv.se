@@ -296,7 +296,6 @@ body {
           display: flex;
           flex-flow: column nowrap;
           position: absolute;
-          font-size: 18px;
           text-transform: uppercase;
           letter-spacing: 4px;
           opacity: 0;
@@ -313,6 +312,7 @@ body {
 
           h3 {
             width: max-content;
+            font-size: 18px;
             line-height: 25px;
           }
         }
