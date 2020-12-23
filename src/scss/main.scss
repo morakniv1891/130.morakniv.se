@@ -344,13 +344,18 @@ body {
             &::after {
               content: " ";
               position: absolute;
-              bottom: -1px;
-              left: 100%;
+              top: 0;
+              left: 0;
               width: 60%;
               height: 100%;
               border-top: 1px solid $text-light-color;
               transform: rotate(55deg);
               transform-origin: top left;
+
+              @media (min-width: 1025px) {
+                bottom: -1px;
+                left: 100%;
+              }
             }
           }
         }
