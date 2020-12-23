@@ -366,9 +366,9 @@ $(document).ready(function () {
       });
 
       //Anniversary logo coming in from below and shrinking into position
-      gsap.from(".anniversary-logo", {
-        scale: 2,
-        y: "75vh",
+      gsap.to(".anniversary-logo", {
+        scale: 1,
+        y: "0",
         duration: 3.5,
         delay: 1.5,
         ease: "power1.inOut",
