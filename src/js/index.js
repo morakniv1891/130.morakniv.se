@@ -470,10 +470,10 @@ $(document).ready(function () {
       tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
       tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
       tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      tl.from(".usp1", { opacity: 0, duration: 1 });
-      tl.from(".usp2", { opacity: 0, duration: 1 });
-      tl.from(".usp3", { opacity: 0, duration: 1 });
-      tl.from(".usp4", { opacity: 0, duration: 1 });
+      tl.to(".usp1", { opacity: 1, duration: 1 });
+      tl.to(".usp2", { opacity: 1, duration: 1 });
+      tl.to(".usp3", { opacity: 1, duration: 1 });
+      tl.to(".usp4", { opacity: 1, duration: 1 });
     },
   });
 
