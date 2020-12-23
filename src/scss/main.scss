@@ -359,6 +359,7 @@ body {
               @media (min-width: 1025px) {
                 bottom: -1px;
                 left: 100%;
+                top: unset;
                 width: 60%;
                 height: 100%;
                 transform: rotate(55deg);
@@ -413,6 +414,7 @@ body {
               @media (min-width: 1025px) {
                 bottom: -1px;
                 right: 100%;
+                top: unset;
                 width: 56%;
                 height: 100%;
                 transform: rotate(-55deg);
@@ -521,6 +523,7 @@ body {
               @media (min-width: 1025px) {
                 bottom: -1px;
                 right: 100%;
+                top: unset;
                 width: 64%;
                 height: 100%;
                 transform: rotate(55deg);
