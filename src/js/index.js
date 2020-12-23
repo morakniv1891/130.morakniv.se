@@ -160,7 +160,7 @@ $(document).ready(function () {
           scroller: "#main",
           trigger: ".page-2",
           start: "top top",
-          end: "+=300%",
+          end: "+=400%",
           scrub: true,
         },
       });
@@ -168,7 +168,7 @@ $(document).ready(function () {
       tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
       tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
       tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      // t1.to(".page-2 .knife-image", { opacity: 1, duration: 1 });
+      t1.to(".page-2 .knife-image", { opacity: 1, duration: 1 });
       tl.to(".usp1", { opacity: 1, duration: 1 });
       tl.to(".usp2", { opacity: 1, duration: 1 });
       tl.to(".usp3", { opacity: 1, duration: 1 });
