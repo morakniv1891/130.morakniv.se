@@ -273,6 +273,12 @@ body {
         // margin: -100px 0 20px;
         z-index: -1;
 
+        @media (min-width: 1025px) {
+          position: relative;
+          top: unset;
+          left: unset;
+        }
+
         .knife-image {
           max-height: 60vh;
           opacity: 0.5;
