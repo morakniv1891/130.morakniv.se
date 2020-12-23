@@ -414,7 +414,9 @@ body {
           }
 
           h3 {
-            padding-right: 20px;
+            @media (min-width: 1025px) {
+              padding-right: 20px;
+            }
           }
 
           .line {
