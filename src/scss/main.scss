@@ -301,10 +301,6 @@ body {
           letter-spacing: 4px;
           opacity: 0;
 
-          @media (min-width: 1025px) {
-            height: 100%;
-          }
-
           .line {
             position: relative;
 
@@ -330,6 +326,7 @@ body {
           @media (min-width: 1025px) {
             top: 0;
             left: 0;
+            height: 100%;
             transform: translateY(-100%);
           }
 
@@ -374,6 +371,7 @@ body {
           height: calc(100% + 18px);
           top: 0;
           right: 0;
+          height: 100%;
           transform: translateY(-100%);
 
           h3 {
@@ -399,6 +397,7 @@ body {
           justify-content: flex-end;
           bottom: 0;
           left: 0;
+          height: 100%;
           transform: translateY(100%);
 
           h3 {
@@ -424,6 +423,7 @@ body {
           justify-content: flex-end;
           bottom: 0;
           right: 0;
+          height: 100%;
           transform: translateY(100%);
 
           h3 {
