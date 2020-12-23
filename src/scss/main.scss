@@ -474,9 +474,16 @@ body {
         .usp4 {
           justify-content: flex-end;
           bottom: 0;
-          right: 0;
-          height: 100%;
-          transform: translateY(100%);
+          left: 50%;
+          height: 20%;
+          transform: translate(-50%, 0);
+
+          @media (min-width: 1025px) {
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            transform: translate(0, 100%);
+          }
 
           h3 {
             padding-left: 20px;
