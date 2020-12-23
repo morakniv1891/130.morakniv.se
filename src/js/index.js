@@ -165,14 +165,14 @@ $(document).ready(function () {
         },
       });
 
-      tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 }, 0);
-      tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 }, 1);
-      tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 }, 2);
-      t1.to(".page-2 .knife-image", { opacity: 1, duration: 1 }, 2);
-      tl.to(".usp1", { opacity: 1, duration: 1 }, 3);
-      tl.to(".usp2", { opacity: 1, duration: 1 }, 4);
-      tl.to(".usp3", { opacity: 1, duration: 1 }, 5);
-      tl.to(".usp4", { opacity: 1, duration: 1 }, 6);
+      tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      t1.to(".page-2 .knife-image", { opacity: 1, duration: 1 }, "<1");
+      tl.to(".usp1", { opacity: 1, duration: 1 });
+      tl.to(".usp2", { opacity: 1, duration: 1 });
+      tl.to(".usp3", { opacity: 1, duration: 1 });
+      tl.to(".usp4", { opacity: 1, duration: 1 });
 
       //Pin third page when reaching top
       ScrollTrigger.create({
