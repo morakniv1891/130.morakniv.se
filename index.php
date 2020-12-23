@@ -119,8 +119,8 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
       <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000 (S). Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first factory run, marked with a number between 1-130/130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.</p>
       <div class="image-wrapper">
         <picture>
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1023px)">
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png" media="(min-width: 1024px)">
+          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
+          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png" media="(min-width: 1025px)">
           <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
@@ -195,8 +195,8 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
             <p class="text">The knife was actually, despite its name, launched as early as 1991. Since then, it has become a true classic amongst knife users around the world. When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000. 30 years have now passed and the Anniversary Edition is our tribute to the original knife.</p>
           </div>
           <picture>
-            <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison_m.png" media="(max-width: 1023px)">
-            <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison.png" media="(min-width: 1024px)">
+            <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison_m.png" media="(max-width: 1024px)">
+            <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison.png" media="(min-width: 1025px)">
             <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison.png" alt="Mora 2000 Anniversary Edition">
           </picture>
         </div>
@@ -259,8 +259,8 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <div class="image-wrapper">
         <picture>
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath_m.png" media="(max-width: 1023px)">
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath.png" media="(min-width: 1024px)">
+          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath_m.png" media="(max-width: 1024px)">
+          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath.png" media="(min-width: 1025px)">
           <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>

@@ -29,7 +29,7 @@ p {
   letter-spacing: 2px;
   line-height: 1.4;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     font-size: 17px;
   }
 }
@@ -146,7 +146,7 @@ body {
       background: url(/assets/images/background01_m.png) no-repeat center top;
       background-size: cover;
 
-      @media (min-width: 1024px) {
+      @media (min-width: 1025px) {
         background: url(/assets/images/background01.png) no-repeat center top;
       }
 
@@ -204,7 +204,7 @@ body {
             text-align: center;
             z-index: 9;
 
-            @media (min-width: 1024px) {
+            @media (min-width: 1025px) {
               font-size: 16px;
             }
           }
@@ -247,7 +247,7 @@ body {
         font-weight: 300;
         text-align: center;
 
-        @media (min-width: 1024px) {
+        @media (min-width: 1025px) {
           padding: 0;
         }
       }
