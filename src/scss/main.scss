@@ -349,6 +349,10 @@ body {
           right: 0;
           transform: translateY(-100%);
 
+          @media (min-width: 1025px) {
+            height: calc(75% + 18px);
+          }
+
           h3 {
             padding-left: 20px;
           }
