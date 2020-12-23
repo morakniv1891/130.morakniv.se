@@ -198,9 +198,13 @@ body {
 
           .anniversary-text {
             width: 768px;
-            font-size: 16px;
+            font-size: 14px;
             text-align: center;
             z-index: 9;
+
+            @media (min-width: 1024px) {
+              font-size: 16px;
+            }
           }
         }
       }
