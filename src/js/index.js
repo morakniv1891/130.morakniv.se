@@ -54,35 +54,6 @@ $(document).ready(function () {
   ScrollTrigger.matchMedia({
     "(max-width: 1023px)": function () {},
     "(min-width: 1024px)": function () {
-      //Pin second page when reaching top
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-2",
-        start: "top top",
-        end: "+=300%",
-        pin: ".page-2",
-        onLeave: () => $("header").addClass("hideable"),
-      });
-
-      //Fade in and out knife intro text
-      let tl = gsap.timeline({
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-2",
-          start: "top top",
-          end: "+=300%",
-          scrub: true,
-        },
-      });
-
-      tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
-      tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
-      tl.from(".usp1", { opacity: 0, duration: 1 });
-      tl.from(".usp2", { opacity: 0, duration: 1 });
-      tl.from(".usp3", { opacity: 0, duration: 1 });
-      tl.from(".usp4", { opacity: 0, duration: 1 });
-
       //Pin third page when reaching top
       ScrollTrigger.create({
         scroller: "#main",
@@ -474,6 +445,35 @@ $(document).ready(function () {
           scrub: true,
         },
       });
+
+      //Pin second page when reaching top
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-2",
+        start: "top top",
+        end: "+=300%",
+        pin: ".page-2",
+        onLeave: () => $("header").addClass("hideable"),
+      });
+
+      //Fade in and out knife intro text
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-2",
+          start: "top top",
+          end: "+=300%",
+          scrub: true,
+        },
+      });
+
+      tl.from(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 1, duration: 1 });
+      tl.to(".page-2 .intro-text", { opacity: 0, duration: 1 });
+      tl.from(".usp1", { opacity: 0, duration: 1 });
+      tl.from(".usp2", { opacity: 0, duration: 1 });
+      tl.from(".usp3", { opacity: 0, duration: 1 });
+      tl.from(".usp4", { opacity: 0, duration: 1 });
     },
   });
 
