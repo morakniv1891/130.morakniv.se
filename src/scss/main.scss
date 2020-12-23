@@ -234,10 +234,15 @@ body {
 
       .title {
         padding: 0 10px;
-        margin-bottom: 14px;
+        margin-bottom: 20px;
+        font-size: 14px;
         font-weight: 100;
         text-align: center;
         order: 1;
+
+        @media (min-width: 1025px) {
+          font-size: 30px;
+        }
       }
 
       .text {
