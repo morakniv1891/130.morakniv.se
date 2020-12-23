@@ -338,6 +338,7 @@ body {
           }
 
           .line {
+            height: 100%;
             border-left: 1px solid $text-light-color;
 
             &::after {
