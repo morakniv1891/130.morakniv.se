@@ -378,6 +378,8 @@ body {
             flex-flow: column nowrap;
             top: 0;
             right: 0;
+            bottom: unset;
+            left: unset;
             height: calc(100% + 25px);
             transform: translate(0, -100%);
           }
