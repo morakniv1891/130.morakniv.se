@@ -432,6 +432,7 @@ body {
             flex-flow: column nowrap;
             bottom: 0;
             left: 0;
+            top: unset;
             height: 100%;
             transform: translate(0, 100%);
           }
@@ -486,6 +487,7 @@ body {
             flex-flow: column nowrap;
             bottom: 0;
             right: 0;
+            left: unset;
             height: 100%;
             transform: translate(0, 100%);
           }
