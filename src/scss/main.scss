@@ -296,11 +296,15 @@ body {
           display: flex;
           flex-flow: column nowrap;
           position: absolute;
-          height: 100%;
+          height: auto;
           font-size: 18px;
           text-transform: uppercase;
           letter-spacing: 4px;
           opacity: 0;
+
+          @media (min-width: 1025px) {
+            height: 100%;
+          }
 
           .line {
             position: relative;
