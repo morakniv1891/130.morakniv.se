@@ -82,8 +82,8 @@ $(document).ready(function () {
       tl.to(".usp2", { opacity: 1, duration: 1 });
       tl.to(".usp1", { opacity: 0, duration: 1 }, 5);
       tl.to(".usp2", { opacity: 0, duration: 1 }, 5);
-      tl.to(".usp3", { opacity: 1, duration: 1 }, 5);
-      tl.to(".usp4", { opacity: 1, duration: 1 }, 6);
+      tl.to(".usp3", { opacity: 1, duration: 1 }, 6);
+      tl.to(".usp4", { opacity: 1, duration: 1 }, 7);
     },
     "(min-width: 1025px)": function () {
       //Pin second page when reaching top
