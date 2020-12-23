@@ -400,6 +400,7 @@ body {
         }
 
         .usp3 {
+          flex-flow: column-reverse nowrap;
           justify-content: flex-end;
           bottom: 30%;
           left: 50%;
@@ -407,6 +408,7 @@ body {
           transform: translate(-50%, 100%);
 
           @media (min-width: 1025px) {
+            flex-flow: column nowrap;
             bottom: 0;
             left: 0;
             height: 100%;
