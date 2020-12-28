@@ -630,22 +630,36 @@ body {
           height: 50vh;
           width: 100%;
 
+          @media (min-width: 1025px) {
+          }
+
           &::after {
             content: "1991";
-            position: absolute;
-            bottom: -50px;
-            right: -50px;
-            font-size: 300px;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            font-size: 30vw;
             font-weight: 500;
             letter-spacing: 30px;
             z-index: -1;
             color: $text-dark-color;
             opacity: 0.15;
+
+            @media (min-width: 1025px) {
+              position: absolute;
+              bottom: -50px;
+              right: -50px;
+              font-size: 300px;
+            }
           }
 
           .title,
           .text {
-            width: 80%;
+            width: 90%;
+
+            @media (min-width: 1025px) {
+              width: 80%;
+            }
           }
         }
 
