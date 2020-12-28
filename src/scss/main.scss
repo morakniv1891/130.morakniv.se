@@ -639,6 +639,7 @@ body {
             position: fixed;
             top: 0;
             left: 50%;
+            transform: translateX(-50%);
             font-size: 30vw;
             font-weight: 500;
             letter-spacing: 30px;
@@ -668,6 +669,7 @@ body {
           position: fixed;
           top: 0;
           left: 50%;
+          transform: translateX(-50%);
           display: block;
           margin-top: 100px;
 
