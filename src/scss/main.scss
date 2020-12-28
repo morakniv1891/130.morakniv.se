@@ -670,11 +670,13 @@ body {
           top: 0;
           left: 50%;
           transform: translateX(-50%);
+          height: 40vh;
           display: block;
           margin-top: 100px;
 
           @media (min-width: 1025px) {
             position: static;
+            height: unset;
           }
         }
       }
