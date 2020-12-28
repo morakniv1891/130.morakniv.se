@@ -724,7 +724,12 @@ body {
     .page-7,
     .page-9 {
       display: flex;
+      flex-flow: column nowrap;
       height: 100vh;
+
+      @media (min-width: 1025px) {
+        flex-flow: row nowrap;
+      }
 
       .text-container,
       .image-container {
