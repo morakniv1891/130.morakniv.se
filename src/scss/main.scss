@@ -638,7 +638,8 @@ body {
           position: relative;
           padding: 20px 0;
           height: 50vh;
-          width: 100%;
+          width: 90%;
+          margin: 0 auto;
 
           @media (min-width: 1025px) {
             padding: 0;
@@ -674,8 +675,6 @@ body {
 
           .title,
           .text {
-            width: 90%;
-
             @media (min-width: 1025px) {
               width: 80%;
             }
