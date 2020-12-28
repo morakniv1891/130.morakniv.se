@@ -616,6 +616,7 @@ body {
         height: 100%;
         transform: translateX(-50%);
         color: $text-dark-color;
+        z-index: 11;
 
         .text-wrapper {
           display: flex;
