@@ -633,7 +633,6 @@ body {
           display: flex;
           flex-flow: column;
           justify-content: flex-start;
-          align-items: center;
           flex: 0;
           position: relative;
           padding: 20px 0;
@@ -644,7 +643,6 @@ body {
           @media (min-width: 1025px) {
             padding: 0;
             justify-content: flex-end;
-            align-items: unset;
           }
 
           &::after {
