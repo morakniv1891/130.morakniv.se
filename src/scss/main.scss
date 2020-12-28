@@ -722,6 +722,8 @@ body {
           width: 100%;
           height: auto;
           transform: translate(-50%, -50%);
+          display: flex;
+          flex-flow: column-reverse nowrap;
           color: $text-light-color;
           z-index: 11;
 
