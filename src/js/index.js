@@ -55,7 +55,7 @@ $(document).ready(function () {
     "(max-width: 1024px)": function () {
       //Pin second page when reaching top
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-2",
         start: "top top",
         end: "+=400%",
@@ -66,7 +66,7 @@ $(document).ready(function () {
       //Fade in and out knife intro text
       let tl = gsap.timeline({
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-2",
           start: "top top",
           end: "+=400%",
@@ -88,7 +88,7 @@ $(document).ready(function () {
     "(min-width: 1025px)": function () {
       //Pin second page when reaching top
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-2",
         start: "top top",
         end: "+=300%",
@@ -99,7 +99,7 @@ $(document).ready(function () {
       //Fade in and out knife intro text
       let tl = gsap.timeline({
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-2",
           start: "top top",
           end: "+=300%",
@@ -164,7 +164,7 @@ $(document).ready(function () {
 
       //Pin first page directly
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-1",
         start: "top top",
         pin: ".page-1",
@@ -177,7 +177,7 @@ $(document).ready(function () {
         scale: 0.25,
         opacity: -1,
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-2",
           start: "1% bottom",
           scrub: true,
@@ -186,7 +186,7 @@ $(document).ready(function () {
 
       //Show menu when logo hits top
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-1 .content-wrapper",
         start: "bottom center",
         end: "top bottom",
@@ -197,7 +197,7 @@ $(document).ready(function () {
       gsap.to(".scroll-to-explore", {
         opacity: 0,
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-2",
           endTrigger: ".page-2 .knife-image",
           start: "top bottom",
@@ -208,7 +208,7 @@ $(document).ready(function () {
 
       //Pin third page when reaching top
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-3",
         start: "top top",
         end: "+=600%",
@@ -221,7 +221,7 @@ $(document).ready(function () {
         y: "100vh",
         ease: "power1.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-3",
           start: "top center",
           end: "+=100%",
@@ -233,7 +233,7 @@ $(document).ready(function () {
         y: "150vh",
         ease: "power1.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-3",
           start: "top center",
           end: "+=100%",
@@ -246,7 +246,7 @@ $(document).ready(function () {
         scale: 10,
         ease: "power1.in",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-4",
           start: "top bottom+=325%",
           end: "top bottom+=125%",
@@ -259,7 +259,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power1.in",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-4",
           start: "top bottom+=275%",
           end: "top bottom+=175%",
@@ -270,7 +270,7 @@ $(document).ready(function () {
       //Fade in knife image and then text
       let t2 = gsap.timeline({
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-4",
           start: "top bottom+=150%",
           end: "top bottom+=50%",
@@ -286,7 +286,7 @@ $(document).ready(function () {
         y: "-100vh",
         ease: "none",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-4",
           start: "top bottom",
           end: "bottom bottom",
@@ -296,7 +296,7 @@ $(document).ready(function () {
 
       //Pin fourth page when reaching top
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-4",
         start: "top top",
         pin: ".page-4",
@@ -308,7 +308,7 @@ $(document).ready(function () {
         scale: 2,
         ease: "power1.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-6",
           start: "top bottom",
           end: "top center",
@@ -318,7 +318,7 @@ $(document).ready(function () {
 
       //Pin first history page
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-7",
         start: "top top",
         end: "20%",
@@ -330,7 +330,7 @@ $(document).ready(function () {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-7",
           start: "top bottom",
           end: "center+=33% center",
@@ -343,7 +343,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-7",
           start: "top bottom-=33%",
           end: "center+=33% center",
@@ -356,7 +356,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-7",
           start: "top center-=25%",
           end: "center+=33% center",
@@ -366,7 +366,7 @@ $(document).ready(function () {
 
       //Pin first history page
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-8",
         start: "top top",
         end: "20%",
@@ -378,7 +378,7 @@ $(document).ready(function () {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-8",
           start: "top bottom",
           end: "center+=33% center",
@@ -391,7 +391,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-8",
           start: "top bottom-=33%",
           end: "center+=33% center",
@@ -404,7 +404,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-8",
           start: "top center-=25%",
           end: "center+=33% center",
@@ -414,7 +414,7 @@ $(document).ready(function () {
 
       //Pin first history page
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-9",
         start: "top top",
         end: "20%",
@@ -426,7 +426,7 @@ $(document).ready(function () {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-9",
           start: "top bottom",
           end: "center+=33% center",
@@ -439,7 +439,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-9",
           start: "top bottom-=33%",
           end: "center+=33% center",
@@ -452,7 +452,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-9",
           start: "top center-=25%",
           end: "center+=33% center",
@@ -462,7 +462,7 @@ $(document).ready(function () {
 
       //Pin first history page
       ScrollTrigger.create({
-        scroller: "#main",
+        // scroller: "#main",
         trigger: ".page-10",
         start: "top top",
         end: "20%",
@@ -474,7 +474,7 @@ $(document).ready(function () {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-10",
           start: "top bottom",
           end: "center+=33% center",
@@ -487,7 +487,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-10",
           start: "top bottom-=33%",
           end: "center+=33% center",
@@ -500,7 +500,7 @@ $(document).ready(function () {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
-          scroller: "#main",
+          // scroller: "#main",
           trigger: ".page-10",
           start: "top center-=25%",
           end: "center+=33% center",
