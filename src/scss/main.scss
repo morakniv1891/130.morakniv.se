@@ -636,15 +636,16 @@ body {
         .text-wrapper {
           display: flex;
           flex-flow: column;
-          justify-content: flex-end;
+          justify-content: flex-start;
           align-items: center;
           position: relative;
-          padding-bottom: 20px;
+          padding: 20px 0;
           height: 50vh;
           width: 100%;
 
           @media (min-width: 1025px) {
             padding: 0;
+            justify-content: flex-end;
             align-items: unset;
           }
 
