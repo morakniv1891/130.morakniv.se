@@ -119,6 +119,54 @@ $(document).ready(function () {
       //Pin first history page
       ScrollTrigger.create({
         scroller: "#main",
+        trigger: ".page-7",
+        start: "top top",
+        end: "20%",
+        pin: ".page-7",
+      });
+
+      //Image entry grow
+      gsap.from(".page-7 .image", {
+        scale: 0.7,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry gradient
+      gsap.to(".page-7 .gradient", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom-=33%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Text entry opacity
+      gsap.from(".page-7 .text", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top center-=25%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Pin first history page
+      ScrollTrigger.create({
+        scroller: "#main",
         trigger: ".page-8",
         start: "top top",
         end: "20%",
@@ -456,54 +504,6 @@ $(document).ready(function () {
           trigger: ".page-6",
           start: "top bottom",
           end: "top center",
-          scrub: true,
-        },
-      });
-
-      //Pin first history page
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-7",
-        start: "top top",
-        end: "20%",
-        pin: ".page-7",
-      });
-
-      //Image entry grow
-      gsap.from(".page-7 .image", {
-        scale: 0.7,
-        ease: "power2.inOut",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top bottom",
-          end: "center+=33% center",
-          scrub: true,
-        },
-      });
-
-      //Image entry gradient
-      gsap.to(".page-7 .gradient", {
-        opacity: 0,
-        ease: "power2.inOut",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top bottom-=33%",
-          end: "center+=33% center",
-          scrub: true,
-        },
-      });
-
-      //Text entry opacity
-      gsap.from(".page-7 .text", {
-        opacity: 0,
-        ease: "power2.inOut",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top center-=25%",
-          end: "center+=33% center",
           scrub: true,
         },
       });
