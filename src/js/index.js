@@ -447,8 +447,8 @@ $(document).ready(function () {
       });
 
       //Fade to white
-      gsap.to(".page-3 .first-content-wrapper", {
-        opacity: 0,
+      gsap.to(".page-3 .white-fade", {
+        opacity: 1,
         ease: "power1.in",
         scrollTrigger: {
           scroller: "#main",
