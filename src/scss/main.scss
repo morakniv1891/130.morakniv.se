@@ -773,8 +773,12 @@ body {
 
     .page-8 {
       display: flex;
-      flex-flow: row-reverse nowrap;
+      flex-flow: column nowrap;
       height: 100vh;
+
+      @media (min-width: 1025px) {
+        flex-flow: row-reverse nowrap;
+      }
 
       .text-container,
       .image-container {
@@ -784,7 +788,11 @@ body {
       }
 
       .image-container {
-        width: 47%;
+        width: 100%;
+
+        @media (min-width: 1025px) {
+          width: 47%;
+        }
 
         .image-wrapper {
           position: relative;
@@ -803,8 +811,13 @@ body {
       }
 
       .text-container {
-        width: 53%;
-        padding-right: 70px;
+        width: 100%;
+        padding: 20px 20px 0;
+
+        @media (min-width: 1025px) {
+          width: 53%;
+          padding-right: 70px;
+        }
       }
     }
 
