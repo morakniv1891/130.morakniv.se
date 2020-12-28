@@ -761,7 +761,12 @@ body {
       }
 
       .text-container {
-        width: 53%;
+        width: 100%;
+
+        @media (min-width: 1025px) {
+          width: 53%;
+        }
+
         padding-left: 70px;
       }
     }
