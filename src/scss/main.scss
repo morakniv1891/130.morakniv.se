@@ -670,14 +670,20 @@ body {
             }
           }
 
+          .title {
+            font-size: 6vw;
+
+            @media (min-width: 1025px) {
+              font-size: 30px;
+            }
+          }
+
           .title,
           .text {
-            font-size: 6vw;
             text-align: center;
 
             @media (min-width: 1025px) {
               width: 80%;
-              font-size: 30px;
               text-align: left;
             }
           }
