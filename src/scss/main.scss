@@ -696,6 +696,7 @@ body {
           @media (min-width: 1025px) {
             position: static;
             height: unset;
+            transform: translateX(0);
           }
         }
       }
