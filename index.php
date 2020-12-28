@@ -176,7 +176,6 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
         <div class="white-fade"></div>
       </div>
       <div class="second-content-wrapper">
-        <div class="spacer"></div>
         <div class="text-wrapper">
           <h2 class="title">THE LEGEND LIVES ON</h2>
           <p class="text">The knife was actually, despite its name, launched as early as 1991. Since then, it has become a true classic amongst knife users around the world. When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000. 30 years have now passed and the Anniversary Edition is our tribute to the original knife.</p>

@@ -628,14 +628,6 @@ body {
           transform: translate(-50%, 0);
         }
 
-        .spacer {
-          height: 50vh;
-
-          @media (min-width: 1025px) {
-            display: none;
-          }
-        }
-
         .text-wrapper {
           display: flex;
           flex-flow: column;
