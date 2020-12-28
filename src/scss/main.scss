@@ -596,6 +596,14 @@ body {
             height: 512px;
             padding: 50px;
           }
+
+          .title {
+            font-size: 6vw;
+
+            @media (min-width: 1025px) {
+              font-size: 30px;
+            }
+          }
         }
 
         .white-fade {
@@ -672,8 +680,11 @@ body {
 
           .title,
           .text {
+            text-align: center;
+
             @media (min-width: 1025px) {
               width: 80%;
+              text-align: left;
             }
           }
         }
