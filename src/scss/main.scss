@@ -647,8 +647,8 @@ body {
 
           &::after {
             content: "1991";
-            position: fixed;
-            top: 110px;
+            position: absolute;
+            bottom: 150%;
             left: 50%;
             transform: translateX(-50%);
             padding-left: 6vw;
@@ -660,8 +660,6 @@ body {
             opacity: 0.15;
 
             @media (min-width: 1025px) {
-              position: absolute;
-              top: unset;
               left: unset;
               bottom: -50px;
               right: -50px;
