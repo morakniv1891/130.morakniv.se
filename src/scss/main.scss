@@ -739,7 +739,10 @@ body {
       }
 
       .image-container {
-        width: 47%;
+        width: 100%;
+        @media (min-width: 1025px) {
+          width: 47%;
+        }
 
         .image-wrapper {
           position: relative;
