@@ -647,6 +647,10 @@ body {
 
           &::after {
             content: "1991";
+            position: fixed;
+            top: 110px;
+            left: 50%;
+            transform: translateX(-50%);
             padding-left: 6vw;
             font-size: 30vw;
             font-weight: 500;
@@ -657,10 +661,13 @@ body {
 
             @media (min-width: 1025px) {
               position: absolute;
+              top: unset;
+              left: unset;
               bottom: -50px;
               right: -50px;
               padding: 0;
               font-size: 300px;
+              transform: translateX(0);
             }
           }
 
@@ -675,18 +682,14 @@ body {
         }
 
         .knife-image {
-          position: fixed;
-          top: 0;
-          left: 50%;
-          transform: translateX(-50%);
           height: 40vh;
           display: block;
-          margin-top: 100px;
+          margin-top: 0 auto;
 
           @media (min-width: 1025px) {
             position: static;
             height: unset;
-            transform: translateX(0);
+            margin-top: 100px;
           }
         }
       }
