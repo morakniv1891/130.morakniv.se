@@ -616,7 +616,7 @@ body {
         height: auto;
         transform: translate(-50%, -50%);
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column-reverse nowrap;
         color: $text-dark-color;
         z-index: 11;
 
@@ -626,6 +626,7 @@ body {
           width: 1024px;
           height: 100%;
           transform: translate(-50%, 0);
+          flex-flow: column nowrap;
         }
 
         .text-wrapper {
