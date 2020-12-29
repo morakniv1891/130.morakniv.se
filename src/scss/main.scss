@@ -981,9 +981,19 @@ body {
         }
       }
 
-      .text {
-        margin-top: 50px;
-        text-align: center;
+      .text-container {
+        max-width: 600px;
+        margin: 0 auto;
+
+        @media (min-width: 1025px) {
+          max-width: unset;
+          margin: 0;
+        }
+
+        .text {
+          margin-top: 50px;
+          text-align: center;
+        }
       }
     }
 
