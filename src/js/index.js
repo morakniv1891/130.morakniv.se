@@ -244,6 +244,7 @@ $(document).ready(function () {
       //Grow square image
       gsap.to(".page-3 .knife-in-hand", {
         scale: 10,
+        opacity: 0,
         ease: "power1.in",
         scrollTrigger: {
           scroller: "#main",
