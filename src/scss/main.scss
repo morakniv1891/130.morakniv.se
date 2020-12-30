@@ -856,11 +856,11 @@ body {
       display: flex;
       flex-flow: column nowrap;
       justify-content: center;
-      height: 100vh;
 
       @media (min-width: 1025px) {
         justify-content: unset;
         flex-flow: row nowrap;
+        height: 100vh;
       }
 
       .text-container,
@@ -909,11 +909,11 @@ body {
       display: flex;
       flex-flow: column nowrap;
       justify-content: center;
-      height: 100vh;
 
       @media (min-width: 1025px) {
         justify-content: unset;
         flex-flow: row-reverse nowrap;
+        height: 100vh;
       }
 
       .text-container,
