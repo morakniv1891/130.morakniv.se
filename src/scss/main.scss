@@ -832,6 +832,7 @@ body {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
+      overflow: visible;
 
       .title {
         width: 100%;
