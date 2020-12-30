@@ -13,8 +13,8 @@ $(document).ready(function () {
   const scroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
-    // smoothMobile: true,
-    // touchMultiplier: 3,
+    smoothMobile: true,
+    touchMultiplier: 3,
     getDirection: true,
     lerp: 0.05,
   });
