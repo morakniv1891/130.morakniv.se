@@ -1000,7 +1000,11 @@ body {
       .title {
         margin-bottom: 80px;
       }
-
+      .image-wrapper {
+        .knife-image {
+          opacity: 1;
+        }
+      }
       .countdown-wrapper {
         margin: 80px 0 0;
       }
