@@ -179,11 +179,19 @@ body {
         }
 
         .top-line {
-          padding-top: 40px;
+          padding: 40px 0;
+
+          @media (min-width: 1025px) {
+            padding: 40px 0 0;
+          }
         }
 
         .bottom-line {
-          padding-bottom: 40px;
+          padding: 40px 0;
+
+          @media (min-width: 1025px) {
+            padding: 0 0 40px 0;
+          }
         }
 
         .middle {
@@ -192,7 +200,10 @@ body {
           justify-content: center;
           align-items: center;
           flex: 1;
-          margin: 30px 0;
+
+          @media (min-width: 1025px) {
+            margin: 30px 0;
+          }
 
           .anniversary-logo {
             width: 90vw;
@@ -837,7 +848,11 @@ body {
         font-weight: 500;
         text-transform: uppercase;
         text-align: center;
-        letter-spacing: 7px;
+        letter-spacing: 0.8vw;
+
+        @media (min-width: 1025px) {
+          letter-spacing: 7px;
+        }
       }
 
       .text {
