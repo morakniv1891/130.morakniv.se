@@ -115,6 +115,42 @@ $(document).ready(function () {
       tl.to(".usp2", { opacity: 1, duration: 1 });
       tl.to(".usp3", { opacity: 1, duration: 1 });
       tl.to(".usp4", { opacity: 1, duration: 1 });
+
+      //Pin first history page
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-7",
+        start: "top top",
+        end: "20%",
+        pin: ".page-7",
+      });
+
+      //Pin second history page
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-8",
+        start: "top top",
+        end: "20%",
+        pin: ".page-8",
+      });
+
+      //Pin third history page
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-9",
+        start: "top top",
+        end: "20%",
+        pin: ".page-9",
+      });
+
+      //Pin fourth history page
+      ScrollTrigger.create({
+        scroller: "#main",
+        trigger: ".page-10",
+        start: "top top",
+        end: "20%",
+        pin: ".page-10",
+      });
     },
     all: function () {
       //Background "scrolling" away upwards
@@ -317,15 +353,6 @@ $(document).ready(function () {
         },
       });
 
-      //Pin first history page
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-7",
-        start: "top top",
-        end: "20%",
-        pin: ".page-7",
-      });
-
       //Image entry grow
       gsap.from(".page-7 .image", {
         scale: 0.7,
@@ -363,15 +390,6 @@ $(document).ready(function () {
           end: "center+=33% center",
           scrub: true,
         },
-      });
-
-      //Pin first history page
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-8",
-        start: "top top",
-        end: "20%",
-        pin: ".page-8",
       });
 
       //Image entry grow
@@ -413,15 +431,6 @@ $(document).ready(function () {
         },
       });
 
-      //Pin first history page
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-9",
-        start: "top top",
-        end: "20%",
-        pin: ".page-9",
-      });
-
       //Image entry grow
       gsap.from(".page-9 .image", {
         scale: 0.7,
@@ -459,15 +468,6 @@ $(document).ready(function () {
           end: "center+=33% center",
           scrub: true,
         },
-      });
-
-      //Pin first history page
-      ScrollTrigger.create({
-        scroller: "#main",
-        trigger: ".page-10",
-        start: "top top",
-        end: "20%",
-        pin: ".page-10",
       });
 
       //Image entry grow
