@@ -35,9 +35,7 @@ p {
 }
 
 html {
-  @media (min-width: 1025px) {
-    overflow: hidden;
-  }
+  overflow: hidden;
 }
 
 body {
@@ -47,9 +45,7 @@ body {
   font-style: normal;
   color: $text-light-color;
   min-height: 100vh;
-  @media (min-width: 1025px) {
-    overflow: hidden;
-  }
+  overflow: hidden;
   box-sizing: border-box;
 
   header {
@@ -81,9 +77,7 @@ body {
   }
 
   main {
-    @media (min-width: 1025px) {
-      overflow: hidden !important;
-    }
+    overflow: hidden !important;
 
     .boxed {
       max-width: 1024px;
