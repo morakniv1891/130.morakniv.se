@@ -326,7 +326,7 @@ $(document).ready(function () {
         scrollTrigger: {
           scroller: "#main",
           trigger: ".page-4",
-          start: "top bottom+=56",
+          start: "top bottom",
           end: "top top",
           scrub: true,
         },
