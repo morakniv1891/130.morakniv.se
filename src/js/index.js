@@ -247,7 +247,7 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-3",
         start: "top top",
-        end: "+=600%",
+        end: "+=700%",
         pin: ".page-3",
         pinSpacing: false,
         anticipatePin: true,
