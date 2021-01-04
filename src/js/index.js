@@ -338,6 +338,7 @@ $(document).ready(function () {
         trigger: ".page-4",
         start: "top top",
         pin: ".page-4",
+        anticipatePin: true,
       });
 
       //Move and scale down title into position
