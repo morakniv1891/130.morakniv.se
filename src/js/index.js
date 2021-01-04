@@ -255,7 +255,9 @@ $(document).ready(function () {
 
       //Bring in content from below
       gsap.from(".page-3 .knife-in-hand", {
-        y: "100%",
+        y: function () {
+          return window.innerHeight - 80;
+        },
         ease: "power1.inOut",
         scrollTrigger: {
           scroller: "#main",
