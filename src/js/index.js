@@ -250,6 +250,7 @@ $(document).ready(function () {
         end: "+=600%",
         pin: ".page-3",
         pinSpacing: false,
+        anticipatePin: true,
       });
 
       //Bring in content from below
