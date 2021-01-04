@@ -250,7 +250,7 @@ $(document).ready(function () {
         end: "+=700%",
         pin: ".page-3",
         pinSpacing: false,
-        anticipatePin: true,
+        // anticipatePin: true,
       });
 
       //Bring in content from below
@@ -340,7 +340,7 @@ $(document).ready(function () {
         trigger: ".page-4",
         start: "top top",
         pin: ".page-4",
-        anticipatePin: true,
+        // anticipatePin: true,
       });
 
       //Move and scale down title into position
