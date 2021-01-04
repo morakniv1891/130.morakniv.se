@@ -329,6 +329,7 @@ $(document).ready(function () {
           start: "top bottom",
           end: "top top",
           scrub: true,
+          markers: true,
         },
       });
 
@@ -339,6 +340,7 @@ $(document).ready(function () {
         start: "top top",
         pin: ".page-4",
         anticipatePin: true,
+        markers: true,
       });
 
       //Move and scale down title into position
