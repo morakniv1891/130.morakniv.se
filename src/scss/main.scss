@@ -716,7 +716,7 @@ body {
     }
 
     .page-4 {
-      height: 100vh;
+      height: calc(100vh - 80px);
       background: $background-color;
       overflow: hidden;
       z-index: -1;
