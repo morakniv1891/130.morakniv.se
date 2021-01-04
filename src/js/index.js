@@ -336,7 +336,7 @@ $(document).ready(function () {
       ScrollTrigger.create({
         scroller: "#main",
         trigger: ".page-4",
-        start: "top top+=80",
+        start: "top top",
         pin: ".page-4",
       });
 
