@@ -322,7 +322,7 @@ $(document).ready(function () {
       //Minus offset on page 4 to fake pre-pinning
       gsap.from(".page-4 .outer-wrapper", {
         y: () => {
-          return -(window.innerHeight - 80);
+          return -window.innerHeight;
         },
         ease: "none",
         scrollTrigger: {
