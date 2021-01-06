@@ -68,12 +68,13 @@ body {
     .left-link {
       a {
         display: none;
-        color: $text-light-color;
-        text-decoration: none;
-        text-transform: uppercase;
-        margin-left: 40px;
 
         @media (min-width: 1025px) {
+          color: $text-light-color;
+          letter-spacing: 2.5px;
+          text-decoration: none;
+          text-transform: uppercase;
+          margin-left: 40px;
           display: block;
         }
       }
