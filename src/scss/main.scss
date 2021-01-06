@@ -154,7 +154,7 @@ body {
     }
 
     .left-link {
-      a {
+      > a {
         display: none;
 
         @media (min-width: 1025px) {
