@@ -61,15 +61,15 @@ body {
 
     .mobile-menu-toggle {
       position: relative;
-      padding: 2rem;
+      padding: 20px;
       order: 1;
       top: 2px;
       flex: 0 1 auto;
 
       &::after {
         content: "";
-        width: 2rem;
-        height: 0.5rem;
+        width: 20px;
+        height: 5px;
         color: $text-light-color;
       }
 
@@ -89,9 +89,9 @@ body {
 
         &:checked {
           ~ .mobile-menu-wrapper {
-            min-height: calc(100vh - 8rem);
-            max-height: calc(100vh - 8rem);
-            padding-bottom: 4rem;
+            min-height: calc(100vh - 80px);
+            max-height: calc(100vh - 80px);
+            padding-bottom: 40px;
           }
 
           ~ span {
@@ -140,7 +140,7 @@ body {
         background-color: rgba(#000, 0.85);
         transition: all 0.2s ease-in-out;
         position: fixed;
-        top: 8rem;
+        top: 80px;
         left: 0;
         width: 100vw;
         overflow-y: scroll;
