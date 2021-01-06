@@ -67,7 +67,15 @@ body {
 
     .left-link {
       a {
+        display: none;
+        color: $text-light-color;
+        text-decoration: none;
         text-transform: uppercase;
+        margin-left: 40px;
+
+        @media (min-width: 1025px) {
+          display: block;
+        }
       }
     }
 
