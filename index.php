@@ -88,7 +88,18 @@
 
 <body>
   <header id="menu-bar">
-    <div class="left-link"><a href="https://morakniv.se/en" target="_blank">Morakniv.se</a></div>
+    <div class="left-link">
+      <a href="https://morakniv.se/en" target="_blank">Morakniv.se</a>
+      <div class="mobile-menu-toggle">
+        <input type="checkbox" class="hamburger-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="mobile-menu-wrapper">
+          <a href="https://morakniv.se/en" target="_blank">Morakniv.se</a>
+        </div>
+      </div>
+    </div>
     <div class="middle-link"><img src="/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
     <div class="right-link"></div>
   </header>
