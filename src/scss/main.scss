@@ -70,12 +70,12 @@ body {
         display: none;
 
         @media (min-width: 1025px) {
+          display: block;
           color: $text-light-color;
           letter-spacing: 2.5px;
           text-decoration: none;
           text-transform: uppercase;
           margin-left: 40px;
-          display: block;
         }
       }
     }
