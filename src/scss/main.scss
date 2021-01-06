@@ -260,13 +260,13 @@ body {
       align-items: center;
       flex-flow: column nowrap;
       height: 100vh;
-      background: url(/assets/images/background01_m.png) no-repeat center top;
+      background: url(/assets/images/background01.jpg) no-repeat center top;
       background-size: cover;
 
-      @media (min-width: 1025px) {
-        background: url(/assets/images/background01.png) no-repeat center top;
-        background-size: cover;
-      }
+      // @media (min-width: 1025px) {
+      //   background: url(/assets/images/background01.png) no-repeat center top;
+      //   background-size: cover;
+      // }
 
       .content-wrapper {
         display: flex;
