@@ -136,6 +136,9 @@ body {
       }
 
       .mobile-menu-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         max-height: 0;
         background-color: rgba(#000, 0.85);
         transition: all 0.2s ease-in-out;
@@ -144,6 +147,13 @@ body {
         left: 0;
         width: 100vw;
         overflow-y: scroll;
+
+        > a {
+          color: $text-light-color;
+          text-transform: uppercase;
+          text-decoration: none;
+          letter-spacing: 2.5px;
+        }
       }
     }
 
