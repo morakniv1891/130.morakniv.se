@@ -1,9 +1,9 @@
 <?php
   $year = 2021;
   $month = 1;
-  $day = 7;
-  $hour = 8;
-  $min = 36;
+  $day = 14;
+  $hour = 14;
+  $min = 30;
   $sec = 0;
 
   $target = mktime($hour,$min,$sec,$month,$day,$year);
