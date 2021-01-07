@@ -256,6 +256,11 @@ body {
         padding: 10px 60px;
         border: 1px solid $text-faded-color;
         border-radius: 31px;
+
+        &:hover {
+          background-color: $text-faded-color;
+          color: $text-dark-color;
+        }
       }
     }
 
