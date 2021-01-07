@@ -182,6 +182,7 @@ body {
     .left-link {
       > a {
         @media (min-width: 1025px) {
+          text-align: right;
           margin-left: 40px;
         }
       }
