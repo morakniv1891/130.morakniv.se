@@ -261,6 +261,12 @@ body {
           background-color: $text-faded-color;
           color: $text-dark-color;
         }
+
+        img {
+          display: inline;
+          width: 20px;
+          fill: $text-faded-color;
+        }
       }
     }
 
