@@ -768,6 +768,7 @@ body {
         transform: translate(-50%, -50%);
         display: flex;
         flex-flow: column-reverse nowrap;
+        justify-content: center;
         color: $text-dark-color;
         z-index: 11;
 
