@@ -877,6 +877,7 @@ body {
           transform: translate(-50%, -50%);
           display: flex;
           flex-flow: column-reverse nowrap;
+          justify-content: center;
           color: $text-light-color;
           z-index: 11;
 
@@ -896,7 +897,7 @@ body {
             flex: 0;
             position: relative;
             padding: 20px 0;
-            height: 50vh;
+            height: auto;
             width: 90%;
             max-width: 650px;
             margin: 0 auto;
@@ -904,6 +905,7 @@ body {
             @media (min-width: 1025px) {
               width: 100%;
               max-width: unset;
+              height: 50vh;
               padding: 0;
               justify-content: flex-end;
             }
