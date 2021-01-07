@@ -260,6 +260,10 @@ body {
         &:hover {
           background-color: $text-faded-color;
           color: $text-dark-color;
+
+          svg {
+            fill: $background-color;
+          }
         }
 
         svg {
