@@ -111,7 +111,9 @@
       </div>
     </div>
     <div class="middle-link"><img src="/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
-    <div class="right-link"></div>
+    <div class="right-link">
+      <a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition-first-production-run/" target="_blank">Product page</a>
+    </div>
   </header>
   <main id="main">
     <section class="page-1">
