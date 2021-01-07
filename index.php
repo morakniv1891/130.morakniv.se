@@ -43,24 +43,24 @@
     function countdown(){
       seconds--;
 
-      if(seconds <= 0 && minutes <= 0 && hours <= 0 && days <= 0) {
+      if(seconds < 0){
+        minutes--;
+        seconds = 59;
+      }
+      if(minutes < 0){
+        hours--;
+        minutes = 59;
+      }
+      if(hours < 0){
+        days--;
+        hours = 23;
+      }
+
+      if(seconds <= 0 || minutes <= 0 || hours <= 0 || days <= 0) {
         elements = document.querySelectorAll(".countdown-wrapper");
         for (i = 0; i < elements.length; i++) {
           elements[i].innerHTML = '<a href="https://morakniv.se/en/products/" class="buy-now-button">Buy Now!</a>';
         }        
-      } else {
-        if(seconds < 0){
-          minutes--;
-          seconds = 59;
-        }
-        if(minutes < 0){
-          hours--;
-          minutes = 59;
-        }
-        if(hours < 0){
-          days--;
-          hours = 23;
-        }
       }
 
       function pad(n){
