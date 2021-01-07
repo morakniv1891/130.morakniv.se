@@ -2,8 +2,8 @@
   $year = 2021;
   $month = 1;
   $day = 7;
-  $hour = 9;
-  $min = 35;
+  $hour = 8;
+  $min = 36;
   $sec = 0;
 
   $target = mktime($hour,$min,$sec,$month,$day,$year);
