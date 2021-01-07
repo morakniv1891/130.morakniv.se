@@ -39,6 +39,7 @@
     var minutes = <?php echo $rMin; ?>;
     var seconds = <?php echo $rSec; ?>;
     var daysElements,hoursElements,minutesElements,secondsElements,elements;
+    var timeExpired = false;
 
     function countdown(){
       seconds--;
@@ -60,7 +61,8 @@
         elements = document.querySelectorAll(".countdown-wrapper");
         for (i = 0; i < elements.length; i++) {
           elements[i].innerHTML = '<a href="https://morakniv.se/en/products/" class="buy-now-button">Shop now</a>';
-        }        
+        }
+        timeExpired = true;
       }
 
       function pad(n){
@@ -87,7 +89,7 @@
       for (i = 0; i < elements.length; i++) {
         elements[i].innerHTML = pad(seconds);
       }
-      setTimeout("countdown()",1000);
+      if (!timeExpired){setTimeout("countdown()",1000)};
     }
 
     document.addEventListener('DOMContentLoaded', countdown);
