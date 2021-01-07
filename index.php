@@ -122,9 +122,7 @@
         </div>
         <div class="middle">
           <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
-          <p class="anniversary-text">The year 2021 marks the 130-year Anniversary of Morakniv. 
-
-Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to providing long-lasting products for generations to come.</p>
+          <p class="anniversary-text">The year 2021 marks the 130-year Anniversary of Morakniv. Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to providing long-lasting products for generations to come.</p>
         </div>
         <div class="bottom-line">
           <div class="left"></div>
@@ -199,7 +197,7 @@ Ever since the beginning in 1891 we have been manufacturing high-quality knives 
       <div class="second-content-wrapper">
         <div class="text-wrapper">
           <h2 class="title">THE LEGEND LIVES ON</h2>
-          <p class="text"><pre>The knife was actually, despite its name, launched as early as 1991. Since then, it has become a true classic amongst knife users around the world. When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000. 30 years have now passed and the Anniversary Edition is our tribute to the original knife.</pre></p>
+          <p class="text">The knife was actually, despite its name, launched as early as 1991. Since then, it has become a true classic amongst knife users around the world. When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000. 30 years have now passed and the Anniversary Edition is our tribute to the original knife.</p>
         </div>
         <picture>
           <source srcset="assets/images/Mora%202000%20Original%20Comparison_m.png" media="(max-width: 1024px)">
