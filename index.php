@@ -107,6 +107,7 @@
         <span></span>
         <div class="mobile-menu-wrapper">
           <a href="https://morakniv.se/en" target="_blank">Morakniv.se</a>
+          <a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition-first-production-run/" target="_blank">Product page</a>
         </div>
       </div>
     </div>
