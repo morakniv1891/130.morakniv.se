@@ -182,7 +182,6 @@ body {
     .left-link {
       > a {
         @media (min-width: 1025px) {
-          text-align: right;
           margin-left: 40px;
         }
       }
@@ -192,6 +191,7 @@ body {
       > a {
         @media (min-width: 1025px) {
           margin-right: 40px;
+          text-align: right;
         }
       }
     }
