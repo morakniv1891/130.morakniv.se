@@ -163,7 +163,8 @@ body {
       flex: 1;
     }
 
-    .left-link {
+    .left-link,
+    .right-link {
       > a {
         display: none;
 
@@ -174,6 +175,22 @@ body {
           text-decoration: none;
           text-transform: uppercase;
           margin-left: 40px;
+        }
+      }
+    }
+
+    .left-link {
+      > a {
+        @media (min-width: 1025px) {
+          margin-left: 40px;
+        }
+      }
+    }
+
+    .right-link {
+      > a {
+        @media (min-width: 1025px) {
+          margin-right: 40px;
         }
       }
     }
