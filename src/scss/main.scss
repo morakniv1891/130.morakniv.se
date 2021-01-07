@@ -249,6 +249,13 @@ body {
           align-self: flex-start;
         }
       }
+
+      .buy-now-button {
+        color: $text-faded-color;
+        text-decoration: none;
+        padding: 40px 20px;
+        border: 1px solid $text-faded-color;
+      }
     }
 
     [class^="page-"] {

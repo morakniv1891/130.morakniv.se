@@ -59,7 +59,7 @@
       if(seconds <= 0 || minutes <= 0 || hours <= 0 || days <= 0) {
         elements = document.querySelectorAll(".countdown-wrapper");
         for (i = 0; i < elements.length; i++) {
-          elements[i].innerHTML = '<a href="https://morakniv.se/en/products/" class="buy-now-button">Buy Now!</a>';
+          elements[i].innerHTML = '<a href="https://morakniv.se/en/products/" class="buy-now-button">Shop now</a>';
         }        
       }
 
