@@ -803,7 +803,7 @@ body {
           &::after {
             content: "1991";
             position: absolute;
-            bottom: 325px;
+            bottom: 150%;
             left: 50%;
             transform: translateX(-50%);
             padding-left: 6vw;
