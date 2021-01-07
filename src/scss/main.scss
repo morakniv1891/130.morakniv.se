@@ -253,8 +253,9 @@ body {
       .buy-now-button {
         color: $text-faded-color;
         text-decoration: none;
-        padding: 40px 20px;
+        padding: 20px 40px;
         border: 1px solid $text-faded-color;
+        border-radius: 50%;
       }
     }
 
