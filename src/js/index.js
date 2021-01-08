@@ -6,14 +6,14 @@ import "cookie-notice/dist/cookie.notice";
 
 //Main code
 $(document).ready(function () {
-  new cookieNoticeJS({
-    learnMoreLinkEnabled: false,
+  // new cookieNoticeJS({
+  //   learnMoreLinkEnabled: false,
 
-    learnMoreLinkHref: "https://morakniv.se/en/support/privacy-policy/",
+  //   learnMoreLinkHref: "https://morakniv.se/en/support/privacy-policy/",
 
-    buttonBgColor: "#ffffff",
-    buttonTextColor: "#000000",
-  });
+  //   buttonBgColor: "#ffffff",
+  //   buttonTextColor: "#000000",
+  // });
 
   $("header").css("display", "flex");
   $("header").hide();
