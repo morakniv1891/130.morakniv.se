@@ -64,7 +64,7 @@
     buttonTextColor: "#000",
     noticeBgColor: "#000",
     noticeTextColor: "#fff",
-    linkColor: "#009fdd",
+    linkColor: "#fff",
     linkBgColor: "#000",
     linkTarget: "_blank",
     debug: false,
