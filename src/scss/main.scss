@@ -174,10 +174,10 @@ body {
     .right-link {
       > a {
         display: none;
+        color: $text-light-color;
 
         @media (min-width: 1025px) {
           display: block;
-          color: $text-light-color;
           letter-spacing: 2.5px;
           text-decoration: none;
           text-transform: uppercase;
