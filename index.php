@@ -288,6 +288,9 @@
         <p class="text">There have been small changes in the design and material of the knife over the years, most of them probably not noticeable, apart from the coloured handles and the blade stamps. The original Mora 2000 is green and since then we have expanded with highly-visible orange, and now a limited black anniversary edition.<br><br>What the future holds will be defined by you, through time.</p>
       </div>
     </section>
+    <section class="page-11">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xid_XbvcWHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
     <section class="page-14 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <div class="image-wrapper">
