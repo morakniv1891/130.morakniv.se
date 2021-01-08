@@ -62,10 +62,10 @@
 
     buttonBgColor: "#fff",
     buttonTextColor: "#000",
-    noticeBgColor: "#000",
+    noticeBgColor: "#090909",
     noticeTextColor: "#fff",
     linkColor: "#fff",
-    linkBgColor: "#000",
+    linkBgColor: "#090909",
     linkTarget: "_blank",
     debug: false,
   };
