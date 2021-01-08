@@ -2,9 +2,27 @@ import $ from "jquery";
 import LocomotiveScroll from "locomotive-scroll";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import "cookie-notice";
 
 //Main code
 $(document).ready(function () {
+  new cookieNoticeJS({
+    messageLocales: {
+      en:
+        "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.",
+    },
+    buttonLocales: {
+      en: "Ok",
+    },
+    cookieNoticePosition: "bottom",
+    learnMoreLinkEnabled: true,
+    learnMoreLinkHref: "https://morakniv.se/en/support/privacy-policy/",
+    learnMoreLinkText: {
+      en: "Read more",
+    },
+    expiresIn: 30,
+  });
+
   $("header").css("display", "flex");
   $("header").hide();
 
