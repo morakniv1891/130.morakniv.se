@@ -94,6 +94,15 @@
 
     document.addEventListener('DOMContentLoaded', countdown);
   </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TS9SGFBP9Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TS9SGFBP9Z');
+  </script>
 </head>
 
 <body>
