@@ -33,12 +33,13 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <script src="assets/js/index.js"></script>
-  <script src="node-modules/cookie-notice/dist/cookie.notice.min.js"></script>
-  <script>
+  <script src="node-modules/cookie-notice/dist/cookie.notice.min.js">
     new cookieNoticeJS({
       'buttonBgColor' : '#fff',
       'buttonTextColor' : '#000'
     });
+  </script>
+  <script>
     var days = <?php echo $rDay; ?>;
     var hours = <?php echo $rHour; ?>;
     var minutes = <?php echo $rMin; ?>;
