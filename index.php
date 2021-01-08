@@ -135,7 +135,7 @@
         </div>
         <div class="middle">
           <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
-          <p class="anniversary-text">The year 2021 marks the 130-year Anniversary of Morakniv. Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to provide long-lasting products for generations to come.</p>
+          <p class="anniversary-text">The year 2021 marks  the  130-year Anniversary of  Morakniv.  Ever since the beginning in 1891 we  have been  manufacturing  high-quality  knives  in  Mora, Sweden,  proven to stand the test of time.  Fueled by passion and commitment for  craftsmanship  we take pride  in our Swedish heritage  and look forward to  provide long-lasting products for  generations  to come.</p>
         </div>
         <div class="bottom-line">
           <div class="left"></div>
@@ -148,7 +148,7 @@
     </section>
     <section class="page-2 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
-      <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000. Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first production run, marked with a number between 1-130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.<br><br>The Mora 2000 (S) Anniversary Edition will only be produced during 2021.</p>
+      <p class="text intro-text">The  Morakniv  130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000.  Introducing the new Mora 2000 (S) Anniversary Edition,  you are now able to get your hands on the first production run,  marked with a number between 1-130.  The clock is ticking,  will you be one of the lucky few?  The succeeding knives will not be marked.<br><br>The Mora 2000 (S) Anniversary Edition will only be produced during 2021.</p>
       <div class="image-wrapper">
         <picture>
           <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
@@ -203,14 +203,14 @@
         <img class="knife-in-hand" src="/assets/images/Mora%202000%20Anniversary%20Edition%20Hand%20Bokeh.jpg" alt="Mora 2000 Held in Hand">
         <div class="text-wrapper">
           <h2 class="title">A NEW ERA OF<br>MORA 2000 (S)</h2>
-          <p class="text">This characteristic knife, engraved with the years of Morakniv 1891 – 2021 is a true collector’s item. The new Mora 2000 (S) Anniversary Edition is a must for the outdoor enthusiast's next adventure. Made in Sweden, refined from our iconic past.</p>
+          <p class="text">This characteristic  knife,  engraved with  the years of  Morakniv  1891 – 2021  is a true collector’s item.  The new Mora 2000 (S) Anniversary Edition is  a  must for the outdoor  enthusiast's next adventure.  Made in Sweden,  refined from our iconic past.</p>
         </div>
         <div class="white-fade"></div>
       </div>
       <div class="second-content-wrapper">
         <div class="text-wrapper">
           <h2 class="title">THE LEGEND LIVES ON</h2>
-          <p class="text">The knife was actually, despite its name, launched as early as 1991. Since then, it has become a true classic amongst knife users around the world. When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000. Thirty years have now passed and the Anniversary Edition is our tribute to the original knife.</p>
+          <p class="text">The knife was actually, despite its name, launched as early as 1991.  Since  then,  it has become a true classic amongst knife users around the world.  When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000.  Thirty years have now passed  and  the  Anniversary  Edition  is our  tribute  to  the original  knife.</p>
         </div>
         <picture>
           <source srcset="assets/images/Mora%202000%20Original%20Comparison_m.png" media="(max-width: 1024px)">
@@ -225,7 +225,7 @@
         <div class="content-wrapper">
           <div class="text-wrapper">
             <h2 class="title">THE LEGEND LIVES ON</h2>
-            <p class="text">The knife was actually, despite its name, launched as early as 1991. Since then, it has become a true classic amongst knife users around the world. When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000. Thirty years have now passed and the Anniversary Edition is our tribute to the original knife.</p>
+            <p class="text">The knife was actually, despite its name, launched as early as 1991.  Since  then,  it has become a true classic amongst knife users around the world.  When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000.  Thirty years have now passed  and  the  Anniversary  Edition  is our  tribute  to  the original  knife.</p>
           </div>
           <picture>
             <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison_m.png" media="(max-width: 1024px)">
@@ -252,7 +252,7 @@
         </div>
       </div>
       <div class="text-container">
-        <p class="text">The traditional knife brand Morakniv was established in Östnor, outside of Mora in 1891. The seed of what would become one of the world’s most popular knife manufactures was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.<br><br>He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
+        <p class="text">The traditional knife brand  Morakniv was established in  Östnor, outside of Mora in 1891. The seed  of  what  would  become  one  of  the  world’s  most  popular  knife  manufactures  was  sown  when  Frost-Erik Erson  returned  to the  village  after  some  years  of  work  as a  lumberjack  in North  America.<br><br>He shortly after  founded a timber sledge factory that also manufactured knives for the workshop’s internal use.  At that time, it  was  important  and more or less taken for granted  to manage resources and to utilize the remaining material from the production.  It would later prove to be a successful business concept.</p>
       </div>
     </section>
     <section class="page-8 boxed">
