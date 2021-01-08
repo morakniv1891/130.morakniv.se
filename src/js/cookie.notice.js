@@ -38,7 +38,7 @@
 
     learnMoreLinkEnabled: true,
 
-    learnMoreLinkHref: "https://morakniv.se/en/support/privacy-policy/?v=f003c44deab6",
+    learnMoreLinkHref: "https://morakniv.se/en/support/privacy-policy/",
 
     learnMoreLinkText: {
       it: "Saperne di più",
