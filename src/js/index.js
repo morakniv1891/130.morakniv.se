@@ -3,6 +3,7 @@ import LocomotiveScroll from "locomotive-scroll";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import "../../assets/js/cookie.notice.js";
+import "fitvids";
 
 //Main code
 $(document).ready(function () {
@@ -532,4 +533,6 @@ $(document).ready(function () {
 
   // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
   ScrollTrigger.refresh();
+
+  $(".page-11").fitVids();
 });
