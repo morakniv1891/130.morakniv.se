@@ -252,7 +252,7 @@
         </div>
       </div>
       <div class="text-container">
-        <p class="text">The traditional design brand Morakniv was established in Östnor, outside of Mora, in 1891. The seed of what would become one of the world's most popular knife manufacturers was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.<br><br>He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
+        <p class="text">The traditional knife brand Morakniv was established in Östnor, outside of Mora in 1891. The seed of what would become one of the world’s most popular knife manufactures was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.<br><br>He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
       </div>
     </section>
     <section class="page-8 boxed">
@@ -274,7 +274,7 @@
         </div>
       </div>
       <div class="text-container">
-        <p class="text">In the early developing stages, the prototype went by the name of Trapper, as it would later be officially named Mora 2000. Not long after the release, it became a popular product in the United States whose knife users unsurprisingly renamed it to Moose Master.<br><br>The Swedish Armed Forces has been, and still is, one of our most loyal customers to the original green coloured Mora 2000. Not only because it is a highly-functional and reliable tool, it also matches the Swedish soldiers camouflage and is Swedish made.</p>
+        <p class="text">In the early developing stages, the prototype went by the name of Trapper, as it would later be officially named Mora 2000. Not long after the release, it became a popular product in the United States whose knife users unsurprisingly renamed it to Moose Master.<br><br>The Swedish Armed Forces have been, and still are, one of our most loyal customers to the original green coloured Mora 2000. Not only because it is a highly-functional and reliable tool, it also matches the Swedish soldiers camouflage and is Swedish made.</p>
       </div>
     </section>
     <section class="page-10 boxed">
@@ -285,7 +285,7 @@
         </div>
       </div>
       <div class="text-container">
-        <p class="text">There have been small changes in the design and material of the knife over the years, most of them probably not noticeable, apart from the coloured handles and the blade stamps. The original Mora 2000 is green and since then we have expanded with highly-visible orange, and now a limited black anniversary edition.<br><br>What the future holds will be defined by you, through time.</p>
+        <p class="text">There have been small changes in the design and material of the knife over the years, most of them probably not noticeable, apart from the coloured handles and the blade stamps. The original Mora 2000 is green and since then we have expanded with highly-visible orange, and now a limited black anniversary edition.<br><br>What the future holds will be defined by you through time.</p>
       </div>
     </section>
     <section class="page-11 boxed">
