@@ -11,8 +11,8 @@ $(document).ready(function () {
 
     learnMoreLinkHref: "https://morakniv.se/en/support/privacy-policy/",
 
-    buttonBgColor: "#fff",
-    buttonTextColor: "#000",
+    buttonBgColor: "#ffffff",
+    buttonTextColor: "#000000",
   });
 
   $("header").css("display", "flex");
