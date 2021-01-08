@@ -359,7 +359,7 @@ $(document).ready(function () {
       });
 
       //Image entry grow
-      gsap.from(".page-7 .image", {
+      gsap.from(".page-7 .image-wrapper", {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
@@ -398,7 +398,7 @@ $(document).ready(function () {
       });
 
       //Image entry grow
-      gsap.from(".page-8 .image", {
+      gsap.from(".page-8 .image-wrapper", {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
@@ -437,7 +437,7 @@ $(document).ready(function () {
       });
 
       //Image entry grow
-      gsap.from(".page-9 .image", {
+      gsap.from(".page-9 .image-wrapper", {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
@@ -476,7 +476,7 @@ $(document).ready(function () {
       });
 
       //Image entry grow
-      gsap.from(".page-10 .image", {
+      gsap.from(".page-10 .image-wrapper", {
         scale: 0.7,
         ease: "power2.inOut",
         scrollTrigger: {
