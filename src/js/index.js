@@ -2,7 +2,7 @@ import $ from "jquery";
 import LocomotiveScroll from "locomotive-scroll";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import "cookie-notice/dist/cookie.notice.min";
+// import "cookie-notice/dist/cookie.notice.min";
 
 //Main code
 $(document).ready(function () {
