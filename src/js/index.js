@@ -21,6 +21,8 @@ $(document).ready(function () {
       en: "Read more",
     },
     expiresIn: 30,
+    buttonBgColor: "#fff",
+    buttonTextColor: "#000",
   });
 
   $("header").css("display", "flex");
