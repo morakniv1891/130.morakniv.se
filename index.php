@@ -135,7 +135,7 @@
         </div>
         <div class="middle">
           <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
-          <p class="anniversary-text">The year 2021 marks the 130-year Anniversary of Morakniv. Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to providing long-lasting products for generations to come.</p>
+          <p class="anniversary-text">The year 2021 marks the 130-year Anniversary of Morakniv. Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to provide long-lasting products for generations to come.</p>
         </div>
         <div class="bottom-line">
           <div class="left"></div>
@@ -148,7 +148,7 @@
     </section>
     <section class="page-2 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
-      <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000 (S). Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first factory run, marked with a number between 1-130/130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.</p>
+      <p class="text intro-text">The Morakniv 130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000. Introducing the new Mora 2000 (S) Anniversary Edition, you are now able to get your hands on the first production run, marked with a number between 1-130. The clock is ticking, will you be one of the lucky few? The succeeding knives will not be marked.<br><br>The Mora 2000 (S) Anniversary Edition will only be produced during 2021.</p>
       <div class="image-wrapper">
         <picture>
           <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
