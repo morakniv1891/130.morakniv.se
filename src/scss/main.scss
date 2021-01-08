@@ -174,7 +174,7 @@ body {
     .right-link {
       > a {
         display: none;
-        color: $text-light-color;
+        color: $text-faded-color;
 
         @media (min-width: 1025px) {
           display: block;
