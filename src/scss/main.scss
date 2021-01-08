@@ -13,6 +13,7 @@ img {
 
 h1 {
   font-size: 30px;
+  font-weight: 300;
   letter-spacing: 6.5px;
   text-transform: uppercase;
 }
@@ -420,12 +421,13 @@ body {
         padding: 0 10px;
         margin: 80px 0 20px;
         font-size: 20px;
-        font-weight: 100;
+        font-weight: 300;
         text-align: center;
 
         @media (min-width: 1025px) {
           margin-top: 0;
           font-size: 30px;
+          font-weight: 100;
         }
       }
 
