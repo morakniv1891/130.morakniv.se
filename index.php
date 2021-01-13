@@ -105,7 +105,7 @@
   </script>
   <meta property="og:title" content="Mora 2000 (S) Anniversary Edition">
   <meta property="og:site_name" content="Morakniv 130-Year Anniversary">
-  <meta property="og:url" content="130.morakniv.se">
+  <meta property="og:url" content="https://130.morakniv.se">
   <meta property="og:description" content="The year 2021 marks the 130-year Anniversary of Morakniv. Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://130.morakniv.se/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg">
