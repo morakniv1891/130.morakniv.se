@@ -295,7 +295,7 @@
       </div>
     </section>
     <section class="page-11 boxed">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/xid_XbvcWHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2XIE_6ukr7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <section class="page-14 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
