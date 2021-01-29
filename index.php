@@ -153,7 +153,7 @@
     </section>
     <section class="page-2 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
-      <p class="text intro-text">The year 2021 marks the 130-year Anniversary of Morakniv. It also marks the 30-year jubilee of the legendary Mora 2000.<br><br>Introducing the new Mora 2000 (S) Anniversary Edition which will only be produced during 2021.
+      <p class="text intro-text">The year 2021 marks the 130-year Anniversary of Morakniv. It also marks the 30-year jubilee of the legendary Mora 2000. Introducing the new Mora 2000 (S) Anniversary Edition which will only be produced during 2021.
 </p>
       <div class="image-wrapper">
         <picture>
