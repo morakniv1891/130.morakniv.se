@@ -59,7 +59,7 @@
       if(seconds < 0 || minutes < 0 || hours < 0 || days < 0) {
         elements = document.querySelectorAll(".countdown-wrapper");
         for (i = 0; i < elements.length; i++) {
-          elements[i].innerHTML = '<a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition-first-production-run/" class="buy-now-button">Shop now <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M352 128C352 57.421 294.579 0 224 0 153.42 0 96 57.421 96 128H0v304c0 44.183 35.817 80 80 80h288c44.183 0 80-35.817 80-80V128h-96zM224 32c52.935 0 96 43.065 96 96H128c0-52.935 43.065-96 96-96zm192 400c0 26.467-21.533 48-48 48H80c-26.467 0-48-21.533-48-48V160h64v48c0 8.837 7.164 16 16 16s16-7.163 16-16v-48h192v48c0 8.837 7.163 16 16 16s16-7.163 16-16v-48h64v272z"/></svg></a>';
+          elements[i].innerHTML = '<a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition/" class="buy-now-button">Shop now <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M352 128C352 57.421 294.579 0 224 0 153.42 0 96 57.421 96 128H0v304c0 44.183 35.817 80 80 80h288c44.183 0 80-35.817 80-80V128h-96zM224 32c52.935 0 96 43.065 96 96H128c0-52.935 43.065-96 96-96zm192 400c0 26.467-21.533 48-48 48H80c-26.467 0-48-21.533-48-48V160h64v48c0 8.837 7.164 16 16 16s16-7.163 16-16v-48h192v48c0 8.837 7.163 16 16 16s16-7.163 16-16v-48h64v272z"/></svg></a>';
         }
         timeExpired = true;
       }
@@ -122,13 +122,13 @@
         <div class="mobile-menu-wrapper">
           <a href="https://morakniv.se/en" target="_blank">Morakniv.se</a>
           <div class="mobile-menu-line"></div>
-          <a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition-first-production-run/" target="_blank">Product page</a>
+          <a href="https://morakniv.se/?post_type=product&p=26977" target="_blank">Product page</a>
         </div>
       </div>
     </div>
     <div class="middle-link"><img src="/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
     <div class="right-link">
-      <a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition-first-production-run/" target="_blank">Product page</a>
+      <a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition/" target="_blank">Product page</a>
     </div>
   </header>
   <main id="main">
@@ -140,7 +140,7 @@
         </div>
         <div class="middle">
           <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
-          <p class="anniversary-text">The year 2021 marks  the  130-year Anniversary of  Morakniv.  Ever since the beginning in 1891 we  have been  manufacturing  high-quality  knives  in  Mora, Sweden,  proven to stand the test of time.  Fueled by passion and commitment for  craftsmanship  we take pride  in our Swedish heritage  and look forward to  provide long-lasting products for  generations  to come.</p>
+          <p class="anniversary-text">Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to provide long-lasting products for generations to come.</p>
         </div>
         <div class="bottom-line">
           <div class="left"></div>
@@ -153,7 +153,8 @@
     </section>
     <section class="page-2 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
-      <p class="text intro-text">The  Morakniv  130-year Anniversary also marks the 30-year jubilee of the legendary Mora 2000.  Introducing the new Mora 2000 (S) Anniversary Edition,  you are now able to get your hands on the first production run,  marked with a number between 1-130.  The clock is ticking,  will you be one of the lucky few?  The succeeding knives will not be marked.<br><br>The Mora 2000 (S) Anniversary Edition will only be produced during 2021.</p>
+      <p class="text intro-text">The year 2021 marks the 130-year Anniversary of Morakniv. It also marks the 30-year jubilee of the legendary Mora 2000.<br><br>Introducing the new Mora 2000 (S) Anniversary Edition which will only be produced during 2021.
+</p>
       <div class="image-wrapper">
         <picture>
           <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
@@ -257,7 +258,7 @@
         </div>
       </div>
       <div class="text-container">
-        <p class="text">The traditional knife brand  Morakniv was established in  Östnor, outside of Mora in 1891. The seed  of  what  would  become  one  of  the  world’s  most  popular  knife  manufactures  was  sown  when  Frost-Erik Erson  returned  to the  village  after  some  years  of  work  as a  lumberjack  in North  America.<br><br>He shortly after  founded a timber sledge factory that also manufactured knives for the workshop’s internal use.  At that time, it  was  important  and more or less taken for granted  to manage resources and to utilize the remaining material from the production.  It would later prove to be a successful business concept.</p>
+        <p class="text">The traditional knife brand Morakniv was established in Östnor, outside of Mora in 1891. The seed of what would become one of the world’s most popular knife manufactures was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.<br><br>He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
       </div>
     </section>
     <section class="page-8 boxed">
