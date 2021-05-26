@@ -126,7 +126,7 @@
         </div>
       </div>
     </div>
-    <div class="middle-link"><img src="/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
+    <div class="middle-link"><img src="https://130.morakniv.se/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
     <div class="right-link">
       <a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition/" target="_blank">Product page</a>
     </div>
@@ -139,7 +139,7 @@
           <div class="right"></div>
         </div>
         <div class="middle">
-          <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
+          <img class="anniversary-logo" src="https://130.morakniv.se/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
           <p class="anniversary-text">Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to provide long-lasting products for generations to come.</p>
         </div>
         <div class="bottom-line">
@@ -206,7 +206,7 @@
     </section>
     <section class="page-3">
       <div class="first-content-wrapper">
-        <img class="knife-in-hand" src="/assets/images/Mora%202000%20Anniversary%20Edition%20Hand%20Bokeh.jpg" alt="Mora 2000 Held in Hand">
+        <img class="knife-in-hand" src="https://130.morakniv.se/assets/images/Mora%202000%20Anniversary%20Edition%20Hand%20Bokeh.jpg" alt="Mora 2000 Held in Hand">
         <div class="text-wrapper">
           <h2 class="title">A NEW ERA OF<br>MORA 2000 (S)</h2>
           <p class="text">This characteristic  knife,  engraved with  the years of  Morakniv  1891 – 2021  is a true collector’s item.  The new Mora 2000 (S) Anniversary Edition is  a  must for the outdoor  enthusiast's next adventure.  Made in Sweden,  refined from our iconic past.</p>
@@ -253,7 +253,7 @@
     <section class="page-7 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="/assets/images/FROST%20slipbock_WEB.jpg" alt="Frosts Grinding Trestle">
+          <img class="image" src="https://130.morakniv.se/assets/images/FROST%20slipbock_WEB.jpg" alt="Frosts Grinding Trestle">
           <div class="gradient"></div>
         </div>
       </div>
@@ -264,7 +264,7 @@
     <section class="page-8 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
+          <img class="image" src="https://130.morakniv.se/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
           <div class="gradient"></div>
         </div>
       </div>
@@ -275,7 +275,7 @@
     <section class="page-9 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="/assets/images/Hunting_WEB.jpg" alt="Jakttorn">
+          <img class="image" src="https://130.morakniv.se/assets/images/Hunting_WEB.jpg" alt="Jakttorn">
           <div class="gradient"></div>
         </div>
       </div>
@@ -286,7 +286,7 @@
     <section class="page-10 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg" alt="KJ Eriksson Factory 1925">
+          <img class="image" src="https://130.morakniv.se/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg" alt="KJ Eriksson Factory 1925">
           <div class="gradient"></div>
         </div>
       </div>
