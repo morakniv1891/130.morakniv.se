@@ -24,12 +24,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morakniv 130 Year Anniversary</title>
   <link rel="stylesheet" href="https://use.typekit.net/llc0wgb.css">
-  <link rel="stylesheet" href="https://130.morakniv.se/assets/css/main.min.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://130.morakniv.se/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://130.morakniv.se/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://130.morakniv.se/favicon-16x16.png">
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="https:/130.morakniv.se/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <script>
@@ -107,7 +107,7 @@
   <meta property="og:url" content="https://130.morakniv.se">
   <meta property="og:description" content="The year 2021 marks the 130-year Anniversary of Morakniv. Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://130.morakniv.se/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20Poster.jpg">
+  <meta property="og:image" content="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20Poster.jpg">
 </head>
 
 <body>
@@ -126,7 +126,7 @@
         </div>
       </div>
     </div>
-    <div class="middle-link"><img src="https://130.morakniv.se/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
+    <div class="middle-link"><img src="/assets/images/Morakniv130.svg" alt="Morakniv 130 Year Anniversary Logo"></div>
     <div class="right-link">
       <a href="https://morakniv.se/produkt/mora-2000-s-anniversary-edition/" target="_blank">Product page</a>
     </div>
@@ -139,7 +139,7 @@
           <div class="right"></div>
         </div>
         <div class="middle">
-          <img class="anniversary-logo" src="https://130.morakniv.se/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
+          <img class="anniversary-logo" src="/assets/images/Morakniv130.png" alt="Morakniv 130 Year Anniversary">
           <p class="anniversary-text">Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to provide long-lasting products for generations to come.</p>
         </div>
         <div class="bottom-line">
@@ -154,7 +154,7 @@
     <section class="page-7 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="https://130.morakniv.se/assets/images/FROST%20slipbock_WEB.jpg" alt="Frosts Grinding Trestle">
+          <img class="image" src="/assets/images/FROST%20slipbock_WEB.jpg" alt="Frosts Grinding Trestle">
           <div class="gradient"></div>
         </div>
       </div>
@@ -168,9 +168,9 @@
 </p>
       <div class="image-wrapper">
         <picture>
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png" media="(min-width: 1025px)">
-          <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
+          <source srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
+          <source srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png" media="(min-width: 1025px)">
+          <img class="knife-image" srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
         <div class="usp usp1">
@@ -217,7 +217,7 @@
     </section>
     <section class="page-3">
       <div class="first-content-wrapper">
-        <img class="knife-in-hand" src="https://130.morakniv.se/assets/images/Mora%202000%20Anniversary%20Edition%20Hand%20Bokeh.jpg" alt="Mora 2000 Held in Hand">
+        <img class="knife-in-hand" src="/assets/images/Mora%202000%20Anniversary%20Edition%20Hand%20Bokeh.jpg" alt="Mora 2000 Held in Hand">
         <div class="text-wrapper">
           <h2 class="title">A NEW ERA OF<br>MORA 2000 (S)</h2>
           <p class="text">This characteristic  knife,  engraved with  the years of  Morakniv  1891 – 2021  is a true collector’s item.  The new Mora 2000 (S) Anniversary Edition is  a  must for the outdoor  enthusiast's next adventure.  Made in Sweden,  refined from our iconic past.</p>
@@ -230,9 +230,9 @@
           <p class="text">The knife was actually, despite its name, launched as early as 1991.  Since  then,  it has become a true classic amongst knife users around the world.  When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000.  Thirty years have now passed  and  the  Anniversary  Edition  is our  tribute  to  the original  knife.</p>
         </div>
         <picture>
-          <source srcset="assets/images/Mora%202000%20Original%20Comparison_m.png" media="(max-width: 1024px)">
-          <source srcset="assets/images/Mora%202000%20Original%20Comparison.png" media="(min-width: 1025px)">
-          <img class="knife-image" srcset="assets/images/Mora%202000%20Original%20Comparison.png" alt="Mora 2000 Original">
+          <source srcset="/assets/images/Mora%202000%20Original%20Comparison_m.png" media="(max-width: 1024px)">
+          <source srcset="/assets/images/Mora%202000%20Original%20Comparison.png" media="(min-width: 1025px)">
+          <img class="knife-image" srcset="/assets/images/Mora%202000%20Original%20Comparison.png" alt="Mora 2000 Original">
         </picture>
       </div>
     </section>
@@ -245,17 +245,17 @@
             <p class="text">The knife was actually, despite its name, launched as early as 1991.  Since  then,  it has become a true classic amongst knife users around the world.  When the knife was launched nearly a decade before the great imminent millennium, it was given the futuristic name Mora 2000.  Thirty years have now passed  and  the  Anniversary  Edition  is our  tribute  to  the original  knife.</p>
           </div>
           <picture>
-            <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison_m.png" media="(max-width: 1024px)">
-            <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison.png" media="(min-width: 1025px)">
-            <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison.png" alt="Mora 2000 Anniversary Edition">
+            <source srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison_m.png" media="(max-width: 1024px)">
+            <source srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison.png" media="(min-width: 1025px)">
+            <img class="knife-image" srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Comparison.png" alt="Mora 2000 Anniversary Edition">
           </picture>
         </div>
       </div>
     </section>
     <section class="page-5">
-      <video playsinline autoplay muted loop poster="assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20Poster.jpg" id="bgvid">
+      <video playsinline autoplay muted loop poster="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20Poster.jpg" id="bgvid">
         <!-- <source src="polina.webm" type="video/webm"> -->
-        <source src="assets/video/webfilm_130_bw_color.mp4" type="video/mp4">
+        <source src="/assets/video/webfilm_130_bw_color.mp4" type="video/mp4">
       </video>
     </section>
     <section class="page-6">
@@ -264,7 +264,7 @@
     <section class="page-8 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="https://130.morakniv.se/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
+          <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
           <div class="gradient"></div>
         </div>
       </div>
@@ -275,7 +275,7 @@
     <section class="page-9 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="https://130.morakniv.se/assets/images/Hunting_WEB.jpg" alt="Jakttorn">
+          <img class="image" src="/assets/images/Hunting_WEB.jpg" alt="Jakttorn">
           <div class="gradient"></div>
         </div>
       </div>
@@ -286,7 +286,7 @@
     <section class="page-10 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="https://130.morakniv.se/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg" alt="KJ Eriksson Factory 1925">
+          <img class="image" src="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg" alt="KJ Eriksson Factory 1925">
           <div class="gradient"></div>
         </div>
       </div>
@@ -301,9 +301,9 @@
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <div class="image-wrapper">
         <picture>
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath_m.png" media="(max-width: 1024px)">
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath.png" media="(min-width: 1025px)">
-          <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
+          <source srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath_m.png" media="(max-width: 1024px)">
+          <source srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition%20Knife%20in%20Sheath.png" media="(min-width: 1025px)">
+          <img class="knife-image" srcset="/assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
       </div>
@@ -333,7 +333,7 @@
       </div>
     </section>
   </main>
-  <script src="assets/js/index.min.js"></script>
+  <script src="/assets/js/index.min.js"></script>
 </body>
 
 </html>
