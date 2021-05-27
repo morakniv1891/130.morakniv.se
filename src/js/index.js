@@ -22,15 +22,15 @@ $(document).ready(function () {
   // });
 
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
-  scroll.on("scroll", (args) => {
-    if (args.direction === "down") {
-      $("header.hideable").css("top", "-80px");
-    } else if (args.direction === "up") {
-      $("header.hideable").css("top", "0");
-    }
+  // scroll.on("scroll", (args) => {
+  //   if (args.direction === "down") {
+  //     $("header.hideable").css("top", "-80px");
+  //   } else if (args.direction === "up") {
+  //     $("header.hideable").css("top", "0");
+  //   }
 
-    ScrollTrigger.update();
-  });
+  //   ScrollTrigger.update();
+  // });
 
   // tell ScrollTrigger to use these proxy methods for the ".smooth-scroll" element since Locomotive Scroll is hijacking things
   // ScrollTrigger.scrollerProxy("#main", {
@@ -530,10 +530,10 @@ $(document).ready(function () {
   });
 
   // each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll.
-  ScrollTrigger.addEventListener("refresh", () => scroll.update());
+  // ScrollTrigger.addEventListener("refresh", () => scroll.update());
 
   // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
-  ScrollTrigger.refresh();
+  // ScrollTrigger.refresh();
 
   fitVids(".page-11");
 });
