@@ -91,10 +91,11 @@ $(document).ready(function () {
       //Pin second page when reaching top
       ScrollTrigger.create({
         scroller: "#main",
-        trigger: ".page-2",
+        trigger: ".page-2 .knife-image",
         start: "top top",
         end: "+=300%",
         pin: ".page-2",
+        markers: true,
         onLeave: () => $("header").addClass("hideable"),
       });
 
@@ -123,7 +124,7 @@ $(document).ready(function () {
         scroller: "#main",
         trigger: ".page-7",
         start: "top top",
-        end: "20%",
+        end: "50%",
         pin: ".page-7",
       });
 
@@ -216,7 +217,7 @@ $(document).ready(function () {
         opacity: -1,
         scrollTrigger: {
           scroller: "#main",
-          trigger: ".page-2",
+          trigger: ".page-7",
           start: "1% bottom",
           scrub: true,
         },
@@ -236,10 +237,49 @@ $(document).ready(function () {
         opacity: 0,
         scrollTrigger: {
           scroller: "#main",
-          trigger: ".page-2",
-          endTrigger: ".page-2 .knife-image",
+          trigger: ".page-7",
+          endTrigger: ".page-7 .image-wrapper",
           start: "top bottom",
-          end: "bottom bottom",
+          end: "top bottom",
+          scrub: true,
+        },
+      });
+
+      //Image entry grow
+      gsap.from(".page-7 .image-wrapper", {
+        scale: 0.7,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry gradient
+      gsap.to(".page-7 .gradient", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top bottom-=33%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Text entry opacity
+      gsap.from(".page-7 .text", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          scroller: "#main",
+          trigger: ".page-7",
+          start: "top center-=25%",
+          end: "center+=33% center",
           scrub: true,
         },
       });
@@ -355,45 +395,6 @@ $(document).ready(function () {
           trigger: ".page-6",
           start: "top bottom",
           end: "top center",
-          scrub: true,
-        },
-      });
-
-      //Image entry grow
-      gsap.from(".page-7 .image-wrapper", {
-        scale: 0.7,
-        ease: "power2.inOut",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top bottom",
-          end: "center+=33% center",
-          scrub: true,
-        },
-      });
-
-      //Image entry gradient
-      gsap.to(".page-7 .gradient", {
-        opacity: 0,
-        ease: "power2.inOut",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top bottom-=33%",
-          end: "center+=33% center",
-          scrub: true,
-        },
-      });
-
-      //Text entry opacity
-      gsap.from(".page-7 .text", {
-        opacity: 0,
-        ease: "power2.inOut",
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".page-7",
-          start: "top center-=25%",
-          end: "center+=33% center",
           scrub: true,
         },
       });

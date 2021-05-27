@@ -24,12 +24,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morakniv 130 Year Anniversary</title>
   <link rel="stylesheet" href="https://use.typekit.net/llc0wgb.css">
-  <link rel="stylesheet" href="assets/css/main.min.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="stylesheet" href="https://130.morakniv.se/assets/css/main.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://130.morakniv.se/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://130.morakniv.se/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://130.morakniv.se/favicon-16x16.png">
+  <link rel="manifest" href="https://130.morakniv.se/site.webmanifest">
+  <link rel="mask-icon" href="https:/130.morakniv.se/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <script>
@@ -151,6 +151,17 @@
         <h5 class="scroll-to-explore">SCROLL TO EXPLORE</h5>
       </div>
     </section>
+    <section class="page-7 boxed">
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img class="image" src="https://130.morakniv.se/assets/images/FROST%20slipbock_WEB.jpg" alt="Frosts Grinding Trestle">
+          <div class="gradient"></div>
+        </div>
+      </div>
+      <div class="text-container">
+        <p class="text">The traditional knife brand Morakniv was established in Östnor, outside of Mora in 1891. The seed of what would become one of the world’s most popular knife manufactures was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.<br><br>He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
+      </div>
+    </section>
     <section class="page-2 boxed">
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <p class="text intro-text">The year 2021 marks the 130-year Anniversary of Morakniv. It also marks the 30-year jubilee of the legendary Mora 2000. Introducing the new Mora 2000 (S) Anniversary Edition which will only be produced during 2021.
@@ -249,17 +260,6 @@
     </section>
     <section class="page-6">
       <h2 class="title">OUR HISTORY. THROUGH TIME.</h2>
-    </section>
-    <section class="page-7 boxed">
-      <div class="image-container">
-        <div class="image-wrapper">
-          <img class="image" src="https://130.morakniv.se/assets/images/FROST%20slipbock_WEB.jpg" alt="Frosts Grinding Trestle">
-          <div class="gradient"></div>
-        </div>
-      </div>
-      <div class="text-container">
-        <p class="text">The traditional knife brand Morakniv was established in Östnor, outside of Mora in 1891. The seed of what would become one of the world’s most popular knife manufactures was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.<br><br>He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.</p>
-      </div>
     </section>
     <section class="page-8 boxed">
       <div class="image-container">
