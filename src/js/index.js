@@ -196,9 +196,9 @@ $(document).ready(function () {
         duration: 1.5,
         delay: 4,
         ease: "power1.inOut",
-        onComplete: () => {
-          scroll.start();
-        },
+        // onComplete: () => {
+        //   scroll.start();
+        // },
       });
 
       //Pin first page directly
