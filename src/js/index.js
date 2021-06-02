@@ -26,12 +26,12 @@ $(document).ready(() => {
     pinSpacing: false,
   });
 
-  // ScrollTrigger.create({
-  //   trigger: ".third-layer",
-  //   start: "top top",
-  //   end: "top top",
-  //   pin: true,
-  // });
+  ScrollTrigger.create({
+    trigger: ".third-layer",
+    start: "top top",
+    end: "top top",
+    pin: true,
+  });
 
   //Make first page text follow scroll though section is pinned
   gsap.to(".start-page .text-container", {
