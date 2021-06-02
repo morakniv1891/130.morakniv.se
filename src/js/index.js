@@ -6,7 +6,7 @@ $(document).ready(() => {
   gsap.registerPlugin(ScrollTrigger);
 
   ScrollTrigger.create({
-    trigger: ".first-page",
+    trigger: ".start-page",
     start: "top top",
     pin: true,
     pinSpacing: false,
@@ -26,7 +26,7 @@ $(document).ready(() => {
   });
 
   //Make first page text follow scroll though section is pinned
-  gsap.to(".first-page .text-container", {
+  gsap.to(".start-page .text-container", {
     y: "-100vh",
     opacity: -1,
     scrollTrigger: {
