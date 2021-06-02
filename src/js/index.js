@@ -6,9 +6,6 @@ import fitVids from "fitvids";
 
 //Main code
 $(document).ready(function () {
-  $("header").css("display", "flex");
-  $("header").hide();
-
   gsap.registerPlugin(ScrollTrigger);
 
   $(window).on("beforeunload", function () {
