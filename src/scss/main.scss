@@ -47,7 +47,7 @@ body {
   font-weight: 300;
   font-style: normal;
   color: $text-light-color;
-  min-height: 200vh;
+  min-height: 100vh;
   box-sizing: border-box;
 
   header {
@@ -254,6 +254,10 @@ body {
 
     .third-image {
       background-color: rgb(118, 45, 57);
+      height: 100vh;
+    }
+
+    .first-movie {
       height: 100vh;
     }
   }
