@@ -139,13 +139,13 @@
       </div>
     </section>
     <section class="first-image layer">
-
+      ONE
     </section>
     <section class="second-image layer">
-      
+      TWO
     </section>
     <section class="third-image layer">
-      
+      THREE
     </section>
   </main>
   <script src="/assets/js/index.min.js"></script>
