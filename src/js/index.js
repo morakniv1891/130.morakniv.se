@@ -25,6 +25,20 @@ $(document).ready(function () {
     },
   });
 
+  //Layered pinning of first pages
+  gsap.utils.toArray(".layer").forEach((layer, i) => {
+    ScrollTrigger.create({
+      trigger: layer,
+      start: "top top",
+      pin: true,
+      pinSpacing: false,
+    });
+  });
+
+  ScrollTrigger.create({
+    snap: 1 / 4, // snap whole page to the closest section!
+  });
+
   //Reset page on unload
   $(window).on("beforeunload", function () {
     $("main").remove();

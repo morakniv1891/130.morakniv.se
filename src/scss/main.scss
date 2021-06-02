@@ -3,8 +3,6 @@
 @import "abstracts/animations";
 @import "abstracts/colors";
 
-@import "vendors/locomotive-scroll/locomotive-scroll";
-
 img {
   display: block;
   max-width: 100%;
@@ -242,6 +240,11 @@ body {
           font-size: 80px;
         }
       }
+    }
+
+    .first-image {
+      background-color: cadetblue;
+      height: 100vh;
     }
   }
 }
