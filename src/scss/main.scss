@@ -244,7 +244,8 @@ body {
     }
 
     .first-image {
-      padding-top: 80px;
+      display: flex;
+      align-items: center;
       background: url("/assets/images/Gubbhyllan%201919.jpg");
 
       height: 100vh;
