@@ -1,7 +1,38 @@
 @import "node_modules/css-reset-and-normalize/scss/reset-and-normalize";
+@import "abstracts/animations";
+@import "abstracts/colors";
 
 body {
   width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 6.5px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-variant-ligatures: no-common-ligatures;
+  text-rendering: optimizeSpeed;
 }
 
 .first-page,
