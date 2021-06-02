@@ -225,6 +225,7 @@ body {
 
     .start-page {
       background-color: rgb(42, 146, 146);
+      padding-top: 80px;
       height: 100vh;
 
       .text-container {
@@ -243,21 +244,25 @@ body {
     }
 
     .first-image {
+      padding-top: 80px;
       background-color: rgb(57, 118, 45);
       height: 100vh;
     }
 
     .second-image {
+      padding-top: 80px;
       background-color: rgb(58, 45, 118);
       height: 100vh;
     }
 
     .third-image {
+      padding-top: 80px;
       background-color: rgb(118, 45, 57);
       height: 100vh;
     }
 
     .first-movie {
+      padding-top: 80px;
       height: 100vh;
     }
   }
