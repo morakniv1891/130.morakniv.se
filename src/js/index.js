@@ -42,6 +42,17 @@ $(document).ready(function () {
     pin: true,
   });
 
+  //Make first page text follow scroll though section is pinned
+  gsap.to(".start-page .text-container", {
+    y: "-100vh",
+    opacity: -1,
+    scrollTrigger: {
+      trigger: ".first-image",
+      start: "1% bottom",
+      scrub: true,
+    },
+  });
+
   // ScrollTrigger.create({
   //   snap: 1 / 4, // snap whole page to the closest section!
   // });
