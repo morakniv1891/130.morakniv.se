@@ -13,10 +13,10 @@
       <p class="text">Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to provide long-lasting products for generations to come.</p>
     </div>
   </section>
-  <section class="first-layer">TWO</section>
-  <section class="second-layer">THREE</section>
-  <section class="third-layer">FOUR</section>
-  <section class="first-movie">FOUR</section>
+  <section class="first-layer">ONE</section>
+  <section class="second-layer">TWO</section>
+  <section class="third-layer">THREE</section>
+  <section class="first-movie">MOVIE</section>
 </body>
 
 </html>
