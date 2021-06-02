@@ -35,6 +35,13 @@ $(document).ready(function () {
     });
   });
 
+  ScrollTrigger.create({
+    trigger: ".layer::last-of-type",
+    start: "top top",
+    pin: true,
+    pinSpacing: true,
+  });
+
   // ScrollTrigger.create({
   //   snap: 1 / 4, // snap whole page to the closest section!
   // });
