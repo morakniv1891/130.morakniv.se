@@ -149,7 +149,7 @@
       THREE
     </section>
     <section class="first-movie">
-
+      MOVIE
     </section>
   </main>
   <script src="/assets/js/index.min.js"></script>
