@@ -141,7 +141,10 @@
     <section class="first-image layer">
 
     </section>
-        <section class="first-image layer">
+    <section class="second-image layer">
+      
+    </section>
+    <section class="third-image layer">
       
     </section>
   </main>
