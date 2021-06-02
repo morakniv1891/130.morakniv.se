@@ -26,17 +26,38 @@ $(document).ready(function () {
   });
 
   //Layered pinning of first pages
-  gsap.utils.toArray(".layer").forEach((layer, i) => {
-    ScrollTrigger.create({
-      trigger: layer,
-      start: "top top",
-      pin: true,
-      pinSpacing: false,
-    });
+  // gsap.utils.toArray(".layer").forEach((layer, i) => {
+  //   ScrollTrigger.create({
+  //     trigger: layer,
+  //     start: "top top",
+  //     pin: true,
+  //     pinSpacing: false,
+  //   });
+  // });
+
+  ScrollTrigger.create({
+    trigger: ".start-page",
+    start: "top top",
+    pin: true,
+    pinSpacing: false,
   });
 
   ScrollTrigger.create({
-    trigger: ".last-layer",
+    trigger: ".first-image",
+    start: "top top",
+    pin: true,
+    pinSpacing: false,
+  });
+
+  ScrollTrigger.create({
+    trigger: ".second-image",
+    start: "top top",
+    pin: true,
+    pinSpacing: false,
+  });
+
+  ScrollTrigger.create({
+    trigger: ".third-image",
     start: "top top",
     end: "bottom bottom",
     pin: true,
