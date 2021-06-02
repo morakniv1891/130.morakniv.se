@@ -35,9 +35,9 @@ $(document).ready(function () {
     });
   });
 
-  ScrollTrigger.create({
-    snap: 1 / 4, // snap whole page to the closest section!
-  });
+  // ScrollTrigger.create({
+  //   snap: 1 / 4, // snap whole page to the closest section!
+  // });
 
   //Reset page on unload
   $(window).on("beforeunload", function () {
