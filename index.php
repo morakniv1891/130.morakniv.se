@@ -132,7 +132,9 @@
     </div>
   </header>
   <main id="main">
-    
+    <section class="start-page">
+      
+    </section>
   </main>
   <script src="/assets/js/index.min.js"></script>
 </body>
