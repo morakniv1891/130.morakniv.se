@@ -37,7 +37,7 @@ $(document).ready(() => {
     y: "-100vh",
     opacity: -1,
     scrollTrigger: {
-      trigger: ".second-page",
+      trigger: ".first-layer",
       start: "1% bottom",
       scrub: true,
     },
