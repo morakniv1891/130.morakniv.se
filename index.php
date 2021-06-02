@@ -139,6 +139,9 @@
       </div>
     </section>
     <section class="first-image layer">
+
+    </section>
+        <section class="first-image layer">
       
     </section>
   </main>
