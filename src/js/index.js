@@ -30,7 +30,7 @@ $(document).ready(() => {
     y: "-100vh",
     opacity: -1,
     scrollTrigger: {
-      trigger: ".first-image",
+      trigger: ".second-page",
       start: "1% bottom",
       scrub: true,
     },
