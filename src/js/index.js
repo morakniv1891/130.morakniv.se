@@ -32,7 +32,6 @@ $(document).ready(function () {
       start: "top top",
       pin: true,
       pinSpacing: false,
-      snap: 1,
     });
   });
 
@@ -41,7 +40,6 @@ $(document).ready(function () {
     start: "top top",
     end: "bottom bottom",
     pin: true,
-    snap: 1,
   });
 
   //Make first page text follow scroll though section is pinned
@@ -55,9 +53,9 @@ $(document).ready(function () {
     },
   });
 
-  // ScrollTrigger.create({
-  //   snap: 1 / 4, // snap whole page to the closest section!
-  // });
+  ScrollTrigger.create({
+    snap: 1 / 4, // snap whole page to the closest section!
+  });
 
   //Reset page on unload
   $(window).on("beforeunload", function () {
