@@ -144,7 +144,7 @@
     <section class="second-image layer">
       TWO
     </section>
-    <section class="third-image layer">
+    <section class="third-image">
       THREE
     </section>
     <section class="first-movie">
