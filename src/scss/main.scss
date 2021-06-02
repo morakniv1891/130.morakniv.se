@@ -37,10 +37,6 @@ p {
   }
 }
 
-html {
-  // overflow: hidden;
-}
-
 body {
   background: $background-color;
   font-family: neue-haas-grotesk-display, sans-serif;
@@ -218,10 +214,10 @@ body {
   }
 
   main {
-    .boxed {
-      max-width: 1024px;
-      margin: 0 auto;
-    }
+    // .boxed {
+    //   max-width: 1024px;
+    //   margin: 0 auto;
+    // }
 
     .start-page {
       background: url("/assets/images/FROST%20slipbock.jpg") no-repeat;
