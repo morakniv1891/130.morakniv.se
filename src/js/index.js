@@ -38,6 +38,7 @@ $(document).ready(function () {
   ScrollTrigger.create({
     trigger: ".last-layer",
     start: "top top",
+    end: "bottom bottom",
     pin: true,
   });
 
