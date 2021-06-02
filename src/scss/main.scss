@@ -224,7 +224,8 @@ body {
     }
 
     .start-page {
-      background: url("/assets/images/FROST%20slipbock.jpg") cover no-repeat;
+      background: url("/assets/images/FROST%20slipbock.jpg") no-repeat;
+      background-size: cover;
       height: 100vh;
 
       .text-container {
@@ -245,7 +246,8 @@ body {
     .first-image {
       display: flex;
       align-items: center;
-      background: url("/assets/images/Gubbhyllan%201919.jpg") cover no-repeat;
+      background: url("/assets/images/Gubbhyllan%201919.jpg") no-repeat;
+      background-size: cover;
 
       height: 100vh;
     }
