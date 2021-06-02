@@ -32,6 +32,7 @@ $(document).ready(function () {
       start: "top top",
       pin: true,
       pinSpacing: false,
+      pinType: "fixed",
     });
   });
 
@@ -40,6 +41,7 @@ $(document).ready(function () {
     start: "top top",
     end: "bottom bottom",
     pin: true,
+    pinType: "fixed",
   });
 
   //Make first page text follow scroll though section is pinned
