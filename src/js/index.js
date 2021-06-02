@@ -32,7 +32,7 @@ $(document).ready(function () {
       start: "top top",
       pin: true,
       pinSpacing: false,
-      anticipatePin: 1,
+      snap: 1,
     });
   });
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
     start: "top top",
     end: "bottom bottom",
     pin: true,
-    anticipatePin: 1,
+    snap: 1,
   });
 
   //Make first page text follow scroll though section is pinned
