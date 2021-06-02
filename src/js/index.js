@@ -13,14 +13,21 @@ $(document).ready(() => {
   });
 
   ScrollTrigger.create({
-    trigger: ".second-page",
+    trigger: ".first-layer",
     start: "top top",
     pin: true,
     pinSpacing: false,
   });
 
   ScrollTrigger.create({
-    trigger: ".third-page",
+    trigger: ".second-layer",
+    start: "top top",
+    pin: true,
+    pinSpacing: false,
+  });
+
+  ScrollTrigger.create({
+    trigger: ".third-layer",
     start: "top top",
     pin: true,
   });

@@ -36,9 +36,10 @@ p {
 }
 
 .start-page,
-.second-page,
-.third-page,
-.fourth-page {
+.first-layer,
+.second-layer,
+.third-layer,
+.first-movie {
   height: 100vh;
 }
 
@@ -62,7 +63,7 @@ p {
   }
 }
 
-.second-page {
+.first-layer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +73,7 @@ p {
   background-size: cover;
 }
 
-.third-page {
+.second-layer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,11 +82,20 @@ p {
   background-color: #888888;
 }
 
-.fourth-page {
+.third-layer {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 5rem;
   color: white;
   background-color: #ff0000;
+}
+
+.first-movie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  background-color: #99ff00;
 }
