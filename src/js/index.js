@@ -24,4 +24,15 @@ $(document).ready(() => {
     start: "top top",
     pin: true,
   });
+
+  //Make first page text follow scroll though section is pinned
+  gsap.to(".first-page .text-container", {
+    y: "-100vh",
+    opacity: -1,
+    scrollTrigger: {
+      trigger: ".first-image",
+      start: "1% bottom",
+      scrub: true,
+    },
+  });
 });
