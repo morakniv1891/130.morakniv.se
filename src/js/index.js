@@ -22,7 +22,7 @@ $(document).ready(() => {
     start: "top top",
     end: 99999,
     onUpdate: (self) => {
-      self.direction === -1 && !mobileMenuOpen ? showMenu.play() : showMenu.reverse();
+      !mobileMenuOpen ? (self.direction === -1 ? showMenu.play() : showMenu.reverse()) : null;
     },
   });
 
