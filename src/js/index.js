@@ -25,8 +25,8 @@ $(document).ready(() => {
   });
 
   //Disable scroll when mobile menu open
-  $("#mobile-menu-toggle").on("click", () => {
-    console.log(Test);
+  $("#mobile-menu-toggle").click(() => {
+    console.log("test");
   });
 
   //Layered pinning of first few pages
