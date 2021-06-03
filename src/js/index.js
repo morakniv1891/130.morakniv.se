@@ -1,6 +1,7 @@
 import $ from "jquery";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import "../../assets/js/cookie.notice.js";
 
 $(document).ready(() => {
   gsap.registerPlugin(ScrollTrigger);
