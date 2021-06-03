@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="https://use.typekit.net/llc0wgb.css">
   <link rel="stylesheet" href="/assets/css/main.min.css">
   <script src="/assets/js/index.min.js"></script>
 </head>
 
 <body>
-    <header id="menu-bar">
+  <header id="menu-bar">
     <div class="left-link">
       <a href="https://morakniv.se/en" target="_blank">Morakniv.se</a>
       <div class="mobile-menu-toggle">

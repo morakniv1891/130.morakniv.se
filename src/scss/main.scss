@@ -3,7 +3,14 @@
 @import "abstracts/colors";
 
 body {
+  background: $background-color;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: $text-light-color;
   width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 img {
