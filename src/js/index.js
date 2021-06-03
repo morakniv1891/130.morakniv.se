@@ -1,6 +1,7 @@
 import $ from "jquery";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from "body-scroll-lock";
 import "../../assets/js/cookie.notice.js";
 
 $(document).ready(() => {
@@ -21,6 +22,11 @@ $(document).ready(() => {
     onUpdate: (self) => {
       self.direction === -1 ? showMenu.play() : showMenu.reverse();
     },
+  });
+
+  //Disable scroll when mobile menu open
+  $("#mobile-menu-toggle").on("click", () => {
+    console.log(Test);
   });
 
   //Layered pinning of first few pages

@@ -36,7 +36,7 @@
   <header id="menu-bar">
     <div class="left-link">
       <a href="https://morakniv.se/en" target="_blank">Morakniv.se</a>
-      <div class="mobile-menu-toggle">
+      <div id="mobile-menu-toggle" class="mobile-menu-toggle">
         <input type="checkbox" class="hamburger-toggle">
         <span></span>
         <span></span>
