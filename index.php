@@ -2,10 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morakniv 130 Year Anniversary</title>
   <link rel="stylesheet" href="https://use.typekit.net/llc0wgb.css">
   <link rel="stylesheet" href="/assets/css/main.min.css">
-  <script src="/assets/js/index.min.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TS9SGFBP9Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TS9SGFBP9Z');
+  </script>
+  <meta property="og:title" content="Mora 2000 (S) Anniversary Edition">
+  <meta property="og:site_name" content="Morakniv 130-Year Anniversary">
+  <meta property="og:url" content="https://130.morakniv.se">
+  <meta property="og:description" content="The year 2021 marks the 130-year Anniversary of Morakniv. Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20Poster.jpg">
 </head>
 
 <body>
@@ -41,6 +65,7 @@
     <section class="third-layer">THREE</section>
     <section class="first-movie">MOVIE</section>
   </main>
+  <script src="/assets/js/index.min.js"></script>
 </body>
 
 </html>
