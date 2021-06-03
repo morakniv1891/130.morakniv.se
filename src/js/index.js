@@ -29,6 +29,7 @@ $(document).ready(() => {
   //Disable scroll when mobile menu open
   $("#mobile-menu-toggle").click(() => {
     mobileMenuOpen = !mobileMenuOpen;
+    mobileMenuOpen ? disableBodyScroll() : enableBodyScroll();
     console.log(mobileMenuOpen);
   });
 
