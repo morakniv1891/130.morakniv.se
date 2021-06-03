@@ -231,8 +231,8 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 5rem;
-  color: white;
-  background: url(/assets/images/Gubbhyllan%201919.jpg) no-repeat;
+  color: $text-dark-color;
+  background: url(/assets/images/start-page_mobile.jpg) no-repeat;
   background-size: cover;
 
   .text-container {
@@ -252,7 +252,7 @@ header {
   justify-content: center;
   font-size: 5rem;
   color: white;
-  background: url(/assets/images/kj_verkstan_1925.jpg) no-repeat;
+  background: url(/assets/images/first-slide_mobile.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -262,7 +262,7 @@ header {
   justify-content: center;
   font-size: 5rem;
   color: white;
-  background: url(/assets/images/Hunting_WEB.jpg) no-repeat;
+  background: url(/assets/images/second-slide_mobile.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -272,7 +272,7 @@ header {
   justify-content: center;
   font-size: 5rem;
   color: white;
-  background: url(/assets/images/FROST%20slipbock.jpg) no-repeat;
+  background: url(/assets/images/third-slide_mobile.jpg) no-repeat;
   background-size: cover;
 }
 
