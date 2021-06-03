@@ -5,6 +5,8 @@ import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from "bo
 import "../../assets/js/cookie.notice.js";
 
 $(document).ready(() => {
+  let mobileMenuOpen = false;
+
   gsap.registerPlugin(ScrollTrigger);
 
   //Show/Hide Menu
@@ -26,7 +28,8 @@ $(document).ready(() => {
 
   //Disable scroll when mobile menu open
   $("#mobile-menu-toggle").click(() => {
-    console.log("test");
+    mobileMenuOpen = !mobileMenuOpen;
+    console.log(mobileMenuOpen);
   });
 
   //Layered pinning of first few pages
