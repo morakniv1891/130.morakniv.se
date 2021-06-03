@@ -24,26 +24,31 @@ img {
 }
 
 h1 {
-  font-size: 1em;
+  font-size: 30px;
   font-weight: 300;
   letter-spacing: 6.5px;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 0.8em;
+  font-size: 30px;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 14px;
 }
 
 p {
-  font-size: 0.5em;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 2px;
   line-height: 1.4;
   font-variant-ligatures: no-common-ligatures;
   text-rendering: optimizeSpeed;
+
+  @media (min-width: 1025px) {
+    font-size: 17px;
+    font-weight: 300;
+  }
 }
 
 header {
