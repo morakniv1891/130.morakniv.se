@@ -29,7 +29,7 @@ $(document).ready(() => {
   //Disable scroll when mobile menu open
   $("#mobile-menu-toggle").click(() => {
     mobileMenuOpen = !mobileMenuOpen;
-    mobileMenuOpen ? disableBodyScroll($("#mobile-menu-wrapper")) : enableBodyScroll($("#mobile-menu-wrapper"));
+    mobileMenuOpen ? disableBodyScroll($("#mobile-menu-wrapper")) : clearAllBodyScrollLocks();
   });
 
   //Layered pinning of first few pages
