@@ -2,6 +2,10 @@
 @import "abstracts/animations";
 @import "abstracts/colors";
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: $background-color;
   font-family: neue-haas-grotesk-display, sans-serif;
