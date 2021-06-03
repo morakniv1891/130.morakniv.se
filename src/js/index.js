@@ -22,7 +22,7 @@ $(document).ready(() => {
     start: "top top",
     end: 99999,
     onUpdate: (self) => {
-      self.direction === -1 ? showMenu.play() : showMenu.reverse();
+      self.direction === -1 && !mobileMenuOpen ? showMenu.play() : showMenu.reverse();
     },
   });
 
@@ -30,7 +30,6 @@ $(document).ready(() => {
   $("#mobile-menu-toggle").click(() => {
     mobileMenuOpen = !mobileMenuOpen;
     mobileMenuOpen ? disableBodyScroll() : enableBodyScroll();
-    console.log(mobileMenuOpen);
   });
 
   //Layered pinning of first few pages
