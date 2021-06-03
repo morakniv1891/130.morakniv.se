@@ -6,6 +6,24 @@ import "../../assets/js/cookie.notice.js";
 $(document).ready(() => {
   gsap.registerPlugin(ScrollTrigger);
 
+  //Show/Hide Menu
+  const showMenu = gsap
+    .from("header", {
+      yPercent: -100,
+      paused: true,
+      duration: 0.2,
+    })
+    .progress(1);
+
+  ScrollTrigger.create({
+    start: "top top",
+    end: 99999,
+    onUpdate: (self) => {
+      self.direction === -1 ? showMenu.play() : showMenu.reverse();
+    },
+  });
+
+  //Layered pinning of first few pages
   ScrollTrigger.create({
     trigger: ".start-page",
     start: "top top",
