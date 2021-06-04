@@ -38,6 +38,7 @@ $(document).ready(() => {
     start: "top top",
     pin: true,
     pinSpacing: false,
+    scrub: 0.5,
   });
 
   ScrollTrigger.create({
@@ -45,6 +46,7 @@ $(document).ready(() => {
     start: "top top",
     pin: true,
     pinSpacing: false,
+    scrub: 0.5,
   });
 
   ScrollTrigger.create({
@@ -52,6 +54,7 @@ $(document).ready(() => {
     start: "top top",
     pin: true,
     pinSpacing: false,
+    scrub: 0.5,
   });
 
   ScrollTrigger.create({
