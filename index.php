@@ -41,7 +41,7 @@
         <span></span>
         <span></span>
         <span></span>
-        <div class="mobile-menu-wrapper">
+        <div id="mobile-menu-wrapper" class="mobile-menu-wrapper">
           <a href="https://morakniv.se/en" target="_blank">Morakniv.se</a>
           <div class="mobile-menu-line"></div>
           <a href="https://morakniv.se/?post_type=product&p=26977" target="_blank">Product page</a>
