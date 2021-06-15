@@ -329,6 +329,7 @@ header {
 
     .first-text {
       grid-row: 3 / 4;
+      margin-bottom: 1.7rem;
 
       @media screen and (min-width: 1024px) {
         grid-row: 3 / 4;
