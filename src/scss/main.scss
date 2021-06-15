@@ -24,7 +24,7 @@ img {
 }
 
 h1 {
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5rem;
   color: $text-dark-color;
   font-size: 45px;
   font-weight: 500;
@@ -259,12 +259,12 @@ header {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 100%;
-    max-width: 800px;
+    max-width: 550px;
     width: 100%;
     padding: 80px 5em 0;
 
     @media screen and (min-width: 1024px) {
-      grid-template-rows: auto;
+      grid-template-rows: 11rem auto;
       grid-template-columns: auto;
     }
 
