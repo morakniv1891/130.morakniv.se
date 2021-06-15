@@ -248,6 +248,32 @@ header {
     max-width: 800px;
     width: 100%;
     padding: 80px 5em 0;
+
+    @media screen and (min-width: 1024px) {
+      grid-template-rows: auto;
+      grid-template-columns: auto;
+    }
+
+    .header {
+      @media screen and (min-width: 1024px) {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+      }
+    }
+
+    .text {
+      @media screen and (min-width: 1024px) {
+        grid-row: 2/ 3;
+        grid-column: 2 / 3;
+      }
+    }
+
+    .down-arrow {
+      @media screen and (min-width: 1024px) {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+      }
+    }
   }
 }
 
