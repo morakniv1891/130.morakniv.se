@@ -60,8 +60,14 @@ p {
   }
 }
 
-.line-break {
+.line-break-desktop {
   @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.line-break-mobile {
+  @media screen and (max-width: 1023px) {
     display: block;
   }
 }
