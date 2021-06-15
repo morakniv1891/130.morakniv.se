@@ -66,9 +66,9 @@
     <section class="third-layer"></section>
     <section class="first-movie">
       <h2 class="movie-header">Our history.<br>Through time.</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/2XIE_6ukr7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p class="text">The traditional knife brand Morakniv was established in Östnor, outside of Mora in 1891. The seed of what would become one of the world’s most popular knife manufactures was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.</p>
-      <p class="text">He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.<br><br>Ever since, our knowledge has grown and with infinite passion for craftsmanship we have continued to manufacture knives for knife users all over the world. Through the years Morakniv has made several iconic knives – one of which is the Mora 2000.</p>
+      <iframe class="movie" width="560" height="315" src="https://www.youtube.com/embed/2XIE_6ukr7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p class="first-text">The traditional knife brand Morakniv was established in Östnor, outside of Mora in 1891. The seed of what would become one of the world’s most popular knife manufactures was sown when Frost-Erik Erson returned to the village after some years of work as a lumberjack in North America.</p>
+      <p class="second-text">He shortly after founded a timber sledge factory that also manufactured knives for the workshop’s internal use. At that time, it was important and more or less taken for granted to manage resources and to utilize the remaining material from the production. It would later prove to be a successful business concept.<br><br>Ever since, our knowledge has grown and with infinite passion for craftsmanship we have continued to manufacture knives for knife users all over the world. Through the years Morakniv has made several iconic knives – one of which is the Mora 2000.</p>
     </section>
   </main>
   <script src="/assets/js/index.min.js"></script>
