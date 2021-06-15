@@ -24,17 +24,19 @@ img {
 }
 
 h1 {
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 6.5px;
-  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: none;
 }
 
 h2 {
-  font-size: 30px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 0.5em;
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: none;
 }
 
 p {
@@ -245,11 +247,6 @@ header {
     padding: 80px 1em 0;
 
     .header {
-      margin-bottom: 0.5em;
-      font-size: 45px;
-      font-weight: 500;
-      letter-spacing: 3px;
-      text-transform: none;
     }
   }
 }
@@ -290,5 +287,5 @@ header {
   justify-content: center;
   font-size: 5rem;
   color: white;
-  background-color: #99ff00;
+  background-color: white;
 }

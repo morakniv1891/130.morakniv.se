@@ -61,10 +61,12 @@
         <img class="down-arrow" src="/assets/images/down-arrow.svg" alt="Down Arrow" width="50" height="139">
       </div>
     </section>
-    <section class="first-layer">ONE</section>
-    <section class="second-layer">TWO</section>
-    <section class="third-layer">THREE</section>
-    <section class="first-movie">MOVIE</section>
+    <section class="first-layer"></section>
+    <section class="second-layer"></section>
+    <section class="third-layer"></section>
+    <section class="first-movie">
+      <h2 class="movie-header">Our history.<br>Through time.</h2>
+    </section>
   </main>
   <script src="/assets/js/index.min.js"></script>
 </body>
