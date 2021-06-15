@@ -3,6 +3,7 @@ import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from "body-scroll-lock";
 import "../../assets/js/cookie.notice.js";
+import fitVids from "fitvids";
 
 $(document).ready(() => {
   let mobileMenuOpen = false;
@@ -83,4 +84,7 @@ $(document).ready(() => {
       scrub: true,
     },
   });
+
+  //Fit videos to screen
+  fitVids(".first-movie");
 });
