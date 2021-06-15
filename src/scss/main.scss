@@ -316,6 +316,7 @@ header {
 
     .movie-header {
       grid-row: 1 / 2;
+      margin-bottom: 2rem;
 
       @media screen and (min-width: 1024px) {
         grid-row: 2 / 3;
