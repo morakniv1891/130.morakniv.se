@@ -58,7 +58,7 @@
       <div class="text-container">
         <h1 class="header">Morakniv<br>130-year<br>Anniversary</h1>
         <p class="text">Ever since the beginning in 1891 we have been manufacturing high-quality knives in Mora, Sweden, proven to stand the test of time. Fueled by passion and commitment for craftsmanship we take pride in our Swedish heritage and look forward to provide long-lasting products for generations to come.</p>
-        <img src="/assets/images/down-arrow.svg" alt="Down Arrow">
+        <img src="/assets/images/down-arrow.svg" alt="Down Arrow" width="50">
       </div>
     </section>
     <section class="first-layer">ONE</section>
