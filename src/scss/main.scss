@@ -28,34 +28,38 @@ h1 {
   color: $text-dark-color;
   font-size: 45px;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 40px;
+  }
 }
 
 h2 {
   color: $text-dark-color;
   font-size: 45px;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 h3 {
   color: $text-dark-color;
   font-size: 35px;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 p {
   color: $text-dark-color;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.4;
   font-variant-ligatures: no-common-ligatures;
   text-rendering: optimizeSpeed;
 
   @media (min-width: 1024px) {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 300;
   }
 }
