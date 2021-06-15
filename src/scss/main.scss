@@ -359,12 +359,12 @@ header {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 100%;
-    max-width: 1024px;
     font-size: 5rem;
 
     @media screen and (min-width: 1024px) {
       grid-template-rows: auto;
       grid-template-columns: 50% 50%;
+      width: 1024px;
     }
 
     .fluid-width-video-wrapper {
