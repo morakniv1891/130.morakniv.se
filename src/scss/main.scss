@@ -297,7 +297,6 @@ header {
     }
 
     .fluid-width-video-wrapper {
-      width: 100%;
       grid-row: 2 / 3;
 
       @media screen and (min-width: 1024px) {
@@ -307,7 +306,6 @@ header {
     }
 
     .movie-header {
-      width: 100%;
       grid-row: 1 / 2;
 
       @media screen and (min-width: 1024px) {
@@ -317,7 +315,6 @@ header {
     }
 
     .first-text {
-      width: 100%;
       grid-row: 3 / 4;
 
       @media screen and (min-width: 1024px) {
@@ -327,7 +324,6 @@ header {
     }
 
     .second-text {
-      width: 100%;
       grid-row: 4 / 5;
 
       @media screen and (min-width: 1024px) {
