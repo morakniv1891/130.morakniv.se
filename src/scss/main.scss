@@ -259,7 +259,7 @@ header {
   background-size: cover;
 
   @media screen and (min-width: 1024px) {
-    background: url(/assets/images/start-page_desktop.jpg) center center no-repeat;
+    background: url(/assets/images/start-page_desktop.jpg) top center no-repeat;
   }
 
   .text-container {
@@ -313,7 +313,7 @@ header {
   background-size: cover;
 
   @media screen and (min-width: 1024px) {
-    background: url(/assets/images/first-slide_desktop.jpg) center center no-repeat;
+    background: url(/assets/images/first-slide_desktop.jpg) top center no-repeat;
   }
 }
 
