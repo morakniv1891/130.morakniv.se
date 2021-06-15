@@ -32,6 +32,15 @@ $(document).ready(() => {
     mobileMenuOpen ? disableBodyScroll($("#mobile-menu-wrapper")) : clearAllBodyScrollLocks();
   });
 
+  //Bounce down-arrows
+  gsap.to(".down-arrow", {
+    duration: 0.6,
+    y: 50,
+    ease: "circ.in",
+    repeat: -1,
+    yoyo: true,
+  });
+
   //Layered pinning of first few pages
   ScrollTrigger.create({
     trigger: ".start-page",
