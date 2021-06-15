@@ -245,8 +245,9 @@ header {
     padding: 1em;
 
     .header {
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
       font-weight: 500;
+      text-transform: none;
     }
   }
 }
