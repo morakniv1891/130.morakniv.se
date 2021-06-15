@@ -252,8 +252,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(/assets/images/start-page_mobile.jpg) no-repeat;
+  background: url(/assets/images/start-page_mobile.jpg) center center no-repeat;
   background-size: cover;
+
+  @media screen and (min-width: 1024px) {
+    background: url(/assets/images/start-page_desktop.jpg) center center no-repeat;
+  }
 
   .text-container {
     display: grid;
@@ -299,8 +303,12 @@ header {
   justify-content: center;
   font-size: 5rem;
   color: white;
-  background: url(/assets/images/first-slide_mobile.jpg) no-repeat;
+  background: url(/assets/images/first-slide_mobile.jpg) center center no-repeat;
   background-size: cover;
+
+  @media screen and (min-width: 1024px) {
+    background: url(/assets/images/first-slide_desktop.jpg) center center no-repeat;
+  }
 }
 
 .second-layer {
@@ -309,8 +317,12 @@ header {
   justify-content: center;
   font-size: 5rem;
   color: white;
-  background: url(/assets/images/second-slide_mobile.jpg) no-repeat;
+  background: url(/assets/images/second-slide_mobile.jpg) center center no-repeat;
   background-size: cover;
+
+  @media screen and (min-width: 1024px) {
+    background: url(/assets/images/second-slide_desktop.jpg) center center no-repeat;
+  }
 }
 
 .third-layer {
@@ -319,8 +331,12 @@ header {
   justify-content: center;
   font-size: 5rem;
   color: white;
-  background: url(/assets/images/third-slide_mobile.jpg) no-repeat;
+  background: url(/assets/images/third-slide_mobile.jpg) center center no-repeat;
   background-size: cover;
+
+  @media screen and (min-width: 1024px) {
+    background: url(/assets/images/third-slide_desktop.jpg) center center no-repeat;
+  }
 }
 
 .first-movie {
