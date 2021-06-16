@@ -34,7 +34,7 @@ $(document).ready(() => {
   });
 
   //Bounce down-arrows
-  gsap.from(".down-arrow", {
+  gsap.to(".down-arrow", {
     duration: 1,
     y: 15,
     ease: "sine.in",
