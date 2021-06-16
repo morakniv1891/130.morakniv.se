@@ -88,9 +88,9 @@ $(document).ready(() => {
   gsap.from(".mora2000-usp", {
     opacity: 0,
     scrollTrigger: {
-      trigger: ".mora2000-usp",
-      start: "top bottom",
-      end: "top top",
+      trigger: ".first-movie",
+      start: "bottom bottom",
+      end: "100%",
     },
   });
 
