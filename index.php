@@ -73,7 +73,7 @@
         <p class="second-text">He shortly after founded a timber sledge factory that also <span class="line-break-desktop"></span>manufactured knives for the workshop’s internal use. At that time, <span class="line-break-desktop"></span>it was important and more or less taken for granted to manage <span class="line-break-desktop"></span>resources and to utilize the remaining material from the <span class="line-break-desktop"></span>production. It would later prove to be a successful <span class="line-break-desktop"></span>business concept.<br><br>Ever since, our knowledge has grown and with infinite passion for <span class="line-break-desktop"></span>craftsmanship we have continued to manufacture knives for knife <span class="line-break-desktop"></span>users all over the world. Through the years Morakniv has made <span class="line-break-desktop"></span>several iconic knives – one of which is the Mora 2000.</p>
       </div>
     </section>
-    <section class="mora2000-usp"></section>
+    <section class="mora2000-usp boxed"></section>
   </main>
   <script src="/assets/js/index.min.js"></script>
 </body>
