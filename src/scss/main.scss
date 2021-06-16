@@ -437,7 +437,8 @@ header {
   height: 100vh;
 
   .title,
-  .text {
-    color: #fff;
+  .text,
+  .usp {
+    color: $text-light-color;
   }
 }
