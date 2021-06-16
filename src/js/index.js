@@ -89,8 +89,7 @@ $(document).ready(() => {
     opacity: 0,
     scrollTrigger: {
       trigger: ".first-movie",
-      start: "bottom bottom",
-      end: "100%",
+      start: "bottom center",
       markers: true,
     },
   });
