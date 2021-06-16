@@ -34,7 +34,7 @@ $(document).ready(() => {
   });
 
   //Bounce down-arrows
-  gsap.to(".down-arrow", {
+  gsap.to(".down-arrow-mobile, .down-arrow-desktop", {
     duration: 1,
     y: -15,
     ease: "sine.in",
