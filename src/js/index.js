@@ -102,7 +102,6 @@ $(document).ready(() => {
     end: "300%",
     pin: true,
     scrub: true,
-    markers: true,
   });
 
   //Fit videos to screen
