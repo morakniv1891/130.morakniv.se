@@ -36,7 +36,7 @@ $(document).ready(() => {
   //Bounce down-arrows
   gsap.to(".down-arrow", {
     duration: 1,
-    y: 15,
+    y: -15,
     ease: "sine.in",
     repeat: -1,
     yoyo: true,
