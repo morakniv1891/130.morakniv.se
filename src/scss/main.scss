@@ -435,9 +435,10 @@ header {
 .mora2000-usp {
   height: 100vh;
   background: #000 url("/assets/images/13949-Mora_2000_Anniversary_Edition_m.png") center center no-repeat;
-  background-size: contain;
+  background-size: 7rem;
 
   @media screen and (min-width: 1024px) {
     background-image: url("/assets/images/13949-Mora_2000_Anniversary_Edition.png");
+    background-size: contain;
   }
 }
