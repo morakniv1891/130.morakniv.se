@@ -90,6 +90,7 @@ $(document).ready(() => {
     scrollTrigger: {
       trigger: ".first-movie",
       start: "bottom center",
+      end: "+=100%",
       markers: true,
     },
   });
