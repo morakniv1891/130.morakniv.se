@@ -85,6 +85,15 @@ $(document).ready(() => {
     },
   });
 
+  //Pin Mora 2000 Anniversary Edition Page
+  ScrollTrigger.create({
+    trigger: ".mora2000-usp",
+    start: "top top",
+    end: "300%",
+    pin: true,
+    scrub: true,
+  });
+
   //Fit videos to screen
   fitVids(".first-movie");
 });
