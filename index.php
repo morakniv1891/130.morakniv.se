@@ -79,9 +79,9 @@
 </p>
       <div class="image-wrapper">
         <picture>
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
-          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png" media="(min-width: 1025px)">
-          <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
+          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition_m.png" media="(max-width: 1024px)">
+          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition.png" media="(min-width: 1025px)">
+          <img class="knife-image" srcset="assets/images/13949-Mora_2000_Anniversary_Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
         <div class="usp usp1">
