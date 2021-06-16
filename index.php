@@ -73,7 +73,35 @@
         <p class="second-text">He shortly after founded a timber sledge factory that also <span class="line-break-desktop"></span>manufactured knives for the workshop’s internal use. At that time, <span class="line-break-desktop"></span>it was important and more or less taken for granted to manage <span class="line-break-desktop"></span>resources and to utilize the remaining material from the <span class="line-break-desktop"></span>production. It would later prove to be a successful <span class="line-break-desktop"></span>business concept.<br><br>Ever since, our knowledge has grown and with infinite passion for <span class="line-break-desktop"></span>craftsmanship we have continued to manufacture knives for knife <span class="line-break-desktop"></span>users all over the world. Through the years Morakniv has made <span class="line-break-desktop"></span>several iconic knives – one of which is the Mora 2000.</p>
       </div>
     </section>
-    <section class="mora2000-usp boxed"></section>
+    <section class="mora2000-usp boxed">
+      <h2 class="title">Mora 2000 (S) Anniversary Edition</h2>
+      <p class="text">The year 2021 marks the 130-year Anniversary of Morakniv. It also marks the 30-year jubilee of the legendary Mora 2000. Introducing the new Mora 2000 (S) Anniversary Edition which will only be produced during 2021.
+</p>
+      <div class="image-wrapper">
+        <picture>
+          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition_m.png" media="(max-width: 1024px)">
+          <source srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png" media="(min-width: 1025px)">
+          <img class="knife-image" srcset="assets/images/13949%20-%20Mora%202000%20Anniversary%20Edition.png"
+            alt="Mora 2000 Anniversary Edition">
+        </picture>
+        <div class="usp usp1">
+          <h3>Friction Grip Handle</h3>
+          <div class="line"></div>
+        </div>
+        <div class="usp usp2">
+          <h3>2.5 mm Thick<br>Swedish Stainless Steel</h3>
+          <div class="line"></div>
+        </div>
+        <div class="usp usp3">
+          <h3>Exclusive Black Colour</h3>
+          <div class="line"></div>
+        </div>
+        <div class="usp usp4">
+          <h3>Scandi Grind<br>with a Profile Grind Edge</h3>
+          <div class="line"></div>
+        </div>
+      </div>
+    </section>
   </main>
   <script src="/assets/js/index.min.js"></script>
 </body>

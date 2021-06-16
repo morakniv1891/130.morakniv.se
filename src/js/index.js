@@ -85,21 +85,11 @@ $(document).ready(() => {
     },
   });
 
-  gsap.from(".mora2000-usp", {
-    opacity: 0,
-    scrollTrigger: {
-      trigger: ".first-movie",
-      start: "bottom center",
-      end: "+=100%",
-      markers: true,
-    },
-  });
-
   //Pin Mora 2000 Anniversary Edition Page
   ScrollTrigger.create({
     trigger: ".mora2000-usp",
     start: "top top",
-    end: "300%",
+    end: "+=300%",
     pin: true,
     scrub: true,
   });
