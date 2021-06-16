@@ -203,6 +203,7 @@ header {
   .right-link {
     > a {
       display: none;
+      font-size: 16px;
       color: $text-faded-color;
 
       @media (min-width: 1025px) {
