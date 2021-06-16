@@ -91,6 +91,7 @@ $(document).ready(() => {
       trigger: ".first-movie",
       start: "bottom bottom",
       end: "100%",
+      markers: true,
     },
   });
 
@@ -101,6 +102,7 @@ $(document).ready(() => {
     end: "300%",
     pin: true,
     scrub: true,
+    markers: true,
   });
 
   //Fit videos to screen
