@@ -77,6 +77,11 @@ p {
   }
 }
 
+.boxed {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -424,5 +429,15 @@ header {
         margin: 5rem 2rem 0;
       }
     }
+  }
+}
+
+.mora2000-usp {
+  height: 100vh;
+  background: #000 url("/assets/images/13949-Mora_2000_Anniversary_Edition_m.png") center center no-repeat;
+  background-size: contain;
+
+  @media screen and (min-width: 1024px) {
+    background-image: url("/assets/images/13949-Mora_2000_Anniversary_Edition.png");
   }
 }
