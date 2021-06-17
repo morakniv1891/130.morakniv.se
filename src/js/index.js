@@ -187,6 +187,7 @@ $(document).ready(() => {
           start: "top top-=100%",
           end: "top top-=200%",
           scrub: true,
+          markers: true,
         },
       });
     },
