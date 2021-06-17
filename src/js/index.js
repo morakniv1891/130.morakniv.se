@@ -79,6 +79,7 @@ $(document).ready(() => {
         start: "top top",
         end: "+=300%",
         pin: ".mora2000-usp",
+        anticipatePin: true,
       });
 
       //Fade in and out knife intro text
