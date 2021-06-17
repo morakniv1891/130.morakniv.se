@@ -204,7 +204,7 @@ $(document).ready(() => {
       });
 
       //Fade in movie
-      gsap.to(".forest .second-wrapper video", {
+      gsap.to(".forest .second-content-wrapper video", {
         opacity: 1,
         ease: "power1.in",
         scrollTrigger: {
