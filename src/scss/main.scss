@@ -262,11 +262,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(/assets/images/start-page_mobile.jpg) center center no-repeat;
+  background: url(/assets/images/start-page_mobile.jpg) no-repeat center center;
   background-size: cover;
 
   @media screen and (min-width: 1024px) {
-    background: url(/assets/images/start-page_desktop.jpg) top center no-repeat;
+    background: url(/assets/images/start-page_desktop.jpg) no-repeat top center;
   }
 
   .text-container {
@@ -752,6 +752,16 @@ header {
 }
 
 .forest {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
   height: 100vh;
-  background: url("/assets/images/forest.jpg");
+
+  @media (min-width: 1024px) {
+    flex-flow: row nowrap;
+    justify-content: center;
+    background: url("/assets/images/forest.jpg") no-repeat center center;
+    background-size: cover;
+  }
 }
