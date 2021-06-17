@@ -62,7 +62,7 @@ $(document).ready(() => {
       });
       tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 10 }, 1);
       tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
-      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 1 });
+      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 3 });
       tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
       tl.to(".usp1", { opacity: 1, duration: 1 });
       tl.to(".usp2", { opacity: 1, duration: 1 });
