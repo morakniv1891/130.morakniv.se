@@ -179,17 +179,18 @@ $(document).ready(() => {
       });
 
       //Grow square image
-      // gsap.to(".forest .knife-in-hand", {
-      //   scale: 10,
-      //   opacity: 0,
-      //   ease: "power1.in",
-      //   scrollTrigger: {
-      //     trigger: ".history",
-      //     start: "top bottom+=425%",
-      //     end: "top bottom+=125%",
-      //     scrub: true,
-      //   },
-      // });
+      gsap.to(".forest .knife-in-hand", {
+        scale: 10,
+        opacity: 0,
+        ease: "power1.in",
+        scrollTrigger: {
+          trigger: ".history",
+          start: "top bottom+=425%",
+          end: "top bottom+=125%",
+          scrub: true,
+          markers: true,
+        },
+      });
 
       //Fade to white
       gsap.to(".forest .black-fade", {
