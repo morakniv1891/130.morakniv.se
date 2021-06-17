@@ -103,15 +103,18 @@
       </div>
     </section>
     <section class="forest">
-      <div class="content-wrapper">
-        <img class="knife-image" src="/assets/images/Mora_2000_Anniversary_Edition_Hand_Bokeh.jpg" alt="Mora 2000 Held in Hand">
+      <div class="first-content-wrapper">
+        <img class="knife-in-hand" src="/assets/images/Mora%202000%20Anniversary%20Edition%20Hand%20Bokeh.jpg" alt="Mora 2000 Held in Hand">
         <div class="text-wrapper">
-          <h4 class="title">A NEW ERA OF<br>MORA 2000 (S)</h4>
-          <p class="text">This characteristic knife, engraved with the years of Morakniv 1891 – 2021 is a true collector’s item. The new Mora 2000 (S) Anniversary Edition is a must for the outdoor enthusiast's next adventure. Made in Sweden, refined from our iconic past.</p>
+          <h2 class="title">A NEW ERA OF<br>MORA 2000 (S)</h2>
+          <p class="text">This characteristic  knife,  engraved with  the years of  Morakniv  1891 – 2021  is a true collector’s item.  The new Mora 2000 (S) Anniversary Edition is  a  must for the outdoor  enthusiast's next adventure.  Made in Sweden,  refined from our iconic past.</p>
         </div>
+        <div class="black-fade"></div>
+      </div>
+      <div class="second-content-wrapper">
+
       </div>
     </section>
-    <section class="history-movie"></section>
   </main>
   <script src="/assets/js/index.min.js"></script>
 </body>

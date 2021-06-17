@@ -145,49 +145,61 @@ $(document).ready(() => {
         },
       });
 
-      //Pin forest page when reaching top
+      //Pin third page when reaching top
       ScrollTrigger.create({
         trigger: ".forest",
         start: "top top",
-        end: "+=400%",
+        end: "+=700%",
         pin: ".forest",
-        anticipatePin: true,
+        pinSpacing: false,
+        // anticipatePin: true,
       });
 
-      //Bring in content from below on forest page
-      gsap.from(".forest .knife-image", {
+      //Bring in content from below
+      gsap.from(".forest .knife-in-hand", {
         y: "100%",
         ease: "power1.inOut",
         scrollTrigger: {
           trigger: ".forest",
           start: "top center",
-          end: "+=200%",
+          end: "+=100%",
           scrub: true,
         },
       });
 
-      gsap.from(".forest .content-wrapper .text-wrapper", {
-        y: "150%",
+      gsap.from(".forest .first-content-wrapper .text-wrapper", {
+        y: "150vh",
         ease: "power1.inOut",
         scrollTrigger: {
           trigger: ".forest",
           start: "top center",
-          end: "+=250%",
+          end: "+=100%",
           scrub: true,
         },
       });
 
       //Grow square image
-      gsap.to(".forest .knife-image", {
+      gsap.to(".forest .knife-in-hand", {
         scale: 10,
         opacity: 0,
         ease: "power1.in",
         scrollTrigger: {
-          trigger: ".history-movie",
-          start: "top bottom+=100%",
-          end: "top bottom",
+          trigger: ".history",
+          start: "top bottom+=425%",
+          end: "top bottom+=125%",
           scrub: true,
-          markers: true,
+        },
+      });
+
+      //Fade to white
+      gsap.to(".forest .white-fade", {
+        opacity: 1,
+        ease: "power1.in",
+        scrollTrigger: {
+          trigger: ".history",
+          start: "top bottom+=275%",
+          end: "top bottom+=175%",
+          scrub: true,
         },
       });
     },

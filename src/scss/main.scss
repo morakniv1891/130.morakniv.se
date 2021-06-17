@@ -759,63 +759,85 @@ header {
 }
 
 .forest {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  position: relative;
   height: 100vh;
+  // background: white;
+  z-index: -2;
 
-  @media (min-width: 1024px) {
-    background: url("/assets/images/forest.jpg") no-repeat center center;
-    background-size: cover;
-  }
-
-  .content-wrapper {
+  .first-content-wrapper {
+    position: relative;
     display: flex;
-    flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+    flex-flow: column nowrap;
     width: 100%;
     height: 100%;
+    z-index: 11;
 
-    @media screen and (min-width: 1024px) {
-      flex-flow: row nowrap;
+    @media (min-width: 1024px) {
       justify-content: center;
-      max-width: 1024px;
+      flex-flow: row nowrap;
+      background: url("/assets/images/forest.jpg") no-repeat center center;
+      background-size: cover;
     }
 
-    .knife-image {
-      min-width: 0;
-      flex: 0 0 50%;
+    .knife-in-hand {
+      width: 100%;
+      object-fit: cover;
+
+      @media (min-width: 1024px) {
+        width: 512px;
+        height: 512px;
+        opacity: 0.8;
+        z-index: 9;
+      }
     }
 
     .text-wrapper {
-      flex: 0 0 50%;
+      width: 100%;
       padding: 20px 20px 0;
 
-      @media screen and (min-width: 1024px) {
+      @media (min-width: 1024px) {
+        width: 512px;
+        height: 512px;
         padding: 50px;
       }
+    }
 
-      .title,
-      .text {
-        color: $text-light-color;
-      }
+    .black-fade {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0;
+      z-index: 10;
+    }
+  }
 
-      .title {
-        font-weight: 300;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        margin-bottom: 14px;
-      }
+  .second-content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    color: $text-dark-color;
+    z-index: 11;
 
-      .text {
-        font-size: 17px;
-        font-weight: 300;
-      }
+    @media (min-width: 1024px) {
+      display: block;
+      top: 0;
+      width: 1024px;
+      height: 100%;
+      transform: translate(-50%, 0);
+      flex-flow: column nowrap;
     }
   }
 }
 
-.history-movie {
+.history {
   height: 100vh;
 }
