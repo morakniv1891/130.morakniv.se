@@ -783,6 +783,11 @@ header {
 
     .text-wrapper {
       flex: 0 0 50%;
+
+      .title,
+      .text {
+        color: $text-light-color;
+      }
     }
   }
 }
