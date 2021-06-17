@@ -91,7 +91,7 @@ $(document).ready(() => {
         },
       });
 
-      tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 5 }, 3);
+      tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 5 }, 1);
       tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
       tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 2 });
       tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
