@@ -149,7 +149,7 @@ $(document).ready(() => {
       ScrollTrigger.create({
         trigger: ".forest",
         start: "top top",
-        end: "+=300%",
+        end: "+=400%",
         pin: ".forest",
         anticipatePin: true,
       });
