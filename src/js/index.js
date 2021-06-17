@@ -143,6 +143,18 @@ $(document).ready(() => {
           scrub: true,
         },
       });
+
+      //Bring in content from below on forest page
+      gsap.from(".forest .knife-image", {
+        y: "100%",
+        ease: "power1.inOut",
+        scrollTrigger: {
+          trigger: ".forest",
+          start: "top center",
+          end: "+=100%",
+          scrub: true,
+        },
+      });
     },
   });
 
