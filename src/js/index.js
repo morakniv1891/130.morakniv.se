@@ -183,9 +183,9 @@ $(document).ready(() => {
         opacity: 0,
         ease: "power1.in",
         scrollTrigger: {
-          trigger: ".forest",
-          start: "top top-=100%",
-          end: "top top-=200%",
+          trigger: ".history-movie",
+          start: "top bottom+=100%",
+          end: "top bottom",
           scrub: true,
           markers: true,
         },
