@@ -163,6 +163,17 @@ $(document).ready(() => {
           scrub: true,
         },
       });
+
+      gsap.from(".forest .content-wrapper .text-wrapper", {
+        y: "150%",
+        ease: "power1.inOut",
+        scrollTrigger: {
+          trigger: ".forest",
+          start: "top bottom",
+          end: "+=150%",
+          scrub: true,
+        },
+      });
     },
   });
 
