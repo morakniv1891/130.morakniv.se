@@ -42,49 +42,6 @@ $(document).ready(() => {
     yoyo: true,
   });
 
-  //Layered pinning of first few pages
-  ScrollTrigger.create({
-    trigger: ".start-page",
-    start: "top top",
-    pin: true,
-    pinSpacing: false,
-    scrub: 0.5,
-  });
-
-  ScrollTrigger.create({
-    trigger: ".first-layer",
-    start: "top top",
-    pin: true,
-    pinSpacing: false,
-    scrub: 0.5,
-  });
-
-  ScrollTrigger.create({
-    trigger: ".second-layer",
-    start: "top top",
-    pin: true,
-    pinSpacing: false,
-    scrub: 0.5,
-  });
-
-  ScrollTrigger.create({
-    trigger: ".third-layer",
-    start: "top top",
-    end: "top top",
-    pin: true,
-  });
-
-  //Make first page text follow scroll though section is pinned
-  gsap.to(".start-page .text-container", {
-    y: "-100vh",
-    opacity: -1,
-    scrollTrigger: {
-      trigger: ".first-layer",
-      start: "1% bottom",
-      scrub: true,
-    },
-  });
-
   ScrollTrigger.matchMedia({
     "(max-width: 1023px)": function () {
       //Pin Mora 2000 page
@@ -118,6 +75,50 @@ $(document).ready(() => {
       tl.to(".usp4", { opacity: 1, duration: 1 }, 7);
     },
     "(min-width: 1024px)": function () {},
+    all: function () {
+      //Layered pinning of first few pages
+      ScrollTrigger.create({
+        trigger: ".start-page",
+        start: "top top",
+        pin: true,
+        pinSpacing: false,
+        scrub: 0.5,
+      });
+
+      ScrollTrigger.create({
+        trigger: ".first-layer",
+        start: "top top",
+        pin: true,
+        pinSpacing: false,
+        scrub: 0.5,
+      });
+
+      ScrollTrigger.create({
+        trigger: ".second-layer",
+        start: "top top",
+        pin: true,
+        pinSpacing: false,
+        scrub: 0.5,
+      });
+
+      ScrollTrigger.create({
+        trigger: ".third-layer",
+        start: "top top",
+        end: "top top",
+        pin: true,
+      });
+
+      //Make first page text follow scroll though section is pinned
+      gsap.to(".start-page .text-container", {
+        y: "-100vh",
+        opacity: -1,
+        scrollTrigger: {
+          trigger: ".first-layer",
+          start: "1% bottom",
+          scrub: true,
+        },
+      });
+    },
   });
 
   //Fit videos to screen
