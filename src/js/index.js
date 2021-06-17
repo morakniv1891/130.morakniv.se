@@ -184,8 +184,8 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".forest",
-          start: "top+=300% bottom",
-          end: "top+=400% bottom",
+          start: "top top-=100%",
+          end: "top top-=200%",
           scrub: true,
         },
       });
