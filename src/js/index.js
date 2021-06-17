@@ -60,10 +60,10 @@ $(document).ready(() => {
           scrub: true,
         },
       });
-      tl.from(".mora2000-usp .text", { opacity: 0, duration: 1 });
-      tl.to(".mora2000-usp .text", { opacity: 1, duration: 1 });
-      tl.to(".mora2000-usp .text", { opacity: 0, duration: 1 });
       tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 1 }, 2);
+      tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
+      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 1 });
+      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
       tl.to(".usp1", { opacity: 1, duration: 1 });
       tl.to(".usp2", { opacity: 1, duration: 1 });
       tl.to(".usp1", { opacity: 0, duration: 1 }, 5);
