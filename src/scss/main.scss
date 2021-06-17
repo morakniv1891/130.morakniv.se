@@ -783,6 +783,7 @@ header {
 
     .knife-in-hand {
       width: 100%;
+      min-width: 0;
       object-fit: cover;
 
       @media (min-width: 1024px) {
