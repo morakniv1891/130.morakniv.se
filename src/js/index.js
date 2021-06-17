@@ -86,14 +86,14 @@ $(document).ready(() => {
         scrollTrigger: {
           trigger: ".mora2000-usp",
           start: "top bottom",
-          end: "+=300%",
+          end: "+=400%",
           scrub: true,
         },
       });
 
       tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 5 }, 5);
       tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
-      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 1 });
+      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 2 });
       tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
       tl.to(".usp1", { opacity: 1, duration: 1 });
       tl.to(".usp2", { opacity: 1, duration: 1 });
