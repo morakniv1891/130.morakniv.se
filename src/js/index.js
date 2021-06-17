@@ -45,12 +45,12 @@ $(document).ready(() => {
   ScrollTrigger.matchMedia({
     "(max-width: 1023px)": function () {
       //Pin Mora 2000 page
-      // ScrollTrigger.create({
-      //   trigger: ".mora2000-usp",
-      //   start: "top top",
-      //   end: "+=400%",
-      //   pin: ".mora2000-usp",
-      // });
+      ScrollTrigger.create({
+        trigger: ".mora2000-usp",
+        start: "top top",
+        end: "+=400%",
+        pin: ".mora2000-usp",
+      });
       // //Fade in and out knife text
       // let tl = gsap.timeline({
       //   scrollTrigger: {
