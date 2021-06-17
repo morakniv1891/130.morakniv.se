@@ -112,7 +112,10 @@
         <div class="black-fade"></div>
       </div>
       <div class="second-content-wrapper">
-
+        <video playsinline autoplay muted loop poster="assets/images/Mora_2000_Anniversary_Edition_(S)_Poster.jpg" id="bgvid">
+          <!-- <source src="polina.webm" type="video/webm"> -->
+          <source src="assets/video/webfilm_130_bw_color.mp4" type="video/mp4">
+        </video>
       </div>
     </section>
     <section class="history"></section>

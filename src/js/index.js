@@ -192,7 +192,7 @@ $(document).ready(() => {
         },
       });
 
-      //Fade to white
+      //Fade to black
       gsap.to(".forest .black-fade", {
         opacity: 1,
         ease: "power1.in",
