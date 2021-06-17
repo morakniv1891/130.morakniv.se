@@ -761,7 +761,7 @@ header {
 .forest {
   position: relative;
   height: 100vh;
-  // background: white;
+  overflow: hidden;
   z-index: -2;
 
   .first-content-wrapper {
