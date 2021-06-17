@@ -841,6 +841,14 @@ header {
       transform: translate(-50%, 0);
       flex-flow: column nowrap;
     }
+
+    video {
+      width: 100%;
+      max-width: 2560px;
+      height: auto;
+      margin: 0 auto;
+      object-fit: cover;
+    }
   }
 }
 
