@@ -61,15 +61,15 @@ $(document).ready(() => {
         },
       });
       tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 1 });
-      tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
-      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 1 });
-      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
-      tl.to(".usp1", { opacity: 1, duration: 1 });
-      tl.to(".usp2", { opacity: 1, duration: 1 });
-      tl.to(".usp1", { opacity: 0, duration: 1 }, 5);
-      tl.to(".usp2", { opacity: 0, duration: 1 }, 5);
-      tl.to(".usp3", { opacity: 1, duration: 1 }, 6);
-      tl.to(".usp4", { opacity: 1, duration: 1 }, 7);
+      // tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
+      // tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 1 });
+      // tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
+      // tl.to(".usp1", { opacity: 1, duration: 1 });
+      // tl.to(".usp2", { opacity: 1, duration: 1 });
+      // tl.to(".usp1", { opacity: 0, duration: 1 }, 5);
+      // tl.to(".usp2", { opacity: 0, duration: 1 }, 5);
+      // tl.to(".usp3", { opacity: 1, duration: 1 }, 6);
+      // tl.to(".usp4", { opacity: 1, duration: 1 }, 7);
     },
     "(min-width: 1024px)": function () {},
     all: function () {
