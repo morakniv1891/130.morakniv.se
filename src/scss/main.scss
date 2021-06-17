@@ -754,7 +754,7 @@ header {
 .forest {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
 
   @media (min-width: 1024px) {
@@ -767,6 +767,8 @@ header {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    height: 100%;
 
     @media screen and (min-width: 1024px) {
       flex-flow: row nowrap;
