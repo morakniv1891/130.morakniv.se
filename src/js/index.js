@@ -144,13 +144,21 @@ $(document).ready(() => {
         },
       });
 
+      //Pin forest page when reaching top
+      ScrollTrigger.create({
+        trigger: ".forest",
+        start: "top top",
+        end: "+=300%",
+        pin: ".forest",
+      });
+
       //Bring in content from below on forest page
       gsap.from(".forest .knife-image", {
         y: "100%",
         ease: "power1.inOut",
         scrollTrigger: {
           trigger: ".forest",
-          start: "top center",
+          start: "top bottom",
           end: "+=100%",
           scrub: true,
         },
