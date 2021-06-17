@@ -808,6 +808,17 @@ header {
       .text {
         color: $text-light-color;
       }
+
+      .title {
+        font-weight: 300;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+      }
+
+      .text {
+        font-size: 17px;
+        font-weight: 300;
+      }
     }
 
     .black-fade {
