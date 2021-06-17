@@ -826,6 +826,7 @@ header {
     left: 0;
     width: 100%;
     height: auto;
+    z-index: 99;
 
     video {
       width: 100%;
@@ -833,6 +834,7 @@ header {
       height: auto;
       margin: 0 auto;
       object-fit: cover;
+      opacity: 0;
     }
   }
 }

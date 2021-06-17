@@ -203,6 +203,18 @@ $(document).ready(() => {
           scrub: true,
         },
       });
+
+      //Fade in movie
+      gsap.to(".forest .second-wrapper video", {
+        opacity: 1,
+        ease: "power1.in",
+        scrollTrigger: {
+          trigger: ".history",
+          start: "top bottom+=175%",
+          end: "top bottom+=75%",
+          scrub: true,
+        },
+      });
     },
   });
 
