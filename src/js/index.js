@@ -145,14 +145,14 @@ $(document).ready(() => {
         },
       });
 
-      //Pin third page when reaching top
+      //Pin forest page when reaching top
       ScrollTrigger.create({
         trigger: ".forest",
         start: "top top",
         end: "+=700%",
         pin: ".forest",
-        pinSpacing: false,
-        // anticipatePin: true,
+        // pinSpacing: false,
+        anticipatePin: true,
       });
 
       //Bring in content from below
