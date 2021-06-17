@@ -45,34 +45,32 @@ $(document).ready(() => {
   ScrollTrigger.matchMedia({
     "(max-width: 1023px)": function () {
       //Pin Mora 2000 page
-      ScrollTrigger.create({
-        trigger: ".mora2000-usp",
-        start: "top top",
-        end: "+=400%",
-        pin: ".mora2000-usp",
-      });
-
-      //Fade in and out knife text
-      let tl = gsap.timeline({
-        scrollTrigger: {
-          scroller: "#main",
-          trigger: ".mora2000-usp",
-          start: "top top",
-          end: "+=400%",
-          scrub: true,
-        },
-      });
-
-      tl.from(".mora2000-usp .text", { opacity: 0, duration: 1 });
-      tl.to(".mora2000-usp .text", { opacity: 1, duration: 1 });
-      tl.to(".mora2000-usp .text", { opacity: 0, duration: 1 });
-      tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 1 }, 2);
-      tl.to(".usp1", { opacity: 1, duration: 1 });
-      tl.to(".usp2", { opacity: 1, duration: 1 });
-      tl.to(".usp1", { opacity: 0, duration: 1 }, 5);
-      tl.to(".usp2", { opacity: 0, duration: 1 }, 5);
-      tl.to(".usp3", { opacity: 1, duration: 1 }, 6);
-      tl.to(".usp4", { opacity: 1, duration: 1 }, 7);
+      // ScrollTrigger.create({
+      //   trigger: ".mora2000-usp",
+      //   start: "top top",
+      //   end: "+=400%",
+      //   pin: ".mora2000-usp",
+      // });
+      // //Fade in and out knife text
+      // let tl = gsap.timeline({
+      //   scrollTrigger: {
+      //     scroller: "#main",
+      //     trigger: ".mora2000-usp",
+      //     start: "top top",
+      //     end: "+=400%",
+      //     scrub: true,
+      //   },
+      // });
+      // tl.from(".mora2000-usp .text", { opacity: 0, duration: 1 });
+      // tl.to(".mora2000-usp .text", { opacity: 1, duration: 1 });
+      // tl.to(".mora2000-usp .text", { opacity: 0, duration: 1 });
+      // tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 1 }, 2);
+      // tl.to(".usp1", { opacity: 1, duration: 1 });
+      // tl.to(".usp2", { opacity: 1, duration: 1 });
+      // tl.to(".usp1", { opacity: 0, duration: 1 }, 5);
+      // tl.to(".usp2", { opacity: 0, duration: 1 }, 5);
+      // tl.to(".usp3", { opacity: 1, duration: 1 }, 6);
+      // tl.to(".usp4", { opacity: 1, duration: 1 }, 7);
     },
     "(min-width: 1024px)": function () {},
     all: function () {
