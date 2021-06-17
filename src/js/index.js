@@ -60,7 +60,7 @@ $(document).ready(() => {
           scrub: true,
         },
       });
-      tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 10 });
+      tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 10 }, 5);
       tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
       tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 1 });
       tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
