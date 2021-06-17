@@ -72,7 +72,35 @@ $(document).ready(() => {
       tl.to(".usp3", { opacity: 1, duration: 1 });
       tl.to(".usp4", { opacity: 1, duration: 1 });
     },
-    "(min-width: 1024px)": function () {},
+    "(min-width: 1024px)": function () {
+      //Pin second page when reaching top
+      ScrollTrigger.create({
+        trigger: ".mora2000-usp",
+        start: "top top",
+        end: "+=300%",
+        pin: ".mora2000-usp",
+      });
+
+      //Fade in and out knife intro text
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: ".mora2000-usp",
+          start: "top bottom",
+          end: "+=300%",
+          scrub: true,
+        },
+      });
+
+      tl.to(".mora2000-usp .knife-image", { opacity: 0.5, duration: 5 }, 1);
+      tl.from(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
+      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 1, duration: 1 });
+      tl.to(".mora2000-usp .text,.mora2000-usp .title", { opacity: 0, duration: 1 });
+      tl.to(".mora2000-usp .knife-image", { opacity: 1, duration: 1 });
+      tl.to(".usp1", { opacity: 1, duration: 1 });
+      tl.to(".usp2", { opacity: 1, duration: 1 });
+      tl.to(".usp3", { opacity: 1, duration: 1 });
+      tl.to(".usp4", { opacity: 1, duration: 1 });
+    },
     all: function () {
       //Layered pinning of first few pages
       ScrollTrigger.create({
