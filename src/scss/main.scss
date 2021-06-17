@@ -764,4 +764,13 @@ header {
     background: url("/assets/images/forest.jpg") no-repeat center center;
     background-size: cover;
   }
+
+  .knife-image {
+    min-width: 0;
+    flex: 0 0 50%;
+  }
+
+  .text-wrapper {
+    flex: 0 0 50%;
+  }
 }
