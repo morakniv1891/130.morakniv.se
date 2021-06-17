@@ -55,7 +55,7 @@ $(document).ready(() => {
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: ".mora2000-usp",
-          start: "top top",
+          start: "top bottom",
           end: "+=400%",
           scrub: true,
         },
