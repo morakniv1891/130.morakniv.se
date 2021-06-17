@@ -150,6 +150,7 @@ $(document).ready(() => {
         start: "top top",
         end: "+=300%",
         pin: ".forest",
+        anticipatePin: true,
       });
 
       //Bring in content from below on forest page
