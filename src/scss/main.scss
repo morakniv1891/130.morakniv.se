@@ -753,14 +753,11 @@ header {
 
 .forest {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 100vh;
 
   @media (min-width: 1024px) {
-    flex-flow: row nowrap;
-    justify-content: center;
     background: url("/assets/images/forest.jpg") no-repeat center center;
     background-size: cover;
   }
@@ -772,6 +769,8 @@ header {
     align-items: center;
 
     @media screen and (min-width: 1024px) {
+      flex-flow: row nowrap;
+      justify-content: center;
       max-width: 1024px;
     }
 
