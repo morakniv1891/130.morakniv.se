@@ -803,6 +803,11 @@ header {
         height: 512px;
         padding: 50px;
       }
+
+      .title,
+      .text {
+        color: $text-light-color;
+      }
     }
 
     .black-fade {
