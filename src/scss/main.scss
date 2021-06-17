@@ -826,21 +826,6 @@ header {
     left: 50%;
     width: 100%;
     height: auto;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-flow: column-reverse nowrap;
-    justify-content: center;
-    color: $text-dark-color;
-    z-index: 11;
-
-    @media (min-width: 1024px) {
-      display: block;
-      top: 0;
-      width: 1024px;
-      height: 100%;
-      transform: translate(-50%, 0);
-      flex-flow: column nowrap;
-    }
 
     video {
       width: 100%;
