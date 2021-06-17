@@ -161,7 +161,7 @@ $(document).ready(() => {
         scrollTrigger: {
           trigger: ".forest",
           start: "top bottom",
-          end: "+=100%",
+          end: "+=200%",
           scrub: true,
         },
       });
@@ -172,7 +172,7 @@ $(document).ready(() => {
         scrollTrigger: {
           trigger: ".forest",
           start: "top bottom",
-          end: "+=150%",
+          end: "+=250%",
           scrub: true,
         },
       });
