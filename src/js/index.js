@@ -176,6 +176,19 @@ $(document).ready(() => {
           scrub: true,
         },
       });
+
+      //Grow square image
+      gsap.to(".forest .knife-image", {
+        scale: 10,
+        opacity: 0,
+        ease: "power1.in",
+        scrollTrigger: {
+          trigger: ".forest",
+          start: "top+=300% bottom",
+          end: "top+=400% bottom",
+          scrub: true,
+        },
+      });
     },
   });
 
