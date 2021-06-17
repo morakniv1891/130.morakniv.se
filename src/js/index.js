@@ -160,7 +160,7 @@ $(document).ready(() => {
         ease: "power1.inOut",
         scrollTrigger: {
           trigger: ".forest",
-          start: "top bottom",
+          start: "top center",
           end: "+=200%",
           scrub: true,
         },
@@ -171,7 +171,7 @@ $(document).ready(() => {
         ease: "power1.inOut",
         scrollTrigger: {
           trigger: ".forest",
-          start: "top bottom",
+          start: "top center",
           end: "+=250%",
           scrub: true,
         },
