@@ -434,6 +434,7 @@ header {
 }
 
 .mora2000-usp {
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -461,5 +462,283 @@ header {
 
   .text {
     max-width: 800px;
+  }
+
+  .image-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 80px);
+    padding-bottom: 80px;
+    // margin: -100px 0 20px;
+    z-index: -1;
+
+    @media (min-width: 1025px) {
+      position: relative;
+      top: unset;
+      left: unset;
+      height: unset;
+      padding: 0;
+    }
+
+    .knife-image {
+      max-height: 50vh;
+      opacity: 0.5;
+
+      @media (min-width: 1025px) {
+        max-height: 30vh;
+        opacity: 1;
+      }
+    }
+
+    .usp {
+      display: flex;
+      flex-flow: column nowrap;
+      position: absolute;
+      opacity: 0;
+
+      .line {
+        position: relative;
+
+        @media (min-width: 1025px) {
+          width: 100%;
+          margin-top: 10px;
+          border-bottom: 1px solid $text-light-color;
+        }
+      }
+
+      h3 {
+        width: max-content;
+        font-size: 3vw;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-transform: uppercase;
+
+        @media (min-width: 768px) {
+          font-size: 18px;
+          letter-spacing: 4px;
+          line-height: 25px;
+        }
+      }
+    }
+
+    .usp1 {
+      top: 4%;
+      left: 50%;
+      height: 20%;
+      transform: translate(-50%, 0);
+
+      @media (min-width: 1025px) {
+        top: 0;
+        left: 0;
+        height: 100%;
+        transform: translate(0, -100%);
+      }
+
+      h3 {
+        padding: 0 0 10px 0;
+
+        @media (min-width: 1025px) {
+          padding: 0 20px 0 0;
+        }
+      }
+
+      .line {
+        height: 70%;
+        border-left: 1px solid $text-light-color;
+
+        @media (min-width: 1025px) {
+          height: auto;
+        }
+
+        &::after {
+          content: " ";
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 30%;
+          border-top: 1px solid $text-light-color;
+          transform: rotate(45deg);
+          transform-origin: top left;
+
+          @media (min-width: 1025px) {
+            bottom: -1px;
+            left: 100%;
+            top: unset;
+            width: 60%;
+            height: 100%;
+            transform: rotate(55deg);
+          }
+        }
+      }
+    }
+
+    .usp2 {
+      flex-flow: column-reverse nowrap;
+      bottom: 10%;
+      left: 50%;
+      height: 20%;
+      transform: translate(-50%, 0);
+
+      @media (min-width: 1025px) {
+        flex-flow: column nowrap;
+        top: 0;
+        right: 0;
+        bottom: unset;
+        left: unset;
+        height: calc(100% + 25px);
+        transform: translate(0, -100%);
+      }
+
+      h3 {
+        padding: 10px 0 0 0;
+
+        @media (min-width: 1025px) {
+          padding: 0 0 0 20px;
+        }
+      }
+
+      .line {
+        height: 70%;
+        border-right: 1px solid $text-light-color;
+
+        @media (min-width: 1025px) {
+          height: auto;
+        }
+
+        &::after {
+          content: " ";
+          position: absolute;
+          top: 0;
+          right: -1px;
+          width: 40%;
+          border-top: 1px solid $text-light-color;
+          transform: rotate(45deg);
+          transform-origin: top right;
+
+          @media (min-width: 1025px) {
+            bottom: -1px;
+            right: 100%;
+            top: unset;
+            width: 56%;
+            height: 100%;
+            transform: rotate(-55deg);
+          }
+        }
+      }
+    }
+
+    .usp3 {
+      top: 4%;
+      left: 50%;
+      height: 20%;
+      transform: translate(-50%, 0);
+
+      @media (min-width: 1025px) {
+        justify-content: flex-end;
+        flex-flow: column nowrap;
+        bottom: 0;
+        left: 0;
+        top: unset;
+        height: 100%;
+        transform: translate(0, 100%);
+      }
+
+      h3 {
+        padding: 0 0 10px 0;
+
+        @media (min-width: 1025px) {
+          padding: 0 20px 0 0;
+        }
+      }
+
+      .line {
+        height: 70%;
+        border-right: 1px solid $text-light-color;
+
+        @media (min-width: 1025px) {
+          height: auto;
+        }
+
+        &::after {
+          content: " ";
+          position: absolute;
+          bottom: 0;
+          left: 100%;
+          width: 30%;
+          height: auto;
+          border-top: 1px solid $text-light-color;
+          transform: rotate(135deg);
+          transform-origin: bottom left;
+
+          @media (min-width: 1025px) {
+            bottom: -1px;
+            left: 100%;
+            width: 67%;
+            height: 100%;
+            transform: rotate(-55deg);
+          }
+        }
+      }
+    }
+
+    .usp4 {
+      flex-flow: column-reverse nowrap;
+      justify-content: flex-end;
+      bottom: 10%;
+      left: 50%;
+      height: 20%;
+      transform: translate(-50%, 0);
+
+      @media (min-width: 1025px) {
+        flex-flow: column nowrap;
+        bottom: 0;
+        right: 0;
+        left: unset;
+        height: 100%;
+        transform: translate(0, 100%);
+      }
+
+      h3 {
+        padding: 10px 0 0 0;
+
+        @media (min-width: 1025px) {
+          padding: 0 0 0 20px;
+        }
+      }
+
+      .line {
+        height: 70%;
+        border-left: 1px solid $text-light-color;
+
+        @media (min-width: 1025px) {
+          height: auto;
+        }
+
+        &::after {
+          content: " ";
+          position: absolute;
+          top: -1px;
+          right: 100%;
+          width: 40%;
+          border-top: 1px solid $text-light-color;
+          transform: rotate(135deg);
+          transform-origin: bottom right;
+
+          @media (min-width: 1025px) {
+            bottom: -1px;
+            right: calc(100% + 1px);
+            top: unset;
+            width: 64%;
+            height: 100%;
+            transform: rotate(55deg);
+          }
+        }
+      }
+    }
   }
 }
