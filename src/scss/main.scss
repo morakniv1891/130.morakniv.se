@@ -765,12 +765,23 @@ header {
     background-size: cover;
   }
 
-  .knife-image {
-    min-width: 0;
-    flex: 0 0 50%;
-  }
+  .content-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
 
-  .text-wrapper {
-    flex: 0 0 50%;
+    @media screen and (min-width: 1024px) {
+      max-width: 1024px;
+    }
+
+    .knife-image {
+      min-width: 0;
+      flex: 0 0 50%;
+    }
+
+    .text-wrapper {
+      flex: 0 0 50%;
+    }
   }
 }
