@@ -185,7 +185,7 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history",
-          start: "top bottom+=425%",
+          start: "top bottom+=500%",
           end: "top bottom+=125%",
           scrub: true,
         },
