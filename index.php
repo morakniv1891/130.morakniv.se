@@ -118,7 +118,53 @@
         </video>
       </div>
     </section>
-    <section class="history"></section>
+    <section class="page-8 boxed">
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
+          <div class="gradient"></div>
+        </div>
+      </div>
+      <div class="text-container">
+        <p class="text">Ever since, our knowledge has grown and with infinite passion for craftsmanship we have continued to manufacture knives for knife users all over the world. Through the years Morakniv has made several iconic knives – one of which is the Mora 2000.<br><br>The story of Mora 2000 begins back in 1991 when a Norwegian hunter wished for an all-round knife that could work as a multi-functional tool for the upcoming moose hunt. A knife that could perform in a hunter's environment as well as cutting loaf, spreading butter and slicing sausages during the lunch break.</p>
+      </div>
+    </section>
+    <section class="page-9 boxed">
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img class="image" src="/assets/images/Hunting_WEB.jpg" alt="Jakttorn">
+          <div class="gradient"></div>
+        </div>
+      </div>
+      <div class="text-container">
+        <p class="text">In the early developing stages, the prototype went by the name of Trapper, as it would later be officially named Mora 2000. Not long after the release, it became a popular product in the United States whose knife users unsurprisingly renamed it to Moose Master.<br><br>The Swedish Armed Forces have been, and still are, one of our most loyal customers to the original green coloured Mora 2000. Not only because it is a highly-functional and reliable tool, it also matches the Swedish soldiers camouflage and is Swedish made.</p>
+      </div>
+    </section>
+    <section class="page-10 boxed">
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img class="image" src="/assets/images/Mora%202000%20Anniversary%20Edition%20(S)%20(43)_web.jpg" alt="KJ Eriksson Factory 1925">
+          <div class="gradient"></div>
+        </div>
+      </div>
+      <div class="text-container">
+        <p class="text">There have been small changes in the design and material of the knife over the years, most of them probably not noticeable, apart from the coloured handles and the blade stamps. The original Mora 2000 is green and since then we have expanded with highly-visible orange, and now a limited black anniversary edition.<br><br>What the future holds will be defined by you through time.</p>
+      </div>
+    </section>
+    <section class="page-11 boxed">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2XIE_6ukr7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section class="page-14 boxed">
+      <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
+      <div class="image-wrapper">
+        <picture>
+          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition_m.png" media="(max-width: 1024px)">
+          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition.png" media="(min-width: 1025px)">
+          <img class="knife-image" srcset="assets/images/13949-Mora_2000_Anniversary_Edition.png"
+            alt="Mora 2000 Anniversary Edition">
+        </picture>
+      </div>
+    </section>
   </main>
   <script src="/assets/js/index.min.js"></script>
 </body>
