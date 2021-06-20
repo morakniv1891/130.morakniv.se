@@ -184,7 +184,7 @@ $(document).ready(() => {
         opacity: 0,
         ease: "power1.in",
         scrollTrigger: {
-          trigger: ".history",
+          trigger: ".history-1",
           start: "top bottom+=550%",
           end: "top bottom+=125%",
           scrub: true,
@@ -196,7 +196,7 @@ $(document).ready(() => {
         opacity: 1,
         ease: "power1.in",
         scrollTrigger: {
-          trigger: ".history",
+          trigger: ".history-1",
           start: "top bottom+=275%",
           end: "top bottom+=175%",
           scrub: true,
@@ -208,7 +208,7 @@ $(document).ready(() => {
         opacity: 1,
         ease: "power1.in",
         scrollTrigger: {
-          trigger: ".history",
+          trigger: ".history-1",
           start: "top bottom+=175%",
           end: "top bottom+=75%",
           scrub: true,
