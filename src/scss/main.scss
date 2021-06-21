@@ -853,19 +853,6 @@ header {
   }
 }
 
-.mora2000-history {
-  .header {
-    text-align: center;
-    text-transform: uppercase;
-    color: $text-light-color;
-
-    @media screen and (min-width: 1024px) {
-      font-size: 70px;
-      font-weight: 300;
-    }
-  }
-}
-
 .history-1 {
   display: flex;
   flex-flow: column nowrap;
@@ -875,6 +862,17 @@ header {
     justify-content: unset;
     flex-flow: row-reverse nowrap;
     height: 100vh;
+  }
+
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-light-color;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 70px;
+      font-weight: 300;
+    }
   }
 
   .text-container,

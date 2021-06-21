@@ -118,10 +118,8 @@
         </video>
       </div>
     </section>
-    <section class="mora2000-history boxed">
-      <h2 class="header">The history of Mora 2000</h2>
-    </section>
     <section class="history-1">
+      <h3 class="header">The history of Mora 2000</h3>
       <div class="image-container">
         <div class="image-wrapper">
           <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
