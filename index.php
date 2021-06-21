@@ -121,7 +121,7 @@
     <section class="history-1 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="/assets/images/KJ%20Eriksson%20[1954,%20KJ-verkstan]%20{Svenska%20dagbladet}_m01_WEB.jpg" alt="KJ Eriksson 1954">
+          <img class="image" src="/assets/images/mora2000-table-map.jpg" alt="KJ Eriksson 1954">
           <div class="gradient"></div>
         </div>
       </div>
