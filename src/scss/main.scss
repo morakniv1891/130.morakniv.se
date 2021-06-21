@@ -895,6 +895,8 @@ header {
   }
 
   .text-container {
+    display: flex;
+    flex-flow: column nowrap;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;

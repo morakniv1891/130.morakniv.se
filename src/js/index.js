@@ -241,7 +241,7 @@ $(document).ready(() => {
       });
 
       //Text entry opacity
-      gsap.from(".history-1 .text", {
+      gsap.from(".history-1 .text, .history-1 .header", {
         opacity: 0,
         ease: "power2.inOut",
         scrollTrigger: {
