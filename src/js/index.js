@@ -215,6 +215,114 @@ $(document).ready(() => {
           markers: true,
         },
       });
+
+      //Image entry grow
+      gsap.from(".history-1 .image-wrapper", {
+        scale: 0.7,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-1",
+          start: "top bottom",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry gradient
+      gsap.to(".history-1 .gradient", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-1",
+          start: "top bottom-=33%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Text entry opacity
+      gsap.from(".history-1 .text", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-1",
+          start: "top center-=25%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry grow
+      gsap.from(".history-2 .image-wrapper", {
+        scale: 0.7,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-2",
+          start: "top bottom",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry gradient
+      gsap.to(".history-2 .gradient", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-2",
+          start: "top bottom-=33%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Text entry opacity
+      gsap.from(".history-2 .text", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-2",
+          start: "top center-=25%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry grow
+      gsap.from(".history-3 .image-wrapper", {
+        scale: 0.7,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-3",
+          start: "top bottom",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Image entry gradient
+      gsap.to(".history-3 .gradient", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-3",
+          start: "top bottom-=33%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
+
+      //Text entry opacity
+      gsap.from(".history-3 .text", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-3",
+          start: "top center-=25%",
+          end: "center+=33% center",
+          scrub: true,
+        },
+      });
     },
   });
 
