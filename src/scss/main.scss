@@ -860,12 +860,12 @@ header {
 
   @media (min-width: 1024px) {
     justify-content: unset;
-    flex-flow: row-reverse;
+    flex-flow: row-reverse wrap;
     height: 100vh;
   }
 
   .header {
-    width: 100%;
+    flex: 0 0 100%;
     text-align: center;
     text-transform: uppercase;
     color: $text-light-color;
@@ -887,7 +887,7 @@ header {
     width: 100%;
 
     @media (min-width: 1024px) {
-      width: 47%;
+      flex: 0 0 47%;
     }
 
     .image-wrapper {
@@ -913,7 +913,7 @@ header {
     padding: 50px 20px 0;
 
     @media (min-width: 1024px) {
-      width: 53%;
+      flex: 0 0 53%;
       padding-right: 70px;
     }
   }
