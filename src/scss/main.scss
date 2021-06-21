@@ -918,6 +918,10 @@ header {
       flex: 0 0 53%;
       padding-right: 70px;
     }
+
+    .text {
+      color: $text-light-color;
+    }
   }
 }
 
@@ -971,6 +975,10 @@ header {
       flex: 0 0 53%;
       padding-left: 70px;
     }
+
+    .text {
+      color: $text-light-color;
+    }
   }
 }
 
@@ -1008,6 +1016,7 @@ header {
     .text {
       margin-top: 50px;
       text-align: center;
+      color: $text-light-color;
     }
   }
 }
