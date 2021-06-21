@@ -118,7 +118,7 @@
         </video>
       </div>
     </section>
-    <section class="history-1">
+    <section class="history-1 boxed">
       <h3 class="header">The history of Mora 2000</h3>
       <div class="image-container">
         <div class="image-wrapper">
