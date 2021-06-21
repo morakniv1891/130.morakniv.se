@@ -860,22 +860,8 @@ header {
 
   @media (min-width: 1024px) {
     justify-content: unset;
-    flex-flow: row-reverse wrap;
+    flex-flow: row-reverse nowrap;
     height: 100vh;
-  }
-
-  .header {
-    flex: 0 0 100%;
-    margin: 0 0 40px;
-    text-align: center;
-    text-transform: uppercase;
-    color: $text-light-color;
-
-    @media screen and (min-width: 1024px) {
-      margin: 40px 0;
-      font-size: 70px;
-      font-weight: 300;
-    }
   }
 
   .text-container,
@@ -917,6 +903,10 @@ header {
     @media (min-width: 1024px) {
       flex: 0 0 53%;
       padding-right: 70px;
+    }
+
+    .header {
+      color: $text-light-color;
     }
 
     .text {
