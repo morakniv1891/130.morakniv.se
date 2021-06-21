@@ -217,6 +217,18 @@ $(document).ready(() => {
       });
 
       //Image entry grow
+      gsap.from(".history-1 .header", {
+        opacity: 0,
+        ease: "power2.inOut",
+        scrollTrigger: {
+          trigger: ".history-1",
+          start: "top bottom",
+          end: "top+=10%",
+          scrub: true,
+        },
+      });
+
+      //Image entry grow
       gsap.from(".history-1 .image-wrapper", {
         scale: 0.7,
         ease: "power2.inOut",
