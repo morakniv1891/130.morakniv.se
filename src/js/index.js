@@ -212,7 +212,6 @@ $(document).ready(() => {
           start: "top bottom+=175%",
           end: "top bottom+=75%",
           scrub: true,
-          markers: true,
         },
       });
 
