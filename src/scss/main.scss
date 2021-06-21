@@ -860,7 +860,7 @@ header {
 
   @media (min-width: 1024px) {
     justify-content: unset;
-    flex-flow: row-reverse nowrap;
+    flex-flow: row-reverse;
     height: 100vh;
   }
 
