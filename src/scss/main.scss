@@ -866,11 +866,13 @@ header {
 
   .header {
     flex: 0 0 100%;
+    margin: 0 0 40px;
     text-align: center;
     text-transform: uppercase;
     color: $text-light-color;
 
     @media screen and (min-width: 1024px) {
+      margin: 40px 0;
       font-size: 70px;
       font-weight: 300;
     }
