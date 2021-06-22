@@ -158,7 +158,7 @@ $(document).ready(() => {
       ScrollTrigger.create({
         trigger: ".forest",
         start: "top top",
-        end: "+=400%",
+        end: "+=300%",
         pin: ".forest",
         // pinSpacing: false,
         anticipatePin: true,
@@ -206,7 +206,7 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history-1",
-          start: "top bottom+=300%",
+          start: "top bottom+=325%",
           end: "top bottom+=250%",
           scrub: true,
         },
