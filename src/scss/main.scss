@@ -101,10 +101,10 @@ p {
 
   &:hover {
     background-color: $text-faded-color;
-    color: $text-dark-color;
+    color: #000;
 
     svg {
-      fill: $background-color;
+      fill: #000;
     }
   }
 
