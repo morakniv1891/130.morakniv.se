@@ -145,6 +145,15 @@ $(document).ready(() => {
         },
       });
 
+      gsap.from(".third-layer", {
+        backdropFilter: "saturation(0)",
+        scrollTrigger: {
+          trigger: "third-layer",
+          start: "top bottom",
+          scrub: true,
+        },
+      });
+
       //Pin forest page when reaching top
       ScrollTrigger.create({
         trigger: ".forest",
