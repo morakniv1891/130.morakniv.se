@@ -1075,3 +1075,11 @@ header {
     }
   }
 }
+
+.disclaimer {
+  p {
+    font-size: 10px;
+    text-align: center;
+    color: $text-faded-color;
+  }
+}
