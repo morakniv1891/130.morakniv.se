@@ -1106,7 +1106,12 @@ header {
 .disclaimer {
   margin-top: 80px;
   p {
+    padding: 0 50px;
     font-size: 10px;
     color: #404040;
+
+    @media screen and (min-width: 1024px) {
+      padding: 0;
+    }
   }
 }
