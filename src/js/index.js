@@ -146,7 +146,7 @@ $(document).ready(() => {
       });
 
       gsap.from(".third-layer", {
-        backdropFilter: "saturation(0)",
+        filter: "grayscale(0)",
         scrollTrigger: {
           trigger: "third-layer",
           start: "top bottom",
