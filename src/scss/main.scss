@@ -1033,12 +1033,36 @@ header {
     text-transform: uppercase;
     color: $text-light-color;
   }
+
   .image-wrapper {
     .knife-image {
       opacity: 1;
     }
   }
-  .countdown-wrapper {
-    margin: 80px 0 0;
+
+  .product-page-button {
+    color: $text-faded-color;
+    text-decoration: none;
+    padding: 10px 60px;
+    border: 1px solid $text-faded-color;
+    border-radius: 30px;
+    letter-spacing: 2px;
+
+    &:hover {
+      background-color: $text-faded-color;
+      color: $text-dark-color;
+
+      svg {
+        fill: $background-color;
+      }
+    }
+
+    svg {
+      display: inline;
+      width: 16px;
+      margin-left: 8px;
+      vertical-align: bottom;
+      fill: $text-faded-color;
+    }
   }
 }
