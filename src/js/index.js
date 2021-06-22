@@ -162,6 +162,7 @@ $(document).ready(() => {
         pin: ".forest",
         // pinSpacing: false,
         anticipatePin: true,
+        markers: true,
       });
 
       //Bring in content from below
