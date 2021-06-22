@@ -145,7 +145,7 @@ $(document).ready(() => {
         },
       });
 
-      gsap.from(".third-layer", {
+      gsap.to(".third-layer", {
         filter: "grayscale(0)",
         scrollTrigger: {
           trigger: ".third-layer",
