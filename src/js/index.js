@@ -151,6 +151,7 @@ $(document).ready(() => {
           trigger: "third-layer",
           start: "top bottom",
           scrub: true,
+          markers: true,
         },
       });
 
