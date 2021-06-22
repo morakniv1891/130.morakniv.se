@@ -1021,7 +1021,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .mora2000 {
@@ -1106,12 +1105,12 @@ header {
 .disclaimer {
   margin-top: 80px;
   p {
-    padding: 0 50px;
+    padding: 0 50px 20px;
     font-size: 10px;
     color: #404040;
 
     @media screen and (min-width: 1024px) {
-      padding: 0;
+      padding: 0 0 20px;
     }
   }
 }
