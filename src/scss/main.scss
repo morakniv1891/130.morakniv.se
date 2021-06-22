@@ -898,6 +898,7 @@ header {
   .text-container {
     display: flex;
     flex-flow: column nowrap;
+    align-items: flex-start;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
