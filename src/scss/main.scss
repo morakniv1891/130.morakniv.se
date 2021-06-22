@@ -1096,11 +1096,9 @@ header {
 
     .knife-image {
       max-height: 50vh;
-      opacity: 0.5;
 
       @media (min-width: 1024px) {
         max-height: 30vh;
-        opacity: 1;
       }
     }
   }
