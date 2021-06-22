@@ -158,7 +158,7 @@ $(document).ready(() => {
       ScrollTrigger.create({
         trigger: ".forest",
         start: "top top",
-        end: "+=700%",
+        end: "+=600%",
         pin: ".forest",
         // pinSpacing: false,
         anticipatePin: true,
@@ -194,8 +194,8 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history-1",
-          start: "top bottom+=600%",
-          end: "top bottom+=125%",
+          start: "top bottom+=500%",
+          end: "top bottom+=225%",
           scrub: true,
         },
       });
@@ -206,8 +206,8 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history-1",
-          start: "top bottom+=275%",
-          end: "top bottom+=175%",
+          start: "top bottom+=375%",
+          end: "top bottom+=275%",
           scrub: true,
         },
       });
