@@ -1018,6 +1018,11 @@ header {
 }
 
 .mora2000 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
   .title {
     margin-bottom: 80px;
   }
