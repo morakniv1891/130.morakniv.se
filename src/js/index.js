@@ -218,8 +218,8 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history-1",
-          start: "top bottom+=175%",
-          end: "top bottom+=75%",
+          start: "top bottom+=275%",
+          end: "top bottom+=175%",
           scrub: true,
         },
       });
