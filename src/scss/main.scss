@@ -1029,7 +1029,7 @@ header {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 
   .title {
     margin-bottom: 80px;
@@ -1042,8 +1042,25 @@ header {
   }
 
   .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 80px);
+    padding-bottom: 80px;
+
+    @media (min-width: 1024px) {
+      padding: 0;
+    }
+
     .knife-image {
-      opacity: 1;
+      max-height: 50vh;
+      opacity: 0.5;
+
+      @media (min-width: 1024px) {
+        max-height: 30vh;
+        opacity: 1;
+      }
     }
   }
 
