@@ -1019,12 +1019,14 @@ header {
 
 .mora2000 {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
 
   .title {
     margin-bottom: 80px;
+    color: $text-light-color;
   }
   .image-wrapper {
     .knife-image {
