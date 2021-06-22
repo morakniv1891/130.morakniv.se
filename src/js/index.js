@@ -158,7 +158,7 @@ $(document).ready(() => {
       ScrollTrigger.create({
         trigger: ".forest",
         start: "top top",
-        end: "+=600%",
+        end: "+=550%",
         pin: ".forest",
         // pinSpacing: false,
         anticipatePin: true,
