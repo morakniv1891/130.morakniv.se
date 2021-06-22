@@ -1041,13 +1041,14 @@ header {
   }
 
   .product-page-button {
-    color: $text-faded-color;
-    text-decoration: none;
+    margin-top: 80px;
     padding: 10px 60px;
     border: 1px solid $text-faded-color;
     border-radius: 30px;
     font-size: 16px;
     letter-spacing: 2px;
+    text-decoration: none;
+    color: $text-faded-color;
 
     &:hover {
       background-color: $text-faded-color;
