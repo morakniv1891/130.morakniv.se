@@ -234,7 +234,6 @@ $(document).ready(() => {
           start: "top bottom",
           end: "center+=33% center",
           scrub: true,
-          markers: true,
         },
       });
 
