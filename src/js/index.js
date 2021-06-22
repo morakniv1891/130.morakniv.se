@@ -194,8 +194,8 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history-1",
-          start: "top bottom+=350%",
-          end: "top bottom+=225%",
+          start: "top bottom+=300%",
+          end: "top bottom+=200%",
           scrub: true,
         },
       });
@@ -206,8 +206,8 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history-1",
-          start: "top bottom+=375%",
-          end: "top bottom+=275%",
+          start: "top bottom+=250%",
+          end: "top bottom+=225%",
           scrub: true,
         },
       });
@@ -218,8 +218,8 @@ $(document).ready(() => {
         ease: "power1.in",
         scrollTrigger: {
           trigger: ".history-1",
-          start: "top bottom+=275%",
-          end: "top bottom+=175%",
+          start: "top bottom+=250%",
+          end: "top bottom+=200%",
           scrub: true,
         },
       });
