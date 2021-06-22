@@ -77,6 +77,7 @@
       <h2 class="title">Mora 2000 (S) Anniversary Edition</h2>
       <p class="text">The year 2021 marks the 130-year Anniversary of Morakniv. It also marks the 30-year jubilee of the legendary Mora 2000. Introducing the new Mora 2000 (S) Anniversary Edition which will only be produced during 2021.
 </p>
+      <a href="https://morakniv.se/en/product/mora-2000-s-anniversary-edition/" class="product-page-button">Product page <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M352 128C352 57.421 294.579 0 224 0 153.42 0 96 57.421 96 128H0v304c0 44.183 35.817 80 80 80h288c44.183 0 80-35.817 80-80V128h-96zM224 32c52.935 0 96 43.065 96 96H128c0-52.935 43.065-96 96-96zm192 400c0 26.467-21.533 48-48 48H80c-26.467 0-48-21.533-48-48V160h64v48c0 8.837 7.164 16 16 16s16-7.163 16-16v-48h192v48c0 8.837 7.163 16 16 16s16-7.163 16-16v-48h64v272z"/></svg></a>
       <div class="image-wrapper">
         <picture>
           <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition_m.png" media="(max-width: 1024px)">
@@ -84,7 +85,6 @@
           <img class="knife-image" srcset="assets/images/13949-Mora_2000_Anniversary_Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
-        <a href="https://morakniv.se/en/product/mora-2000-s-anniversary-edition/" class="product-page-button">Product page <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M352 128C352 57.421 294.579 0 224 0 153.42 0 96 57.421 96 128H0v304c0 44.183 35.817 80 80 80h288c44.183 0 80-35.817 80-80V128h-96zM224 32c52.935 0 96 43.065 96 96H128c0-52.935 43.065-96 96-96zm192 400c0 26.467-21.533 48-48 48H80c-26.467 0-48-21.533-48-48V160h64v48c0 8.837 7.164 16 16 16s16-7.163 16-16v-48h192v48c0 8.837 7.163 16 16 16s16-7.163 16-16v-48h64v272z"/></svg></a>
         <div class="usp usp1">
           <h3>Friction Grip Handle</h3>
           <div class="line"></div>
