@@ -1105,12 +1105,12 @@ header {
 .disclaimer {
   margin-top: 80px;
   p {
-    padding: 0 50px 20px;
+    padding: 0 50px 40px;
     font-size: 10px;
     color: #404040;
 
     @media screen and (min-width: 1024px) {
-      padding: 0 0 20px;
+      padding: 0 0 40px;
     }
   }
 }
