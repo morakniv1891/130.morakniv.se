@@ -149,7 +149,7 @@ $(document).ready(() => {
         filter: "grayscale(0)",
         scrollTrigger: {
           trigger: ".third-layer",
-          start: "top bottom",
+          start: "top+=20% bottom",
           scrub: true,
           markers: true,
         },
