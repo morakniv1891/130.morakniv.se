@@ -862,7 +862,7 @@ header {
   @media (min-width: 1024px) {
     justify-content: unset;
     flex-flow: row-reverse nowrap;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .text-container,
@@ -929,7 +929,7 @@ header {
   @media (min-width: 1024px) {
     justify-content: unset;
     flex-flow: row nowrap;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .text-container,
@@ -983,7 +983,7 @@ header {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 
   .image-wrapper {
     position: relative;
@@ -1015,6 +1015,10 @@ header {
       color: $text-light-color;
     }
   }
+}
+
+.second-movie {
+  min-height: 100vh;
 }
 
 .mora2000 {
