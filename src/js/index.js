@@ -9,6 +9,9 @@ $(document).ready(() => {
   let mobileMenuOpen = false;
 
   gsap.registerPlugin(ScrollTrigger);
+  gsap.config({
+    force3D: true,
+  });
 
   //Show/Hide Menu
   const showMenu = gsap
