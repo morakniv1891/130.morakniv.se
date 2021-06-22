@@ -207,7 +207,7 @@ $(document).ready(() => {
         scrollTrigger: {
           trigger: ".history-1",
           start: "top bottom+=300%",
-          end: "top bottom+=225%",
+          end: "top bottom+=250%",
           scrub: true,
         },
       });
