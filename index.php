@@ -127,7 +127,7 @@
         </div>
       </div>
       <div class="text-container">
-        <h3 class="header">The history of Mora 2000</h3>
+        <h3 class="header">The history of <span class="line-break-mobile"></span>Mora 2000</h3>
         <p class="text">The story of Mora 2000 begins back in 1991 when a Norwegian hunter wished for an all-round knife that could work as a multi-functional tool for the upcoming moose hunt. A knife that could perform in a hunter's environment as well as cutting loaf, spreading butter and slicing sausages during the lunch break.</p>
       </div>
     </section>
