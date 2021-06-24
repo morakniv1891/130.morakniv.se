@@ -53,6 +53,7 @@ $(document).ready(() => {
         start: "top top",
         end: "+=400%",
         pin: ".mora2000-usp",
+        anticipatePin: true,
       });
       //Fade in and out knife text
       let tl = gsap.timeline({
@@ -112,6 +113,7 @@ $(document).ready(() => {
         pin: true,
         pinSpacing: false,
         scrub: 0.5,
+        anticipatePin: true,
       });
 
       ScrollTrigger.create({
@@ -120,6 +122,7 @@ $(document).ready(() => {
         pin: true,
         pinSpacing: false,
         scrub: 0.5,
+        anticipatePin: true,
       });
 
       ScrollTrigger.create({
@@ -128,6 +131,7 @@ $(document).ready(() => {
         pin: true,
         pinSpacing: false,
         scrub: 0.5,
+        anticipatePin: true,
       });
 
       ScrollTrigger.create({
@@ -135,6 +139,7 @@ $(document).ready(() => {
         start: "top top",
         end: "top top",
         pin: true,
+        anticipatePin: true,
       });
 
       //Make first page text follow scroll though section is pinned
