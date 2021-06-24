@@ -145,7 +145,7 @@
     <section class="history-3 boxed">
       <div class="image-container">
         <div class="image-wrapper">
-          <img class="image" src="/assets/images/Mora_2000_Anniversary_Edition_(S)_web.jpg" alt="Mora 2000 Anniversary Edition">
+          <img class="image" src="/assets/images/Mora_2000_Anniversary_Edition_(S)_Poster.jpg" alt="Mora 2000 Anniversary Edition">
           <div class="gradient"></div>
         </div>
       </div>
