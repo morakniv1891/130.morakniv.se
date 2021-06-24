@@ -46,7 +46,7 @@ $(document).ready(() => {
   });
 
   ScrollTrigger.matchMedia({
-    "(max-width: 1023px)": function () {
+    "(max-width: 1024px)": function () {
       //Pin Mora 2000 page
       ScrollTrigger.create({
         trigger: ".mora2000-usp",
