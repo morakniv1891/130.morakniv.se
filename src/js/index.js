@@ -76,7 +76,7 @@ $(document).ready(() => {
       tl.to(".usp3", { opacity: 1, duration: 1 });
       tl.to(".usp4", { opacity: 1, duration: 1 });
     },
-    "(min-width: 1024px)": function () {
+    "(min-width: 1025px)": function () {
       //Pin second page when reaching top
       ScrollTrigger.create({
         trigger: ".mora2000-usp",
