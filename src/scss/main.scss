@@ -79,13 +79,13 @@ p {
 
 .line-break-mobile {
   display: none;
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1024px) {
     display: block;
   }
 }
 
 .boxed {
-  max-width: 1025px;
+  max-width: 1024px;
   margin: 0 auto !important;
 }
 
