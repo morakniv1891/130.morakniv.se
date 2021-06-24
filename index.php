@@ -160,8 +160,8 @@
       <h1 class="title intro-text">Mora 2000 (S) Anniversary Edition</h1>
       <div class="image-wrapper">
         <picture>
-          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition_Knife_in_Sheath_m.png" media="(max-width: 1024px)">
-          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition_Knife_in_Sheath.png" media="(min-width: 1025px)">
+          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition_Knife_in_Sheath_m.png" media="(max-width: 1023px)">
+          <source srcset="assets/images/13949-Mora_2000_Anniversary_Edition_Knife_in_Sheath.png" media="(min-width: 1024px)">
           <img class="knife-image" srcset="assets/images/13949-Mora_2000_Anniversary_Edition.png"
             alt="Mora 2000 Anniversary Edition">
         </picture>
