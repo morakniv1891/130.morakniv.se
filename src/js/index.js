@@ -343,5 +343,5 @@ $(document).ready(() => {
   });
 
   //Fit videos to screen
-  fitVids(".first-movie, .second-movie");
+  fitVids(".third-layer, .second-movie");
 });
