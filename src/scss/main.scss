@@ -389,15 +389,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem;
-  color: white;
-  background: url(/assets/images/third-slide_mobile.jpg) center center no-repeat;
-  background-size: cover;
-  filter: grayscale(1);
+  // font-size: 5rem;
+  // color: white;
+  // background: url(/assets/images/third-slide_mobile.jpg) center center no-repeat;
+  // background-size: cover;
+  // filter: grayscale(1);
 
-  @media screen and (min-width: 1025px) {
-    background: url(/assets/images/third-slide_desktop.jpg) center center no-repeat;
-  }
+  // @media screen and (min-width: 1025px) {
+  //   background: url(/assets/images/third-slide_desktop.jpg) center center no-repeat;
+  // }
 }
 
 .first-movie {
