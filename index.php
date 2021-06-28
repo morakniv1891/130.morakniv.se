@@ -71,9 +71,9 @@
       <div class="grid-wrapper">
         <h3 class="movie-header">Our history.<br>Through time.</h3>
         <picture>
-          <source srcset="assets/images/third_slide_mobile.jpg" media="(max-width: 1024px)">
-          <source srcset="assets/images/third_slide_desktop.jpg" media="(min-width: 1025px)">
-          <img class="knife-image" srcset="assets/images/third_slide_desktop.jpg"
+          <source srcset="assets/images/third-slide_mobile.jpg" media="(max-width: 1024px)">
+          <source srcset="assets/images/third-slide_desktop.jpg" media="(min-width: 1025px)">
+          <img class="knife-image" srcset="assets/images/third-slide_desktop.jpg"
             alt="Mora 2000 Anniversary Edition">
         </picture>
         <p class="first-text">The traditional knife brand Morakniv was established in <span class="line-break-desktop"></span>Östnor, outside of Mora in 1891. The seed of what would <span class="line-break-desktop"></span>become one of the world’s most popular knife <span class="line-break-desktop"></span>manufactures was sown when Frost-Erik Erson returned <span class="line-break-desktop"></span>to the village after some years of work as a <span class="line-break-desktop"></span>lumberjack in North America.</p>
