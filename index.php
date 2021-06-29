@@ -67,9 +67,9 @@
     <section class="third-layer">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/2SwnEt_VGSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <section class="first-movie">
+    <section class="history-through-time">
       <div class="grid-wrapper">
-        <h3 class="movie-header">Our history.<br>Through time.</h3>
+        <h3 class="header">Our history.<br>Through time.</h3>
         <picture>
           <source srcset="assets/images/third-slide_mobile.jpg" media="(max-width: 1024px)">
           <source srcset="assets/images/third-slide_desktop.jpg" media="(min-width: 1025px)">
