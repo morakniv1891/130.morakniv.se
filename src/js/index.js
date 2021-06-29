@@ -154,7 +154,7 @@ $(document).ready(() => {
       });
 
       gsap.from(".history-through-time picture", {
-        opacity: "0%",
+        opacity: 0,
         scrollTrigger: {
           trigger: ".history-through-time picture",
           start: "top bottom",
