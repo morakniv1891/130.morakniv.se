@@ -153,11 +153,12 @@ $(document).ready(() => {
         },
       });
 
-      gsap.to(".third-layer", {
-        filter: "grayscale(0)",
+      gsap.from(".history-through-time picture", {
+        opacity: "0%",
         scrollTrigger: {
-          trigger: ".third-layer",
-          start: "top+=20% bottom",
+          trigger: ".history-through-time picture",
+          start: "top bottom",
+          end: "bottom bottom",
           scrub: true,
         },
       });
