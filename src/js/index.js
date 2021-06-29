@@ -160,7 +160,6 @@ $(document).ready(() => {
           start: "top bottom",
           end: "bottom+=50% bottom",
           scrub: true,
-          markers: true,
         },
       });
 
