@@ -157,7 +157,7 @@ $(document).ready(() => {
         opacity: 0,
         scrollTrigger: {
           trigger: ".history-through-time picture",
-          start: "top bottom",
+          start: "top+=50% bottom",
           end: "bottom+=50% bottom",
           scrub: true,
           markers: true,
