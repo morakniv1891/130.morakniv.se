@@ -137,7 +137,7 @@ $(document).ready(() => {
       ScrollTrigger.create({
         trigger: ".third-layer",
         start: "top top",
-        end: "center top",
+        end: "top top",
         pin: true,
         anticipatePin: true,
       });
