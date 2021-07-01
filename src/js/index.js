@@ -139,15 +139,6 @@ $(document).ready(() => {
         start: "top top",
         end: "center top",
         pin: true,
-        pinSpacing: true,
-        anticipatePin: true,
-      });
-
-      ScrollTrigger.create({
-        trigger: ".history-through-time",
-        start: "top top",
-        end: "top top",
-        pin: true,
         anticipatePin: true,
       });
 
