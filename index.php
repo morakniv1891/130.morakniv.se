@@ -65,7 +65,9 @@
     <section class="first-layer"></section>
     <section class="second-layer"></section>
     <section class="third-layer">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/2SwnEt_VGSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2SwnEt_VGSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </section>
     <section class="history-through-time">
       <div class="grid-wrapper">
