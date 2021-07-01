@@ -143,7 +143,7 @@ $(document).ready(() => {
         anticipatePin: true,
       });
 
-      scrollTrigger.create({
+      ScrollTrigger.create({
         trigger: ".history-through-time",
         start: "top top",
         end: "top top",
